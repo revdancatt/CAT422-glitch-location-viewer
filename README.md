@@ -3,21 +3,22 @@ CAT422-glitch-location-viewer
 
 Hello!
 
-This is the start of a tool to render out Glitch locations.
+This is a dump of Glitch location scenery found in [locations-xml.zip](https://github.com/tinyspeck/glitch-locations) into .png format to help build Glitch's "rooms". Not all files made it through the conversion, 232 out of the 5,055 total threw errors while converting. At some point I'll make a list of them.
 
-But before it can do that there's a few things that have to happen:
+Note the directory structure has been flattened, all the .pngs now sit in a single directory /img/scenery. This is because the files describing each "room" just holds the filename and not the subdirectory that the piece of scenery was sitting in (if we want to mix scenery styles).
 
-* Convert all the Glitch location XML files that can be found in [locations-xml.zip](https://github.com/tinyspeck/glitch-locations) into nice friendly JSON objects (I've done this for "Marrakesh Meadow" so far).
-* Convert all the .fla files found in [locations-xml.zip](https://github.com/tinyspeck/glitch-locations) into .png files that can be loaded into the page.
+As a bonus, I've also converted one of the XML files ("Marrakesh Meadow") that describes how the "room" is put together into friendly .json format, you'll find it in the "locations" folder. With that and the .pngs there should be enough to stick everything back together.
 
-So far there's a little script, in js/control.js that loads in an xml-json converted file to clean it up. At some point I'll make a node script to plough thru all the locations and do it properly.
+# TODO
 
-You'll also find a whole bunch of .png files that have been converted from the .fla files. *These are not all the files*, but rather _most_ of the files to do with drawing scenery. There are supposed to be just over 5,000 of these, but some didn't convert properly. The Flash Pro JSFL script that did the conversion is called "convert-fla-to-png.jsfl", I've never written JSFL before so please feel free to improve the error catching on that.
+* Write a node script to automatically convert the rest of the location XML files into JSON
+* Render a location's "layer" to a number of DIVs to build the whole scene
+* Maybe convert that to canvas
+* Convert the Path lines and walls into the JSON to, so we know where a play can walk
+* Add a player sprite to the scene and let them walk round
+* tea and biscuits
 
-At some point I'll make a list of all the files that didn't make the conversion.
-
-When I upload the files (I'm still converting atm) they will be in /img/scenery
-
+Say "Hi" [http://twitter.com/revdancatt](@revdancatt)
 
 # License
 

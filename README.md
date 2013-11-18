@@ -1,11 +1,15 @@
 CAT422-glitch-location-viewer
 =============================
 
+![Glitch House](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/scenery/house_medium_01.png)
+
 Hello!
 
 This is a dump of Glitch location scenery found in [locations-xml.zip](https://github.com/tinyspeck/glitch-locations) into .png format to help build Glitch's "rooms". Not all files made it through the conversion, 232 out of the 5,055 total threw errors while converting. At some point I'll make a list of them.
 
 Note the directory structure has been flattened, all the .pngs now sit in a single directory /img/scenery. This is because the files describing each "room" just holds the filename and not the subdirectory that the piece of scenery was sitting in (if we want to mix scenery styles).
+
+Example Image would be here: http://revdancatt.github.io/CAT422-glitch-location-viewer/img/scenery/house_medium_01.png
 
 Also note, these are _just_ the scenery images, there's a whole bunch of other stuff like objects and characters that haven't been converted. This is just for making the world rather than anything in it. 
 

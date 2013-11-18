@@ -7,7 +7,9 @@ This is a dump of Glitch location scenery found in [locations-xml.zip](https://g
 
 Note the directory structure has been flattened, all the .pngs now sit in a single directory /img/scenery. This is because the files describing each "room" just holds the filename and not the subdirectory that the piece of scenery was sitting in (if we want to mix scenery styles).
 
-As a bonus, I've also converted one of the XML files ("Marrakesh Meadow") that describes how the "room" is put together into friendly .json format, you'll find it in the "locations" folder. With that and the .pngs there should be enough to stick everything back together.
+Also note, these are _just_ the scenery images, there's a whole bunch of other stuff like objects and characters that haven't been converted. This is just for making the world rather than anything in it. 
+
+*As a bonus*, I've also converted one of the XML files ("Marrakesh Meadow") that describes how the "room" is put together into friendly .json format, you'll find it in the "locations" folder. With that and the .pngs there should be enough to stick everything back together.
 
 # TODO
 

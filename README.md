@@ -18,7 +18,7 @@ As a bonus, I've also converted one of the XML files ("Marrakesh Meadow") that d
 * Add a player sprite to the scene and let them walk round
 * tea and biscuits
 
-Say "Hi" [http://twitter.com/revdancatt](@revdancatt)
+Say "Hi" [@revdancatt)](http://twitter.com/revdancatt)
 
 # License
 

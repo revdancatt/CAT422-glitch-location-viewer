@@ -7,6 +7,8 @@ Hello!
 
 Try it now, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.2
 
+![Landscape](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/landscape1.jpg)
+
 This is a dump of Glitch location scenery found in [locations-xml.zip](https://github.com/tinyspeck/glitch-locations) into .png format to help build Glitch's "rooms". Not all files made it through the conversion, 232 out of the 5,055 total threw errors while converting. At some point I'll make a list of them.
 
 Note the directory structure has been flattened, all the .pngs now sit in a single directory /img/scenery. This is because the files describing each "room" just holds the filename and not the subdirectory that the piece of scenery was sitting in (if we want to mix scenery styles).

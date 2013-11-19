@@ -5,6 +5,8 @@ CAT422-glitch-location-viewer
 
 Hello!
 
+Try it now, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.2
+
 This is a dump of Glitch location scenery found in [locations-xml.zip](https://github.com/tinyspeck/glitch-locations) into .png format to help build Glitch's "rooms". Not all files made it through the conversion, 232 out of the 5,055 total threw errors while converting. At some point I'll make a list of them.
 
 Note the directory structure has been flattened, all the .pngs now sit in a single directory /img/scenery. This is because the files describing each "room" just holds the filename and not the subdirectory that the piece of scenery was sitting in (if we want to mix scenery styles).
@@ -18,7 +20,7 @@ Also note, these are _just_ the scenery images, there's a whole bunch of other s
 # TODO
 
 * Write a node script to automatically convert the rest of the location XML files into JSON
-* Render a location's "layer" to a number of DIVs to build the whole scene
+* ~~Render a location's "layer" to a number of DIVs to build the whole scene~~
 * Maybe convert that to canvas
 * Convert the Path lines and walls into the JSON to, so we know where a play can walk
 * Add a player sprite to the scene and let them walk round

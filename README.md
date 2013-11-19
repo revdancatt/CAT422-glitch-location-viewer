@@ -22,6 +22,7 @@ Also note, these are _just_ the scenery images, there's a whole bunch of other s
 # TODO
 
 * Write a node script to automatically convert the rest of the location XML files into JSON
+* Work out why the positioning is a bit off on certain landscape elements
 * ~~Render a location's "layer" to a number of DIVs to build the whole scene~~
 * Maybe convert that to canvas
 * Convert the Path lines and walls into the JSON to, so we know where a play can walk

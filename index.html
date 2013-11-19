@@ -1,21 +1,46 @@
 <html>
 <head>
     <title>Location test</title>
+    <style>
+        html, body {
+            margin: 0;
+            body: 0;
+        }
+        .debug {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: black;
+            color: lime;
+            font-family: monospace;
+            font-size: 12px;
+            z-index: 1000;
+            color: #666;
+            padding: 4px;
+        }
+        .debug a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .debug a:hover {
+            color: #CCC;
+        }
+    </style>
 </head>
 <body>
 
     <div class="stage">
-        //  NOTE: This doesn't do anything yet, just an empty skeleton ready<br />
-        //  for the javascript to do it's thing.<br />
-        //  <br />
-        //  You can open up the debug console and dump the "room" object<br />
-        //  though, if you want to poke around.<br />
     </div>
 
 
     <script src="locations/GLIERMJ93DE1H25.js"></script>
     <script src="js/jquery-2.0.3.min.js"></script>
     <script src="js/control.js"></script>
+
+    <div class="debug">
+        <a href="https://github.com/revdancatt/CAT422-glitch-location-viewer">about</a><br />
+        <a href="https://twitter.com/revdancatt">@revdancatt</a>
+    </div>
 
     <script>
         $(document).ready(function() {

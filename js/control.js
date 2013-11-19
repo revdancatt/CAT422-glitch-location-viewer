@@ -87,7 +87,7 @@ control = {
                     'position': 'absolute',
                     'width': parseInt(deco.w, 10),
                     'height': parseInt(deco.h, 10),
-                    'left': parseInt(deco.x, 10),
+                    'left': parseInt(deco.x, 10) - (parseInt(deco.w, 10)/2),
                     'top': parseInt(deco.y, 10) - (parseInt(deco.h, 10) * 1),
                     'z-index': parseInt(deco.z, 10)
                 });

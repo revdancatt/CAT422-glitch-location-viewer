@@ -5,7 +5,7 @@ CAT422-glitch-location-viewer
 
 Hello!
 
-Try it now, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.2
+Try it now, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.3
 
 ![Landscape](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/landscape1.jpg)
 

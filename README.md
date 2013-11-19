@@ -24,10 +24,10 @@ Also note, these are _just_ the scenery images, there's a whole bunch of other s
 * Add a player sprite to the scene and let them walk round
 * tea and biscuits
 
-Say "Hi" [@revdancatt)](http://twitter.com/revdancatt)
+Say "Hi" [@revdancatt](http://twitter.com/revdancatt)
 
 # License
 
 All scenery .png files and location .json files are provided under the [Creative Commons CC0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/legalcode). This is a broadly permissive "No Rights Reserved" license — you may do what you please with what we've provided. I'm just converting them (and hosting on Github) to save other people the time and effort. A shoutout would be nice (it was a pita converting them) but you don't need to.
 
-Original files can be found via glitchthegame.com
+Original files can be found via [glitchthegame.com](http://glitchthegame.com)

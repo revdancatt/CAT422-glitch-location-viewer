@@ -50,6 +50,7 @@ control = {
         //  start to fill it back up again
         $('.stage').stop(true, false);
         $('.stage').empty();
+        window.scrollTo(0,0);
         $('.stage').fadeTo(666, 1);
 
         //  First thing we want to do is set the stage, so lets get the stage size and
@@ -146,7 +147,7 @@ control = {
                     connection = signpost.connects[c];
                     exitLink = $('<li>').append($('<a>').attr({
                         id: connection.tsid.replace('L','G'),
-                        href: '#'
+                        href: '#/' + connection.tsid
                     }).text(connection.label));
                     exitList.append(exitLink);
                 }
@@ -159,7 +160,6 @@ control = {
         $('.exits').append(exitList);
         $('.exits a').bind('click', function() {
             control.loadRoom($(this).attr('id'));
-            return false;
         });
 
         //  Now set up the scrolling
@@ -177,8 +177,11 @@ control = {
             var len = control.layersIdLength;
             while (len--) {
                 layerId = control.layersId[len];
-                room.dynamic.layers[layerId].offset = ((room.dynamic.layers[layerId].w - control.stageWidth) * -currentPercent);
-                $('#' + layerId).css('transform', 'translateX(' + room.dynamic.layers[layerId].offset + 'px)' );
+                try {
+                    room.dynamic.layers[layerId].offset = ((room.dynamic.layers[layerId].w - control.stageWidth) * -currentPercent);
+                    $('#' + layerId).css('transform', 'translateX(' + room.dynamic.layers[layerId].offset + 'px)' );
+                } catch(er) {//nowt
+                }
             }
             
         });

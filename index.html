@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Location test</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css?v=0.3.4" />
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=0.3.5" />
 </head>
 <body>
 
@@ -20,10 +20,17 @@
     </div>
 
     <script src="js/jquery-2.0.3.min.js"></script>
-    <script src="js/control.js?v=0.3.4"></script>
+    <script src="js/control.js?v=0.3.5"></script>
     <script>
         $(document).ready(function() {
-            control.loadRoom('GLIERMJ93DE1H25');
+            var startRoom = 'GLIERMJ93DE1H25'
+            //  Really poor way of doing URL stuff, but what the heck
+            try {
+                startRoom = document.location.hash.split('/')[1].replace('L','G');
+            } catch(er) {
+                //  Nowt!
+            }
+            control.loadRoom(startRoom);
         });
     </script>
 </body>

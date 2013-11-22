@@ -3,13 +3,13 @@ CAT422-glitch-location-viewer
 
 ![Landscape](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/landscape1.jpg)
 
-This code is an attempt to bring Glitch landscapes back to life, and maybe even eventually walk around them and chat with other people. In the meantime try out the viewer here, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.3.1
+This code is an attempt to bring Glitch landscapes back to life, and maybe even eventually walk around them and chat with other people. In the meantime try out the viewer here, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.3.3
 
 See the TODO list down at the end for more information
 
 ## Viewer
 
-The viewer is here: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.3.1 and is just an example of how you can load in the location .json files and render thelandscape with the .png files.
+The viewer is here: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.3.3 and is just an example of how you can load in the location .json files and render thelandscape with the .png files.
 
 Its not tested on all browsers and is for demo purposes only.
 
@@ -59,8 +59,8 @@ You don't _need_ to use it, as you can just use the .pngs hosted here. But it's 
 * Apply the filters to change the colours
 * Option checkbox to turn blurring on/off (blurring slows everything down)
 * Maybe render to canvas layers instead, may speed the blurring up.
-* Add the name of the current location somewhere on the screen.
-* Add a list of connected locations that the user can click to move from one location to another.
+* ~~Add the name of the current location somewhere on the screen.~~
+* ~~Add a list of connected locations that the user can click to move from one location to another.~~
 * Add signposts to the scene so the user can move from one location to another using those.
 * Convert the Path lines and walls into the JSON to, so we know where a play can walk.
 * Add a player sprite to the scene and let them walk round.

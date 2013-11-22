@@ -22,6 +22,7 @@ control = {
         $('.stage').stop(true, false);
         $('.stage').fadeTo(1333, 0.1);
         $('.location').text('');
+        $('.exits').empty();
 
         //  Because we are loading this from github where we have
         //  no control over the backend, we're going to use
@@ -79,6 +80,13 @@ control = {
 
         //  Now we need to add each layer to the stage
         var newLayer = null;
+
+        //  Handle the exists
+        var signpost = null;
+        var connection = null;
+        var exitLink = null;
+        var exitList = $('<ul>');
+
         $.each(room.dynamic.layers, function (id, layer) {
             
             control.layersId.push(id);
@@ -128,8 +136,28 @@ control = {
                 newLayer.append(newImg);
             }
 
+            //  Think about doing location exists
+            for (var s in layer.signposts) {
+                signpost = layer.signposts[s];
+                for (var c in signpost.connects) {
+                    connection = signpost.connects[c];
+                    exitLink = $('<li>').append($('<a>').attr({
+                        id: connection.tsid.replace('L','G'),
+                        href: '#'
+                    }).text(connection.label));
+                    exitList.append(exitLink);
+                }
+            }
+
         });
 
+        //  pop the exits on
+        $('.exits').append($('<h2>').text('Exits'));
+        $('.exits').append(exitList);
+        $('.exits a').bind('click', function() {
+            control.loadRoom($(this).attr('id'));
+            return false;
+        });
 
         //  Now set up the scrolling
         control.percentageOf = $('.stage').width() - window.innerWidth;

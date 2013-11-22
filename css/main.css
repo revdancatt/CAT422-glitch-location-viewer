@@ -1,0 +1,51 @@
+@font-face{font-family:'RockoFLFBold';src:url('../fonts/rockoflf-bold-webfont.eot');src:url('../fonts/rockoflf-bold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/rockoflf-bold-webfont.woff') format('woff'),url('../fonts/rockoflf-bold-webfont.ttf') format('truetype'),url('../fonts/rockoflf-bold-webfont.svg#RockoFLFBold') format('svg');font-weight:normal;font-style:normal}
+
+html, body {
+    margin: 0;
+    border: 0;
+    font-family: RockoFLFBold, Arial;
+}
+
+.debug {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    font-family: monospace;
+    font-size: 12px;
+    z-index: 1000;
+    color: #666;
+    padding: 4px;
+}
+.debug a {
+    text-decoration: none;
+    color: inherit;
+}
+.debug a:hover {
+    color: #CCC;
+}
+
+.exits {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: white;
+    font-size: 12px;
+    z-index: 1000;
+    color: #666;
+    padding: 4px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+
+.location {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    text-shadow: 0px 3px 1px rgba(255, 255, 255, 0.85);
+}

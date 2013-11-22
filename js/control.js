@@ -21,6 +21,7 @@ control = {
         //  when we have the new room loaded)
         $('.stage').stop(true, false);
         $('.stage').fadeTo(1333, 0.1);
+        $('.location').text('');
 
         //  Because we are loading this from github where we have
         //  no control over the backend, we're going to use
@@ -41,7 +42,8 @@ control = {
 
         room = this.gameObject;
 
-        console.log(room);
+        //console.log(room);
+        $('.location').text(room.label);
 
         //  Stop the animation on the stage, empty it and 
         //  start to fill it back up again
@@ -79,8 +81,6 @@ control = {
         var newLayer = null;
         $.each(room.dynamic.layers, function (id, layer) {
             
-            console.log(id);
-
             control.layersId.push(id);
             control.layersIdLength++;
 

@@ -1,47 +1,26 @@
 <html>
 <head>
     <title>Location test</title>
-    <style>
-        html, body {
-            margin: 0;
-            body: 0;
-        }
-        .debug {
-            position: fixed;
-            top: 0;
-            left: 0;
-            background: black;
-            color: lime;
-            font-family: monospace;
-            font-size: 12px;
-            z-index: 1000;
-            color: #666;
-            padding: 4px;
-        }
-        .debug a {
-            text-decoration: none;
-            color: inherit;
-        }
-        .debug a:hover {
-            color: #CCC;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=0.3.2" />
 </head>
 <body>
 
     <div class="stage">
     </div>
 
-
-    <!-- <script src="locations.old/GLIERMJ93DE1H25.js"></script> -->
-    <script src="js/jquery-2.0.3.min.js"></script>
-    <script src="js/control.js?v=0.3.1"></script>
+    <div class="location">
+    </div>
 
     <div class="debug">
         <a href="https://github.com/revdancatt/CAT422-glitch-location-viewer">about</a><br />
         <a href="https://twitter.com/revdancatt">@revdancatt</a>
     </div>
 
+    <div class="exits">
+    </div>
+
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="js/control.js?v=0.3.2"></script>
     <script>
         $(document).ready(function() {
             control.loadRoom('GLIERMJ93DE1H25');

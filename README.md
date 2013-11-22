@@ -1,7 +1,7 @@
 CAT422-glitch-location-viewer
 =============================
 
-{<4>}![Landscape](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/landscape1.jpg)
+![Landscape](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/landscape1.jpg)
 
 This code is an attempt to bring Glitch landscapes back to life, and maybe even eventually walk around them and chat with other people. In the meantime try out the viewer here, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.3.1
 
@@ -39,7 +39,7 @@ Note the directory structure has been flattened, all the .pngs now sit in a sing
 
 [Example Image would be here](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/scenery/house_medium_01.png)
 
-{<5>}![Example Image would be here](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/scenery/house_medium_01.png)
+![Example Image would be here](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/scenery/house_medium_01.png)
 
 ## Tools
 

@@ -1,0 +1,2793 @@
+<game_object tsid="GCR13NMUQEM1A2R" ts="1348966671778" label="GF010.A.B.A" class_tsid="" lastUpdateTime="1348966661" upd_gs="gs11" load_time="2012-09-29 17:25:10.000" upd_time="2012-09-29 17:55:21.035">
+	<object id="dynamic">
+		<int id="l">-3000</int>
+		<int id="r">3000</int>
+		<int id="t">-1000</int>
+		<int id="b">0</int>
+		<str id="swf_file">groddle1.swf</str>
+		<object id="layers">
+			<object id="middleground">
+				<object id="boxes">
+				</object>
+				<object id="targets">
+					<object id="target_1">
+						<int id="y">-77</int>
+						<int id="x">-2917</int>
+						<object id="sources">
+							<object id="source_1">
+								<str id="source_key">signpost_1</str>
+								<str id="hub_id">57</str>
+								<str id="street_tsid">LLI1A3GD2NF1D3C</str>
+								<str id="mote_id">9</str>
+							</object>
+						</object>
+					</object>
+					<object id="target_2">
+						<int id="y">0</int>
+						<int id="x">0</int>
+						<object id="sources">
+							<object id="source_1">
+								<str id="source_key">signpost_2</str>
+								<str id="hub_id">57</str>
+								<str id="street_tsid">LLI1A9M09NF1IDB</str>
+								<str id="mote_id">9</str>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object id="doors">
+				</object>
+				<object id="walls">
+				</object>
+				<object id="platforms">
+				</object>
+				<object id="filtersNEW">
+					<object id="tintAmount">
+					</object>
+					<object id="saturation">
+					</object>
+					<object id="contrast">
+					</object>
+					<object id="brightness">
+						<int id="value">-31</int>
+					</object>
+				</object>
+				<object id="signposts">
+					<object id="signpost_1">
+						<int id="y">-64</int>
+						<object id="connects">
+							<object id="0">
+								<objref id="target" tsid="LCR7KJGL6LL1SSO" label="Ozacosta Avenue"/>
+								<str id="mote_id">9</str>
+								<str id="hub_id">56</str>
+								<int id="x">2800</int>
+								<int id="y">-51</int>
+							</object>
+							<object id="1">
+								<objref id="target" tsid="LCR143M18PK1774" label="Blackberry Glebe"/>
+								<str id="mote_id">9</str>
+								<str id="hub_id">56</str>
+								<int id="x">2700</int>
+								<int id="y">-50</int>
+								<bool id="hidden">false</bool>
+							</object>
+						</object>
+						<int id="w">150</int>
+						<int id="x">-2775</int>
+						<int id="h">200</int>
+					</object>
+					<object id="signpost_2">
+						<int id="y">-58</int>
+						<object id="connects">
+							<object id="0">
+								<objref id="target" tsid="LCR13JCI5MK1EF4" label="Hellenturret Pass"/>
+								<str id="mote_id">9</str>
+								<str id="hub_id">56</str>
+								<int id="x">2630</int>
+								<int id="y">-100</int>
+							</object>
+						</object>
+						<int id="w">150</int>
+						<int id="x">2644</int>
+						<int id="h">200</int>
+					</object>
+				</object>
+				<object id="platform_lines">
+					<object id="_pl1287684995832">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-435</int>
+							<int id="x">1112</int>
+						</object>
+						<object id="end">
+							<int id="y">-391</int>
+							<int id="x">1166</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282858921236">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-46</int>
+							<int id="x">1644</int>
+						</object>
+						<object id="end">
+							<int id="y">-45</int>
+							<int id="x">1847</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1285815670497">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-476</int>
+							<int id="x">490</int>
+						</object>
+						<object id="end">
+							<int id="y">-466</int>
+							<int id="x">648</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282859121221">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-47</int>
+							<int id="x">2760</int>
+						</object>
+						<object id="end">
+							<int id="y">-69</int>
+							<int id="x">2999</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282858901363">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-29</int>
+							<int id="x">222</int>
+						</object>
+						<object id="end">
+							<int id="y">-44</int>
+							<int id="x">425</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282858922208">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-45</int>
+							<int id="x">1847</int>
+						</object>
+						<object id="end">
+							<int id="y">-42</int>
+							<int id="x">1991</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282858888439">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-52</int>
+							<int id="x">-568</int>
+						</object>
+						<object id="end">
+							<int id="y">-64</int>
+							<int id="x">-436</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1287767772526">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-615</int>
+							<int id="x">1878</int>
+						</object>
+						<object id="end">
+							<int id="y">-569</int>
+							<int id="x">1983</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1287685149517">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-579</int>
+							<int id="x">1357</int>
+						</object>
+						<object id="end">
+							<int id="y">-597</int>
+							<int id="x">1425</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1285815877895">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-561</int>
+							<int id="x">2214</int>
+						</object>
+						<object id="end">
+							<int id="y">-562</int>
+							<int id="x">2365</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282858880574">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-76</int>
+							<int id="x">-1516</int>
+						</object>
+						<object id="end">
+							<int id="y">-43</int>
+							<int id="x">-1163</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282859117412">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-26</int>
+							<int id="x">2214</int>
+						</object>
+						<object id="end">
+							<int id="y">-32</int>
+							<int id="x">2378</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1285815669088">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-580</int>
+							<int id="x">263</int>
+						</object>
+						<object id="end">
+							<int id="y">-569</int>
+							<int id="x">458</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282858871894">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-90</int>
+							<int id="x">-1982</int>
+						</object>
+						<object id="end">
+							<int id="y">-76</int>
+							<int id="x">-1516</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282858899130">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-61</int>
+							<int id="x">-50</int>
+						</object>
+						<object id="end">
+							<int id="y">-29</int>
+							<int id="x">222</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1285869822130">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-597</int>
+							<int id="x">1425</int>
+						</object>
+						<object id="end">
+							<int id="y">-586</int>
+							<int id="x">1578</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1287685127703">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-574</int>
+							<int id="x">1064</int>
+						</object>
+						<object id="end">
+							<int id="y">-581</int>
+							<int id="x">1145</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1287685141940">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-575</int>
+							<int id="x">1190</int>
+						</object>
+						<object id="end">
+							<int id="y">-576</int>
+							<int id="x">1225</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1287685220914">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-595</int>
+							<int id="x">1335</int>
+						</object>
+						<object id="end">
+							<int id="y">-579</int>
+							<int id="x">1357</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1287685143238">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-576</int>
+							<int id="x">1225</int>
+						</object>
+						<object id="end">
+							<int id="y">-597</int>
+							<int id="x">1295</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1287685007827">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-391</int>
+							<int id="x">1166</int>
+						</object>
+						<object id="end">
+							<int id="y">-388</int>
+							<int id="x">1204</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282858865138">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-60</int>
+							<int id="x">-2584</int>
+						</object>
+						<object id="end">
+							<int id="y">-59</int>
+							<int id="x">-2452</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282859070795">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-42</int>
+							<int id="x">1991</int>
+						</object>
+						<object id="end">
+							<int id="y">-26</int>
+							<int id="x">2214</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1287684982816">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-464</int>
+							<int id="x">924</int>
+						</object>
+						<object id="end">
+							<int id="y">-479</int>
+							<int id="x">1036</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1287685219148">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-597</int>
+							<int id="x">1295</int>
+						</object>
+						<object id="end">
+							<int id="y">-595</int>
+							<int id="x">1335</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1285815879083">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-562</int>
+							<int id="x">2365</int>
+						</object>
+						<object id="end">
+							<int id="y">-537</int>
+							<int id="x">2547</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282858862546">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-28</int>
+							<int id="x">-3000</int>
+						</object>
+						<object id="end">
+							<int id="y">-60</int>
+							<int id="x">-2584</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282859119893">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-32</int>
+							<int id="x">2378</int>
+						</object>
+						<object id="end">
+							<int id="y">-47</int>
+							<int id="x">2760</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1285869870610">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-569</int>
+							<int id="x">1983</int>
+						</object>
+						<object id="end">
+							<int id="y">-566</int>
+							<int id="x">2091</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1285869777325">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-388</int>
+							<int id="x">1204</int>
+						</object>
+						<object id="end">
+							<int id="y">-384</int>
+							<int id="x">1317</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282858913168">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-44</int>
+							<int id="x">425</int>
+						</object>
+						<object id="end">
+							<int id="y">-46</int>
+							<int id="x">1644</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1285869995283">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-602</int>
+							<int id="x">838</int>
+						</object>
+						<object id="end">
+							<int id="y">-612</int>
+							<int id="x">979</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1285815671591">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-466</int>
+							<int id="x">648</int>
+						</object>
+						<object id="end">
+							<int id="y">-447</int>
+							<int id="x">826</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1287767768413">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-579</int>
+							<int id="x">1777</int>
+						</object>
+						<object id="end">
+							<int id="y">-615</int>
+							<int id="x">1878</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1287685134064">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-581</int>
+							<int id="x">1145</int>
+						</object>
+						<object id="end">
+							<int id="y">-575</int>
+							<int id="x">1190</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282858866518">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-59</int>
+							<int id="x">-2452</int>
+						</object>
+						<object id="end">
+							<int id="y">-87</int>
+							<int id="x">-2166</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282858885209">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-43</int>
+							<int id="x">-1163</int>
+						</object>
+						<object id="end">
+							<int id="y">-55</int>
+							<int id="x">-917</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282858894177">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-64</int>
+							<int id="x">-436</int>
+						</object>
+						<object id="end">
+							<int id="y">-61</int>
+							<int id="x">-50</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282858869284">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-87</int>
+							<int id="x">-2166</int>
+						</object>
+						<object id="end">
+							<int id="y">-90</int>
+							<int id="x">-1982</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1282858886444">
+						<int id="platform_pc_perm">-1</int>
+						<object id="start">
+							<int id="y">-55</int>
+							<int id="x">-917</int>
+						</object>
+						<object id="end">
+							<int id="y">-52</int>
+							<int id="x">-568</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+				</object>
+				<int id="w">6000</int>
+				<object id="ladders">
+					<object id="ladder_1285869592324">
+						<int id="y">-44</int>
+						<int id="w">50</int>
+						<int id="x">1438</int>
+						<int id="h">550</int>
+					</object>
+				</object>
+				<int id="z">0</int>
+				<int id="h">1000</int>
+				<object id="decos">
+					<object id="flower_bush_5_1287686381061">
+						<int id="w">251</int>
+						<str id="sprite_class">flower_bush_5</str>
+						<int id="x">-1114</int>
+						<int id="y">-135</int>
+						<int id="z">1</int>
+						<int id="h">107</int>
+						<str id="name">flower_bush_5_1287686381061</str>
+					</object>
+					<object id="floating_platform_dirt_02_1285815678879">
+						<int id="w">246</int>
+						<str id="sprite_class">floating_platform_dirt_02</str>
+						<int id="x">365</int>
+						<int id="y">-513</int>
+						<int id="z">88</int>
+						<int id="h">85</int>
+						<str id="name">floating_platform_dirt_02_1285815678879</str>
+					</object>
+					<object id="flower_bush_5_1287686371518">
+						<int id="w">251</int>
+						<str id="sprite_class">flower_bush_5</str>
+						<int id="x">-936</int>
+						<int id="y">-142</int>
+						<int id="z">2</int>
+						<int id="h">107</int>
+						<str id="name">flower_bush_5_1287686371518</str>
+					</object>
+					<object id="bush_3_1285806040072">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">2710</int>
+						<int id="y">-65</int>
+						<int id="z">73</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285806040072</str>
+					</object>
+					<object id="tree_coniferous_fg_1_1285802865793">
+						<int id="w">633</int>
+						<str id="sprite_class">tree_coniferous_fg_1</str>
+						<int id="x">-2972</int>
+						<int id="y">-50</int>
+						<int id="z">65</int>
+						<int id="h">1406</int>
+						<str id="name">tree_coniferous_fg_1_1285802865793</str>
+					</object>
+					<object id="dirt_platform_short_1285802266469">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-2</int>
+						<int id="x">-882</int>
+						<int id="y">-64</int>
+						<int id="z">26</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802266469</str>
+					</object>
+					<object id="patch_mossy_2_1285815944822">
+						<int id="w">196</int>
+						<str id="sprite_class">patch_mossy_2</str>
+						<int id="x">-2334</int>
+						<int id="y">-69</int>
+						<int id="z">92</int>
+						<int id="h">37</int>
+						<str id="name">patch_mossy_2_1285815944822</str>
+					</object>
+					<object id="dirt_platform_short_1285802269236">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-2</int>
+						<int id="x">-898</int>
+						<int id="y">-100</int>
+						<int id="z">27</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802269236</str>
+					</object>
+					<object id="dirt_platform_short_1285802421093">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="x">-300</int>
+						<int id="y">-26</int>
+						<int id="z">39</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802421093</str>
+					</object>
+					<object id="dirt_platform_short_1285802530606">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">5</int>
+						<int id="x">2032</int>
+						<int id="y">-12</int>
+						<int id="z">58</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802530606</str>
+					</object>
+					<object id="patch_mossy_1_1285815941995">
+						<int id="w">255</int>
+						<str id="sprite_class">patch_mossy_1</str>
+						<int id="x">-2212</int>
+						<int id="y">-79</int>
+						<int id="z">91</int>
+						<int id="h">61</int>
+						<str id="name">patch_mossy_1_1285815941995</str>
+					</object>
+					<object id="dirt_platform_short_1285802432698">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="x">-178</int>
+						<int id="y">-24</int>
+						<int id="z">42</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802432698</str>
+					</object>
+					<object id="dirt_platform_short_1285800424735">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-1</int>
+						<int id="x">-2681</int>
+						<int id="y">-8</int>
+						<int id="z">14</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285800424735</str>
+					</object>
+					<object id="patch_mossy_1_1285816266827">
+						<int id="w">235</int>
+						<str id="sprite_class">patch_mossy_1</str>
+						<int id="r">-3</int>
+						<int id="x">2202</int>
+						<int id="y">-91</int>
+						<int id="z">98</int>
+						<int id="h">56</int>
+						<str id="name">patch_mossy_1_1285816266827</str>
+					</object>
+					<object id="bush_3_1285815819742">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">-2171</int>
+						<int id="y">-133</int>
+						<int id="z">3</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815819742</str>
+					</object>
+					<object id="dirt_platform_short_1285802396559">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-2</int>
+						<int id="x">-2464</int>
+						<int id="y">-100</int>
+						<int id="z">34</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802396559</str>
+					</object>
+					<object id="dirt_platform_short_1285801468311">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">2</int>
+						<int id="x">-1661</int>
+						<int id="y">-65</int>
+						<int id="z">21</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285801468311</str>
+					</object>
+					<object id="dirt_platform_long_1285802502520">
+						<int id="w">1226</int>
+						<str id="sprite_class">dirt_platform_long</str>
+						<int id="x">1344</int>
+						<int id="y">-84</int>
+						<int id="z">55</int>
+						<int id="h">67</int>
+						<str id="name">dirt_platform_long_1285802502520</str>
+					</object>
+					<object id="tree_coniferous_fg_2_1285802937278">
+						<int id="w">679</int>
+						<str id="sprite_class">tree_coniferous_fg_2</str>
+						<int id="x">-983</int>
+						<int id="y">-88</int>
+						<int id="z">67</int>
+						<int id="h">1464</int>
+						<str id="name">tree_coniferous_fg_2_1285802937278</str>
+					</object>
+					<object id="trunk_ladder_2_1285869753271">
+						<int id="w">62</int>
+						<str id="sprite_class">trunk_ladder_2</str>
+						<int id="x">1435</int>
+						<bool id="h_flip">true</bool>
+						<int id="y">-341</int>
+						<int id="z">109</int>
+						<int id="h">70</int>
+						<str id="name">trunk_ladder_2_1285869753271</str>
+					</object>
+					<object id="platform_branch_a01_1285869772754">
+						<int id="w">261</int>
+						<str id="sprite_class">platform_branch_a01</str>
+						<int id="x">1229</int>
+						<int id="y">-330</int>
+						<int id="z">111</int>
+						<int id="h">116</int>
+						<str id="name">platform_branch_a01_1285869772754</str>
+					</object>
+					<object id="dirt_platform_short_1285802536189">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">5</int>
+						<int id="x">2010</int>
+						<int id="y">-70</int>
+						<int id="z">59</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802536189</str>
+					</object>
+					<object id="patch_mossy_2_1285815621452">
+						<int id="w">196</int>
+						<str id="sprite_class">patch_mossy_2</str>
+						<int id="x">-816</int>
+						<int id="y">-71</int>
+						<int id="z">86</int>
+						<int id="h">37</int>
+						<str id="name">patch_mossy_2_1285815621452</str>
+					</object>
+					<object id="tree_stack_branch_2_1285872327513">
+						<int id="w">118</int>
+						<str id="sprite_class">tree_stack_branch_2</str>
+						<int id="x">-1117</int>
+						<int id="y">-285</int>
+						<int id="z">114</int>
+						<int id="h">73</int>
+						<str id="name">tree_stack_branch_2_1285872327513</str>
+					</object>
+					<object id="dirt_platform_short_1285802546231">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-4</int>
+						<int id="x">2344</int>
+						<int id="y">-72</int>
+						<int id="z">61</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802546231</str>
+					</object>
+					<object id="patch_mossy_1_1285815597006">
+						<int id="w">199</int>
+						<str id="sprite_class">patch_mossy_1</str>
+						<int id="r">11</int>
+						<int id="x">212</int>
+						<int id="y">-54</int>
+						<int id="z">82</int>
+						<int id="h">48</int>
+						<str id="name">patch_mossy_1_1285815597006</str>
+					</object>
+					<object id="dirt_platform_short_1285802554823">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-4</int>
+						<int id="x">2616</int>
+						<int id="y">-100</int>
+						<int id="z">62</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802554823</str>
+					</object>
+					<object id="dirt_platform_short_1285802418906">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">3</int>
+						<int id="x">-614</int>
+						<int id="y">-76</int>
+						<int id="z">38</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802418906</str>
+					</object>
+					<object id="dirt_platform_short_1285797671999">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-2</int>
+						<int id="x">-874</int>
+						<int id="y">-24</int>
+						<int id="z">12</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285797671999</str>
+					</object>
+					<object id="patch_mossy_1_1285815585189">
+						<int id="w">145</int>
+						<str id="sprite_class">patch_mossy_1</str>
+						<int id="x">2008</int>
+						<int id="y">-62</int>
+						<int id="z">78</int>
+						<int id="h">35</int>
+						<str id="name">patch_mossy_1_1285815585189</str>
+					</object>
+					<object id="patch_mossy_3_1285815959822">
+						<int id="w">196</int>
+						<str id="sprite_class">patch_mossy_3</str>
+						<int id="x">-1699</int>
+						<int id="y">-47</int>
+						<int id="z">97</int>
+						<int id="h">37</int>
+						<str id="name">patch_mossy_3_1285815959822</str>
+					</object>
+					<object id="tree_coniferous_fg_2_1285805957808">
+						<int id="w">655</int>
+						<str id="sprite_class">tree_coniferous_fg_2</str>
+						<int id="r">-5</int>
+						<int id="x">2950</int>
+						<int id="y">-51</int>
+						<int id="z">72</int>
+						<int id="h">1413</int>
+						<str id="name">tree_coniferous_fg_2_1285805957808</str>
+					</object>
+					<object id="dirt_platform_long_1285802540823">
+						<int id="w">1226</int>
+						<str id="sprite_class">dirt_platform_long</str>
+						<int id="r">-3</int>
+						<int id="x">2584</int>
+						<int id="y">-58</int>
+						<int id="z">60</int>
+						<int id="h">67</int>
+						<str id="name">dirt_platform_long_1285802540823</str>
+					</object>
+					<object id="dirt_platform_short_1285802428172">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">2</int>
+						<int id="x">-388</int>
+						<int id="y">-102</int>
+						<int id="z">41</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802428172</str>
+					</object>
+					<object id="platform_branch_a01_1285869983538">
+						<int id="w">261</int>
+						<str id="sprite_class">platform_branch_a01</str>
+						<int id="x">927</int>
+						<bool id="h_flip">true</bool>
+						<int id="y">-550</int>
+						<int id="z">112</int>
+						<int id="h">116</int>
+						<str id="name">platform_branch_a01_1285869983538</str>
+					</object>
+					<object id="dirt_platform_short_1285802210625">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">2</int>
+						<int id="x">-1620</int>
+						<int id="y">-98</int>
+						<int id="z">24</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802210625</str>
+					</object>
+					<object id="dirt_platform_short_1285802479239">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="x">628</int>
+						<int id="y">-8</int>
+						<int id="z">50</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802479239</str>
+					</object>
+					<object id="patch_mossy_3_1285815957517">
+						<int id="w">196</int>
+						<str id="sprite_class">patch_mossy_3</str>
+						<int id="x">-1637</int>
+						<int id="y">-72</int>
+						<int id="z">96</int>
+						<int id="h">37</int>
+						<str id="name">patch_mossy_3_1285815957517</str>
+					</object>
+					<object id="platform_branch_5_1287684977001">
+						<int id="w">178</int>
+						<str id="sprite_class">platform_branch_5</str>
+						<int id="x">968</int>
+						<int id="y">-424</int>
+						<int id="z">117</int>
+						<int id="h">70</int>
+						<str id="name">platform_branch_5_1287684977001</str>
+					</object>
+					<object id="dirt_platform_short_1285802216137">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">1</int>
+						<int id="x">-1842</int>
+						<int id="y">-116</int>
+						<int id="z">25</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802216137</str>
+					</object>
+					<object id="dirt_platform_short_1285802387895">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="x">-2944</int>
+						<int id="y">-84</int>
+						<int id="z">32</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802387895</str>
+					</object>
+					<object id="bush_1_1285872384347">
+						<int id="w">105</int>
+						<str id="sprite_class">bush_1</str>
+						<int id="x">-1427</int>
+						<int id="y">-82</int>
+						<int id="z">116</int>
+						<int id="h">84</int>
+						<str id="name">bush_1_1285872384347</str>
+					</object>
+					<object id="dirt_platform_short_1285802437422">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">5</int>
+						<int id="x">-134</int>
+						<int id="y">-84</int>
+						<int id="z">43</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802437422</str>
+					</object>
+					<object id="patch_mossy_2_1285815587506">
+						<int id="w">264</int>
+						<str id="sprite_class">patch_mossy_2</str>
+						<int id="x">826</int>
+						<int id="y">-35</int>
+						<int id="z">79</int>
+						<int id="h">49</int>
+						<str id="name">patch_mossy_2_1285815587506</str>
+					</object>
+					<object id="dirt_platform_short_1285800445486">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">1</int>
+						<int id="x">-1931</int>
+						<int id="y">-77</int>
+						<int id="z">20</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285800445486</str>
+					</object>
+					<object id="mushroom_amanita_1_1287686331719">
+						<int id="w">55</int>
+						<str id="sprite_class">mushroom_amanita_1</str>
+						<int id="x">-2431</int>
+						<int id="y">-115</int>
+						<int id="z">120</int>
+						<int id="h">73</int>
+						<str id="name">mushroom_amanita_1_1287686331719</str>
+					</object>
+					<object id="patch_mossy_2_1285815603369">
+						<int id="w">196</int>
+						<str id="sprite_class">patch_mossy_2</str>
+						<int id="r">4</int>
+						<int id="x">124</int>
+						<int id="y">-52</int>
+						<int id="z">83</int>
+						<int id="h">37</int>
+						<str id="name">patch_mossy_2_1285815603369</str>
+					</object>
+					<object id="trunk_ladder_2_1287685174650">
+						<int id="w">62</int>
+						<str id="sprite_class">trunk_ladder_2</str>
+						<int id="x">1425</int>
+						<int id="y">-457</int>
+						<int id="z">118</int>
+						<int id="h">70</int>
+						<str id="name">trunk_ladder_2_1287685174650</str>
+					</object>
+					<object id="dirt_platform_short_1285802411351">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">2</int>
+						<int id="x">-614</int>
+						<int id="y">-56</int>
+						<int id="z">36</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802411351</str>
+					</object>
+					<object id="dirt_platform_short_1285801496614">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">5</int>
+						<int id="x">-1483</int>
+						<int id="y">-29</int>
+						<int id="z">22</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285801496614</str>
+					</object>
+					<object id="dirt_platform_short_1285802481706">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="x">632</int>
+						<int id="y">-38</int>
+						<int id="z">51</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802481706</str>
+					</object>
+					<object id="dirt_platform_long_1285802492151">
+						<int id="w">1226</int>
+						<str id="sprite_class">dirt_platform_long</str>
+						<int id="x">1362</int>
+						<int id="y">4</int>
+						<int id="z">53</int>
+						<int id="h">67</int>
+						<str id="name">dirt_platform_long_1285802492151</str>
+					</object>
+					<object id="bush_3_1285815253336">
+						<int id="w">311</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">570</int>
+						<int id="y">-118</int>
+						<int id="z">74</int>
+						<int id="h">109</int>
+						<str id="name">bush_3_1285815253336</str>
+					</object>
+					<object id="flower_bush_5_1287686437319">
+						<int id="w">251</int>
+						<str id="sprite_class">flower_bush_5</str>
+						<int id="x">991</int>
+						<int id="y">-113</int>
+						<int id="z">130</int>
+						<int id="h">107</int>
+						<str id="name">flower_bush_5_1287686437319</str>
+					</object>
+					<object id="dirt_platform_short_1285802414622">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">3</int>
+						<int id="x">-634</int>
+						<int id="y">-96</int>
+						<int id="z">37</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802414622</str>
+					</object>
+					<object id="flower_bush_5_1287686405185">
+						<int id="w">251</int>
+						<str id="sprite_class">flower_bush_5</str>
+						<int id="x">-298</int>
+						<int id="y">-139</int>
+						<int id="z">125</int>
+						<int id="h">107</int>
+						<str id="name">flower_bush_5_1287686405185</str>
+					</object>
+					<object id="bush_3_1285816884532">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">1744</int>
+						<int id="y">-105</int>
+						<int id="z">105</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285816884532</str>
+					</object>
+					<object id="dirt_platform_short_1285802467522">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">2</int>
+						<int id="x">494</int>
+						<int id="y">-78</int>
+						<int id="z">49</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802467522</str>
+					</object>
+					<object id="tree_stack_branch_1_1285872283130">
+						<int id="w">169</int>
+						<str id="sprite_class">tree_stack_branch_1</str>
+						<int id="x">-1494</int>
+						<int id="y">-76</int>
+						<int id="z">113</int>
+						<int id="h">116</int>
+						<str id="name">tree_stack_branch_1_1285872283130</str>
+					</object>
+					<object id="flower_bush_5_1287686444369">
+						<int id="w">251</int>
+						<str id="sprite_class">flower_bush_5</str>
+						<int id="x">1169</int>
+						<int id="y">-102</int>
+						<int id="z">131</int>
+						<int id="h">107</int>
+						<str id="name">flower_bush_5_1287686444369</str>
+					</object>
+					<object id="floating_platform_dirt_01_1285815681439">
+						<int id="w">381</int>
+						<str id="sprite_class">floating_platform_dirt_01</str>
+						<int id="x">653</int>
+						<int id="y">-399</int>
+						<int id="z">89</int>
+						<int id="h">100</int>
+						<str id="name">floating_platform_dirt_01_1285815681439</str>
+					</object>
+					<object id="floating_platform_dirt_01_1285815873346">
+						<int id="w">381</int>
+						<str id="sprite_class">floating_platform_dirt_01</str>
+						<int id="x">2382</int>
+						<int id="y">-489</int>
+						<int id="z">90</int>
+						<int id="h">100</int>
+						<str id="name">floating_platform_dirt_01_1285815873346</str>
+					</object>
+					<object id="trunk_ladder_2_1285869748020">
+						<int id="w">75</int>
+						<str id="sprite_class">trunk_ladder_2</str>
+						<int id="x">1425</int>
+						<int id="y">-251</int>
+						<int id="z">108</int>
+						<int id="h">85</int>
+						<str id="name">trunk_ladder_2_1285869748020</str>
+					</object>
+					<object id="dirt_platform_long_1285802511824">
+						<int id="w">1226</int>
+						<str id="sprite_class">dirt_platform_long</str>
+						<int id="x">2448</int>
+						<int id="y">40</int>
+						<int id="z">57</int>
+						<int id="h">67</int>
+						<str id="name">dirt_platform_long_1285802511824</str>
+					</object>
+					<object id="platform_branch_a03_1285872333030">
+						<int id="w">150</int>
+						<str id="sprite_class">platform_branch_a03</str>
+						<int id="r">15</int>
+						<int id="x">-1318</int>
+						<int id="y">-380</int>
+						<int id="z">115</int>
+						<int id="h">55</int>
+						<str id="name">platform_branch_a03_1285872333030</str>
+					</object>
+					<object id="flower_bush_5_1287686330023">
+						<int id="w">251</int>
+						<str id="sprite_class">flower_bush_5</str>
+						<int id="x">-2469</int>
+						<int id="y">-129</int>
+						<int id="z">119</int>
+						<int id="h">107</int>
+						<str id="name">flower_bush_5_1287686330023</str>
+					</object>
+					<object id="dirt_platform_short_1285802371606">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="x">-1158</int>
+						<int id="y">-88</int>
+						<int id="z">29</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802371606</str>
+					</object>
+					<object id="flower_bush_5_1287686401441">
+						<int id="w">251</int>
+						<str id="sprite_class">flower_bush_5</str>
+						<int id="x">-445</int>
+						<int id="y">-143</int>
+						<int id="z">124</int>
+						<int id="h">107</int>
+						<str id="name">flower_bush_5_1287686401441</str>
+					</object>
+					<object id="tree_coniferous_fg_1_1285802988460">
+						<int id="w">490</int>
+						<str id="sprite_class">tree_coniferous_fg_1</str>
+						<int id="x">-1400</int>
+						<int id="y">-66</int>
+						<int id="z">69</int>
+						<int id="h">1088</int>
+						<str id="name">tree_coniferous_fg_1_1285802988460</str>
+					</object>
+					<object id="patch_mossy_2_1285815583202">
+						<int id="w">196</int>
+						<str id="sprite_class">patch_mossy_2</str>
+						<int id="x">1832</int>
+						<int id="y">-33</int>
+						<int id="z">77</int>
+						<int id="h">37</int>
+						<str id="name">patch_mossy_2_1285815583202</str>
+					</object>
+					<object id="dirt_platform_short_1285797720995">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">2</int>
+						<int id="x">-1739</int>
+						<int id="y">-29</int>
+						<int id="z">13</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285797720995</str>
+					</object>
+					<object id="dirt_platform_short_1285802558590">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-4</int>
+						<int id="x">2880</int>
+						<int id="y">-122</int>
+						<int id="z">63</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802558590</str>
+					</object>
+					<object id="tree_coniferous_fg_2_1285815130246">
+						<int id="w">655</int>
+						<str id="sprite_class">tree_coniferous_fg_2</str>
+						<int id="r">1</int>
+						<int id="x">1972</int>
+						<int id="y">-29</int>
+						<int id="z">5</int>
+						<int id="h">1413</int>
+						<str id="name">tree_coniferous_fg_2_1285815130246</str>
+					</object>
+					<object id="patch_mossy_3_1285815946905">
+						<int id="w">196</int>
+						<str id="sprite_class">patch_mossy_3</str>
+						<int id="x">-2097</int>
+						<int id="y">-73</int>
+						<int id="z">93</int>
+						<int id="h">37</int>
+						<str id="name">patch_mossy_3_1285815946905</str>
+					</object>
+					<object id="dirt_platform_short_1285797535705">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-3</int>
+						<int id="x">-2194</int>
+						<int id="y">-32</int>
+						<int id="z">7</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285797535705</str>
+					</object>
+					<object id="trunk_ladder_2_1285869760212">
+						<int id="w">62</int>
+						<str id="sprite_class">trunk_ladder_2</str>
+						<int id="x">1429</int>
+						<int id="y">-413</int>
+						<int id="z">110</int>
+						<int id="h">70</int>
+						<str id="name">trunk_ladder_2_1285869760212</str>
+					</object>
+					<object id="flower_bush_5_1287686432768">
+						<int id="w">251</int>
+						<str id="sprite_class">flower_bush_5</str>
+						<int id="x">839</int>
+						<int id="y">-119</int>
+						<int id="z">129</int>
+						<int id="h">107</int>
+						<str id="name">flower_bush_5_1287686432768</str>
+					</object>
+					<object id="dirt_platform_short_1285802425590">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="x">-352</int>
+						<int id="y">-68</int>
+						<int id="z">40</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802425590</str>
+					</object>
+					<object id="dirt_platform_short_1285802208204">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">5</int>
+						<int id="x">-1378</int>
+						<int id="y">-74</int>
+						<int id="z">23</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802208204</str>
+					</object>
+					<object id="dirt_platform_short_1285797659596">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">5</int>
+						<int id="x">-1302</int>
+						<int id="y">-23</int>
+						<int id="z">10</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285797659596</str>
+					</object>
+					<object id="flower_bush_5_1287686420602">
+						<int id="w">251</int>
+						<str id="sprite_class">flower_bush_5</str>
+						<int id="x">357</int>
+						<int id="y">-131</int>
+						<int id="z">128</int>
+						<int id="h">107</int>
+						<str id="name">flower_bush_5_1287686420602</str>
+					</object>
+					<object id="dirt_platform_short_1285802451972">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">5</int>
+						<int id="x">80</int>
+						<int id="y">-50</int>
+						<int id="z">45</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802451972</str>
+					</object>
+					<object id="tree_coniferous_fg_2_1285805924622">
+						<int id="w">559</int>
+						<str id="sprite_class">tree_coniferous_fg_2</str>
+						<int id="r">-5</int>
+						<int id="x">1120</int>
+						<int id="y">-104</int>
+						<int id="z">4</int>
+						<int id="h">1207</int>
+						<str id="name">tree_coniferous_fg_2_1285805924622</str>
+					</object>
+					<object id="flower_bush_5_1287686418047">
+						<int id="w">251</int>
+						<str id="sprite_class">flower_bush_5</str>
+						<int id="x">223</int>
+						<int id="y">-123</int>
+						<int id="z">127</int>
+						<int id="h">107</int>
+						<str id="name">flower_bush_5_1287686418047</str>
+					</object>
+					<object id="dirt_platform_short_1285797621824">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-6</int>
+						<int id="x">-2430</int>
+						<int id="y">-15</int>
+						<int id="z">9</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285797621824</str>
+					</object>
+					<object id="dirt_platform_short_1285797541605">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">2</int>
+						<int id="x">-1997</int>
+						<int id="y">-29</int>
+						<int id="z">8</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285797541605</str>
+					</object>
+					<object id="flower_bush_5_1287686408806">
+						<int id="w">251</int>
+						<str id="sprite_class">flower_bush_5</str>
+						<int id="x">22</int>
+						<int id="y">-121</int>
+						<int id="z">126</int>
+						<int id="h">107</int>
+						<str id="name">flower_bush_5_1287686408806</str>
+					</object>
+					<object id="dirt_platform_short_1285802464239">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="x">350</int>
+						<int id="y">-56</int>
+						<int id="z">48</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802464239</str>
+					</object>
+					<object id="ug_exface3_1282856947546">
+						<int id="w">6691</int>
+						<str id="sprite_class">ug_exface3</str>
+						<int id="x">-51</int>
+						<int id="y">294</int>
+						<int id="z">6</int>
+						<int id="h">267</int>
+						<str id="name">ug_exface3_1282856947546</str>
+					</object>
+					<object id="patch_mossy_2_1285815578552">
+						<int id="w">196</int>
+						<str id="sprite_class">patch_mossy_2</str>
+						<int id="x">1666</int>
+						<int id="y">-78</int>
+						<int id="z">75</int>
+						<int id="h">37</int>
+						<str id="name">patch_mossy_2_1285815578552</str>
+					</object>
+					<object id="dirt_platform_short_1285802565706">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-1</int>
+						<int id="x">2194</int>
+						<int id="y">-60</int>
+						<int id="z">64</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802565706</str>
+					</object>
+					<object id="patch_mossy_1_1285815590952">
+						<int id="w">145</int>
+						<str id="sprite_class">patch_mossy_1</str>
+						<int id="x">890</int>
+						<int id="y">-24</int>
+						<int id="z">80</int>
+						<int id="h">35</int>
+						<str id="name">patch_mossy_1_1285815590952</str>
+					</object>
+					<object id="dirt_platform_short_1285800437137">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-1</int>
+						<int id="x">-2662</int>
+						<int id="y">-63</int>
+						<int id="z">17</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285800437137</str>
+					</object>
+					<object id="dirt_platform_short_1285802384251">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-5</int>
+						<int id="x">-2294</int>
+						<int id="y">-110</int>
+						<int id="z">31</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802384251</str>
+					</object>
+					<object id="dirt_platform_short_1285802407106">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="x">-618</int>
+						<int id="y">-14</int>
+						<int id="z">35</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802407106</str>
+					</object>
+					<object id="patch_mossy_3_1285815610437">
+						<int id="w">196</int>
+						<str id="sprite_class">patch_mossy_3</str>
+						<int id="x">-296</int>
+						<int id="y">-88</int>
+						<int id="z">84</int>
+						<int id="h">37</int>
+						<str id="name">patch_mossy_3_1285815610437</str>
+					</object>
+					<object id="dirt_platform_short_1285800442291">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-1</int>
+						<int id="x">-2177</int>
+						<int id="y">-79</int>
+						<int id="z">19</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285800442291</str>
+					</object>
+					<object id="dirt_platform_short_1285802368038">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-2</int>
+						<int id="x">-1092</int>
+						<int id="y">-54</int>
+						<int id="z">28</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802368038</str>
+					</object>
+					<object id="patch_mossy_1_1285815614319">
+						<int id="w">244</int>
+						<str id="sprite_class">patch_mossy_1</str>
+						<int id="x">-709</int>
+						<int id="y">-85</int>
+						<int id="z">85</int>
+						<int id="h">57</int>
+						<str id="name">patch_mossy_1_1285815614319</str>
+					</object>
+					<object id="trunk_ladder_2_1285869737495">
+						<int id="w">100</int>
+						<str id="sprite_class">trunk_ladder_2</str>
+						<int id="x">1421</int>
+						<bool id="h_flip">true</bool>
+						<int id="y">-136</int>
+						<int id="z">107</int>
+						<int id="h">112</int>
+						<str id="name">trunk_ladder_2_1285869737495</str>
+					</object>
+					<object id="flower_bush_5_1287686393368">
+						<int id="w">251</int>
+						<str id="sprite_class">flower_bush_5</str>
+						<int id="x">-626</int>
+						<int id="y">-139</int>
+						<int id="z">0</int>
+						<int id="h">107</int>
+						<str id="name">flower_bush_5_1287686393368</str>
+					</object>
+					<object id="dirt_platform_short_1285800431318">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-1</int>
+						<int id="x">-2923</int>
+						<int id="y">6</int>
+						<int id="z">15</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285800431318</str>
+					</object>
+					<object id="dirt_platform_short_1285802458839">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="x">366</int>
+						<int id="y">-4</int>
+						<int id="z">47</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802458839</str>
+					</object>
+					<object id="dirt_platform_short_1285800439939">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-1</int>
+						<int id="x">-2386</int>
+						<int id="y">-69</int>
+						<int id="z">18</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285800439939</str>
+					</object>
+					<object id="patch_mossy_2_1285815622919">
+						<int id="w">196</int>
+						<str id="sprite_class">patch_mossy_2</str>
+						<int id="x">-643</int>
+						<int id="y">-76</int>
+						<int id="z">87</int>
+						<int id="h">37</int>
+						<str id="name">patch_mossy_2_1285815622919</str>
+					</object>
+					<object id="dirt_platform_short_1285802379816">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-3</int>
+						<int id="x">-2044</int>
+						<int id="y">-116</int>
+						<int id="z">30</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802379816</str>
+					</object>
+					<object id="tree_coniferous_fg_2_1285802919037">
+						<int id="w">679</int>
+						<str id="sprite_class">tree_coniferous_fg_2</str>
+						<int id="x">-2668</int>
+						<int id="y">-52</int>
+						<int id="z">66</int>
+						<int id="h">1464</int>
+						<str id="name">tree_coniferous_fg_2_1285802919037</str>
+					</object>
+					<object id="patch_mossy_1_1285816275557">
+						<int id="w">303</int>
+						<str id="sprite_class">patch_mossy_1</str>
+						<int id="r">-3</int>
+						<int id="x">2270</int>
+						<bool id="h_flip">true</bool>
+						<int id="y">-19</int>
+						<int id="z">100</int>
+						<int id="h">72</int>
+						<str id="name">patch_mossy_1_1285816275557</str>
+					</object>
+					<object id="patch_mossy_1_1285815592952">
+						<int id="w">145</int>
+						<str id="sprite_class">patch_mossy_1</str>
+						<int id="x">714</int>
+						<int id="y">-26</int>
+						<int id="z">81</int>
+						<int id="h">35</int>
+						<str id="name">patch_mossy_1_1285815592952</str>
+					</object>
+					<object id="patch_mossy_2_1285815953555">
+						<int id="w">282</int>
+						<str id="sprite_class">patch_mossy_2</str>
+						<int id="x">-1701</int>
+						<bool id="h_flip">true</bool>
+						<int id="y">-91</int>
+						<int id="z">94</int>
+						<int id="h">53</int>
+						<str id="name">patch_mossy_2_1285815953555</str>
+					</object>
+					<object id="dirt_platform_short_1285802393955">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="x">-2678</int>
+						<int id="y">-90</int>
+						<int id="z">33</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802393955</str>
+					</object>
+					<object id="dirt_platform_short_1285802446328">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">5</int>
+						<int id="x">58</int>
+						<int id="y">-6</int>
+						<int id="z">44</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802446328</str>
+					</object>
+					<object id="tree_coniferous_fg_2_1285803299237">
+						<int id="w">679</int>
+						<str id="sprite_class">tree_coniferous_fg_2</str>
+						<int id="r">-3</int>
+						<int id="x">-78</int>
+						<int id="y">-101</int>
+						<int id="z">70</int>
+						<int id="h">1464</int>
+						<str id="name">tree_coniferous_fg_2_1285803299237</str>
+					</object>
+					<object id="dirt_platform_short_1285802455523">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">5</int>
+						<int id="x">66</int>
+						<int id="y">-84</int>
+						<int id="z">46</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802455523</str>
+					</object>
+					<object id="dirt_platform_short_1285797667381">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">1</int>
+						<int id="x">-1052</int>
+						<int id="y">-5</int>
+						<int id="z">11</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285797667381</str>
+					</object>
+					<object id="mushroom_amanita_1_1287686335405">
+						<int id="w">73</int>
+						<str id="sprite_class">mushroom_amanita_1</str>
+						<int id="r">5</int>
+						<int id="x">-2409</int>
+						<int id="y">-113</int>
+						<int id="z">121</int>
+						<int id="h">97</int>
+						<str id="name">mushroom_amanita_1_1287686335405</str>
+					</object>
+					<object id="flower_bush_5_1287686386335">
+						<int id="w">251</int>
+						<str id="sprite_class">flower_bush_5</str>
+						<int id="x">-791</int>
+						<int id="y">-139</int>
+						<int id="z">123</int>
+						<int id="h">107</int>
+						<str id="name">flower_bush_5_1287686386335</str>
+					</object>
+					<object id="patch_mossy_3_1285815955455">
+						<int id="w">196</int>
+						<str id="sprite_class">patch_mossy_3</str>
+						<int id="x">-1781</int>
+						<int id="y">-81</int>
+						<int id="z">95</int>
+						<int id="h">37</int>
+						<str id="name">patch_mossy_3_1285815955455</str>
+					</object>
+					<object id="dirt_platform_short_1285802484848">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="x">676</int>
+						<int id="y">-86</int>
+						<int id="z">52</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285802484848</str>
+					</object>
+					<object id="patch_mossy_1_1285815579968">
+						<int id="w">235</int>
+						<str id="sprite_class">patch_mossy_1</str>
+						<int id="x">1877</int>
+						<int id="y">-57</int>
+						<int id="z">76</int>
+						<int id="h">56</int>
+						<str id="name">patch_mossy_1_1285815579968</str>
+					</object>
+					<object id="dirt_platform_short_1285800434253">
+						<int id="w">364</int>
+						<str id="sprite_class">dirt_platform_short</str>
+						<int id="r">-1</int>
+						<int id="x">-2906</int>
+						<int id="y">-36</int>
+						<int id="z">16</int>
+						<int id="h">68</int>
+						<str id="name">dirt_platform_short_1285800434253</str>
+					</object>
+					<object id="tree_coniferous_fg_1_1285802931469">
+						<int id="w">633</int>
+						<str id="sprite_class">tree_coniferous_fg_1</str>
+						<int id="x">-1199</int>
+						<int id="y">-78</int>
+						<int id="z">68</int>
+						<int id="h">1406</int>
+						<str id="name">tree_coniferous_fg_1_1285802931469</str>
+					</object>
+					<object id="patch_mossy_1_1285816271096">
+						<int id="w">235</int>
+						<str id="sprite_class">patch_mossy_1</str>
+						<int id="r">-3</int>
+						<int id="x">2293</int>
+						<bool id="h_flip">true</bool>
+						<int id="y">-65</int>
+						<int id="z">99</int>
+						<int id="h">56</int>
+						<str id="name">patch_mossy_1_1285816271096</str>
+					</object>
+					<object id="dirt_platform_long_1285802500056">
+						<int id="w">1226</int>
+						<str id="sprite_class">dirt_platform_long</str>
+						<int id="x">1338</int>
+						<int id="y">-38</int>
+						<int id="z">54</int>
+						<int id="h">67</int>
+						<str id="name">dirt_platform_long_1285802500056</str>
+					</object>
+					<object id="tree_coniferous_fg_2_1285803384884">
+						<int id="w">655</int>
+						<str id="sprite_class">tree_coniferous_fg_2</str>
+						<int id="r">-5</int>
+						<int id="x">1474</int>
+						<int id="y">-40</int>
+						<int id="z">71</int>
+						<int id="h">1413</int>
+						<str id="name">tree_coniferous_fg_2_1285803384884</str>
+					</object>
+					<object id="dirt_platform_long_1285802508392">
+						<int id="w">1226</int>
+						<str id="sprite_class">dirt_platform_long</str>
+						<int id="r">-3</int>
+						<int id="x">2602</int>
+						<int id="y">2</int>
+						<int id="z">56</int>
+						<int id="h">67</int>
+						<str id="name">dirt_platform_long_1285802508392</str>
+					</object>
+					<object id="groddle_grass_2_1285816907434">
+						<int id="w">81</int>
+						<str id="sprite_class">groddle_grass_2</str>
+						<int id="x">1902</int>
+						<int id="y">-116</int>
+						<int id="z">106</int>
+						<int id="h">67</int>
+						<str id="name">groddle_grass_2_1285816907434</str>
+					</object>
+					<object id="groddle_grass_2_1285816356043">
+						<int id="w">81</int>
+						<str id="sprite_class">groddle_grass_2</str>
+						<int id="x">1984</int>
+						<int id="y">-117</int>
+						<int id="z">101</int>
+						<int id="h">67</int>
+						<str id="name">groddle_grass_2_1285816356043</str>
+					</object>
+					<object id="groddle_grass_2_1285816363811">
+						<int id="w">81</int>
+						<str id="sprite_class">groddle_grass_2</str>
+						<int id="x">1316</int>
+						<int id="y">-72</int>
+						<int id="z">103</int>
+						<int id="h">67</int>
+						<str id="name">groddle_grass_2_1285816363811</str>
+					</object>
+					<object id="groddle_grass_2_1285816360843">
+						<int id="w">81</int>
+						<str id="sprite_class">groddle_grass_2</str>
+						<int id="x">1561</int>
+						<int id="y">-130</int>
+						<int id="z">102</int>
+						<int id="h">67</int>
+						<str id="name">groddle_grass_2_1285816360843</str>
+					</object>
+					<object id="groddle_cover_clover2_1287686354756">
+						<int id="w">126</int>
+						<str id="sprite_class">groddle_cover_clover2</str>
+						<int id="x">-2428</int>
+						<int id="y">-92</int>
+						<int id="z">122</int>
+						<int id="h">47</int>
+						<str id="name">groddle_cover_clover2_1287686354756</str>
+					</object>
+					<object id="groddle_fern_1_1285816370876">
+						<int id="w">127</int>
+						<str id="sprite_class">groddle_fern_1</str>
+						<int id="x">-89</int>
+						<int id="y">-103</int>
+						<int id="z">104</int>
+						<int id="h">74</int>
+						<str id="name">groddle_fern_1_1285816370876</str>
+					</object>
+				</object>
+				<str id="name">middleground</str>
+			</object>
+			<object id="bg_1">
+				<object id="decos">
+					<object id="light_spot_1285816556244">
+						<int id="w">1202</int>
+						<str id="sprite_class">light_spot</str>
+						<int id="x">4883</int>
+						<int id="y">954</int>
+						<int id="z">0</int>
+						<int id="h">1202</int>
+						<str id="name">light_spot_1285816556244</str>
+					</object>
+					<object id="dirt_horizon_1285802762460">
+						<int id="w">1172</int>
+						<str id="sprite_class">dirt_horizon</str>
+						<int id="r">3</int>
+						<int id="x">1457</int>
+						<int id="y">882</int>
+						<int id="z">18</int>
+						<int id="h">77</int>
+						<str id="name">dirt_horizon_1285802762460</str>
+					</object>
+					<object id="dirt_horizon_1285802796777">
+						<int id="w">1172</int>
+						<str id="sprite_class">dirt_horizon</str>
+						<int id="r">2</int>
+						<int id="x">4014</int>
+						<int id="y">904</int>
+						<int id="z">21</int>
+						<int id="h">77</int>
+						<str id="name">dirt_horizon_1285802796777</str>
+					</object>
+					<object id="tree_coniferous_fg_2_1285803196919">
+						<int id="w">655</int>
+						<str id="sprite_class">tree_coniferous_fg_2</str>
+						<int id="r">-5</int>
+						<int id="x">2842</int>
+						<int id="y">944</int>
+						<int id="z">46</int>
+						<int id="h">1413</int>
+						<str id="name">tree_coniferous_fg_2_1285803196919</str>
+					</object>
+					<object id="dirt_mound_1_1285815350866">
+						<int id="w">981</int>
+						<str id="sprite_class">dirt_mound_1</str>
+						<int id="x">2245</int>
+						<int id="y">863</int>
+						<int id="z">6</int>
+						<int id="h">163</int>
+						<str id="name">dirt_mound_1_1285815350866</str>
+					</object>
+					<object id="bush_3_1285815769421">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">1500</int>
+						<int id="y">864</int>
+						<int id="z">40</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815769421</str>
+					</object>
+					<object id="bush_3_1285815235447">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">3131</int>
+						<int id="y">862</int>
+						<int id="z">31</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815235447</str>
+					</object>
+					<object id="bush_3_1285815238280">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">3284</int>
+						<int id="y">863</int>
+						<int id="z">32</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815238280</str>
+					</object>
+					<object id="bush_3_1285806017956">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">589</int>
+						<int id="y">853</int>
+						<int id="z">27</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285806017956</str>
+					</object>
+					<object id="bush_3_1285815771739">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">1243</int>
+						<int id="y">845</int>
+						<int id="z">41</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815771739</str>
+					</object>
+					<object id="tree_coniferous_fg_1_1285815389003">
+						<int id="w">490</int>
+						<str id="sprite_class">tree_coniferous_fg_1</str>
+						<int id="x">1719</int>
+						<int id="y">1029</int>
+						<int id="z">4</int>
+						<int id="h">1088</int>
+						<str id="name">tree_coniferous_fg_1_1285815389003</str>
+					</object>
+					<object id="tree_coniferous_fg_1_1285815383504">
+						<int id="w">490</int>
+						<str id="sprite_class">tree_coniferous_fg_1</str>
+						<int id="x">2105</int>
+						<int id="y">1002</int>
+						<int id="z">5</int>
+						<int id="h">1088</int>
+						<str id="name">tree_coniferous_fg_1_1285815383504</str>
+					</object>
+					<object id="bush_3_1285815224607">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">2800</int>
+						<int id="y">855</int>
+						<int id="z">29</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815224607</str>
+					</object>
+					<object id="tree_coniferous_fg_2_1285803214523">
+						<int id="w">655</int>
+						<str id="sprite_class">tree_coniferous_fg_2</str>
+						<int id="r">-5</int>
+						<int id="x">5498</int>
+						<int id="y">864</int>
+						<int id="z">24</int>
+						<int id="h">1413</int>
+						<str id="name">tree_coniferous_fg_2_1285803214523</str>
+					</object>
+					<object id="tree_group_bg2_1_1285803356363">
+						<int id="w">722</int>
+						<str id="sprite_class">tree_group_bg2_1</str>
+						<int id="x">4372</int>
+						<int id="y">1024</int>
+						<int id="z">9</int>
+						<int id="h">946</int>
+						<str id="name">tree_group_bg2_1_1285803356363</str>
+					</object>
+					<object id="bush_3_1285815977178">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">2304</int>
+						<int id="y">799</int>
+						<int id="z">47</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815977178</str>
+					</object>
+					<object id="tree_coniferous_fg_2_1285802846577">
+						<int id="w">681</int>
+						<str id="sprite_class">tree_coniferous_fg_2</str>
+						<int id="x">152</int>
+						<int id="y">914</int>
+						<int id="z">23</int>
+						<int id="h">1471</int>
+						<str id="name">tree_coniferous_fg_2_1285802846577</str>
+					</object>
+					<object id="tree_group_bg2_1_1285803328958">
+						<int id="w">722</int>
+						<str id="sprite_class">tree_group_bg2_1</str>
+						<int id="x">1042</int>
+						<int id="y">891</int>
+						<int id="z">11</int>
+						<int id="h">946</int>
+						<str id="name">tree_group_bg2_1_1285803328958</str>
+					</object>
+					<object id="bush_3_1285815781456">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">1732</int>
+						<int id="y">777</int>
+						<int id="z">44</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815781456</str>
+					</object>
+					<object id="dirt_horizon_1285802784742">
+						<int id="w">1172</int>
+						<str id="sprite_class">dirt_horizon</str>
+						<int id="x">3238</int>
+						<int id="y">900</int>
+						<int id="z">20</int>
+						<int id="h">77</int>
+						<str id="name">dirt_horizon_1285802784742</str>
+					</object>
+					<object id="bush_3_1285806047770">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="r">-5</int>
+						<int id="x">5209</int>
+						<int id="y">844</int>
+						<int id="z">28</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285806047770</str>
+					</object>
+					<object id="dirt_horizon_1285800376484">
+						<int id="w">1172</int>
+						<str id="sprite_class">dirt_horizon</str>
+						<int id="r">4</int>
+						<int id="x">1284</int>
+						<int id="y">896</int>
+						<int id="z">17</int>
+						<int id="h">77</int>
+						<str id="name">dirt_horizon_1285800376484</str>
+					</object>
+					<object id="bush_3_1285815778205">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">1659</int>
+						<int id="y">897</int>
+						<int id="z">43</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815778205</str>
+					</object>
+					<object id="tree_coniferous_fg_2_1285803205464">
+						<int id="w">465</int>
+						<str id="sprite_class">tree_coniferous_fg_2</str>
+						<int id="r">-5</int>
+						<int id="x">3773</int>
+						<int id="y">998</int>
+						<int id="z">12</int>
+						<int id="h">1003</int>
+						<str id="name">tree_coniferous_fg_2_1285803205464</str>
+					</object>
+					<object id="tree_coniferous_fg_2_1285815436499">
+						<int id="w">655</int>
+						<str id="sprite_class">tree_coniferous_fg_2</str>
+						<int id="r">-6</int>
+						<int id="x">1181</int>
+						<int id="y">844</int>
+						<int id="z">36</int>
+						<int id="h">1413</int>
+						<str id="name">tree_coniferous_fg_2_1285815436499</str>
+					</object>
+					<object id="tree_coniferous_fg_1_1285805936613">
+						<int id="w">473</int>
+						<str id="sprite_class">tree_coniferous_fg_1</str>
+						<int id="x">701</int>
+						<int id="y">839</int>
+						<int id="z">25</int>
+						<int id="h">1050</int>
+						<str id="name">tree_coniferous_fg_1_1285805936613</str>
+					</object>
+					<object id="pinecluster_2_1285815740337">
+						<int id="w">576</int>
+						<str id="sprite_class">pinecluster_2</str>
+						<int id="x">4481</int>
+						<int id="y">910</int>
+						<int id="z">2</int>
+						<int id="h">337</int>
+						<str id="name">pinecluster_2_1285815740337</str>
+					</object>
+					<object id="dirt_horizon_1285800342635">
+						<int id="w">1172</int>
+						<str id="sprite_class">dirt_horizon</str>
+						<int id="r">-4</int>
+						<int id="x">441</int>
+						<int id="y">889</int>
+						<int id="z">16</int>
+						<int id="h">77</int>
+						<str id="name">dirt_horizon_1285800342635</str>
+					</object>
+					<object id="bush_3_1285815241234">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">3410</int>
+						<int id="y">874</int>
+						<int id="z">8</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815241234</str>
+					</object>
+					<object id="tree_bare_thin_1_1285816508827">
+						<int id="w">155</int>
+						<str id="sprite_class">tree_bare_thin_1</str>
+						<int id="x">4699</int>
+						<int id="y">855</int>
+						<int id="z">51</int>
+						<int id="h">445</int>
+						<str id="name">tree_bare_thin_1_1285816508827</str>
+					</object>
+					<object id="bush_3_1285815773931">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">1025</int>
+						<int id="y">854</int>
+						<int id="z">42</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815773931</str>
+					</object>
+					<object id="tree_bare_thin_1_1285816533081">
+						<int id="w">155</int>
+						<str id="sprite_class">tree_bare_thin_1</str>
+						<int id="r">-3</int>
+						<int id="x">5092</int>
+						<bool id="h_flip">true</bool>
+						<int id="y">848</int>
+						<int id="z">52</int>
+						<int id="h">445</int>
+						<str id="name">tree_bare_thin_1_1285816533081</str>
+					</object>
+					<object id="tree_coniferous_fg_2_1285815368356">
+						<int id="w">679</int>
+						<str id="sprite_class">tree_coniferous_fg_2</str>
+						<int id="r">-3</int>
+						<int id="x">2319</int>
+						<int id="y">794</int>
+						<int id="z">33</int>
+						<int id="h">1464</int>
+						<str id="name">tree_coniferous_fg_2_1285815368356</str>
+					</object>
+					<object id="tree_coniferous_fg_2_1285802954362">
+						<int id="w">655</int>
+						<str id="sprite_class">tree_coniferous_fg_2</str>
+						<int id="r">-3</int>
+						<int id="x">1542</int>
+						<int id="y">863</int>
+						<int id="z">13</int>
+						<int id="h">1413</int>
+						<str id="name">tree_coniferous_fg_2_1285802954362</str>
+					</object>
+					<object id="dirt_mound_1_1285815428757">
+						<int id="w">981</int>
+						<str id="sprite_class">dirt_mound_1</str>
+						<int id="x">1251</int>
+						<int id="y">908</int>
+						<int id="z">35</int>
+						<int id="h">163</int>
+						<str id="name">dirt_mound_1_1285815428757</str>
+					</object>
+					<object id="bush_2_1285806008891">
+						<int id="w">196</int>
+						<str id="sprite_class">bush_2</str>
+						<int id="r">-9</int>
+						<int id="x">401</int>
+						<int id="y">844</int>
+						<int id="z">26</int>
+						<int id="h">76</int>
+						<str id="name">bush_2_1285806008891</str>
+					</object>
+					<object id="tree_coniferous_fg_1_1285815520750">
+						<int id="w">506</int>
+						<str id="sprite_class">tree_coniferous_fg_1</str>
+						<int id="x">3981</int>
+						<int id="y">912</int>
+						<int id="z">38</int>
+						<int id="h">1128</int>
+						<str id="name">tree_coniferous_fg_1_1285815520750</str>
+					</object>
+					<object id="tree_coniferous_fg_1_1285803107000">
+						<int id="w">473</int>
+						<str id="sprite_class">tree_coniferous_fg_1</str>
+						<int id="x">357</int>
+						<int id="y">918</int>
+						<int id="z">15</int>
+						<int id="h">1050</int>
+						<str id="name">tree_coniferous_fg_1_1285803107000</str>
+					</object>
+					<object id="bush_3_1285815984783">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">2169</int>
+						<int id="y">798</int>
+						<int id="z">48</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815984783</str>
+					</object>
+					<object id="bush_3_1285815763974">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="r">4</int>
+						<int id="x">1365</int>
+						<int id="y">813</int>
+						<int id="z">39</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815763974</str>
+					</object>
+					<object id="bush_3_1285815831056">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">260</int>
+						<int id="y">869</int>
+						<int id="z">1</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815831056</str>
+					</object>
+					<object id="dirt_mound_1_1285815320097">
+						<int id="w">981</int>
+						<str id="sprite_class">dirt_mound_1</str>
+						<int id="x">1767</int>
+						<int id="y">884</int>
+						<int id="z">7</int>
+						<int id="h">163</int>
+						<str id="name">dirt_mound_1_1285815320097</str>
+					</object>
+					<object id="pinecluster_2_1285815722620">
+						<int id="w">576</int>
+						<str id="sprite_class">pinecluster_2</str>
+						<int id="x">5385</int>
+						<int id="y">836</int>
+						<int id="z">3</int>
+						<int id="h">337</int>
+						<str id="name">pinecluster_2_1285815722620</str>
+					</object>
+					<object id="tree_coniferous_fg_1_1285815380126">
+						<int id="w">490</int>
+						<str id="sprite_class">tree_coniferous_fg_1</str>
+						<int id="x">1992</int>
+						<int id="y">798</int>
+						<int id="z">34</int>
+						<int id="h">1088</int>
+						<str id="name">tree_coniferous_fg_1_1285815380126</str>
+					</object>
+					<object id="tree_coniferous_fg_1_1285815506128">
+						<int id="w">569</int>
+						<str id="sprite_class">tree_coniferous_fg_1</str>
+						<int id="x">4175</int>
+						<int id="y">912</int>
+						<int id="z">37</int>
+						<int id="h">1266</int>
+						<str id="name">tree_coniferous_fg_1_1285815506128</str>
+					</object>
+					<object id="dirt_horizon_1285802805592">
+						<int id="w">1172</int>
+						<str id="sprite_class">dirt_horizon</str>
+						<int id="r">-3</int>
+						<int id="x">5058</int>
+						<int id="y">888</int>
+						<int id="z">22</int>
+						<int id="h">77</int>
+						<str id="name">dirt_horizon_1285802805592</str>
+					</object>
+					<object id="pinecluster_mask_1_1285816916216">
+						<int id="w">286</int>
+						<str id="sprite_class">pinecluster_mask_1</str>
+						<int id="x">3982</int>
+						<int id="y">858</int>
+						<int id="z">53</int>
+						<int id="h">111</int>
+						<str id="name">pinecluster_mask_1_1285816916216</str>
+					</object>
+					<object id="dirt_horizon_1285802775532">
+						<int id="w">1172</int>
+						<str id="sprite_class">dirt_horizon</str>
+						<int id="x">2279</int>
+						<int id="y">888</int>
+						<int id="z">19</int>
+						<int id="h">77</int>
+						<str id="name">dirt_horizon_1285802775532</str>
+					</object>
+					<object id="tree_group_bg2_1_1285803346394">
+						<int id="w">722</int>
+						<str id="sprite_class">tree_group_bg2_1</str>
+						<int id="x">3119</int>
+						<int id="y">932</int>
+						<int id="z">10</int>
+						<int id="h">946</int>
+						<str id="name">tree_group_bg2_1_1285803346394</str>
+					</object>
+					<object id="bush_3_1285815232597">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">2966</int>
+						<int id="y">874</int>
+						<int id="z">30</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815232597</str>
+					</object>
+					<object id="bush_3_1285815828106">
+						<int id="w">283</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">784</int>
+						<int id="y">839</int>
+						<int id="z">45</int>
+						<int id="h">100</int>
+						<str id="name">bush_3_1285815828106</str>
+					</object>
+					<object id="tree_coniferous_fg_1_1285803117529">
+						<int id="w">473</int>
+						<str id="sprite_class">tree_coniferous_fg_1</str>
+						<int id="x">531</int>
+						<int id="y">908</int>
+						<int id="z">14</int>
+						<int id="h">1050</int>
+						<str id="name">tree_coniferous_fg_1_1285803117529</str>
+					</object>
+					<object id="groddle_grass_2_1285816930758">
+						<int id="w">81</int>
+						<str id="sprite_class">groddle_grass_2</str>
+						<int id="x">2493</int>
+						<int id="y">811</int>
+						<int id="z">54</int>
+						<int id="h">67</int>
+						<str id="name">groddle_grass_2_1285816930758</str>
+					</object>
+					<object id="groddle_plant_3_1285816348626">
+						<int id="w">140</int>
+						<str id="sprite_class">groddle_plant_3</str>
+						<int id="x">4429</int>
+						<int id="y">869</int>
+						<int id="z">49</int>
+						<int id="h">68</int>
+						<str id="name">groddle_plant_3_1285816348626</str>
+					</object>
+					<object id="groddle_grass_2_1285816351848">
+						<int id="w">81</int>
+						<str id="sprite_class">groddle_grass_2</str>
+						<int id="x">4200</int>
+						<int id="y">863</int>
+						<int id="z">50</int>
+						<int id="h">67</int>
+						<str id="name">groddle_grass_2_1285816351848</str>
+					</object>
+				</object>
+				<int id="w">5500</int>
+				<int id="z">-1</int>
+				<int id="h">1000</int>
+				<object id="filtersNEW">
+					<object id="tintAmount">
+					</object>
+					<object id="saturation">
+					</object>
+					<object id="blur">
+					</object>
+					<object id="contrast">
+					</object>
+					<object id="brightness">
+						<int id="value">-43</int>
+					</object>
+				</object>
+				<str id="name">bg_1</str>
+			</object>
+			<object id="sky">
+				<object id="decos">
+					<object id="mountain_trees_darker_1_1285815053103">
+						<int id="w">1272</int>
+						<str id="sprite_class">mountain_trees_darker_1</str>
+						<int id="x">4617</int>
+						<int id="y">984</int>
+						<int id="z">1</int>
+						<int id="h">540</int>
+						<str id="name">mountain_trees_darker_1_1285815053103</str>
+					</object>
+					<object id="patch_mossy_1_1285815570147">
+						<int id="w">145</int>
+						<str id="sprite_class">patch_mossy_1</str>
+						<int id="x">3683</int>
+						<int id="y">930</int>
+						<int id="z">15</int>
+						<int id="h">35</int>
+						<str id="name">patch_mossy_1_1285815570147</str>
+					</object>
+					<object id="tree_group_bg2_1_1285803131867">
+						<int id="w">558</int>
+						<str id="sprite_class">tree_group_bg2_1</str>
+						<int id="x">4807</int>
+						<int id="y">1002</int>
+						<int id="z">12</int>
+						<int id="h">731</int>
+						<str id="name">tree_group_bg2_1_1285803131867</str>
+					</object>
+					<object id="tree_wallpaper_1a_1285803016181">
+						<int id="w">1682</int>
+						<str id="sprite_class">tree_wallpaper_1a</str>
+						<int id="x">1519</int>
+						<int id="y">1152</int>
+						<int id="z">3</int>
+						<int id="h">625</int>
+						<str id="name">tree_wallpaper_1a_1285803016181</str>
+					</object>
+					<object id="bush_3_1285815796242">
+						<int id="w">287</int>
+						<str id="sprite_class">bush_3</str>
+						<int id="x">1438</int>
+						<int id="y">775</int>
+						<int id="z">16</int>
+						<int id="h">101</int>
+						<str id="name">bush_3_1285815796242</str>
+					</object>
+					<object id="tree_group_bg2_1_1285803055689">
+						<int id="w">558</int>
+						<str id="sprite_class">tree_group_bg2_1</str>
+						<int id="x">1138</int>
+						<int id="y">944</int>
+						<int id="z">5</int>
+						<int id="h">731</int>
+						<str id="name">tree_group_bg2_1_1285803055689</str>
+					</object>
+					<object id="tree_group_bg2_1_1285803113666">
+						<int id="w">558</int>
+						<str id="sprite_class">tree_group_bg2_1</str>
+						<int id="x">245</int>
+						<int id="y">976</int>
+						<int id="z">11</int>
+						<int id="h">731</int>
+						<str id="name">tree_group_bg2_1_1285803113666</str>
+					</object>
+					<object id="tree_group_bg2_1_1285803066283">
+						<int id="w">558</int>
+						<str id="sprite_class">tree_group_bg2_1</str>
+						<int id="x">1419</int>
+						<int id="y">1002</int>
+						<int id="z">7</int>
+						<int id="h">731</int>
+						<str id="name">tree_group_bg2_1_1285803066283</str>
+					</object>
+					<object id="tree_group_bg2_1_1285803058725">
+						<int id="w">558</int>
+						<str id="sprite_class">tree_group_bg2_1</str>
+						<int id="x">622</int>
+						<bool id="h_flip">true</bool>
+						<int id="y">957</int>
+						<int id="z">6</int>
+						<int id="h">731</int>
+						<str id="name">tree_group_bg2_1_1285803058725</str>
+					</object>
+					<object id="tree_wallpaper_1a_1285803023401">
+						<int id="w">1682</int>
+						<str id="sprite_class">tree_wallpaper_1a</str>
+						<int id="x">607</int>
+						<int id="y">877</int>
+						<int id="z">4</int>
+						<int id="h">625</int>
+						<str id="name">tree_wallpaper_1a_1285803023401</str>
+					</object>
+					<object id="tree_group_bg2_1_1285803072452">
+						<int id="w">558</int>
+						<str id="sprite_class">tree_group_bg2_1</str>
+						<int id="x">3563</int>
+						<bool id="h_flip">true</bool>
+						<int id="y">994</int>
+						<int id="z">9</int>
+						<int id="h">731</int>
+						<str id="name">tree_group_bg2_1_1285803072452</str>
+					</object>
+					<object id="tree_wallpaper_1a_1285803012433">
+						<int id="w">1682</int>
+						<str id="sprite_class">tree_wallpaper_1a</str>
+						<int id="x">3004</int>
+						<int id="y">879</int>
+						<int id="z">2</int>
+						<int id="h">625</int>
+						<str id="name">tree_wallpaper_1a_1285803012433</str>
+					</object>
+					<object id="transition_hill_1_1285815175602">
+						<int id="w">1074</int>
+						<str id="sprite_class">transition_hill_1</str>
+						<int id="x">4365</int>
+						<int id="y">940</int>
+						<int id="z">13</int>
+						<int id="h">160</int>
+						<str id="name">transition_hill_1_1285815175602</str>
+					</object>
+					<object id="mountain_blue_1_1285815120069">
+						<int id="w">824</int>
+						<str id="sprite_class">mountain_blue_1</str>
+						<int id="x">1906</int>
+						<int id="y">689</int>
+						<int id="z">0</int>
+						<int id="h">275</int>
+						<str id="name">mountain_blue_1_1285815120069</str>
+					</object>
+					<object id="tree_deciduous2_1285815544101">
+						<int id="w">216</int>
+						<str id="sprite_class">tree_deciduous2</str>
+						<int id="x">4321</int>
+						<int id="y">811</int>
+						<int id="z">14</int>
+						<int id="h">213</int>
+						<str id="name">tree_deciduous2_1285815544101</str>
+					</object>
+					<object id="tree_group_bg2_1_1285803092975">
+						<int id="w">558</int>
+						<str id="sprite_class">tree_group_bg2_1</str>
+						<int id="x">3726</int>
+						<int id="y">1016</int>
+						<int id="z">10</int>
+						<int id="h">731</int>
+						<str id="name">tree_group_bg2_1_1285803092975</str>
+					</object>
+					<object id="tree_group_bg2_1_1285803068965">
+						<int id="w">558</int>
+						<str id="sprite_class">tree_group_bg2_1</str>
+						<int id="x">2274</int>
+						<int id="y">998</int>
+						<int id="z">8</int>
+						<int id="h">731</int>
+						<str id="name">tree_group_bg2_1_1285803068965</str>
+					</object>
+				</object>
+				<int id="w">5000</int>
+				<int id="z">-2</int>
+				<int id="h">1000</int>
+				<object id="filtersNEW">
+					<object id="tintAmount">
+						<int id="value">0</int>
+					</object>
+					<object id="saturation">
+					</object>
+					<object id="blur">
+					</object>
+					<object id="contrast">
+					</object>
+					<object id="brightness">
+						<int id="value">-8</int>
+					</object>
+					<object id="tintColor">
+						<int id="value">16741255</int>
+					</object>
+				</object>
+				<str id="name">sky</str>
+			</object>
+			<object id="foreground">
+				<object id="decos">
+					<object id="tree_bare_thin_1_1285816413526">
+						<int id="w">468</int>
+						<str id="sprite_class">tree_bare_thin_1</str>
+						<int id="x">1383</int>
+						<int id="y">1202</int>
+						<int id="z">0</int>
+						<int id="h">1329</int>
+						<str id="name">tree_bare_thin_1_1285816413526</str>
+					</object>
+					<object id="tree_bare_thin_1_1285816436076">
+						<int id="w">582</int>
+						<str id="sprite_class">tree_bare_thin_1</str>
+						<int id="x">6285</int>
+						<int id="y">1577</int>
+						<int id="z">3</int>
+						<int id="h">1653</int>
+						<str id="name">tree_bare_thin_1_1285816436076</str>
+					</object>
+					<object id="tree_dark_1_1285816427193">
+						<int id="w">182</int>
+						<str id="sprite_class">tree_dark_1</str>
+						<int id="x">4589</int>
+						<int id="y">1298</int>
+						<int id="z">2</int>
+						<int id="h">584</int>
+						<str id="name">tree_dark_1_1285816427193</str>
+					</object>
+					<object id="tree_coniferous_fg_1_1285816456013">
+						<int id="w">849</int>
+						<str id="sprite_class">tree_coniferous_fg_1</str>
+						<int id="x">7</int>
+						<int id="y">1346</int>
+						<int id="z">4</int>
+						<int id="h">1885</int>
+						<str id="name">tree_coniferous_fg_1_1285816456013</str>
+					</object>
+					<object id="tree_bare_thin_1_1285816420296">
+						<int id="w">468</int>
+						<str id="sprite_class">tree_bare_thin_1</str>
+						<int id="x">2236</int>
+						<int id="y">1487</int>
+						<int id="z">1</int>
+						<int id="h">1329</int>
+						<str id="name">tree_bare_thin_1_1285816420296</str>
+					</object>
+				</object>
+				<int id="w">6500</int>
+				<int id="z">2</int>
+				<int id="h">1000</int>
+				<object id="filtersNEW">
+					<object id="tintAmount">
+					</object>
+					<object id="saturation">
+					</object>
+					<object id="blur">
+					</object>
+					<object id="contrast">
+					</object>
+					<object id="brightness">
+						<int id="value">-63</int>
+					</object>
+				</object>
+				<str id="name">foreground</str>
+			</object>
+			<object id="middleplus">
+				<object id="decos">
+					<object id="dirt_crosssection_short_1_1285802108820">
+						<int id="w">330</int>
+						<str id="sprite_class">dirt_crosssection_short_1</str>
+						<int id="x">6020</int>
+						<int id="y">1074</int>
+						<int id="z">13</int>
+						<int id="h">105</int>
+						<str id="name">dirt_crosssection_short_1_1285802108820</str>
+					</object>
+					<object id="dirt_crosssection_short_1_1285802028901">
+						<int id="w">330</int>
+						<str id="sprite_class">dirt_crosssection_short_1</str>
+						<int id="r">2</int>
+						<int id="x">3230</int>
+						<int id="y">1088</int>
+						<int id="z">8</int>
+						<int id="h">105</int>
+						<str id="name">dirt_crosssection_short_1_1285802028901</str>
+					</object>
+					<object id="crosssection_short_1_1282857226217">
+						<int id="w">329</int>
+						<str id="sprite_class">crosssection_short_1</str>
+						<int id="x">5244</int>
+						<int id="y">1113</int>
+						<int id="z">1</int>
+						<int id="h">100</int>
+						<str id="name">crosssection_short_1_1282857226217</str>
+					</object>
+					<object id="dirt_crosssection_short_3_1285801475351">
+						<int id="w">519</int>
+						<str id="sprite_class">dirt_crosssection_short_3</str>
+						<int id="r">4</int>
+						<int id="x">1412</int>
+						<int id="y">1063</int>
+						<int id="z">4</int>
+						<int id="h">118</int>
+						<str id="name">dirt_crosssection_short_3_1285801475351</str>
+					</object>
+					<object id="dirt_crosssection_long_curvy_1285801978121">
+						<int id="w">926</int>
+						<str id="sprite_class">dirt_crosssection_long_curvy</str>
+						<int id="x">2124</int>
+						<int id="y">1088</int>
+						<int id="z">5</int>
+						<int id="h">124</int>
+						<str id="name">dirt_crosssection_long_curvy_1285801978121</str>
+					</object>
+					<object id="dirt_crosssection_short_3_1285797568100">
+						<int id="w">519</int>
+						<str id="sprite_class">dirt_crosssection_short_3</str>
+						<int id="x">906</int>
+						<int id="y">1056</int>
+						<int id="z">2</int>
+						<int id="h">118</int>
+						<str id="name">dirt_crosssection_short_3_1285797568100</str>
+					</object>
+					<object id="dirt_crosssection_short_3_1285802099464">
+						<int id="w">519</int>
+						<str id="sprite_class">dirt_crosssection_short_3</str>
+						<int id="r">-2</int>
+						<int id="x">5632</int>
+						<int id="y">1090</int>
+						<int id="z">12</int>
+						<int id="h">118</int>
+						<str id="name">dirt_crosssection_short_3_1285802099464</str>
+					</object>
+					<object id="dirt_crosssection_short_3_1285801994163">
+						<int id="w">519</int>
+						<str id="sprite_class">dirt_crosssection_short_3</str>
+						<int id="r">3</int>
+						<int id="x">2828</int>
+						<int id="y">1076</int>
+						<int id="z">6</int>
+						<int id="h">118</int>
+						<str id="name">dirt_crosssection_short_3_1285801994163</str>
+					</object>
+					<object id="dirt_crosssection_short_3_1285802082835">
+						<int id="w">519</int>
+						<str id="sprite_class">dirt_crosssection_short_3</str>
+						<int id="r">3</int>
+						<int id="x">4844</int>
+						<int id="y">1088</int>
+						<int id="z">11</int>
+						<int id="h">118</int>
+						<str id="name">dirt_crosssection_short_3_1285802082835</str>
+					</object>
+					<object id="crosssection_long_curvy_1282857166893">
+						<int id="w">928</int>
+						<str id="sprite_class">crosssection_long_curvy</str>
+						<int id="r">-2</int>
+						<int id="x">220</int>
+						<int id="y">1102</int>
+						<int id="z">0</int>
+						<int id="h">121</int>
+						<str id="name">crosssection_long_curvy_1282857166893</str>
+					</object>
+					<object id="dirt_crosssection_long_curvy_1285797599949">
+						<int id="w">926</int>
+						<str id="sprite_class">dirt_crosssection_long_curvy</str>
+						<int id="r">-2</int>
+						<int id="x">216</int>
+						<int id="y">1098</int>
+						<int id="z">3</int>
+						<int id="h">124</int>
+						<str id="name">dirt_crosssection_long_curvy_1285797599949</str>
+					</object>
+					<object id="dirt_crosssection_short_3_1285802072934">
+						<int id="w">519</int>
+						<str id="sprite_class">dirt_crosssection_short_3</str>
+						<int id="r">-2</int>
+						<int id="x">4346</int>
+						<int id="y">1092</int>
+						<int id="z">10</int>
+						<int id="h">118</int>
+						<str id="name">dirt_crosssection_short_3_1285802072934</str>
+					</object>
+					<object id="dirt_crosssection_short_3_1285802043551">
+						<int id="w">519</int>
+						<str id="sprite_class">dirt_crosssection_short_3</str>
+						<int id="r">3</int>
+						<int id="x">3920</int>
+						<int id="y">1094</int>
+						<int id="z">9</int>
+						<int id="h">118</int>
+						<str id="name">dirt_crosssection_short_3_1285802043551</str>
+					</object>
+					<object id="dirt_crosssection_short_1_1285802010117">
+						<int id="w">330</int>
+						<str id="sprite_class">dirt_crosssection_short_1</str>
+						<int id="x">3526</int>
+						<int id="y">1088</int>
+						<int id="z">7</int>
+						<int id="h">105</int>
+						<str id="name">dirt_crosssection_short_1_1285802010117</str>
+					</object>
+				</object>
+				<int id="w">6000</int>
+				<int id="z">1</int>
+				<int id="h">1000</int>
+				<object id="filtersNEW">
+					<object id="tintAmount">
+					</object>
+					<object id="saturation">
+					</object>
+					<object id="blur">
+					</object>
+					<object id="contrast">
+					</object>
+					<object id="brightness">
+						<int id="value">-32</int>
+					</object>
+				</object>
+				<str id="name">middleplus</str>
+			</object>
+		</object>
+		<str id="music_file"></str>
+		<object id="gradient">
+			<str id="bottom">BA2E00</str>
+			<str id="top">F3FBA9</str>
+		</object>
+		<null id="img_file_versioned"/>
+		<int id="ground_y">-150</int>
+		<str id="tsid">GCR13NMUQEM1A2R</str>
+		<object id="sources">
+			<int id="LCR13JCI5MK1EF4">1</int>
+			<int id="LCR143M18PK1774">1</int>
+			<int id="LCR7KJGL6LL1SSO">1</int>
+		</object>
+		<str id="swf_file_versioned">http://c2.glitch.bz/locations/groddle1/1304116182.swf</str>
+		<null id="loading_label"/>
+		<null id="physics"/>
+		<int id="rookable_type">0</int>
+	</object>
+</game_object>

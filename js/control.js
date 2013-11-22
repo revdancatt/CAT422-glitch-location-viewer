@@ -72,10 +72,13 @@ control = {
         if (bottomGradient.length == 2) bottomGradient = '0000' + bottomGradient;
         if (bottomGradient.length == 4) bottomGradient = '00' + bottomGradient;
 
-        $('.stage').css('filter','progid:DXImageTransform.Microsoft.gradient(startColorstr=\'#' + topGradient + '\', endColorstr=\'#' + bottomGradient + '\', gradientType=1)');
-        $('.stage').css('background-image','-webkit-gradient(linear, left top, right bottom, color-stop(0.1, #' + topGradient + '), color-stop(0.99, #' + bottomGradient + '))');
-        $('.stage').css('background-image','-moz-linear-gradient(top left, #' + topGradient + ' 0%, #' + bottomGradient + ' 100%)');
-        $('.stage').css('background-image','-o-linear-gradient(top left, #' + topGradient + ' 0%, #' + bottomGradient + ' 100%)');
+        $('.stage').css('background-image', '-webkit-gradient(linear, left top, left bottom, color-stop(0, #' + topGradient + '), color-stop(1, #' + bottomGradient + '))');
+        $('.stage').css('background-image', '-o-linear-gradient(bottom, #' + topGradient + ' 0%, #' + bottomGradient + ' 100%)');
+        $('.stage').css('background-image', '-moz-linear-gradient(bottom, #' + topGradient + ' 0%, #' + bottomGradient + ' 100%)');
+        $('.stage').css('background-image', '-webkit-linear-gradient(bottom, #' + topGradient + ' 0%, #' + bottomGradient + ' 100%)');
+        $('.stage').css('background-image', '-ms-linear-gradient(bottom, #' + topGradient + ' 0%, #' + bottomGradient + ' 100%)');
+        $('.stage').css('background-image', 'linear-gradient(to bottom, #' + topGradient + ' 0%, #' + bottomGradient + ' 100%)');
+
 
 
         //  Now we need to add each layer to the stage

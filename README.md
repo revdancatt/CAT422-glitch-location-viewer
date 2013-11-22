@@ -1,38 +1,81 @@
 CAT422-glitch-location-viewer
 =============================
 
-![Glitch House](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/scenery/house_medium_01.png)
+{<4>}![Landscape](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/landscape1.jpg)
 
-Hello!
+This code is an attempt to bring Glitch landscapes back to life, and maybe even eventually walk around them and chat with other people. In the meantime try out the viewer here, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.3.1
 
-Try it now, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.3.1
+See the TODO list down at the end for more information
 
-![Landscape](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/landscape1.jpg)
+## Viewer
 
-This is a dump of Glitch location scenery found in [locations-xml.zip](https://github.com/tinyspeck/glitch-locations) into .png format to help build Glitch's "rooms". Not all files made it through the conversion, 232 out of the 5,055 total threw errors while converting. At some point I'll make a list of them.
+The viewer is here: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.3.1 and is just an example of how you can load in the location .json files and render thelandscape with the .png files.
 
-Note the directory structure has been flattened, all the .pngs now sit in a single directory /img/scenery. This is because the files describing each "room" just holds the filename and not the subdirectory that the piece of scenery was sitting in (if we want to mix scenery styles).
+Its not tested on all browsers and is for demo purposes only.
 
-Example Image would be here: http://revdancatt.github.io/CAT422-glitch-location-viewer/img/scenery/house_medium_01.png
+## Location JSON files
 
-Also note, these are _just_ the scenery images, there's a whole bunch of other stuff like objects and characters that haven't been converted. This is just for making the world rather than anything in it. 
+All the locations in the game have been converted from their original [.xml files](https://github.com/tinyspeck/glitch-locations) into JSON files. Not all the content in the .xml has been ported over to the JSON *yet*, but there's enough to build the scene. You can find them in the `locations` directory.
 
-*As a bonus*, I've also converted one of the XML files ("Marrakesh Meadow") that describes how the "room" is put together into friendly .json format, you'll find it in the "locations" folder. With that and the .pngs there should be enough to stick everything back together.
+Each file has two formats `.json` and `.callback.json`. The `.json` file is what you'll generally use if you're loading in the data to a backend (or making a proxy .json loader that adds a callback).
 
-# TODO
+If you want to load the data into javascript from github, then use the `.callback.json` files, in jQuery you would do something like this...
 
-* Write a node script to automatically convert the rest of the location XML files into JSON
+`$.getScript('http://revdancatt.github.io/CAT422-glitch-location-viewer/locations/GLIERMJ93DE1H25.callback.json');`
+
+...which has a built in callback, you'll need a root function getRoom, rather like this...
+
+`function getRoom(dataJSON) {
+    console.log(dataJSON);
+    // pass the dataJSON back to something else
+}
+`
+
+## Scenery .pngs
+
+Nearly all the scenery objects (_not sprites and other characters & objects_) have been converted to .png files. Not all the images made it and I'll be adding them by hand over time as I figure them out.
+
+Note the directory structure has been flattened, all the .pngs now sit in a single directory `/img/scenery`.
+
+[Example Image would be here](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/scenery/house_medium_01.png)
+
+{<5>}![Example Image would be here](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/scenery/house_medium_01.png)
+
+## Tools
+
+There's a few tools that I used to convert all the stuff, that you can find in the `tools` directory.
+
+#### 1
+`convert-fla-to-png.jsfl` is a script file for Adobe Flash CC, go to *commands* | *Run Command...* and open the `convert-fla-to-png.jsfl` file. This will ask you for an `input` directory which contains the .fla files from Glitch, it will attempt to open then and export them as .png files to a parallel directory called `output`.
+
+You don't _need_ to use it, as you can just use the .pngs hosted here. But it's there for reference. *Note:* at the moment you have to babysit the script when it hits a file it can't convert, I'll fix this in some future version.
+
+#### 2
+
+`convert-locations.coffee` ... you need to compile this to .js obviously and run it with Node, you'll need to `npm install xml2js` to ge the xml2js lib. This converts the games .xml files into .json files. Again it's just here for reference as you can use the .json files hosted here. But maybe you want to convert over more stuff, like doors and ladders and what not.
+
+## TODO
+
+* Apply the filters to change the colours
+* Option checkbox to turn blurring on/off (blurring slows everything down)
+* Maybe render to canvas layers instead, may speed the blurring up.
+* Add the name of the current location somewhere on the screen.
+* Add a list of connected locations that the user can click to move from one location to another.
+* Add signposts to the scene so the user can move from one location to another using those.
+* Convert the Path lines and walls into the JSON to, so we know where a play can walk.
+* Add a player sprite to the scene and let them walk round.
+* Add a simple node/socket.io chat server, with global and local chat.
+* ~~Write a node script to automatically convert the rest of the location XML files into JSON~~
 * ~~Work out why the positioning is a bit off on certain landscape elements~~
-* Work out how to know when to horizontally flip some elements
+* ~~Work out how to know when to horizontally flip some elements~~
 * ~~Render a location's "layer" to a number of DIVs to build the whole scene~~
-* Maybe convert that to canvas
-* Convert the Path lines and walls into the JSON to, so we know where a play can walk
-* Add a player sprite to the scene and let them walk round
 * tea and biscuits
+
+## Contact
 
 Say "Hi" [@revdancatt](http://twitter.com/revdancatt)
 
-# License
+## License
 
 All scenery .png files and location .json files are provided under the [Creative Commons CC0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/legalcode). This is a broadly permissive "No Rights Reserved" license — you may do what you please with what we've provided. I'm just converting them (and hosting on Github) to save other people the time and effort. A shoutout would be nice (it was a pita converting them) but you don't need to.
 

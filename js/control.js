@@ -158,7 +158,7 @@ control = {
                     if (deco.hFlip) {
                         newImg.addClass('hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh');
                         transform.push('scale(-1,1)');
-                        newPostion.x -= parseInt(deco.w, 10);
+                        //newPostion.x -= parseInt(deco.w, 10);
                     }
 
                     //  do just the rotate

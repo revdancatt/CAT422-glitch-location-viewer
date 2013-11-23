@@ -154,7 +154,7 @@ convert =
                         #   get boolean values 
                         if 'bool' of deco
                             for value in deco.bool
-                                newDeco[value.$.id] = Boolean(value._)
+                                newDeco[value.$.id] = (value._ is 'true')
 
                         result.push newDeco
 

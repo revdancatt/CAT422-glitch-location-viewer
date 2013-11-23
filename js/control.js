@@ -134,7 +134,9 @@ control = {
                     'height': parseInt(deco.h, 10),
                     'left': parseInt(deco.x, 10) - (parseInt(deco.w, 10)/2),
                     'top': parseInt(deco.y, 10) - (parseInt(deco.h, 10) * 1),
-                    'z-index': parseInt(deco.z, 10)
+                    'z-index': parseInt(deco.z, 10),
+                    'transform': 'rotate(' + parseInt(deco.r, 10) + 'deg)' + (deco.h_flip ? ' scaleX(-1)' : ''),
+                    'transform-origin': 'bottom'
                 });
                 newImg.attr('src', 'img/scenery/' + deco.filename + '.png');
                 newLayer.append(newImg);

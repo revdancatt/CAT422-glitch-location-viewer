@@ -151,6 +151,11 @@ convert =
                             for position in deco.int
                                 newDeco[position.$.id] = parseInt(position._, 10)
 
+                        #   get boolean values 
+                        if 'bool' of deco
+                            for value in deco.bool
+                                newDeco[value.$.id] = Boolean(value._)
+
                         result.push newDeco
 
         result

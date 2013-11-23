@@ -88,8 +88,6 @@ control = {
         //  Handle the exists
         var signpost = null;
         var connection = null;
-        var transform = null;
-        var origin = null;
         var exitLink = null;
         var exitList = $('<ul>');
 
@@ -123,80 +121,23 @@ control = {
             control.layerQueue.push(id);
 
             //  BUT, as we can't wait, lets just put everything in there
-            //  - (parseInt(deco.w, 10)/2)
             $('.stage').append(newLayer);
 
             var deco = null;
             var newImg = null;
-            newPostion = {
-                w: 0,
-                h: 0,
-                x: 0,
-                y: 0,
-                r: 0
-            };
-
             for (var d in layer.decos) {
                 deco = layer.decos[d];
                 newImg = $('<img>');
-
-                newPostion.w = parseInt(deco.w, 10);
-                newPostion.h = parseInt(deco.h, 10);
-                newPostion.x = parseInt(deco.x, 10) - parseInt(deco.w, 10) / 2;
-                newPostion.y = parseInt(deco.y, 10) - parseInt(deco.h, 10);
-
-                transform = [];
-
-                //  If we are both flipping AND rotating, then we
-                //  need to move and rotate sloghtly differently
-                if (deco.hFlip && 'r' in deco) {
-
-                    //  Something scary has to happen here
-                } else {
-
-                    //  Do just the flip
-                    if (deco.hFlip) {
-                        newImg.addClass('hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh');
-                        transform.push('scale(-1,1)');
-                        //newPostion.x -= parseInt(deco.w, 10);
-                    }
-
-                    //  do just the rotate
-                    if ('r' in deco) {
-                        newImg.addClass('rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr');
-                        transform.push('rotate(' + deco.r + 'deg)');
-
-                        //  And now it's been rotated we need to work out the new bounding box
-                        //  and translate the positon based on the new size and angle...
-                        //  OR SOMETHING
-                        //  TODO: Can't work out how Glitch renders rotated stuff :()
-                        //newPostion.y += parseInt(deco.h, 10);
-                    }
-
-                }
-
-
                 newImg.css({
                     'position': 'absolute',
+                    'width': parseInt(deco.w, 10),
+                    'height': parseInt(deco.h, 10),
+                    'left': parseInt(deco.x, 10) - (parseInt(deco.w, 10)/2),
+                    'top': parseInt(deco.y, 10) - (parseInt(deco.h, 10) * 1),
                     'z-index': parseInt(deco.z, 10),
-                    'width': newPostion.w,
-                    'height': newPostion.h,
-                    'left': newPostion.x,
-                    'top': newPostion.y
+                    'transform': (deco.r ? 'rotate(' + parseInt(deco.r, 10) + 'deg)' : '') + (deco.h_flip ? ' scaleX(-1)' : ''),
+                    'transform-origin': 'bottom'
                 });
-
-                if (transform.length > 0) {
-                    newImg.css({
-                        '-webkit-transform': transform.join(' '),
-                    });
-                }
-               
-                if (origin !== null) {
-                    newImg.css({
-                        '-webkit-transform-origin': origin,
-                    });
-                }
-
                 newImg.attr('src', 'img/scenery/' + deco.filename + '.png');
                 newLayer.append(newImg);
             }

@@ -151,13 +151,10 @@ convert =
                             for position in deco.int
                                 newDeco[position.$.id] = parseInt(position._, 10)
 
-                        #   see if there's any flipping
-                        newDeco.hFlip = false
-                        newDeco.vFlip = false
+                        #   get boolean values 
                         if 'bool' of deco
-                            for flip in deco.bool
-                                newDeco.hFlip = true if flip.$.id is 'h_flip' and flip._ is 'true'
-                                newDeco.vFlip = true if flip.$.id is 'v_flip' and flip._ is 'true'
+                            for value in deco.bool
+                                newDeco[value.$.id] = (value._ is 'true')
 
                         result.push newDeco
 

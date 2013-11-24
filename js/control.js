@@ -24,15 +24,11 @@ control = {
         $('.location').text('');
         $('.exits').empty();
 
-        //  Because we are loading this from github where we have
-        //  no control over the backend, we're going to use
-        //  the .callback.json file which has a built in callback
-        //  to the root getRoom() function
-        //  In the real world some backend script would go grab
-        //  the .json file and return it back with a proper
-        //  callback.
-        $.getScript('locations/' + roomId + '.callback.json');
-
+        // Here, we load the JSON and execute a function with the data returned.
+        $.getJSON('locations/' + roomId + '.json', function (data) {
+            control.gameObject = data;
+            control.drawRoom();
+        });
     },
 
     //  This will create a DIV for each layer in the location and then
@@ -191,10 +187,3 @@ control = {
     }
 
 };
-
-//  THIS IS THE FUNCTION WE NEED TO BE ABLE TO LOAD IN
-//  THE JSON FROM A REMOTE SERVER
-function getRoom(dataJSON) {
-    control.gameObject = dataJSON;
-    control.drawRoom();
-}

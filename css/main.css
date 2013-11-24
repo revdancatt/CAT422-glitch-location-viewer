@@ -23,7 +23,7 @@ html, body {
     filter: FlipV;
     -ms-filter: "FlipV";    
 }
-.debug {
+.about {
     position: fixed;
     top: 0;
     left: 0;
@@ -34,12 +34,24 @@ html, body {
     color: #666;
     padding: 4px;
 }
-.debug a {
+.about a {
     text-decoration: none;
     color: inherit;
 }
-.debug a:hover {
+.about a:hover {
     color: #CCC;
+}
+
+.debug {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: black;
+    font-family: monospace;
+    font-size: 12px;
+    z-index: 1000;
+    color: lime;
+    padding: 4px;
 }
 
 .exits {

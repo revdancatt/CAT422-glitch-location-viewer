@@ -3,13 +3,13 @@ CAT422-glitch-location-viewer
 
 ![Landscape](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/landscape1.jpg)
 
-This code is an attempt to bring Glitch landscapes back to life, and maybe even eventually walk around them and chat with other people. In the meantime try out the viewer here, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.4.1
+This code is an attempt to bring Glitch landscapes back to life, and maybe even eventually walk around them and chat with other people. In the meantime try out the viewer here, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.5.0
 
 See the TODO list down at the end for more information
 
 ## Viewer
 
-The viewer is here: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.4.1 and is just an example of how you can load in the location .json files and render thelandscape with the .png files.
+The viewer is here: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.5.0 and is just an example of how you can load in the location .json files and render thelandscape with the .png files.
 
 Its not tested on all browsers and is for demo purposes only.
 

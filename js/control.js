@@ -24,11 +24,19 @@ control = {
         $('.location').text('');
         $('.exits').empty();
 
-        // Here, we load the JSON and execute a function with the data returned.
-        $.getJSON('locations/' + roomId + '.json', function (data) {
-            control.gameObject = data;
-            control.drawRoom();
-        });
+        //  Because we are loading this from github where we have
+        //  no control over the backend, we're going to use
+        //  the .callback.json file which has a built in callback
+        //  to the root getRoom() function
+        //  In the real world some backend script would go grab
+        //  the .json file and return it back with a proper
+        //  callback.
+        //  NOTE: If you were writing your own Glitch client you
+        //  could load the files in from GitHub using the following...
+        //  $.getScript('http://revdancatt.github.io/CAT422-glitch-location-viewer/locations/' + roomId + '.callback.json');
+        //  ...without needing to worry about cross-domain stuff.
+        $.getScript('locations/' + roomId + '.callback.json');
+
     },
 
     //  This will create a DIV for each layer in the location and then
@@ -187,3 +195,12 @@ control = {
     }
 
 };
+
+//  THIS IS THE FUNCTION WE NEED TO BE ABLE TO LOAD IN
+//  THE JSON FROM A REMOTE SERVER
+//  This is an example of how you would handle loading in the files from 
+//  github.
+function getRoom(dataJSON) {
+    control.gameObject = dataJSON;
+    control.drawRoom();
+}

@@ -188,7 +188,7 @@ control = {
 
                     //  Full brightness is much harder, as we really don't
                     //  get full bright (white-out) until we hit around
-                    //  20 brightness in css, and even then it's on a curve
+                    //  100% brightness in css, and even then it's on a curve
                     //  we'll probably do something with sin or log, but in the
                     //  meantime, positive values are in the range of 1-20
                     //  once we work out the maximum brightness used by Glitch.

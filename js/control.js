@@ -94,6 +94,8 @@ control = {
         var connection = null;
         var exitLink = null;
         var exitList = $('<ul>');
+        var filters = [];
+        var filterValue = null;
 
         $.each(room.dynamic.layers, function (id, layer) {
             
@@ -121,11 +123,10 @@ control = {
 
             //  now rather than adding in all the scenery we should put
             //  them into a queue to load 1 at a time, so we can control
-            //  the pipeline.
+            //  the pipeline...
             control.layerQueue.push(id);
+            //  ...but, we're not going to do that, yet.
 
-            //  BUT, as we can't wait, lets just put everything in there
-            $('.stage').append(newLayer);
 
             var deco = null;
             var newImg = null;
@@ -158,6 +159,33 @@ control = {
                     exitList.append(exitLink);
                 }
             }
+
+            //  Check for filters
+            filters = [];
+            for (var filter in layer.filters) {
+                //  Convert the filters the long way until we understand
+                //  them better
+                filterValue = layer.filters[filter];
+
+                console.log(id + ': ' + filter + ':' + filterValue);
+                
+                if (filter == 'brightness') {
+                    if (filterValue < 0) {
+                        filters.push('brightness(' + (1-(filterValue/-100)) +')');
+                    }
+                }
+
+            }
+
+            //  If we have some filters then apply them now
+            newLayer.css('filter', filters.join(' '));
+            newLayer.css('-webkit-filter', filters.join(' '));
+            newLayer.css('-moz-filter', filters.join(' '));
+            newLayer.css('-o-filter', filters.join(' '));
+            newLayer.css('-ms-filter', filters.join(' '));
+
+            //  Now attach the layer.
+            $('.stage').append(newLayer);
 
         });
 

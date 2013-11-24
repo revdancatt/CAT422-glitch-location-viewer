@@ -96,6 +96,8 @@ control = {
         var exitList = $('<ul>');
         var filters = [];
         var filterValue = null;
+        var tintColor = null;
+        var tintAmount = null;
 
         $.each(room.dynamic.layers, function (id, layer) {
             
@@ -161,18 +163,82 @@ control = {
             }
 
             //  Check for filters
+            //  TODO: ONE DAY, WE WILL USE SHADERS FOR SPEED
             filters = [];
+            tintColor = null;
+            tintAmount = null;
+
+
             for (var filter in layer.filters) {
                 //  Convert the filters the long way until we understand
                 //  them better
                 filterValue = layer.filters[filter];
 
                 console.log(id + ': ' + filter + ':' + filterValue);
-                
+
                 if (filter == 'brightness') {
+
+                    //  Negative values are easy, -100 is totally black
+                    //  and -1 is hardly any change at all. This fits in
+                    //  with our model of brightness from 1.0 to 0.0
+                    //  i.e. -50 is 0.5
                     if (filterValue < 0) {
                         filters.push('brightness(' + (1-(filterValue/-100)) +')');
                     }
+
+                    //  Full brightness is much harder, as we really don't
+                    //  get full bright (white-out) until we hit around
+                    //  20 brightness in css, and even then it's on a curve
+                    //  we'll probably do something with sin or log, but in the
+                    //  meantime, positive values are in the range of 1-20
+                    //  once we work out the maximum brightness used by Glitch.
+                    if (filterValue > 0) {
+                        filters.push('brightness(' + (1+(filterValue/100)) +')');
+                        //  TODO, if the brightness is something crazy high, then
+                        //  we want to "white-out", probably special case that.
+                    }
+                }
+
+                //  Similar to brightness, but you know, different
+                if (filter == 'contrast') {
+                    if (filterValue < 0) {
+                        filters.push('contrast(' + (1-(filterValue/-100)) +')');
+                    }
+                    if (filterValue > 0) {
+                        filters.push('contrast(' + (1+(filterValue/100)) +')');
+                    }
+                }
+
+                //  And now saturation
+                if (filter == 'saturation') {
+                    if (filterValue < 0) {
+                        filters.push('saturation(' + (1-(filterValue/-100)) +')');
+                    }
+                    if (filterValue > 0) {
+                        filters.push('saturation(' + (1+(filterValue/100)) +')');
+                    }
+                }
+
+                //  NOTE: We are NOT going to do blur (yet) as it slows everything
+                //  down too much (blur applied to the layer has loads of divs in
+                //  it), lets wait until we have a canvas object.
+                if (filter == 'tintColor') {
+                    tintColor = filterValue;
+                }
+                if (filter == 'tintAmount') {
+                    tintAmount = filterValue;
+                }
+                //  Now if we have both things we can apply the tint
+                //  to the layer (only we're not going to)
+                if (tintColor !== null && tintAmount !== null) {
+
+                }
+
+                //  NOTE: We are also not going to do tint until we hit canvas
+                //  then we can tint each element as it comes in.
+                if (filter == 'blur') {
+                    //  HAHAHAHA, canvas!
+                    //  filters.push('blur('+ filterValue + 'px)');
                 }
 
             }

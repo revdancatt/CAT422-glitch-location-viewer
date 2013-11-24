@@ -1,35 +1,36 @@
 fs = require 'fs'
 xml2js = require 'xml2js'
+async = require 'async'
 
 convert =
 
     fileList: []
 
-    #   Grab all the first in the directory
+    #   Grab all the location files and queue them with async
     init: ->
         fs.readdir './locations-original-xml', (err, files) ->
             throw err if err
             convert.fileList = files
-            convert.convertFiles()
+            queue = async.queue((file, callback) -> 
+                convert.convertFiles(file, callback)
+            , 4) # will run 4 tasks at once
+
+            queue.drain = ->
+                console.log '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=';
+                console.log 'Done!'
+
+            queue.push(files)
             
     #   Now go through each on in turn converting it
-    convertFiles: ->
-        if convert.fileList.length is 0
-            console.log '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=';
-            console.log 'Done!'
-            return
-
-        thisFile = convert.fileList.pop()
-
+    convertFiles: (file, callback) ->
         #   Lazy check, should use filters above
-        if thisFile is '.DS_Store'
-            convert.convertFiles()
-            return
+        if file is '.DS_Store'
+            return callback()
 
-        console.log thisFile
+        console.log file
 
         parser = new xml2js.Parser()
-        fs.readFile './locations-original-xml/' + thisFile, (err, data) ->
+        fs.readFile './locations-original-xml/' + file, (err, data) ->
             throw err if err
             parser.parseString data, (err, dataJSON) ->
 
@@ -40,11 +41,9 @@ convert =
                 locationJSON.dynamic.layers = convert.getLayers(dataJSON)
 
                 #   Write the file out
-                fs.writeFile './locations/' + thisFile.replace('.xml', '.json'), JSON.stringify(locationJSON, null, 4), (err) ->
+                fs.writeFile './locations/' + file.replace('.xml', '.json'), JSON.stringify(locationJSON, null, 4), (err) ->
                     throw err if err
-                    fs.writeFile './locations/' + thisFile.replace('.xml', '.callback.json'), 'getRoom(' + JSON.stringify(locationJSON) + ')', (err) ->
-                        throw err if err
-                        convert.convertFiles()
+                    callback()
 
     getBaseInformation: (dataJSON) ->
 

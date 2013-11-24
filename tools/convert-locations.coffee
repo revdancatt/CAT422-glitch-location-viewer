@@ -15,6 +15,7 @@ convert =
                 convert.convertFiles(file, callback)
             , 4) # will run 4 tasks at once
 
+            #   nice! :)
             queue.drain = ->
                 console.log '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=';
                 console.log 'Done!'
@@ -43,7 +44,9 @@ convert =
                 #   Write the file out
                 fs.writeFile './locations/' + file.replace('.xml', '.json'), JSON.stringify(locationJSON, null, 4), (err) ->
                     throw err if err
-                    callback()
+                    fs.writeFile './locations/' + file.replace('.xml', '.callback.json'), 'getRoom(' + JSON.stringify(locationJSON) + ')', (err) ->
+                        throw err if err
+                        callback()
 
     getBaseInformation: (dataJSON) ->
 

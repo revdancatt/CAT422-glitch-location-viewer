@@ -57,6 +57,8 @@ You don't _need_ to use it, as you can just use the .pngs hosted here. But it's 
 ## TODO
 
 * Work out which bits of scenery are missing (these now display in a debug text area)
+* Loading Progress Bar, when loading levels
+* At some point move image assets to CDN on multiple domains and parallelise the loading of assets
 * Convert the Path lines and walls into the JSON to, so we know where a play can walk
 * Add a player sprite to the scene and let them walk round
 * Apply the filters to change the colours

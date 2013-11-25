@@ -3,13 +3,13 @@ CAT422-glitch-location-viewer
 
 ![Landscape](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/landscape1.jpg)
 
-This code is an attempt to bring Glitch landscapes back to life, and maybe even eventually walk around them and chat with other people. In the meantime try out the viewer here, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.5.0
+This code is an attempt to bring Glitch landscapes back to life, and maybe even eventually walk around them and chat with other people. In the meantime try out the viewer here, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.6.0
 
 See the TODO list down at the end for more information
 
 ## Viewer
 
-The viewer is here: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.5.0 and is just an example of how you can load in the location .json files and render thelandscape with the .png files.
+The viewer is here: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.6.0 and is just an example of how you can load in the location .json files and render thelandscape with the .png files.
 
 Its not tested on all browsers and is for demo purposes only.
 
@@ -56,14 +56,14 @@ You don't _need_ to use it, as you can just use the .pngs hosted here. But it's 
 
 ## TODO
 
-* Apply the filters to change the colours
-* Option checkbox to turn blurring on/off (blurring slows everything down)
-* Maybe render to canvas layers instead, may speed the blurring up
-* Work out which bits of scenery are missing
-* Add signposts to the scene so the user can move from one location to another using those
+* Work out which bits of scenery are missing (these now display in a debug text area)
 * Convert the Path lines and walls into the JSON to, so we know where a play can walk
 * Add a player sprite to the scene and let them walk round
+* Apply the filters to change the colours
+* Add signposts to the scene so the user can move from one location to another using those
 * Add a simple node/socket.io chat server, with global and local chat
+* Option checkbox to turn blurring on/off (blurring slows everything down)
+* ~~Maybe render to canvas layers instead, may speed the blurring up~~ (note, blurring a whole canvas is still slow, will need to blur images in code before sticking them on the canvas, tricky!)
 * ~~Work out how the heck Glitch rotates pieces of the landscape, 'cause it sure hell ain't normally :(~~
 * ~~Some elements need to be flipped horizontally or vertically~~
 * ~~Add the name of the current location somewhere on the screen.~~
@@ -83,3 +83,6 @@ Say "Hi" [@revdancatt](http://twitter.com/revdancatt)
 All scenery .png files and location .json files are provided under the [Creative Commons CC0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/legalcode). This is a broadly permissive "No Rights Reserved" license — you may do what you please with what we've provided. I'm just converting them (and hosting on Github) to save other people the time and effort. A shoutout would be nice (it was a pita converting them) but you don't need to.
 
 Original files can be found via [glitchthegame.com](http://glitchthegame.com)
+
+The javascript code (i.e the rendering "client") has a GNU GENERAL PUBLIC LICENSE.
+

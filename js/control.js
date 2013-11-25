@@ -47,6 +47,7 @@ control = {
 
     },
 
+
     /*
     This is supposed to load in the next room
     */
@@ -83,6 +84,7 @@ control = {
         $.getScript('locations/' + roomId + '.callback.json');
 
     },
+
 
     //  Create the stage and put the gradient background in.
     prepStage: function() {
@@ -135,6 +137,7 @@ control = {
 
     },
 
+
     //  This is going to put the layers in order from the furthest back to the front
     //  so when we come to render the stuff we can put everything in order.
     //
@@ -180,6 +183,7 @@ control = {
         var layer = null;
         var id = null;
         var newLayer = null;
+        var newCanvas = null;
         var exitList = $('<ul>');
 
         //  Don't bother optimising this loop.
@@ -197,17 +201,14 @@ control = {
                 'top': parseInt($('.stage').css('height'), 10) - parseInt(layer.h, 10),
                 'z-index': parseInt(layer.z, 10)
             });
-            //  If we were actually positing the thing properly in the middle, we'd use this
-            // 'left': (parseInt($('.stage').css('width'), 10) - parseInt(layer.w, 10)) / 2,
-            if (id == 'middleground') {
-                newLayer.css({
-                    top: parseInt(layer.h, 10),
-                    left: parseInt(room.dynamic.r, 10)
-                });
-            }
+
+            //  Attach a canvas object to the layer
+            newCanvas = $('<canvas>').attr({id: id + '_canvas', width: parseInt(layer.w, 10), height: parseInt(layer.h, 10)})
+                .css({width: parseInt(layer.w, 10), height: parseInt(layer.h, 10)})
+                .css({position: 'absolute', top: 0, left: 0});
 
             //  Check for filters
-            //  TODO: ONE DAY, WE WILL USE SHADERS FOR SPEED
+            //  TODO: ONE DAY, WE WILL USE WEBGL SHADERS FOR SPEED
             filters = [];
             tintColor = null;
             tintAmount = null;
@@ -285,11 +286,14 @@ control = {
             }
 
             //  If we have some filters then apply them now
-            newLayer.css('filter', filters.join(' '));
-            newLayer.css('-webkit-filter', filters.join(' '));
-            newLayer.css('-moz-filter', filters.join(' '));
-            newLayer.css('-o-filter', filters.join(' '));
-            newLayer.css('-ms-filter', filters.join(' '));
+            newCanvas.css('filter', filters.join(' '));
+            newCanvas.css('-webkit-filter', filters.join(' '));
+            newCanvas.css('-moz-filter', filters.join(' '));
+            newCanvas.css('-o-filter', filters.join(' '));
+            newCanvas.css('-ms-filter', filters.join(' '));
+
+            //  Add the canvas to the layer
+            newLayer.append(newCanvas);
 
             //  Now attach the layer.
             $('.stage').append(newLayer);
@@ -300,7 +304,8 @@ control = {
                 signpost = layer.signposts[s];
 
                 /*
-                //console.log(signpost);
+                //  TODO: Huh?!? Where's the signpost assets?
+                //  console.log(signpost);
                 //  Go grab the signpost image and add it to the layer.
                 newImg = $('<img>');
                 newImg.css({
@@ -424,6 +429,7 @@ control = {
 
     },
 
+
     //  This function will look at the layers we still have left in our layerQueue
     loadImages: function() {
 
@@ -460,39 +466,95 @@ control = {
 
     },
 
+
     loadImage: function(layerId, item) {
 
         //  If we are loading a new room, then don't do any of this
         if (this.loadingRoom) return;
         
+        //  Prep the image
         var newImg = $('<img>');
         newImg.css({
             'position': 'absolute',
             'width': parseInt(item.w, 10),
             'height': parseInt(item.h, 10),
-            'left': parseInt(item.x, 10) - (parseInt(item.w, 10)/2),
-            'top': parseInt(item.y, 10) - (parseInt(item.h, 10) * 1),
-            'z-index': parseInt(item.z, 10),
-            'transform': (item.r ? 'rotate(' + parseInt(item.r, 10) + 'deg)' : '') + (item.h_flip ? ' scaleX(-1)' : ''),
-            'transform-origin': 'bottom'
-        });
-        newImg.attr('src', 'img/scenery/' + item.filename + '.png');
-
-        newImg.bind('load', function() {
-            //  Reduce down the current image count
-            control.currentImageCount--;
-            var percent = 100 - parseInt(control.currentImageCount / control.maxImageCount * 100, 10);
-            $('.debug').text(percent + '%');
-            //  Load the images again
-            control.loadImages();
+            'left': 0,
+            'top': 0
         });
 
+        //  If something goes wrong loading the image
+        //  then we make a note of which image failed and move
+        //  onto the next one
         newImg.bind('error', function() {
-
             if (item.filename in control.failedImageLoad) {
                 control.failedImageLoad[item.filename]++;
             } else {
                 control.failedImageLoad[item.filename] = 1;
+            }
+            control.currentImageCount--;
+            var percent = 100 - parseInt(control.currentImageCount / control.maxImageCount * 100, 10);
+            $('.debug').text(percent + '%');
+
+            $('.offscreenBuffer').empty();
+            control.loadImages();
+        });
+
+        //  If the image loaded then we need to move make a blitting canvas for it
+        //  and move it over.
+        newImg.bind('load', function() {
+
+            //  Put the image into the source canvas, flipping if needed.
+            //  Note we are making the canvas twice the height as a hack
+            //  to allow us to rotate if we need to, and also put the
+            //  image into the main canvas based on the center points.
+            var sourceCanvas = $('<canvas>');
+            sourceCanvas.attr({width: item.w, height: item.h * 2})
+            .css({width: item.w, height: item.h * 2})
+            .css({position: 'absolute', top: 0, left: 0});
+            //$('.offscreenBuffer').append(sourceCanvas);
+            sourceContext = sourceCanvas[0].getContext('2d');
+            if (item.h_flip) {
+                sourceContext.scale(-1, 1);
+                sourceContext.drawImage(this, -item.w, 0, item.w, item.h);
+            } else {
+                sourceContext.drawImage(this, 0, 0, item.w, item.h);
+            }
+
+            //  TODO:
+            //  Now is probable the time to apply filters to the image if we want to
+            //  like tinting.
+
+            //$('.offscreenBuffer').append(sourceCanvas);
+            var blitThis = sourceCanvas;
+
+            //  If we're supposed to rotate then we need this extra step
+            if ('r' in item) {
+
+                //  Work out the dimensions we need for a canvas to accomodate rotating the image
+                var maxEdgeSize = Math.sqrt(Math.pow(item.h * 2, 2) + Math.pow(item.w, 2));
+                var targetCanvas = $('<canvas>');
+                targetCanvas.attr({width: maxEdgeSize, height: maxEdgeSize})
+                .css({width: maxEdgeSize, height: maxEdgeSize})
+                .css({position: 'absolute', top: 0, left: 0});
+                //$('.offscreenBuffer').append(targetCanvas);
+                
+                targetContext = targetCanvas[0].getContext('2d');
+                targetContext.translate(targetCanvas.width() / 2, targetCanvas.height() / 2);
+
+                targetContext.rotate(Math.PI/180 * item.r);
+                targetContext.drawImage(sourceCanvas[0], -item.w / 2, -item.h, item.w, item.h * 2);
+                blitThis = targetCanvas;
+            }
+            
+
+            //  Now blit the item to the main canvas
+            var flipMod = -1;
+
+            var targetContext = $('#' + layerId + ' canvas')[0].getContext('2d');
+            if (layerId == 'middleground') {
+                targetContext.drawImage(blitThis[0], item.x - (blitThis.width() / 2) + ($('#middleground canvas').width()/2), item.y - (blitThis.height() / 2) + ($('#middleground canvas').height()), blitThis.width(), blitThis.height());
+            } else {
+                targetContext.drawImage(blitThis[0], item.x - (blitThis.width() / 2), item.y - (blitThis.height() / 2), blitThis.width(), blitThis.height());
             }
 
             //  Reduce down the current image count
@@ -500,13 +562,17 @@ control = {
             var percent = 100 - parseInt(control.currentImageCount / control.maxImageCount * 100, 10);
             $('.debug').text(percent + '%');
             //  Load the images again
+            $('.offscreenBuffer').empty();
             control.loadImages();
         });
 
-        //  Now attach the image
-        $('#' + layerId).append(newImg);
+        //  Now attach the image to the offscreen buffer
+        //  and load it.
+        $('.offscreenBuffer').append(newImg);
+        newImg.attr('src', 'img/scenery/' + item.filename + '.png');
 
     },
+
 
     //  This wraps up all the lose ends
     finishLevel: function() {
@@ -525,127 +591,6 @@ control = {
 
     }
 
-
-
-/*
-    prepLayer: function() {
-
-        //  Now we need to add each layer to the stage
-        var newLayer = null;
-
-        //  Handle the exists
-        var signpost = null;
-        var connection = null;
-        var exitLink = null;
-        var exitList = $('<ul>');
-        var filters = [];
-        var filterValue = null;
-        var tintColor = null;
-        var tintAmount = null;
-
-        $.each(room.dynamic.layers, function (id, layer) {
-            
-            control.layersId.push(id);
-            control.layersIdLength++;
-
-            newLayer = $('<div>');
-            newLayer.attr('id', id);
-            newLayer.css({
-                'position': 'absolute',
-                'width': parseInt(layer.w, 10),
-                'height': parseInt(layer.h, 10),
-                'left': 0,
-                'top': parseInt($('.stage').css('height'), 10) - parseInt(layer.h, 10),
-                'z-index': parseInt(layer.z, 10)
-            });
-            //  If we were actually positing the thing properly in the middle, we'd use this
-            // 'left': (parseInt($('.stage').css('width'), 10) - parseInt(layer.w, 10)) / 2,
-            if (id == 'middleground') {
-                newLayer.css({
-                    top: parseInt(layer.h, 10),
-                    left: parseInt(room.dynamic.r, 10)
-                });
-            }
-
-            //  now rather than adding in all the scenery we should put
-            //  them into a queue to load 1 at a time, so we can control
-            //  the pipeline...
-            control.layerQueue.push(id);
-            //  ...but, we're not going to do that, yet.
-
-
-            var deco = null;
-            var newImg = null;
-            for (var d in layer.decos) {
-                deco = layer.decos[d];
-                newImg = $('<img>');
-                newImg.css({
-                    'position': 'absolute',
-                    'width': parseInt(deco.w, 10),
-                    'height': parseInt(deco.h, 10),
-                    'left': parseInt(deco.x, 10) - (parseInt(deco.w, 10)/2),
-                    'top': parseInt(deco.y, 10) - (parseInt(deco.h, 10) * 1),
-                    'z-index': parseInt(deco.z, 10),
-                    'transform': (deco.r ? 'rotate(' + parseInt(deco.r, 10) + 'deg)' : '') + (deco.h_flip ? ' scaleX(-1)' : ''),
-                    'transform-origin': 'bottom'
-                });
-                newImg.attr('src', 'img/scenery/' + deco.filename + '.png');
-                newLayer.append(newImg);
-
-                //  Now attach the layer.
-                $('.stage').append(newLayer);
-            }
-
-            //  Think about doing location exists
-            for (var s in layer.signposts) {
-                
-                signpost = layer.signposts[s];
-
-                //console.log(signpost);
-
-                //  Go grab the signpost image and add it to the layer.
-                newImg = $('<img>');
-                newImg.css({
-                    'position': 'absolute',
-                    'width': parseInt(signpost.w, 10),
-                    'height': parseInt(signpost.h, 10),
-                    'left': parseInt(signpost.x, 10) - (parseInt(signpost.w, 10)/2),
-                    'top': parseInt(signpost.y, 10) - (parseInt(signpost.h, 10) * 1),
-                    'z-index': 1000,
-                    'transform': (signpost.r ? 'rotate(' + parseInt(signpost.r, 10) + 'deg)' : '') + (signpost.h_flip ? ' scaleX(-1)' : ''),
-                    'transform-origin': 'bottom'
-                });
-                //  Can't find the signpost assets, so comment this out for the moment
-                //newImg.attr('src', 'img/scenery/' + signpost.name + '.png');
-                //newLayer.append(newImg);
-
-
-                for (var c in signpost.connects) {
-                    connection = signpost.connects[c];
-                    exitLink = $('<li>').append($('<a>').attr({
-                        id: connection.tsid.replace('L','G'),
-                        href: '#/' + connection.tsid
-                    }).text(connection.label));
-                    exitList.append(exitLink);
-                }
-            }
-
-
-
-
-        });
-
-        //  pop the exits on
-        $('.exits').append($('<h2>').text('Exits'));
-        $('.exits').append(exitList);
-        $('.exits a').bind('click', function() {
-            control.loadRoom($(this).attr('id'));
-        });
-
-
-
-    }
-*/
 };
 
 //  THIS IS THE FUNCTION WE NEED TO BE ABLE TO LOAD IN

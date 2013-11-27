@@ -1,0 +1,2481 @@
+<game_object tsid="GM416LNIKVLM1" ts="1339301617657" label="Baby Steppes" class_tsid="" lastUpdateTime="1339301607406" upd_gs="gs8" load_time="2012-06-09 12:44:27.490" upd_time="2012-06-09 21:12:20.552">
+	<object id="dynamic">
+		<int id="l">-3000</int>
+		<int id="r">3000</int>
+		<int id="t">-1000</int>
+		<int id="b">0</int>
+		<str id="swf_file">leavens1.swf</str>
+		<object id="layers">
+			<object id="sky">
+				<int id="w">3680</int>
+				<str id="name">sky</str>
+				<object id="decos">
+					<object id="cloud_03_1276211430943">
+						<str id="sprite_class">cloud_03</str>
+						<str id="name">cloud_03_1276211430943</str>
+						<int id="y">420</int>
+						<int id="h">86</int>
+						<int id="z">2</int>
+						<int id="w">269</int>
+						<int id="x">1280</int>
+					</object>
+					<object id="cloud_01_1276211550183">
+						<str id="sprite_class">cloud_01</str>
+						<str id="name">cloud_01_1276211550183</str>
+						<int id="y">561</int>
+						<int id="h">90</int>
+						<int id="z">5</int>
+						<int id="w">336</int>
+						<int id="x">551</int>
+					</object>
+					<object id="cloud_01_1276211435583">
+						<str id="sprite_class">cloud_01</str>
+						<str id="name">cloud_01_1276211435583</str>
+						<int id="y">498</int>
+						<int id="h">69</int>
+						<int id="z">3</int>
+						<int id="w">258</int>
+						<int id="x">1453</int>
+					</object>
+					<object id="cloud_03_1276211396703">
+						<str id="sprite_class">cloud_03</str>
+						<str id="name">cloud_03_1276211396703</str>
+						<int id="y">420</int>
+						<int id="h">68</int>
+						<int id="z">1</int>
+						<int id="w">213</int>
+						<int id="x">2692</int>
+					</object>
+					<object id="cloud_04_1276211439613">
+						<str id="sprite_class">cloud_04</str>
+						<str id="name">cloud_04_1276211439613</str>
+						<int id="y">401</int>
+						<int id="h">75</int>
+						<int id="z">4</int>
+						<int id="w">317</int>
+						<int id="x">1564</int>
+					</object>
+					<object id="skyCrack_01_1275514870813">
+						<str id="sprite_class">skyCrack_01</str>
+						<str id="name">skyCrack_01_1275514870813</str>
+						<int id="y">404</int>
+						<int id="h">639</int>
+						<int id="z">0</int>
+						<int id="w">1045</int>
+						<int id="x">2624</int>
+					</object>
+				</object>
+				<int id="h">857</int>
+				<int id="z">-3</int>
+			</object>
+			<object id="middleground">
+				<str id="name">middleground</str>
+				<object id="decos">
+					<object id="ground_back_top_02_1275603846079">
+						<str id="sprite_class">ground_back_top_02</str>
+						<str id="name">ground_back_top_02_1275603846079</str>
+						<int id="y">-450</int>
+						<int id="h">111</int>
+						<int id="z">42</int>
+						<int id="w">500</int>
+						<int id="x">2464</int>
+						<int id="r">-14</int>
+					</object>
+					<object id="ground_back_tile_01_1259899729727">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1259899729727</str>
+						<int id="y">5</int>
+						<int id="h">135</int>
+						<int id="z">7</int>
+						<int id="w">676</int>
+						<int id="x">1346</int>
+					</object>
+					<object id="tree_front_02_1276197831266">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1276197831266</str>
+						<int id="y">-183</int>
+						<int id="h">460</int>
+						<int id="z">94</int>
+						<int id="w">215</int>
+						<int id="x">-683</int>
+					</object>
+					<object id="ground_back_tile_01_1275611828013">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1275611828013</str>
+						<int id="y">-379</int>
+						<int id="h">100</int>
+						<int id="z">61</int>
+						<int id="w">500</int>
+						<int id="x">2619</int>
+					</object>
+					<object id="well_01_1276211613583">
+						<str id="sprite_class">well_01</str>
+						<str id="name">well_01_1276211613583</str>
+						<int id="y">-145</int>
+						<int id="h">163</int>
+						<int id="z">107</int>
+						<int id="w">156</int>
+						<int id="x">-82</int>
+					</object>
+					<object id="shrub_green_02_1276210778974">
+						<str id="sprite_class">shrub_green_02</str>
+						<str id="name">shrub_green_02_1276210778974</str>
+						<int id="y">-66</int>
+						<int id="h">87</int>
+						<int id="z">102</int>
+						<int id="w">140</int>
+						<int id="x">-2580</int>
+					</object>
+					<object id="shrub_green_02_1275515210013">
+						<str id="sprite_class">shrub_green_02</str>
+						<str id="name">shrub_green_02_1275515210013</str>
+						<int id="y">-75</int>
+						<bool id="h_flip">true</bool>
+						<int id="h">113</int>
+						<int id="z">33</int>
+						<int id="w">182</int>
+						<int id="x">-2713</int>
+					</object>
+					<object id="ground_back_tile_01_1259899819458">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1259899819458</str>
+						<int id="y">-129</int>
+						<int id="h">135</int>
+						<int id="z">10</int>
+						<int id="w">676</int>
+						<int id="x">2039</int>
+					</object>
+					<object id="tree_front_02_1276211016654">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1276211016654</str>
+						<int id="y">-262</int>
+						<int id="h">307</int>
+						<int id="z">106</int>
+						<int id="w">143</int>
+						<int id="x">1450</int>
+					</object>
+					<object id="ground_back_tile_01_1275603942509">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1275603942509</str>
+						<int id="y">-273</int>
+						<int id="h">100</int>
+						<int id="z">46</int>
+						<int id="w">500</int>
+						<int id="x">2372</int>
+					</object>
+					<object id="shrub_green_03_1276197748846">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1276197748846</str>
+						<int id="y">-231</int>
+						<int id="h">23</int>
+						<int id="z">88</int>
+						<int id="w">57</int>
+						<int id="x">647</int>
+					</object>
+					<object id="shrub_green_03_1276554887761">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1276554887761</str>
+						<int id="y">-40</int>
+						<int id="h">39</int>
+						<int id="z">108</int>
+						<int id="w">97</int>
+						<int id="x">-87</int>
+					</object>
+					<object id="ground_back_top_06_1259905142678">
+						<str id="sprite_class">ground_back_top_06</str>
+						<str id="name">ground_back_top_06_1259905142678</str>
+						<int id="y">-253</int>
+						<bool id="h_flip">true</bool>
+						<int id="h">70</int>
+						<int id="z">27</int>
+						<int id="w">500</int>
+						<int id="x">2503</int>
+					</object>
+					<object id="vine_05_1275515380173">
+						<str id="sprite_class">vine_05</str>
+						<str id="name">vine_05_1275515380173</str>
+						<int id="y">-378</int>
+						<int id="h">138</int>
+						<int id="z">40</int>
+						<int id="w">67</int>
+						<int id="x">2050</int>
+					</object>
+					<object id="tree_front_02_1275604361799">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1275604361799</str>
+						<int id="y">-102</int>
+						<int id="h">301</int>
+						<int id="z">50</int>
+						<int id="w">141</int>
+						<int id="x">-1202</int>
+					</object>
+					<object id="leavens_vine_01_1276197723056">
+						<str id="sprite_class">leavens_vine_01</str>
+						<str id="name">leavens_vine_01_1276197723056</str>
+						<int id="y">-25</int>
+						<int id="h">5</int>
+						<int id="z">82</int>
+						<int id="w">5</int>
+						<int id="x">-272</int>
+					</object>
+					<object id="ground_back_tile_01_1275611839933">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1275611839933</str>
+						<int id="y">-493</int>
+						<int id="h">100</int>
+						<int id="z">64</int>
+						<int id="w">500</int>
+						<int id="x">3142</int>
+					</object>
+					<object id="ground_back_tile_01_1259899772214">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1259899772214</str>
+						<int id="y">4</int>
+						<int id="h">135</int>
+						<int id="z">8</int>
+						<int id="w">676</int>
+						<int id="x">2001</int>
+					</object>
+					<object id="ground_back_top_01_1259899979121">
+						<str id="sprite_class">ground_back_top_01</str>
+						<str id="name">ground_back_top_01_1259899979121</str>
+						<int id="y">-182</int>
+						<int id="h">93</int>
+						<int id="z">20</int>
+						<int id="w">500</int>
+						<int id="x">321</int>
+					</object>
+					<object id="house_orange_front_01_1275515859775">
+						<str id="sprite_class">house_orange_front_01</str>
+						<str id="name">house_orange_front_01_1275515859775</str>
+						<int id="y">-172</int>
+						<int id="h">277</int>
+						<int id="z">111</int>
+						<int id="w">426</int>
+						<int id="x">788</int>
+					</object>
+					<object id="ground_back_top_03_1259899983764">
+						<str id="sprite_class">ground_back_top_03</str>
+						<str id="name">ground_back_top_03_1259899983764</str>
+						<int id="y">-183</int>
+						<int id="h">70</int>
+						<int id="z">21</int>
+						<int id="w">500</int>
+						<int id="x">804</int>
+					</object>
+					<object id="ground_back_tile_01_1275612337083">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1275612337083</str>
+						<int id="y">6</int>
+						<int id="h">100</int>
+						<int id="z">77</int>
+						<int id="w">500</int>
+						<int id="x">-1041</int>
+					</object>
+					<object id="shrub_green_03_1275604614169">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1275604614169</str>
+						<int id="y">-255</int>
+						<int id="h">23</int>
+						<int id="z">54</int>
+						<int id="w">57</int>
+						<int id="x">289</int>
+					</object>
+					<object id="tower_orange_head_front_01_1276555243411">
+						<str id="sprite_class">tower_orange_head_front_01</str>
+						<str id="name">tower_orange_head_front_01_1276555243411</str>
+						<int id="y">-153</int>
+						<int id="h">190</int>
+						<int id="z">109</int>
+						<int id="w">205</int>
+						<int id="x">427</int>
+						<int id="r">-15</int>
+					</object>
+					<object id="tree_front_05_1276197465726">
+						<str id="sprite_class">tree_front_05</str>
+						<str id="name">tree_front_05_1276197465726</str>
+						<int id="y">-282</int>
+						<int id="h">350</int>
+						<int id="z">79</int>
+						<int id="w">243</int>
+						<int id="x">1721</int>
+					</object>
+					<object id="tower_orange_head_front_01_1276554915761">
+						<str id="sprite_class">tower_orange_head_front_01</str>
+						<str id="name">tower_orange_head_front_01_1276554915761</str>
+						<int id="y">-420</int>
+						<int id="h">190</int>
+						<int id="z">110</int>
+						<int id="w">205</int>
+						<int id="x">891</int>
+						<int id="r">-9</int>
+					</object>
+					<object id="vine_08_1275515355583">
+						<str id="sprite_class">vine_08</str>
+						<str id="name">vine_08_1275515355583</str>
+						<int id="y">-376</int>
+						<int id="h">112</int>
+						<int id="z">36</int>
+						<int id="w">67</int>
+						<int id="x">1940</int>
+						<int id="r">-4</int>
+					</object>
+					<object id="ground_back_tile_01_1275603950559">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1275603950559</str>
+						<int id="y">-417</int>
+						<int id="h">100</int>
+						<int id="z">49</int>
+						<int id="w">500</int>
+						<int id="x">3064</int>
+					</object>
+					<object id="ground_back_top_03_1259905123826">
+						<str id="sprite_class">ground_back_top_03</str>
+						<str id="name">ground_back_top_03_1259905123826</str>
+						<int id="y">-246</int>
+						<bool id="h_flip">true</bool>
+						<int id="h">70</int>
+						<int id="z">26</int>
+						<int id="w">500</int>
+						<int id="x">2001</int>
+					</object>
+					<object id="tree_front_02_1276210992144">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1276210992144</str>
+						<int id="y">-188</int>
+						<bool id="h_flip">true</bool>
+						<int id="h">485</int>
+						<int id="z">105</int>
+						<int id="w">227</int>
+						<int id="x">165</int>
+					</object>
+					<object id="ground_back_tile_01_1259899713433">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1259899713433</str>
+						<int id="y">5</int>
+						<int id="h">135</int>
+						<int id="z">5</int>
+						<int id="w">676</int>
+						<int id="x">2</int>
+					</object>
+					<object id="ground_back_top_02_1259899959600">
+						<str id="sprite_class">ground_back_top_02</str>
+						<str id="name">ground_back_top_02_1259899959600</str>
+						<int id="y">-153</int>
+						<int id="h">111</int>
+						<int id="z">19</int>
+						<int id="w">500</int>
+						<int id="x">-11</int>
+					</object>
+					<object id="ground_back_tile_01_1259899860087">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1259899860087</str>
+						<int id="y">-90</int>
+						<int id="h">135</int>
+						<int id="z">13</int>
+						<int id="w">676</int>
+						<int id="x">158</int>
+					</object>
+					<object id="tree_front_02_1275604308749">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1275604308749</str>
+						<int id="y">-502</int>
+						<int id="h">460</int>
+						<int id="z">65</int>
+						<int id="w">215</int>
+						<int id="x">2397</int>
+					</object>
+					<object id="tree_front_02_1275604776569">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1275604776569</str>
+						<int id="y">-203</int>
+						<int id="h">367</int>
+						<int id="z">58</int>
+						<int id="w">171</int>
+						<int id="x">977</int>
+					</object>
+					<object id="ground_back_tile_01_1259898564273">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1259898564273</str>
+						<int id="y">78</int>
+						<int id="h">135</int>
+						<int id="z">2</int>
+						<int id="w">676</int>
+						<int id="x">-2678</int>
+					</object>
+					<object id="tree_front_03_1276197839516">
+						<str id="sprite_class">tree_front_03</str>
+						<str id="name">tree_front_03_1276197839516</str>
+						<int id="y">-173</int>
+						<int id="h">160</int>
+						<int id="z">95</int>
+						<int id="w">134</int>
+						<int id="x">-523</int>
+					</object>
+					<object id="vine_05_1275515828355">
+						<str id="sprite_class">vine_05</str>
+						<str id="name">vine_05_1275515828355</str>
+						<int id="y">-378</int>
+						<int id="h">156</int>
+						<int id="z">67</int>
+						<int id="w">75</int>
+						<int id="x">2016</int>
+					</object>
+					<object id="vine_07_1275515358503">
+						<str id="sprite_class">vine_07</str>
+						<str id="name">vine_07_1275515358503</str>
+						<int id="y">-343</int>
+						<int id="h">76</int>
+						<int id="z">37</int>
+						<int id="w">66</int>
+						<int id="x">1975</int>
+					</object>
+					<object id="ground_back_tile_01_1275611832043">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1275611832043</str>
+						<int id="y">-429</int>
+						<int id="h">100</int>
+						<int id="z">62</int>
+						<int id="w">500</int>
+						<int id="x">2809</int>
+					</object>
+					<object id="shrub_green_03_1276197749596">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1276197749596</str>
+						<int id="y">-237</int>
+						<int id="h">23</int>
+						<int id="z">89</int>
+						<int id="w">57</int>
+						<int id="x">612</int>
+					</object>
+					<object id="shrub_orange_01_1276210752564">
+						<str id="sprite_class">shrub_orange_01</str>
+						<str id="name">shrub_orange_01_1276210752564</str>
+						<int id="y">-38</int>
+						<int id="h">74</int>
+						<int id="z">96</int>
+						<int id="w">48</int>
+						<int id="x">-2940</int>
+					</object>
+					<object id="shrub_green_03_1276197750526">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1276197750526</str>
+						<int id="y">-226</int>
+						<int id="h">23</int>
+						<int id="z">90</int>
+						<int id="w">57</int>
+						<int id="x">615</int>
+					</object>
+					<object id="shrub_green_03_1275604608189">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1275604608189</str>
+						<int id="y">-257</int>
+						<int id="h">23</int>
+						<int id="z">52</int>
+						<int id="w">57</int>
+						<int id="x">264</int>
+					</object>
+					<object id="shrub_green_03_1276197752976">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1276197752976</str>
+						<int id="y">-221</int>
+						<int id="h">23</int>
+						<int id="z">91</int>
+						<int id="w">57</int>
+						<int id="x">651</int>
+					</object>
+					<object id="ground_back_tile_01_1259899851579">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1259899851579</str>
+						<int id="y">-113</int>
+						<int id="h">135</int>
+						<int id="z">12</int>
+						<int id="w">676</int>
+						<int id="x">828</int>
+					</object>
+					<object id="ground_back_tile_01_1259899696994">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1259899696994</str>
+						<int id="y">7</int>
+						<int id="h">135</int>
+						<int id="z">4</int>
+						<int id="w">676</int>
+						<int id="x">-673</int>
+					</object>
+					<object id="ground_back_top_04_1259899911479">
+						<str id="sprite_class">ground_back_top_04</str>
+						<str id="name">ground_back_top_04_1259899911479</str>
+						<int id="y">-64</int>
+						<int id="h">94</int>
+						<int id="z">15</int>
+						<int id="w">527</int>
+						<int id="x">-1814</int>
+					</object>
+					<object id="shrub_green_03_1275515205253">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1275515205253</str>
+						<int id="y">-123</int>
+						<int id="h">18</int>
+						<int id="z">31</int>
+						<int id="w">44</int>
+						<int id="x">-2277</int>
+					</object>
+					<object id="ground_back_top_02_1275603880579">
+						<str id="sprite_class">ground_back_top_02</str>
+						<str id="name">ground_back_top_02_1275603880579</str>
+						<int id="y">-566</int>
+						<int id="h">111</int>
+						<int id="z">44</int>
+						<int id="w">500</int>
+						<int id="x">2944</int>
+						<int id="r">-13</int>
+					</object>
+					<object id="ground_back_tile_01_1259899807834">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1259899807834</str>
+						<int id="y">4</int>
+						<int id="h">135</int>
+						<int id="z">9</int>
+						<int id="w">676</int>
+						<int id="x">2667</int>
+					</object>
+					<object id="shrub_green_01_1275515218063">
+						<str id="sprite_class">shrub_green_01</str>
+						<str id="name">shrub_green_01_1275515218063</str>
+						<int id="y">-67</int>
+						<int id="h">54</int>
+						<int id="z">35</int>
+						<int id="w">34</int>
+						<int id="x">-2269</int>
+					</object>
+					<object id="shrub_green_02_1275515207653">
+						<str id="sprite_class">shrub_green_02</str>
+						<str id="name">shrub_green_02_1275515207653</str>
+						<int id="y">-60</int>
+						<int id="h">87</int>
+						<int id="z">32</int>
+						<int id="w">140</int>
+						<int id="x">-2421</int>
+					</object>
+					<object id="shrub_green_03_1276197745446">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1276197745446</str>
+						<int id="y">-244</int>
+						<int id="h">23</int>
+						<int id="z">85</int>
+						<int id="w">57</int>
+						<int id="x">617</int>
+					</object>
+					<object id="ground_back_tile_01_1275611799763">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1275611799763</str>
+						<int id="y">-329</int>
+						<int id="h">100</int>
+						<int id="z">59</int>
+						<int id="w">500</int>
+						<int id="x">2395</int>
+					</object>
+					<object id="shrub_green_02_1276210770294">
+						<str id="sprite_class">shrub_green_02</str>
+						<str id="name">shrub_green_02_1276210770294</str>
+						<int id="y">-105</int>
+						<int id="h">87</int>
+						<int id="z">97</int>
+						<int id="w">140</int>
+						<int id="x">-2826</int>
+					</object>
+					<object id="tree_front_02_1275604313449">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1275604313449</str>
+						<int id="y">-457</int>
+						<int id="h">460</int>
+						<int id="z">66</int>
+						<int id="w">215</int>
+						<int id="x">2488</int>
+					</object>
+					<object id="vine_03_1275515372983">
+						<str id="sprite_class">vine_03</str>
+						<str id="name">vine_03_1275515372983</str>
+						<int id="y">-332</int>
+						<int id="h">64</int>
+						<int id="z">70</int>
+						<int id="w">179</int>
+						<int id="x">1961</int>
+						<int id="r">-8</int>
+					</object>
+					<object id="shrub_green_02_1276210773544">
+						<str id="sprite_class">shrub_green_02</str>
+						<str id="name">shrub_green_02_1276210773544</str>
+						<int id="y">-60</int>
+						<int id="h">87</int>
+						<int id="z">100</int>
+						<int id="w">140</int>
+						<int id="x">-2761</int>
+					</object>
+					<object id="shrub_green_01_1275515203413">
+						<str id="sprite_class">shrub_green_01</str>
+						<str id="name">shrub_green_01_1275515203413</str>
+						<int id="y">-119</int>
+						<int id="h">56</int>
+						<int id="z">30</int>
+						<int id="w">35</int>
+						<int id="x">-2246</int>
+					</object>
+					<object id="shrub_green_03_1275604611839">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1275604611839</str>
+						<int id="y">-267</int>
+						<int id="h">23</int>
+						<int id="z">53</int>
+						<int id="w">57</int>
+						<int id="x">294</int>
+					</object>
+					<object id="shrub_green_03_1276197728496">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1276197728496</str>
+						<int id="y">-246</int>
+						<int id="h">23</int>
+						<int id="z">83</int>
+						<int id="w">57</int>
+						<int id="x">512</int>
+					</object>
+					<object id="ground_back_tile_01_1259905029771">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1259905029771</str>
+						<int id="y">-129</int>
+						<int id="h">135</int>
+						<int id="z">25</int>
+						<int id="w">676</int>
+						<int id="x">2713</int>
+					</object>
+					<object id="ground_back_tile_01_1275611834633">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1275611834633</str>
+						<int id="y">-459</int>
+						<int id="h">100</int>
+						<int id="z">63</int>
+						<int id="w">500</int>
+						<int id="x">3022</int>
+					</object>
+					<object id="ground_back_top_02_1259898569968">
+						<str id="sprite_class">ground_back_top_02</str>
+						<str id="name">ground_back_top_02_1259898569968</str>
+						<int id="y">-10</int>
+						<int id="h">111</int>
+						<int id="z">3</int>
+						<int id="w">500</int>
+						<int id="x">-2760</int>
+					</object>
+					<object id="vine_bucket_1275604629299">
+						<str id="sprite_class">vine_bucket</str>
+						<str id="name">vine_bucket_1275604629299</str>
+						<int id="y">-244</int>
+						<int id="h">146</int>
+						<int id="z">56</int>
+						<int id="w">113</int>
+						<int id="x">-68</int>
+					</object>
+					<object id="ground_back_top_02_1275612243673">
+						<str id="sprite_class">ground_back_top_02</str>
+						<str id="name">ground_back_top_02_1275612243673</str>
+						<int id="y">5</int>
+						<int id="h">111</int>
+						<int id="z">72</int>
+						<int id="w">500</int>
+						<int id="x">-1825</int>
+					</object>
+					<object id="ground_back_top_01_1259900000144">
+						<str id="sprite_class">ground_back_top_01</str>
+						<str id="name">ground_back_top_01_1259900000144</str>
+						<int id="y">21</int>
+						<int id="h">93</int>
+						<int id="z">23</int>
+						<int id="w">500</int>
+						<int id="x">1315</int>
+					</object>
+					<object id="vine_10_1275515370293">
+						<str id="sprite_class">vine_10</str>
+						<str id="name">vine_10_1275515370293</str>
+						<int id="y">-397</int>
+						<int id="h">89</int>
+						<int id="z">39</int>
+						<int id="w">97</int>
+						<int id="x">2110</int>
+					</object>
+					<object id="ground_back_tile_01_1275612255813">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1275612255813</str>
+						<int id="y">61</int>
+						<int id="h">100</int>
+						<int id="z">74</int>
+						<int id="w">500</int>
+						<int id="x">-2129</int>
+					</object>
+					<object id="shrub_green_02_1275515200903">
+						<str id="sprite_class">shrub_green_02</str>
+						<str id="name">shrub_green_02_1275515200903</str>
+						<int id="y">-84</int>
+						<bool id="h_flip">true</bool>
+						<int id="h">87</int>
+						<int id="z">29</int>
+						<int id="w">140</int>
+						<int id="x">-2659</int>
+					</object>
+					<object id="shrub_green_02_1276210775294">
+						<str id="sprite_class">shrub_green_02</str>
+						<str id="name">shrub_green_02_1276210775294</str>
+						<int id="y">-46</int>
+						<int id="h">106</int>
+						<int id="z">101</int>
+						<int id="w">172</int>
+						<int id="x">-2711</int>
+					</object>
+					<object id="vine_06_1275515361433">
+						<str id="sprite_class">vine_06</str>
+						<str id="name">vine_06_1275515361433</str>
+						<int id="y">-373</int>
+						<int id="h">71</int>
+						<int id="z">38</int>
+						<int id="w">46</int>
+						<int id="x">1890</int>
+						<int id="r">-11</int>
+					</object>
+					<object id="shrub_green_02_1276210772684">
+						<str id="sprite_class">shrub_green_02</str>
+						<str id="name">shrub_green_02_1276210772684</str>
+						<int id="y">-79</int>
+						<bool id="h_flip">true</bool>
+						<int id="h">87</int>
+						<int id="z">99</int>
+						<int id="w">140</int>
+						<int id="x">-2819</int>
+					</object>
+					<object id="pipe_vines_04_1275515405783">
+						<str id="sprite_class">pipe_vines_04</str>
+						<str id="name">pipe_vines_04_1275515405783</str>
+						<int id="y">-388</int>
+						<int id="h">172</int>
+						<int id="z">41</int>
+						<int id="w">192</int>
+						<int id="x">1920</int>
+					</object>
+					<object id="fountain_complete_1275515247133">
+						<str id="sprite_class">fountain_complete</str>
+						<str id="name">fountain_complete_1275515247133</str>
+						<int id="y">-82</int>
+						<int id="h">283</int>
+						<int id="z">73</int>
+						<int id="w">273</int>
+						<int id="x">-1864</int>
+					</object>
+					<object id="tree_front_02_1276210968954">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1276210968954</str>
+						<int id="y">-202</int>
+						<int id="h">293</int>
+						<int id="z">104</int>
+						<int id="w">136</int>
+						<int id="x">-334</int>
+					</object>
+					<object id="ground_back_tile_01_1275612334733">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1275612334733</str>
+						<int id="y">23</int>
+						<int id="h">100</int>
+						<int id="z">76</int>
+						<int id="w">500</int>
+						<int id="x">-1328</int>
+					</object>
+					<object id="vine_02_1276197721146">
+						<str id="sprite_class">vine_02</str>
+						<str id="name">vine_02_1276197721146</str>
+						<int id="y">-246</int>
+						<int id="h">96</int>
+						<int id="z">81</int>
+						<int id="w">43</int>
+						<int id="x">452</int>
+					</object>
+					<object id="ground_back_top_03_1259899883072">
+						<str id="sprite_class">ground_back_top_03</str>
+						<str id="name">ground_back_top_03_1259899883072</str>
+						<int id="y">-10</int>
+						<int id="h">70</int>
+						<int id="z">14</int>
+						<int id="w">500</int>
+						<int id="x">-2266</int>
+					</object>
+					<object id="ground_back_top_03_1275603874739">
+						<str id="sprite_class">ground_back_top_03</str>
+						<str id="name">ground_back_top_03_1275603874739</str>
+						<int id="y">-286</int>
+						<int id="h">70</int>
+						<int id="z">43</int>
+						<int id="w">500</int>
+						<int id="x">2770</int>
+					</object>
+					<object id="ground_back_tile_01_1275603947689">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1275603947689</str>
+						<int id="y">-364</int>
+						<int id="h">100</int>
+						<int id="z">48</int>
+						<int id="w">500</int>
+						<int id="x">2838</int>
+					</object>
+					<object id="ground_back_top_03_1275603883439">
+						<str id="sprite_class">ground_back_top_03</str>
+						<str id="name">ground_back_top_03_1275603883439</str>
+						<int id="y">-315</int>
+						<int id="h">70</int>
+						<int id="z">45</int>
+						<int id="w">500</int>
+						<int id="x">2894</int>
+					</object>
+					<object id="ground_back_tile_01_1275611803713">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1275611803713</str>
+						<int id="y">-260</int>
+						<int id="h">100</int>
+						<int id="z">60</int>
+						<int id="w">500</int>
+						<int id="x">2180</int>
+					</object>
+					<object id="ground_back_top_05_1275612209143">
+						<str id="sprite_class">ground_back_top_05</str>
+						<str id="name">ground_back_top_05_1275612209143</str>
+						<int id="y">-52</int>
+						<int id="h">82</int>
+						<int id="z">71</int>
+						<int id="w">500</int>
+						<int id="x">-2089</int>
+						<int id="r">-6</int>
+					</object>
+					<object id="ground_back_tile_01_1259899839740">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1259899839740</str>
+						<int id="y">-113</int>
+						<int id="h">135</int>
+						<int id="z">11</int>
+						<int id="w">676</int>
+						<int id="x">1494</int>
+					</object>
+					<object id="shrub_green_03_1276197747606">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1276197747606</str>
+						<int id="y">-239</int>
+						<int id="h">23</int>
+						<int id="z">87</int>
+						<int id="w">57</int>
+						<int id="x">636</int>
+					</object>
+					<object id="shrub_green_03_1276197754676">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1276197754676</str>
+						<int id="y">-216</int>
+						<int id="h">23</int>
+						<int id="z">92</int>
+						<int id="w">57</int>
+						<int id="x">609</int>
+					</object>
+					<object id="vine_08_1275515352233">
+						<str id="sprite_class">vine_08</str>
+						<str id="name">vine_08_1275515352233</str>
+						<int id="y">-371</int>
+						<int id="h">112</int>
+						<int id="z">69</int>
+						<int id="w">67</int>
+						<int id="x">1996</int>
+					</object>
+					<object id="tree_front_02_1275604368499">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1275604368499</str>
+						<int id="y">-90</int>
+						<int id="h">367</int>
+						<int id="z">51</int>
+						<int id="w">171</int>
+						<int id="x">-1282</int>
+					</object>
+					<object id="shrub_green_03_1276197732246">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1276197732246</str>
+						<int id="y">-238</int>
+						<int id="h">23</int>
+						<int id="z">84</int>
+						<int id="w">57</int>
+						<int id="x">537</int>
+					</object>
+					<object id="ground_back_top_04_1259899938452">
+						<str id="sprite_class">ground_back_top_04</str>
+						<str id="name">ground_back_top_04_1259899938452</str>
+						<int id="y">-118</int>
+						<int id="h">90</int>
+						<int id="z">17</int>
+						<int id="w">500</int>
+						<int id="x">-596</int>
+					</object>
+					<object id="shrub_green_03_1276197746446">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1276197746446</str>
+						<int id="y">-238</int>
+						<int id="h">23</int>
+						<int id="z">86</int>
+						<int id="w">57</int>
+						<int id="x">659</int>
+					</object>
+					<object id="shrub_green_02_1275515212283">
+						<str id="sprite_class">shrub_green_02</str>
+						<str id="name">shrub_green_02_1275515212283</str>
+						<int id="y">-55</int>
+						<int id="h">87</int>
+						<int id="z">34</int>
+						<int id="w">140</int>
+						<int id="x">-2657</int>
+					</object>
+					<object id="tree_front_02_1275613032573">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1275613032573</str>
+						<int id="y">-449</int>
+						<int id="h">481</int>
+						<int id="z">78</int>
+						<int id="w">225</int>
+						<int id="x">2281</int>
+					</object>
+					<object id="shrub_green_02_1276210771554">
+						<str id="sprite_class">shrub_green_02</str>
+						<str id="name">shrub_green_02_1276210771554</str>
+						<int id="y">-94</int>
+						<int id="h">87</int>
+						<int id="z">98</int>
+						<int id="w">140</int>
+						<int id="x">-2772</int>
+					</object>
+					<object id="ground_back_top_01_1259900004845">
+						<str id="sprite_class">ground_back_top_01</str>
+						<str id="name">ground_back_top_01_1259900004845</str>
+						<int id="y">-207</int>
+						<bool id="h_flip">true</bool>
+						<int id="h">97</int>
+						<int id="z">24</int>
+						<int id="w">524</int>
+						<int id="x">1635</int>
+					</object>
+					<object id="ground_back_top_04_1259899991393">
+						<str id="sprite_class">ground_back_top_04</str>
+						<str id="name">ground_back_top_04_1259899991393</str>
+						<int id="y">-205</int>
+						<bool id="h_flip">true</bool>
+						<int id="h">90</int>
+						<int id="z">22</int>
+						<int id="w">500</int>
+						<int id="x">1267</int>
+					</object>
+					<object id="ground_mid_top_04_1276213509171">
+						<str id="sprite_class">ground_mid_top_04</str>
+						<str id="name">ground_mid_top_04_1276213509171</str>
+						<int id="y">-128</int>
+						<int id="h">49</int>
+						<int id="z">0</int>
+						<int id="w">272</int>
+						<int id="x">-1698</int>
+					</object>
+					<object id="tree_front_02_1276197521956">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1276197521956</str>
+						<int id="y">-202</int>
+						<int id="h">424</int>
+						<int id="z">80</int>
+						<int id="w">198</int>
+						<int id="x">237</int>
+					</object>
+					<object id="tree_front_02_1275604646989">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1275604646989</str>
+						<int id="y">-219</int>
+						<int id="h">416</int>
+						<int id="z">57</int>
+						<int id="w">194</int>
+						<int id="x">185</int>
+					</object>
+					<object id="shrub_green_03_1276197755726">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1276197755726</str>
+						<int id="y">-233</int>
+						<int id="h">23</int>
+						<int id="z">93</int>
+						<int id="w">57</int>
+						<int id="x">508</int>
+					</object>
+					<object id="ground_back_top_06_1259899920706">
+						<str id="sprite_class">ground_back_top_06</str>
+						<str id="name">ground_back_top_06_1259899920706</str>
+						<int id="y">-87</int>
+						<int id="h">70</int>
+						<int id="z">16</int>
+						<int id="w">500</int>
+						<int id="x">-978</int>
+						<int id="r">-8</int>
+					</object>
+					<object id="ground_back_top_02_1259905173890">
+						<str id="sprite_class">ground_back_top_02</str>
+						<str id="name">ground_back_top_02_1259905173890</str>
+						<int id="y">-223</int>
+						<bool id="h_flip">true</bool>
+						<int id="h">111</int>
+						<int id="z">28</int>
+						<int id="w">500</int>
+						<int id="x">2813</int>
+					</object>
+					<object id="ground_back_top_05_1275612329753">
+						<str id="sprite_class">ground_back_top_05</str>
+						<str id="name">ground_back_top_05_1275612329753</str>
+						<int id="y">-60</int>
+						<int id="h">82</int>
+						<int id="z">75</int>
+						<int id="w">500</int>
+						<int id="x">-1373</int>
+					</object>
+					<object id="shrub_green_02_1275604617669">
+						<str id="sprite_class">shrub_green_02</str>
+						<str id="name">shrub_green_02_1275604617669</str>
+						<int id="y">-188</int>
+						<int id="h">87</int>
+						<int id="z">55</int>
+						<int id="w">140</int>
+						<int id="x">42</int>
+					</object>
+					<object id="ground_back_tile_01_1259899721051">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1259899721051</str>
+						<int id="y">5</int>
+						<int id="h">135</int>
+						<int id="z">6</int>
+						<int id="w">676</int>
+						<int id="x">677</int>
+					</object>
+					<object id="tree_front_02_1276210957514">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1276210957514</str>
+						<int id="y">-101</int>
+						<int id="h">460</int>
+						<int id="z">103</int>
+						<int id="w">215</int>
+						<int id="x">-1258</int>
+					</object>
+					<object id="ground_back_tile_01_1275603945049">
+						<str id="sprite_class">ground_back_tile_01</str>
+						<str id="name">ground_back_tile_01_1275603945049</str>
+						<int id="y">-328</int>
+						<int id="h">100</int>
+						<int id="z">47</int>
+						<int id="w">500</int>
+						<int id="x">2648</int>
+					</object>
+					<object id="ground_back_top_02_1259899957619">
+						<str id="sprite_class">ground_back_top_02</str>
+						<str id="name">ground_back_top_02_1259899957619</str>
+						<int id="y">-115</int>
+						<int id="h">111</int>
+						<int id="z">18</int>
+						<int id="w">500</int>
+						<int id="x">-254</int>
+					</object>
+					<object id="pipe_vines_02_1275515399673">
+						<str id="sprite_class">pipe_vines_02</str>
+						<str id="name">pipe_vines_02_1275515399673</str>
+						<int id="y">-365</int>
+						<int id="h">232</int>
+						<int id="z">68</int>
+						<int id="w">138</int>
+						<int id="x">2074</int>
+					</object>
+					<object id="ground_back_top_02_1275603912589">
+						<str id="sprite_class">ground_back_top_02</str>
+						<str id="name">ground_back_top_02_1275603912589</str>
+						<int id="y">-313</int>
+						<int id="h">111</int>
+						<int id="z">1</int>
+						<int id="w">500</int>
+						<int id="x">1988</int>
+						<int id="r">-18</int>
+					</object>
+				</object>
+				<object id="platform_lines">
+					<object id="_pl1275604030139">
+						<int id="platform_pc_perm">-1</int>
+						<object id="end">
+							<int id="y">-595</int>
+							<int id="x">2999</int>
+						</object>
+						<object id="start">
+							<int id="y">-330</int>
+							<int id="x">2262</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1275613301123">
+						<int id="platform_pc_perm">-1</int>
+						<object id="end">
+							<int id="y">-98</int>
+							<int id="x">-502</int>
+						</object>
+						<object id="start">
+							<int id="y">-89</int>
+							<int id="x">-884</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1276554547861">
+						<int id="platform_pc_perm">-1</int>
+						<object id="end">
+							<int id="y">-442</int>
+							<int id="x">795</int>
+						</object>
+						<object id="start">
+							<int id="y">-387</int>
+							<int id="x">585</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="plat_1303842183741">
+						<int id="platform_pc_perm">-1</int>
+						<object id="end">
+							<int id="y">-89</int>
+							<int id="x">-884</int>
+						</object>
+						<object id="start">
+							<int id="y">-74</int>
+							<int id="x">-1108</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="plat_1303842183740">
+						<int id="platform_pc_perm">-1</int>
+						<object id="end">
+							<int id="y">-230</int>
+							<int id="x">1810</int>
+						</object>
+						<object id="start">
+							<int id="y">-166</int>
+							<int id="x">1442</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1276555258251">
+						<int id="platform_pc_perm">-1</int>
+						<object id="end">
+							<int id="y">-331</int>
+							<int id="x">462</int>
+						</object>
+						<object id="start">
+							<int id="y">-294</int>
+							<int id="x">341</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="pl1259980119229">
+						<int id="platform_pc_perm">-1</int>
+						<object id="end">
+							<int id="y">-74</int>
+							<int id="x">-1108</int>
+						</object>
+						<object id="start">
+							<int id="y">-45</int>
+							<int id="x">-1716</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="pl1259900859160">
+						<int id="platform_pc_perm">-1</int>
+						<object id="end">
+							<int id="y">-45</int>
+							<int id="x">-1716</int>
+						</object>
+						<object id="start">
+							<int id="y">-25</int>
+							<int id="x">-2999</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1276554711531">
+						<int id="platform_pc_perm">-1</int>
+						<object id="end">
+							<int id="y">-150</int>
+							<int id="x">255</int>
+						</object>
+						<object id="start">
+							<int id="y">-127</int>
+							<int id="x">13</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1276554949951">
+						<int id="platform_pc_perm">-1</int>
+						<object id="end">
+							<int id="y">-596</int>
+							<int id="x">949</int>
+						</object>
+						<object id="start">
+							<int id="y">-569</int>
+							<int id="x">818</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1275604926929">
+						<int id="platform_pc_perm">-1</int>
+						<object id="end">
+							<int id="y">-330</int>
+							<int id="x">2262</int>
+						</object>
+						<object id="start">
+							<int id="y">-230</int>
+							<int id="x">1810</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="pl1259971263899">
+						<int id="platform_pc_perm">-1</int>
+						<object id="end">
+							<int id="y">-127</int>
+							<int id="x">13</int>
+						</object>
+						<object id="start">
+							<int id="y">-98</int>
+							<int id="x">-502</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="_pl1276554549631">
+						<int id="platform_pc_perm">-1</int>
+						<object id="end">
+							<int id="y">-417</int>
+							<int id="x">972</int>
+						</object>
+						<object id="start">
+							<int id="y">-442</int>
+							<int id="x">795</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="plat_1303842183739">
+						<int id="platform_pc_perm">-1</int>
+						<object id="end">
+							<int id="y">-145</int>
+							<int id="x">703</int>
+						</object>
+						<object id="start">
+							<int id="y">-150</int>
+							<int id="x">255</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+					<object id="pl1259978517064">
+						<int id="platform_pc_perm">-1</int>
+						<object id="end">
+							<int id="y">-166</int>
+							<int id="x">1442</int>
+						</object>
+						<object id="start">
+							<int id="y">-145</int>
+							<int id="x">703</int>
+						</object>
+						<int id="platform_item_perm">-1</int>
+					</object>
+				</object>
+				<object id="signposts">
+					<object id="signpost_2">
+						<int id="w">150</int>
+						<int id="y">-53</int>
+						<object id="connects">
+							<object id="0">
+								<int id="y">-100</int>
+								<str id="mote_id">9</str>
+								<str id="target_key">target_2</str>
+								<str id="swf_file_versioned">http://c2.glitch.bz/locations/leavens1/1322700959.swf</str>
+								<int id="x">-1750</int>
+								<str id="hub_id">27</str>
+								<objref id="target" tsid="LM4115NJ46G8M" label="Groddle Ladder"/>
+							</object>
+						</object>
+						<int id="h">200</int>
+						<int id="x">-2825</int>
+					</object>
+					<object id="signpost_1">
+						<int id="w">150</int>
+						<int id="y">-536</int>
+						<object id="connects">
+							<object id="0">
+								<int id="y">-200</int>
+								<str id="mote_id">9</str>
+								<str id="swf_file_versioned">http://c2.glitch.bz/locations/leavens1/1322700959.swf</str>
+								<int id="x">1100</int>
+								<str id="hub_id">27</str>
+								<objref id="target" tsid="LM410TMR0S2S1" label="Ruta Asuncion"/>
+							</object>
+							<object id="1">
+								<int id="y">-90</int>
+								<str id="mote_id">9</str>
+								<str id="swf_file_versioned">http://c2.glitch.bz/locations/leavens1/1322700959.swf</str>
+								<int id="x">-3730</int>
+								<str id="hub_id">27</str>
+								<objref id="target" tsid="LM4109NI2R640" label="Guillermo Gamera Way"/>
+							</object>
+						</object>
+						<int id="h">200</int>
+						<int id="x">2775</int>
+					</object>
+				</object>
+				<int id="z">0</int>
+				<int id="w">6000</int>
+				<object id="doors">
+				</object>
+				<object id="targets">
+					<object id="target_1">
+						<int id="x">0</int>
+						<int id="y">-100</int>
+						<object id="sources">
+							<object id="source_1">
+								<str id="street_tsid">LM416LNIKVLM1</str>
+								<str id="source_key">signpost_1</str>
+								<str id="mote_id">9</str>
+								<str id="hub_id">27</str>
+							</object>
+						</object>
+					</object>
+					<object id="target_2">
+						<int id="x">-2820</int>
+						<int id="y">-40</int>
+						<object id="sources">
+							<object id="source_1">
+								<str id="street_tsid">LM4115NJ46G8M</str>
+								<str id="source_key">signpost_1</str>
+								<str id="mote_id">9</str>
+								<str id="hub_id">27</str>
+							</object>
+						</object>
+					</object>
+					<object id="target_3">
+						<int id="x">2775</int>
+						<int id="y">-550</int>
+						<object id="sources">
+							<object id="source_1">
+								<str id="street_tsid">LM410TMR0S2S1</str>
+								<str id="source_key">signpost_1</str>
+								<str id="mote_id">9</str>
+								<str id="hub_id">27</str>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object id="ladders">
+				</object>
+				<object id="boxes">
+				</object>
+				<int id="h">1000</int>
+				<object id="walls">
+				</object>
+			</object>
+			<object id="bg_2">
+				<int id="w">4488</int>
+				<str id="name">bg_2</str>
+				<object id="decos">
+					<object id="cloud_03_1275514994073">
+						<str id="sprite_class">cloud_03</str>
+						<str id="name">cloud_03_1275514994073</str>
+						<int id="y">274</int>
+						<int id="h">157</int>
+						<int id="z">7</int>
+						<int id="w">492</int>
+						<int id="x">1768</int>
+					</object>
+					<object id="craggyMountain_background_09_1275514959483">
+						<str id="sprite_class">craggyMountain_background_09</str>
+						<str id="name">craggyMountain_background_09_1275514959483</str>
+						<int id="y">746</int>
+						<int id="h">620</int>
+						<int id="z">5</int>
+						<int id="w">174</int>
+						<int id="x">3142</int>
+					</object>
+					<object id="craggyMountain_background_08_1275514925583">
+						<str id="sprite_class">craggyMountain_background_08</str>
+						<str id="name">craggyMountain_background_08_1275514925583</str>
+						<int id="y">754</int>
+						<int id="h">452</int>
+						<int id="z">3</int>
+						<int id="w">526</int>
+						<int id="x">2922</int>
+					</object>
+					<object id="cloud_04_1275514997343">
+						<str id="sprite_class">cloud_04</str>
+						<str id="name">cloud_04_1275514997343</str>
+						<int id="y">128</int>
+						<int id="h">132</int>
+						<int id="z">8</int>
+						<int id="w">558</int>
+						<int id="x">2514</int>
+					</object>
+					<object id="craggyMountain_background_07_1275514950643">
+						<str id="sprite_class">craggyMountain_background_07</str>
+						<str id="name">craggyMountain_background_07_1275514950643</str>
+						<int id="y">402</int>
+						<int id="h">87</int>
+						<int id="z">4</int>
+						<int id="w">243</int>
+						<int id="x">3521</int>
+					</object>
+					<object id="craggyMountain_mid_01_1259982184909">
+						<str id="sprite_class">craggyMountain_mid_01</str>
+						<str id="name">craggyMountain_mid_01_1259982184909</str>
+						<int id="y">853</int>
+						<int id="h">389</int>
+						<int id="z">2</int>
+						<int id="w">730</int>
+						<int id="x">127</int>
+					</object>
+					<object id="craggyMountain_background_10_1259980389129">
+						<str id="sprite_class">craggyMountain_background_10</str>
+						<str id="name">craggyMountain_background_10_1259980389129</str>
+						<int id="y">760</int>
+						<int id="h">719</int>
+						<int id="z">0</int>
+						<int id="w">347</int>
+						<int id="x">2302</int>
+						<int id="r">5</int>
+					</object>
+					<object id="craggyMountain_background_01_1275514969933">
+						<str id="sprite_class">craggyMountain_background_01</str>
+						<str id="name">craggyMountain_background_01_1275514969933</str>
+						<int id="y">734</int>
+						<int id="h">369</int>
+						<int id="z">6</int>
+						<int id="w">291</int>
+						<int id="x">2590</int>
+					</object>
+					<object id="cloud_04_1275515012013">
+						<str id="sprite_class">cloud_04</str>
+						<str id="name">cloud_04_1275515012013</str>
+						<int id="y">366</int>
+						<int id="h">132</int>
+						<int id="z">10</int>
+						<int id="w">558</int>
+						<int id="x">398</int>
+					</object>
+					<object id="cloud_03_1275515005583">
+						<str id="sprite_class">cloud_03</str>
+						<str id="name">cloud_03_1275515005583</str>
+						<int id="y">402</int>
+						<int id="h">157</int>
+						<int id="z">9</int>
+						<int id="w">492</int>
+						<int id="x">528</int>
+					</object>
+					<object id="craggyMountain_mid_02_1259982142488">
+						<str id="sprite_class">craggyMountain_mid_02</str>
+						<str id="name">craggyMountain_mid_02_1259982142488</str>
+						<int id="y">754</int>
+						<int id="h">501</int>
+						<int id="z">1</int>
+						<int id="w">569</int>
+						<int id="x">1280</int>
+					</object>
+				</object>
+				<int id="h">912</int>
+				<int id="z">-2</int>
+			</object>
+			<object id="middleplus">
+				<int id="w">6000</int>
+				<str id="name">middleplus</str>
+				<object id="decos">
+					<object id="shrub_green_02_1276213984591">
+						<str id="sprite_class">shrub_green_02</str>
+						<str id="name">shrub_green_02_1276213984591</str>
+						<int id="y">906</int>
+						<int id="h">145</int>
+						<int id="z">15</int>
+						<int id="w">234</int>
+						<int id="x">4644</int>
+					</object>
+					<object id="vine_09_1276198002516">
+						<str id="sprite_class">vine_09</str>
+						<str id="name">vine_09_1276198002516</str>
+						<int id="y">1003</int>
+						<int id="h">272</int>
+						<int id="z">9</int>
+						<int id="w">122</int>
+						<int id="x">3467</int>
+					</object>
+					<object id="shrub_green_01_1276213973051">
+						<str id="sprite_class">shrub_green_01</str>
+						<str id="name">shrub_green_01_1276213973051</str>
+						<int id="y">913</int>
+						<int id="h">166</int>
+						<int id="z">16</int>
+						<int id="w">104</int>
+						<int id="x">4518</int>
+					</object>
+					<object id="shrub_green_01_1276213995391">
+						<str id="sprite_class">shrub_green_01</str>
+						<str id="name">shrub_green_01_1276213995391</str>
+						<int id="y">956</int>
+						<int id="h">186</int>
+						<int id="z">17</int>
+						<int id="w">116</int>
+						<int id="x">4570</int>
+					</object>
+					<object id="tree_front_02_1275515054423">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1275515054423</str>
+						<int id="y">925</int>
+						<int id="h">545</int>
+						<int id="z">0</int>
+						<int id="w">255</int>
+						<int id="x">4183</int>
+					</object>
+					<object id="vine_05_1276197985156">
+						<str id="sprite_class">vine_05</str>
+						<str id="name">vine_05_1276197985156</str>
+						<int id="y">974</int>
+						<int id="h">323</int>
+						<int id="z">7</int>
+						<int id="w">157</int>
+						<int id="x">3398</int>
+					</object>
+					<object id="vine_03_1276211092164">
+						<str id="sprite_class">vine_03</str>
+						<str id="name">vine_03_1276211092164</str>
+						<int id="y">943</int>
+						<int id="h">126</int>
+						<int id="z">12</int>
+						<int id="w">355</int>
+						<int id="x">5273</int>
+						<int id="r">-3</int>
+					</object>
+					<object id="tree_front_02_1275515172433">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1275515172433</str>
+						<int id="y">970</int>
+						<bool id="h_flip">true</bool>
+						<int id="h">453</int>
+						<int id="z">2</int>
+						<int id="w">211</int>
+						<int id="x">2018</int>
+					</object>
+					<object id="shrub_green_03_1276213971531">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1276213971531</str>
+						<int id="y">925</int>
+						<int id="h">55</int>
+						<int id="z">14</int>
+						<int id="w">137</int>
+						<int id="x">4451</int>
+					</object>
+					<object id="tree_front_03_1276197925616">
+						<str id="sprite_class">tree_front_03</str>
+						<str id="name">tree_front_03_1276197925616</str>
+						<int id="y">996</int>
+						<int id="h">272</int>
+						<int id="z">6</int>
+						<int id="w">228</int>
+						<int id="x">1572</int>
+					</object>
+					<object id="shrub_orange_02_1275515163513">
+						<str id="sprite_class">shrub_orange_02</str>
+						<str id="name">shrub_orange_02_1275515163513</str>
+						<int id="y">1011</int>
+						<int id="h">144</int>
+						<int id="z">1</int>
+						<int id="w">85</int>
+						<int id="x">117</int>
+					</object>
+					<object id="vine_08_1276211086824">
+						<str id="sprite_class">vine_08</str>
+						<str id="name">vine_08_1276211086824</str>
+						<int id="y">944</int>
+						<int id="h">185</int>
+						<int id="z">11</int>
+						<int id="w">111</int>
+						<int id="x">5100</int>
+					</object>
+					<object id="vine_02_1276211057584">
+						<str id="sprite_class">vine_02</str>
+						<str id="name">vine_02_1276211057584</str>
+						<int id="y">899</int>
+						<int id="h">274</int>
+						<int id="z">10</int>
+						<int id="w">123</int>
+						<int id="x">5107</int>
+					</object>
+					<object id="vine_10_1276197581296">
+						<str id="sprite_class">vine_10</str>
+						<str id="name">vine_10_1276197581296</str>
+						<int id="y">963</int>
+						<int id="h">160</int>
+						<int id="z">13</int>
+						<int id="w">175</int>
+						<int id="x">5251</int>
+					</object>
+					<object id="tree_front_04_1276197802916">
+						<str id="sprite_class">tree_front_04</str>
+						<str id="name">tree_front_04_1276197802916</str>
+						<int id="y">1224</int>
+						<int id="h">68</int>
+						<int id="z">5</int>
+						<int id="w">33</int>
+						<int id="x">2577</int>
+					</object>
+					<object id="pipe_vines_04_1276197685996">
+						<str id="sprite_class">pipe_vines_04</str>
+						<str id="name">pipe_vines_04_1276197685996</str>
+						<int id="y">836</int>
+						<bool id="h_flip">true</bool>
+						<int id="h">215</int>
+						<int id="z">4</int>
+						<int id="w">242</int>
+						<int id="x">5095</int>
+					</object>
+					<object id="vine_08_1276197990516">
+						<str id="sprite_class">vine_08</str>
+						<str id="name">vine_08_1276197990516</str>
+						<int id="y">984</int>
+						<int id="h">309</int>
+						<int id="z">8</int>
+						<int id="w">185</int>
+						<int id="x">3590</int>
+					</object>
+				</object>
+				<int id="h">1000</int>
+				<int id="z">1</int>
+			</object>
+			<object id="foreground">
+				<int id="w">6600</int>
+				<str id="name">foreground</str>
+				<object id="decos">
+					<object id="tree_front_02_1275604227949">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1275604227949</str>
+						<int id="y">1028</int>
+						<int id="h">1011</int>
+						<int id="z">1</int>
+						<int id="w">473</int>
+						<int id="x">4672</int>
+					</object>
+					<object id="tree_front_02_1259980654295">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1259980654295</str>
+						<int id="y">1057</int>
+						<int id="h">789</int>
+						<int id="z">0</int>
+						<int id="w">369</int>
+						<int id="x">2146</int>
+					</object>
+					<object id="tree_front_02_1275604835899">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1275604835899</str>
+						<int id="y">1030</int>
+						<int id="h">721</int>
+						<int id="z">3</int>
+						<int id="w">337</int>
+						<int id="x">428</int>
+					</object>
+					<object id="tree_front_02_1276214017161">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1276214017161</str>
+						<int id="y">1055</int>
+						<int id="h">853</int>
+						<int id="z">5</int>
+						<int id="w">399</int>
+						<int id="x">5346</int>
+					</object>
+					<object id="tree_front_02_1276213062931">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1276213062931</str>
+						<int id="y">663</int>
+						<int id="h">819</int>
+						<int id="z">4</int>
+						<int id="w">383</int>
+						<int id="x">6501</int>
+					</object>
+					<object id="tree_front_02_1275604715789">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1275604715789</str>
+						<int id="y">1024</int>
+						<int id="h">802</int>
+						<int id="z">2</int>
+						<int id="w">375</int>
+						<int id="x">3057</int>
+					</object>
+				</object>
+				<int id="h">1000</int>
+				<int id="z">2</int>
+			</object>
+			<object id="bg_1">
+				<int id="w">5280</int>
+				<str id="name">bg_1</str>
+				<object id="decos">
+					<object id="ground_mid_top_02_1275612936543">
+						<str id="sprite_class">ground_mid_top_02</str>
+						<str id="name">ground_mid_top_02_1275612936543</str>
+						<int id="y">518</int>
+						<int id="h">79</int>
+						<int id="z">31</int>
+						<int id="w">355</int>
+						<int id="x">4626</int>
+						<int id="r">-20</int>
+					</object>
+					<object id="ground_mid_top_05_1259979718340">
+						<str id="sprite_class">ground_mid_top_05</str>
+						<str id="name">ground_mid_top_05_1259979718340</str>
+						<int id="y">804</int>
+						<int id="h">43</int>
+						<int id="z">17</int>
+						<int id="w">262</int>
+						<int id="x">492</int>
+					</object>
+					<object id="ground_mid_tile_01_1259980007395">
+						<str id="sprite_class">ground_mid_tile_01</str>
+						<str id="name">ground_mid_tile_01_1259980007395</str>
+						<int id="y">872</int>
+						<int id="h">63</int>
+						<int id="z">18</int>
+						<int id="w">315</int>
+						<int id="x">1370</int>
+					</object>
+					<object id="serpent_red_mid_02_1275604578649">
+						<str id="sprite_class">serpent_red_mid_02</str>
+						<str id="name">serpent_red_mid_02_1275604578649</str>
+						<int id="y">782</int>
+						<int id="h">124</int>
+						<int id="z">23</int>
+						<int id="w">153</int>
+						<int id="x">680</int>
+					</object>
+					<object id="cl2_cactus_Back_02_1276212040738">
+						<str id="sprite_class">cl2_cactus_Back_02</str>
+						<str id="name">cl2_cactus_Back_02_1276212040738</str>
+						<int id="y">623</int>
+						<int id="h">85</int>
+						<int id="z">54</int>
+						<int id="w">29</int>
+						<int id="x">4009</int>
+					</object>
+					<object id="ground_mid_top_02_1276213749661">
+						<str id="sprite_class">ground_mid_top_02</str>
+						<str id="name">ground_mid_top_02_1276213749661</str>
+						<int id="y">745</int>
+						<int id="h">77</int>
+						<int id="z">67</int>
+						<int id="w">346</int>
+						<int id="x">3943</int>
+					</object>
+					<object id="ground_mid_top_02_1276213880431">
+						<str id="sprite_class">ground_mid_top_02</str>
+						<str id="name">ground_mid_top_02_1276213880431</str>
+						<int id="y">292</int>
+						<int id="h">52</int>
+						<int id="z">75</int>
+						<int id="w">234</int>
+						<int id="x">5055</int>
+						<int id="r">-7</int>
+					</object>
+					<object id="cl2_cactus_Back_03_1276212036568">
+						<str id="sprite_class">cl2_cactus_Back_03</str>
+						<str id="name">cl2_cactus_Back_03_1276212036568</str>
+						<int id="y">652</int>
+						<int id="h">76</int>
+						<int id="z">53</int>
+						<int id="w">21</int>
+						<int id="x">3947</int>
+					</object>
+					<object id="ground_mid_top_02_1275613387733">
+						<str id="sprite_class">ground_mid_top_02</str>
+						<str id="name">ground_mid_top_02_1275613387733</str>
+						<int id="y">884</int>
+						<int id="h">111</int>
+						<int id="z">35</int>
+						<int id="w">500</int>
+						<int id="x">2092</int>
+					</object>
+					<object id="windmill_01_1276211738563">
+						<str id="sprite_class">windmill_01</str>
+						<str id="name">windmill_01_1276211738563</str>
+						<int id="y">813</int>
+						<int id="h">273</int>
+						<int id="z">50</int>
+						<int id="w">101</int>
+						<int id="x">422</int>
+					</object>
+					<object id="ground_mid_tile_01_1275612136553">
+						<str id="sprite_class">ground_mid_tile_01</str>
+						<str id="name">ground_mid_tile_01_1275612136553</str>
+						<int id="y">901</int>
+						<int id="h">54</int>
+						<int id="z">29</int>
+						<int id="w">270</int>
+						<int id="x">740</int>
+					</object>
+					<object id="ground_mid_top_02_1276213737551">
+						<str id="sprite_class">ground_mid_top_02</str>
+						<str id="name">ground_mid_top_02_1276213737551</str>
+						<int id="y">724</int>
+						<int id="h">54</int>
+						<int id="z">66</int>
+						<int id="w">243</int>
+						<int id="x">3720</int>
+						<int id="r">-5</int>
+					</object>
+					<object id="ground_mid_top_03_1259978758202">
+						<str id="sprite_class">ground_mid_top_03</str>
+						<str id="name">ground_mid_top_03_1259978758202</str>
+						<int id="y">752</int>
+						<int id="h">70</int>
+						<int id="z">8</int>
+						<int id="w">500</int>
+						<int id="x">3514</int>
+					</object>
+					<object id="ground_mid_top_02_1259978971476">
+						<str id="sprite_class">ground_mid_top_02</str>
+						<str id="name">ground_mid_top_02_1259978971476</str>
+						<int id="y">811</int>
+						<int id="h">111</int>
+						<int id="z">12</int>
+						<int id="w">500</int>
+						<int id="x">2227</int>
+					</object>
+					<object id="ground_mid_top_01_1275612945573">
+						<str id="sprite_class">ground_mid_top_01</str>
+						<str id="name">ground_mid_top_01_1275612945573</str>
+						<int id="y">352</int>
+						<int id="h">93</int>
+						<int id="z">32</int>
+						<int id="w">500</int>
+						<int id="x">5388</int>
+					</object>
+					<object id="ground_mid_tile_01_1276213871051">
+						<str id="sprite_class">ground_mid_tile_01</str>
+						<str id="name">ground_mid_tile_01_1276213871051</str>
+						<int id="y">309</int>
+						<int id="h">46</int>
+						<int id="z">74</int>
+						<int id="w">230</int>
+						<int id="x">5083</int>
+					</object>
+					<object id="cl2_cactus_Back_05_1276212028518">
+						<str id="sprite_class">cl2_cactus_Back_05</str>
+						<str id="name">cl2_cactus_Back_05_1276212028518</str>
+						<int id="y">640</int>
+						<int id="h">62</int>
+						<int id="z">51</int>
+						<int id="w">33</int>
+						<int id="x">3926</int>
+					</object>
+					<object id="ground_mid_tile_01_1276213442351">
+						<str id="sprite_class">ground_mid_tile_01</str>
+						<str id="name">ground_mid_tile_01_1276213442351</str>
+						<int id="y">855</int>
+						<int id="h">44</int>
+						<int id="z">55</int>
+						<int id="w">220</int>
+						<int id="x">874</int>
+					</object>
+					<object id="ground_mid_top_01_1259978844063">
+						<str id="sprite_class">ground_mid_top_01</str>
+						<str id="name">ground_mid_top_01_1259978844063</str>
+						<int id="y">753</int>
+						<bool id="h_flip">true</bool>
+						<int id="h">93</int>
+						<int id="z">9</int>
+						<int id="w">500</int>
+						<int id="x">3046</int>
+					</object>
+					<object id="ground_mid_tile_01_1276213858391">
+						<str id="sprite_class">ground_mid_tile_01</str>
+						<str id="name">ground_mid_tile_01_1276213858391</str>
+						<int id="y">369</int>
+						<int id="h">48</int>
+						<int id="z">72</int>
+						<int id="w">240</int>
+						<int id="x">5014</int>
+					</object>
+					<object id="ground_mid_top_01_1276213397311">
+						<str id="sprite_class">ground_mid_top_01</str>
+						<str id="name">ground_mid_top_01_1276213397311</str>
+						<int id="y">835</int>
+						<int id="h">48</int>
+						<int id="z">5</int>
+						<int id="w">258</int>
+						<int id="x">516</int>
+					</object>
+					<object id="ground_mid_top_02_1276213836981">
+						<str id="sprite_class">ground_mid_top_02</str>
+						<str id="name">ground_mid_top_02_1276213836981</str>
+						<int id="y">350</int>
+						<int id="h">58</int>
+						<int id="z">70</int>
+						<int id="w">261</int>
+						<int id="x">4885</int>
+						<int id="r">-27</int>
+					</object>
+					<object id="ground_mid_top_04_1276213450961">
+						<str id="sprite_class">ground_mid_top_04</str>
+						<str id="name">ground_mid_top_04_1276213450961</str>
+						<int id="y">817</int>
+						<int id="h">58</int>
+						<int id="z">3</int>
+						<int id="w">322</int>
+						<int id="x">864</int>
+					</object>
+					<object id="ground_mid_top_01_1276213643951">
+						<str id="sprite_class">ground_mid_top_01</str>
+						<str id="name">ground_mid_top_01_1276213643951</str>
+						<int id="y">701</int>
+						<int id="h">54</int>
+						<int id="z">60</int>
+						<int id="w">290</int>
+						<int id="x">4033</int>
+					</object>
+					<object id="ground_mid_top_02_1275611971813">
+						<str id="sprite_class">ground_mid_top_02</str>
+						<str id="name">ground_mid_top_02_1275611971813</str>
+						<int id="y">467</int>
+						<int id="h">65</int>
+						<int id="z">27</int>
+						<int id="w">294</int>
+						<int id="x">4819</int>
+						<int id="r">-15</int>
+					</object>
+					<object id="ground_mid_top_02_1276213668821">
+						<str id="sprite_class">ground_mid_top_02</str>
+						<str id="name">ground_mid_top_02_1276213668821</str>
+						<int id="y">610</int>
+						<int id="h">83</int>
+						<int id="z">62</int>
+						<int id="w">373</int>
+						<int id="x">4394</int>
+					</object>
+					<object id="shrub_orange_01_1259981197356">
+						<str id="sprite_class">shrub_orange_01</str>
+						<str id="name">shrub_orange_01_1259981197356</str>
+						<int id="y">711</int>
+						<int id="h">52</int>
+						<int id="z">22</int>
+						<int id="w">33</int>
+						<int id="x">2133</int>
+					</object>
+					<object id="tree_front_04_1276197810216">
+						<str id="sprite_class">tree_front_04</str>
+						<str id="name">tree_front_04_1276197810216</str>
+						<int id="y">671</int>
+						<int id="h">51</int>
+						<int id="z">38</int>
+						<int id="w">25</int>
+						<int id="x">3075</int>
+					</object>
+					<object id="ground_mid_tile_01_1259978951010">
+						<str id="sprite_class">ground_mid_tile_01</str>
+						<str id="name">ground_mid_tile_01_1259978951010</str>
+						<int id="y">782</int>
+						<int id="h">100</int>
+						<int id="z">10</int>
+						<int id="w">500</int>
+						<int id="x">3025</int>
+					</object>
+					<object id="shrub_green_01_1316483150210">
+						<str id="sprite_class">shrub_green_01</str>
+						<str id="name">shrub_green_01_1275515203413</str>
+						<int id="y">841</int>
+						<int id="h">56</int>
+						<int id="z">77</int>
+						<int id="w">35</int>
+						<int id="x">754</int>
+					</object>
+					<object id="ground_mid_top_01_1276213816101">
+						<str id="sprite_class">ground_mid_top_01</str>
+						<str id="name">ground_mid_top_01_1276213816101</str>
+						<int id="y">404</int>
+						<int id="h">49</int>
+						<int id="z">69</int>
+						<int id="w">263</int>
+						<int id="x">4790</int>
+						<int id="r">-23</int>
+					</object>
+					<object id="ground_mid_tile_01_1276213610731">
+						<str id="sprite_class">ground_mid_tile_01</str>
+						<str id="name">ground_mid_tile_01_1276213610731</str>
+						<int id="y">669</int>
+						<int id="h">56</int>
+						<int id="z">59</int>
+						<int id="w">280</int>
+						<int id="x">4171</int>
+					</object>
+					<object id="ground_mid_left_1276213804351">
+						<str id="sprite_class">ground_mid_left</str>
+						<str id="name">ground_mid_left_1276213804351</str>
+						<int id="y">453</int>
+						<int id="h">148</int>
+						<int id="z">68</int>
+						<int id="w">162</int>
+						<int id="x">4779</int>
+					</object>
+					<object id="ground_mid_top_05_1276213653771">
+						<str id="sprite_class">ground_mid_top_05</str>
+						<str id="name">ground_mid_top_05_1276213653771</str>
+						<int id="y">573</int>
+						<int id="h">51</int>
+						<int id="z">61</int>
+						<int id="w">310</int>
+						<int id="x">4220</int>
+						<int id="r">-21</int>
+					</object>
+					<object id="ground_mid_top_01_1275613374403">
+						<str id="sprite_class">ground_mid_top_01</str>
+						<str id="name">ground_mid_top_01_1275613374403</str>
+						<int id="y">854</int>
+						<int id="h">61</int>
+						<int id="z">34</int>
+						<int id="w">327</int>
+						<int id="x">352</int>
+					</object>
+					<object id="tree_front_01_1276197952226">
+						<str id="sprite_class">tree_front_01</str>
+						<str id="name">tree_front_01_1276197952226</str>
+						<int id="y">811</int>
+						<bool id="h_flip">true</bool>
+						<int id="h">95</int>
+						<int id="z">46</int>
+						<int id="w">68</int>
+						<int id="x">1242</int>
+					</object>
+					<object id="ground_mid_top_07_1276213898151">
+						<str id="sprite_class">ground_mid_top_07</str>
+						<str id="name">ground_mid_top_07_1276213898151</str>
+						<int id="y">251</int>
+						<int id="h">44</int>
+						<int id="z">76</int>
+						<int id="w">312</int>
+						<int id="x">5353</int>
+						<int id="r">-16</int>
+					</object>
+					<object id="ground_mid_tile_01_1276213853601">
+						<str id="sprite_class">ground_mid_tile_01</str>
+						<str id="name">ground_mid_tile_01_1276213853601</str>
+						<int id="y">406</int>
+						<int id="h">56</int>
+						<int id="z">71</int>
+						<int id="w">280</int>
+						<int id="x">4967</int>
+					</object>
+					<object id="ground_mid_tile_01_1276213571801">
+						<str id="sprite_class">ground_mid_tile_01</str>
+						<str id="name">ground_mid_tile_01_1276213571801</str>
+						<int id="y">831</int>
+						<int id="h">49</int>
+						<int id="z">58</int>
+						<int id="w">245</int>
+						<int id="x">1530</int>
+						<int id="r">-19</int>
+					</object>
+					<object id="ground_mid_top_04_1259980053789">
+						<str id="sprite_class">ground_mid_top_04</str>
+						<str id="name">ground_mid_top_04_1259980053789</str>
+						<int id="y">614</int>
+						<int id="h">45</int>
+						<int id="z">19</int>
+						<int id="w">250</int>
+						<int id="x">4241</int>
+					</object>
+					<object id="windmill_01_1276211716623">
+						<str id="sprite_class">windmill_01</str>
+						<str id="name">windmill_01_1276211716623</str>
+						<int id="y">786</int>
+						<int id="h">247</int>
+						<int id="z">49</int>
+						<int id="w">91</int>
+						<int id="x">463</int>
+					</object>
+					<object id="ground_mid_top_01_1276213715071">
+						<str id="sprite_class">ground_mid_top_01</str>
+						<str id="name">ground_mid_top_01_1276213715071</str>
+						<int id="y">494</int>
+						<int id="h">55</int>
+						<int id="z">65</int>
+						<int id="w">295</int>
+						<int id="x">4577</int>
+						<int id="r">-17</int>
+					</object>
+					<object id="ground_mid_tile_01_1276213863581">
+						<str id="sprite_class">ground_mid_tile_01</str>
+						<str id="name">ground_mid_tile_01_1276213863581</str>
+						<int id="y">337</int>
+						<int id="h">43</int>
+						<int id="z">73</int>
+						<int id="w">215</int>
+						<int id="x">5042</int>
+					</object>
+					<object id="ground_mid_top_02_1276213621651">
+						<str id="sprite_class">ground_mid_top_02</str>
+						<str id="name">ground_mid_top_02_1276213621651</str>
+						<int id="y">683</int>
+						<int id="h">56</int>
+						<int id="z">1</int>
+						<int id="w">252</int>
+						<int id="x">3900</int>
+						<int id="r">-11</int>
+					</object>
+					<object id="ground_mid_top_02_1275612958543">
+						<str id="sprite_class">ground_mid_top_02</str>
+						<str id="name">ground_mid_top_02_1275612958543</str>
+						<int id="y">311</int>
+						<int id="h">64</int>
+						<int id="z">33</int>
+						<int id="w">288</int>
+						<int id="x">5200</int>
+						<int id="r">-46</int>
+					</object>
+					<object id="ground_mid_top_06_1259978976982">
+						<str id="sprite_class">ground_mid_top_06</str>
+						<str id="name">ground_mid_top_06_1259978976982</str>
+						<int id="y">822</int>
+						<int id="h">39</int>
+						<int id="z">13</int>
+						<int id="w">278</int>
+						<int id="x">1352</int>
+					</object>
+					<object id="ground_mid_top_01_1276213561971">
+						<str id="sprite_class">ground_mid_top_01</str>
+						<str id="name">ground_mid_top_01_1276213561971</str>
+						<int id="y">798</int>
+						<int id="h">45</int>
+						<int id="z">57</int>
+						<int id="w">241</int>
+						<int id="x">1520</int>
+						<int id="r">-20</int>
+					</object>
+					<object id="tree_front_02_1276197868696">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1276197868696</str>
+						<int id="y">836</int>
+						<int id="h">228</int>
+						<int id="z">42</int>
+						<int id="w">107</int>
+						<int id="x">557</int>
+					</object>
+					<object id="ground_mid_top_05_1275611989083">
+						<str id="sprite_class">ground_mid_top_05</str>
+						<str id="name">ground_mid_top_05_1275611989083</str>
+						<int id="y">419</int>
+						<int id="h">52</int>
+						<int id="z">28</int>
+						<int id="w">319</int>
+						<int id="x">4986</int>
+						<int id="r">-23</int>
+					</object>
+					<object id="ground_mid_top_04_1259980079526">
+						<str id="sprite_class">ground_mid_top_04</str>
+						<str id="name">ground_mid_top_04_1259980079526</str>
+						<int id="y">691</int>
+						<int id="h">90</int>
+						<int id="z">21</int>
+						<int id="w">500</int>
+						<int id="x">4752</int>
+						<int id="r">5</int>
+					</object>
+					<object id="ground_mid_top_01_1259978967543">
+						<str id="sprite_class">ground_mid_top_01</str>
+						<str id="name">ground_mid_top_01_1259978967543</str>
+						<int id="y">752</int>
+						<int id="h">93</int>
+						<int id="z">11</int>
+						<int id="w">500</int>
+						<int id="x">2593</int>
+					</object>
+					<object id="ground_mid_top_04_1259978731758">
+						<str id="sprite_class">ground_mid_top_04</str>
+						<str id="name">ground_mid_top_04_1259978731758</str>
+						<int id="y">655</int>
+						<int id="h">57</int>
+						<int id="z">7</int>
+						<int id="w">316</int>
+						<int id="x">4055</int>
+						<int id="r">-10</int>
+					</object>
+					<object id="cl2_rock_01_1276210929004">
+						<str id="sprite_class">cl2_rock_01</str>
+						<str id="name">cl2_rock_01_1276210929004</str>
+						<int id="y">796</int>
+						<int id="h">33</int>
+						<int id="z">47</int>
+						<int id="w">35</int>
+						<int id="x">249</int>
+					</object>
+					<object id="ground_mid_top_02_1275611957083">
+						<str id="sprite_class">ground_mid_top_02</str>
+						<str id="name">ground_mid_top_02_1275611957083</str>
+						<int id="y">575</int>
+						<int id="h">73</int>
+						<int id="z">26</int>
+						<int id="w">328</int>
+						<int id="x">4387</int>
+						<int id="r">-20</int>
+					</object>
+					<object id="tree_front_03_1276197814306">
+						<str id="sprite_class">tree_front_03</str>
+						<str id="name">tree_front_03_1276197814306</str>
+						<int id="y">673</int>
+						<int id="h">100</int>
+						<int id="z">39</int>
+						<int id="w">83</int>
+						<int id="x">3109</int>
+					</object>
+					<object id="tree_front_01_1276197853616">
+						<str id="sprite_class">tree_front_01</str>
+						<str id="name">tree_front_01_1276197853616</str>
+						<int id="y">736</int>
+						<bool id="h_flip">true</bool>
+						<int id="h">81</int>
+						<int id="z">41</int>
+						<int id="w">57</int>
+						<int id="x">1961</int>
+					</object>
+					<object id="cl2_mountains_wayBack_05_1259982207354">
+						<str id="sprite_class">cl2_mountains_wayBack_05</str>
+						<str id="name">cl2_mountains_wayBack_05_1259982207354</str>
+						<int id="y">952</int>
+						<int id="h">547</int>
+						<int id="z">6</int>
+						<int id="w">544</int>
+						<int id="x">2285</int>
+					</object>
+					<object id="tree_front_02_1276197908696">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1276197908696</str>
+						<int id="y">861</int>
+						<int id="h">181</int>
+						<int id="z">44</int>
+						<int id="w">85</int>
+						<int id="x">584</int>
+					</object>
+					<object id="ground_mid_tile_01_1276213493501">
+						<str id="sprite_class">ground_mid_tile_01</str>
+						<str id="name">ground_mid_tile_01_1276213493501</str>
+						<int id="y">863</int>
+						<int id="h">62</int>
+						<int id="z">56</int>
+						<int id="w">310</int>
+						<int id="x">1120</int>
+					</object>
+					<object id="ground_mid_top_02_1259979712718">
+						<str id="sprite_class">ground_mid_top_02</str>
+						<str id="name">ground_mid_top_02_1259979712718</str>
+						<int id="y">819</int>
+						<int id="h">62</int>
+						<int id="z">16</int>
+						<int id="w">279</int>
+						<int id="x">682</int>
+					</object>
+					<object id="tree_front_01_1276197944346">
+						<str id="sprite_class">tree_front_01</str>
+						<str id="name">tree_front_01_1276197944346</str>
+						<int id="y">806</int>
+						<int id="h">126</int>
+						<int id="z">45</int>
+						<int id="w">90</int>
+						<int id="x">1269</int>
+					</object>
+					<object id="windmill_01_1276211699803">
+						<str id="sprite_class">windmill_01</str>
+						<str id="name">windmill_01_1276211699803</str>
+						<int id="y">796</int>
+						<int id="h">223</int>
+						<int id="z">48</int>
+						<int id="w">83</int>
+						<int id="x">368</int>
+					</object>
+					<object id="shrub_green_01_1316483150208">
+						<str id="sprite_class">shrub_green_01</str>
+						<str id="name">shrub_green_01_1275515218063</str>
+						<int id="y">893</int>
+						<int id="h">54</int>
+						<int id="z">79</int>
+						<int id="w">34</int>
+						<int id="x">731</int>
+					</object>
+					<object id="ground_mid_top_03_1276213699351">
+						<str id="sprite_class">ground_mid_top_03</str>
+						<str id="name">ground_mid_top_03_1276213699351</str>
+						<int id="y">422</int>
+						<int id="h">41</int>
+						<int id="z">64</int>
+						<int id="w">292</int>
+						<int id="x">4678</int>
+						<int id="r">-17</int>
+					</object>
+					<object id="ground_mid_top_04_1276213483801">
+						<str id="sprite_class">ground_mid_top_04</str>
+						<str id="name">ground_mid_top_04_1276213483801</str>
+						<int id="y">806</int>
+						<int id="h">51</int>
+						<int id="z">2</int>
+						<int id="w">283</int>
+						<int id="x">1023</int>
+					</object>
+					<object id="ground_mid_top_01_1275612148123">
+						<str id="sprite_class">ground_mid_top_01</str>
+						<str id="name">ground_mid_top_01_1275612148123</str>
+						<int id="y">893</int>
+						<int id="h">50</int>
+						<int id="z">30</int>
+						<int id="w">268</int>
+						<int id="x">494</int>
+					</object>
+					<object id="ground_mid_top_01_1276213680611">
+						<str id="sprite_class">ground_mid_top_01</str>
+						<str id="name">ground_mid_top_01_1276213680611</str>
+						<int id="y">501</int>
+						<int id="h">54</int>
+						<int id="z">63</int>
+						<int id="w">291</int>
+						<int id="x">4431</int>
+						<int id="r">-18</int>
+					</object>
+					<object id="tree_front_01_1276197845406">
+						<str id="sprite_class">tree_front_01</str>
+						<str id="name">tree_front_01_1276197845406</str>
+						<int id="y">729</int>
+						<int id="h">108</int>
+						<int id="z">40</int>
+						<int id="w">76</int>
+						<int id="x">1897</int>
+					</object>
+					<object id="tree_front_01_1276197765446">
+						<str id="sprite_class">tree_front_01</str>
+						<str id="name">tree_front_01_1276197765446</str>
+						<int id="y">678</int>
+						<int id="h">147</int>
+						<int id="z">36</int>
+						<int id="w">104</int>
+						<int id="x">2604</int>
+					</object>
+					<object id="ground_mid_top_04_1259979259228">
+						<str id="sprite_class">ground_mid_top_04</str>
+						<str id="name">ground_mid_top_04_1259979259228</str>
+						<int id="y">780</int>
+						<int id="h">90</int>
+						<int id="z">14</int>
+						<int id="w">500</int>
+						<int id="x">1798</int>
+					</object>
+					<object id="ground_mid_tile_01_1276213419701">
+						<str id="sprite_class">ground_mid_tile_01</str>
+						<str id="name">ground_mid_tile_01_1276213419701</str>
+						<int id="y">868</int>
+						<int id="h">55</int>
+						<int id="z">4</int>
+						<int id="w">275</int>
+						<int id="x">646</int>
+					</object>
+					<object id="serpent_red_tail_mid_01_1275604583919">
+						<str id="sprite_class">serpent_red_tail_mid_01</str>
+						<str id="name">serpent_red_tail_mid_01_1275604583919</str>
+						<int id="y">783</int>
+						<int id="h">202</int>
+						<int id="z">25</int>
+						<int id="w">198</int>
+						<int id="x">1086</int>
+					</object>
+					<object id="tree_front_02_1276197772406">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1276197772406</str>
+						<int id="y">688</int>
+						<int id="h">202</int>
+						<int id="z">37</int>
+						<int id="w">94</int>
+						<int id="x">2679</int>
+					</object>
+					<object id="ground_mid_top_02_1276213766621">
+						<str id="sprite_class">ground_mid_top_02</str>
+						<str id="name">ground_mid_top_02_1276213766621</str>
+						<int id="y">839</int>
+						<int id="h">62</int>
+						<int id="z">0</int>
+						<int id="w">279</int>
+						<int id="x">1219</int>
+					</object>
+					<object id="ground_mid_top_05_1259980064838">
+						<str id="sprite_class">ground_mid_top_05</str>
+						<str id="name">ground_mid_top_05_1259980064838</str>
+						<int id="y">695</int>
+						<int id="h">82</int>
+						<int id="z">20</int>
+						<int id="w">500</int>
+						<int id="x">4329</int>
+					</object>
+					<object id="cl2_cactus_Back_04_1276212031678">
+						<str id="sprite_class">cl2_cactus_Back_04</str>
+						<str id="name">cl2_cactus_Back_04_1276212031678</str>
+						<int id="y">631</int>
+						<int id="h">65</int>
+						<int id="z">52</int>
+						<int id="w">22</int>
+						<int id="x">3961</int>
+					</object>
+					<object id="shrub_green_03_1316483150209">
+						<str id="sprite_class">shrub_green_03</str>
+						<str id="name">shrub_green_03_1275515205253</str>
+						<int id="y">837</int>
+						<int id="h">18</int>
+						<int id="z">78</int>
+						<int id="w">44</int>
+						<int id="x">723</int>
+					</object>
+					<object id="ground_mid_tile_01_1259979263558">
+						<str id="sprite_class">ground_mid_tile_01</str>
+						<str id="name">ground_mid_tile_01_1259979263558</str>
+						<int id="y">855</int>
+						<int id="h">100</int>
+						<int id="z">15</int>
+						<int id="w">500</int>
+						<int id="x">1795</int>
+					</object>
+					<object id="tree_front_02_1276197892846">
+						<str id="sprite_class">tree_front_02</str>
+						<str id="name">tree_front_02_1276197892846</str>
+						<int id="y">843</int>
+						<bool id="h_flip">true</bool>
+						<int id="h">209</int>
+						<int id="z">43</int>
+						<int id="w">98</int>
+						<int id="x">614</int>
+					</object>
+					<object id="serpent_red_mid_03_1275604580769">
+						<str id="sprite_class">serpent_red_mid_03</str>
+						<str id="name">serpent_red_mid_03_1275604580769</str>
+						<int id="y">782</int>
+						<int id="h">65</int>
+						<int id="z">24</int>
+						<int id="w">160</int>
+						<int id="x">875</int>
+					</object>
+				</object>
+				<int id="h">960</int>
+				<int id="z">-1</int>
+			</object>
+		</object>
+		<str id="tsid">LM416LNIKVLM1</str>
+		<int id="ground_y">0</int>
+		<null id="img_file_versioned"/>
+		<object id="gradient">
+			<str id="top">FF8142</str>
+			<str id="bottom">FFFCD1</str>
+		</object>
+		<object id="sources">
+			<int id="LM410TMR0S2S1">1</int>
+			<int id="LM4109NI2R640">1</int>
+			<int id="LM4115NJ46G8M">1</int>
+		</object>
+		<null id="physics"/>
+		<null id="loading_label"/>
+		<int id="rookable_type">0</int>
+		<str id="swf_file_versioned">http://c2.glitch.bz/locations/leavens1/1322700959.swf</str>
+		<null id="music_file"/>
+	</object>
+</game_object>

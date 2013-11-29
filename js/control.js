@@ -523,6 +523,22 @@ control = {
             //  TODO:
             //  Now is probable the time to apply filters to the image if we want to
             //  like tinting.
+            if ('tintColor' in room.dynamic.layers[layerId].filters && room.dynamic.layers[layerId].filters.tintColor !== '' && 'tintAmount' in room.dynamic.layers[layerId].filters && room.dynamic.layers[layerId].filters.tintAmount !== '') {
+                var tintColor = room.dynamic.layers[layerId].filters.tintColor;
+                var tintAmount = room.dynamic.layers[layerId].filters.tintAmount;
+                var r = ((tintColor >> 16) & 0xff);
+                var g = ((tintColor >> 8) & 0xff);
+                var b = ((tintColor) & 0xff);
+                if (tintAmount > 0) {
+                    tintAmount = 100 / tintAmount;
+                    if (tintAmount > 1) {
+                        tintAmount = 1;
+                    }
+                } else {
+                    tintAmount = 0;
+                }
+                //console.log('rgb = (' + r + ',' + g + ',' + b + ',' + tintAmount + ')');
+            }
 
             //$('.offscreenBuffer').append(sourceCanvas);
             var blitThis = sourceCanvas;

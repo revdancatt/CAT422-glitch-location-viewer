@@ -12,38 +12,41 @@ control = {
     gameObject: {},
     currentRoomId: null,
     percentageOf: 9999999,
+    
+    //  We are putting these here, because although we can figure them out
+    //  I want faster access to them because they are
+    //  used in animation
     stageWidth: null,
+    stageHeight: null,
+    stageHolderWidth: null,
+    stageHolderHeight: null,
+
     loadingRoom: true,
     loadingItem: null,
+    loadtime: {
+        start: null,
+        end: null
+    },
 
     init: function(roomId) {
 
         //  update the percentageOf if we resize the window
         $(window).bind('resize', function() {
             try {
-                control.percentageOf = $('.stage').width() - window.innerWidth;
+                control.stageHolderWidth = $('.stage_holder').width();
+                control.stageHolderHeight = $('.stage_holder').height();
             } catch(er) {
                 //  Nowt
             }
         });
-
-        $(window).bind('scroll', function() {
-
-            var currentPercent = window.pageXOffset / control.percentageOf;
-            var len = control.layersId.length;
-            while (len--) {
-                layerId = control.layersId[len];
-                try {
-                    room.dynamic.layers[layerId].offset = ((room.dynamic.layers[layerId].w - control.stageWidth) * -currentPercent);
-                    $('#' + layerId).css('transform', 'translateX(' + room.dynamic.layers[layerId].offset + 'px)' );
-                } catch(er) {//nowt
-                }
-            }
-            
-        });
+        control.stageHolderWidth = $('.stage_holder').width();
+        control.stageHolderHeight = $('.stage_holder').height();
 
         //  Now load the room
         this.loadRoom(roomId);
+
+        //  Do the player init
+        player.init();
 
     },
 
@@ -54,6 +57,8 @@ control = {
     loadRoom: function(roomId) {
 
 
+        control.loadtime.start = new Date();
+
         //  set the room id into the "global" object
         this.currentRoomId = roomId;
 
@@ -62,6 +67,8 @@ control = {
         $('.stage').stop(true, false);
         $('.stage').fadeTo(1333, 0.1);
         $('.location').text('');
+        $('.player_holder').remove();
+        player.loaded = false;
         $('.exits').empty();
 
         //  Empty the layerQueue, and the imageQueue
@@ -104,12 +111,14 @@ control = {
         //  First thing we want to do is set the stage, so lets get the stage size and
         //  gradient.
         $('.stage').css({
-            position: 'relative',
+            position: 'absolute',
+            overflow: 'hidden',
             width: parseInt(room.dynamic.r, 10) - parseInt(room.dynamic.l, 10),
             height: parseInt(room.dynamic.b, 10) - parseInt(room.dynamic.t, 10),
-            overflow: 'hidden',
             'z-index': -1000
         });
+        control.stageWidth = parseInt(room.dynamic.r, 10) - parseInt(room.dynamic.l, 10);
+        control.stageHeight = parseInt(room.dynamic.b, 10) - parseInt(room.dynamic.t, 10);
 
         //  Pad the gratients (yes we could use loopy things but you know
         //  obvious code is obvious)
@@ -317,6 +326,21 @@ control = {
             //  Add the canvas to the layer
             newLayer.append(newCanvas);
 
+            //  If this is the 'middleground' layer then we need to add the player
+            if (id == 'middleground') {
+                var playerSprite = $('<div>').attr('class', 'player_holder').append(
+                    $('<div>').attr('class', 'player_frame').append(
+                        $('<div>').attr('class', 'player').css('background-image', 'url(img/glitchen/root_base.png)')
+                    )
+                );
+
+                //  For the moment, set the player position to be half the stage
+                //  and 300 from the bottom.
+                //  In future we will get this from the sign-post connection information
+                player.setPosition(parseInt(layer.w, 10) / 2 + 100, 100);
+                newLayer.append(playerSprite);
+            }
+
             //  Now attach the layer.
             $('.stage').append(newLayer);
 
@@ -362,6 +386,9 @@ control = {
         $('.exits a').bind('click', function() {
             control.loadRoom($(this).attr('id'));
         });
+
+        //  Tell the player that it's loaded
+        player.loaded = true;
 
         //  Now go and prep each layer
         this.prepItems();
@@ -446,7 +473,6 @@ control = {
         this.failedImageLoad = {};
 
         //  TODO, put all the exits on the exits list
-        //this.showExits();
         this.loadImages();
 
     },
@@ -635,6 +661,9 @@ control = {
         }
 
         $('.loading_holder').fadeOut(600);
+
+        control.loadtime.end = new Date();
+        console.log('Load time: ' + (control.loadtime.end - control.loadtime.start) + 'ms');
 
     },
 

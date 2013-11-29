@@ -1,11 +1,13 @@
 <html>
 <head>
     <title>Location test</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css?v=0.6.0" />
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=0.7.0" />
 </head>
 <body>
 
-    <div class="stage">
+    <div class="stage_holder">
+        <div class="stage">
+        </div>
     </div>
 
     <div class="location">
@@ -21,12 +23,6 @@
         </div>
     </div>
 
-    <div class="about">
-        <a href="http://revdancatt.com/2013/11/26/slowly-bringing-glitch-back-to-life/">about</a><br />
-        <a href="https://github.com/revdancatt/CAT422-glitch-location-viewer">GitHub</a><br />
-        <a href="https://twitter.com/revdancatt">@revdancatt</a>
-    </div>
-
     <div class="exits">
     </div>
 
@@ -36,8 +32,32 @@
     <div class="offScreenBuffer">
     </div>
 
+    <div class="instructions">
+        <p>
+            WASD or cursor keys to move.
+        </p>
+        <p>
+            "Walking" is currently a proof of concept, "platforms", gravity and jumping coming soon.
+        </p>
+        <p>
+            Next on the TODO list is multi-user chat (which will appear here).
+        </p>
+        <p>
+            <a href="http://revdancatt.com/2013/11/26/slowly-bringing-glitch-back-to-life/">Blogpost/About</a><br />
+            <a href="https://github.com/revdancatt/CAT422-glitch-location-viewer">Source code on GitHub</a><br />
+            <a href="https://twitter.com/revdancatt">Twitter @revdancatt</a>
+        </p>
+        <p>
+            * * *
+        </p>
+        <p>
+            Things <strong>WILL</strong> break, hitting reload will sometimes help.
+        </p>
+    </div>
+
     <script src="js/jquery-2.0.3.min.js"></script>
-    <script src="js/control.js?v=0.6.0"></script>
+    <script src="js/control.js?v=0.7.0"></script>
+    <script src="js/player.js?v=0.7.0"></script>
     <script>
         $(document).ready(function() {
             var startRoom = 'GLIERMJ93DE1H25'

@@ -3,13 +3,15 @@ CAT422-glitch-location-viewer
 
 ![Landscape](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/landscape1.jpg)
 
-This code is an attempt to bring Glitch landscapes back to life, and maybe even eventually walk around them and chat with other people. In the meantime try out the viewer here, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.6.0
+This code is an attempt to bring Glitch landscapes back to life, and maybe even eventually walk around them and chat with other people. In the meantime try out the viewer here, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.7.0
+
+[Read the blogpost "Rebuilding Ur, bringing back the beauty of Glitch locations" for more information](http://revdancatt.com/2013/11/26/slowly-bringing-glitch-back-to-life/)
 
 See the TODO list down at the end for more information
 
 ## Viewer
 
-The viewer is here: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.6.0 and is just an example of how you can load in the location .json files and render thelandscape with the .png files.
+The viewer is here: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.7.0 and is just an example of how you can load in the location .json files and render thelandscape with the .png files.
 
 Its not tested on all browsers and is for demo purposes only.
 
@@ -56,15 +58,15 @@ You don't _need_ to use it, as you can just use the .pngs hosted here. But it's 
 
 ## TODO
 
-* Work out which bits of scenery are missing (these now display in a debug text area)
-* Loading Progress Bar, when loading levels
-* At some point move image assets to CDN on multiple domains and parallelise the loading of assets
 * Convert the Path lines and walls into the JSON to, so we know where a play can walk
-* Add a player sprite to the scene and let them walk round
+* Work out which bits of scenery are missing (these now display in a debug text area)
+* At some point move image assets to CDN on multiple domains and parallelise the loading of assets
 * Apply the filters to change the colours
 * Add signposts to the scene so the user can move from one location to another using those
 * Add a simple node/socket.io chat server, with global and local chat
 * Option checkbox to turn blurring on/off (blurring slows everything down)
+* ~~Add a player sprite to the scene and let them walk round~~
+* ~~Loading Progress Bar, when loading levels~~
 * ~~Maybe render to canvas layers instead, may speed the blurring up~~ (note, blurring a whole canvas is still slow, will need to blur images in code before sticking them on the canvas, tricky!)
 * ~~Work out how the heck Glitch rotates pieces of the landscape, 'cause it sure hell ain't normally :(~~
 * ~~Some elements need to be flipped horizontally or vertically~~

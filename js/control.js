@@ -99,6 +99,7 @@ control = {
         $('.stage').empty();
         window.scrollTo(0,0);
         $('.stage').fadeTo(666, 1);
+        $('.loading_holder').fadeIn(666);
 
         //  First thing we want to do is set the stage, so lets get the stage size and
         //  gradient.
@@ -112,20 +113,41 @@ control = {
 
         //  Pad the gratients (yes we could use loopy things but you know
         //  obvious code is obvious)
-        var topGradient = room.gradient.top;
-        if (topGradient.length == 2) topGradient = '0000' + topGradient;
-        if (topGradient.length == 4) topGradient = '00' + topGradient;
+        var topGradient = null;
+        var bottomGradient = null;
 
-        var bottomGradient = room.gradient.bottom;
-        if (bottomGradient.length == 2) bottomGradient = '0000' + bottomGradient;
-        if (bottomGradient.length == 4) bottomGradient = '00' + bottomGradient;
+        if (room.gradient.top >> 16 === 0 && room.gradient.top >> 8 === 0 && (room.gradient.top.length == 6 || room.gradient.top.length == 4 || room.gradient.top.length == 1)) {
 
-        $('.stage').css('background-image', '-webkit-gradient(linear, left top, left bottom, color-stop(0, #' + topGradient + '), color-stop(1, #' + bottomGradient + '))');
-        $('.stage').css('background-image', '-o-linear-gradient(bottom, #' + topGradient + ' 0%, #' + bottomGradient + ' 100%)');
-        $('.stage').css('background-image', '-moz-linear-gradient(bottom, #' + topGradient + ' 0%, #' + bottomGradient + ' 100%)');
-        $('.stage').css('background-image', '-webkit-linear-gradient(bottom, #' + topGradient + ' 0%, #' + bottomGradient + ' 100%)');
-        $('.stage').css('background-image', '-ms-linear-gradient(bottom, #' + topGradient + ' 0%, #' + bottomGradient + ' 100%)');
-        $('.stage').css('background-image', 'linear-gradient(to bottom, #' + topGradient + ' 0%, #' + bottomGradient + ' 100%)');
+            topGradient = room.gradient.top;
+            while (topGradient.length < 6) {
+                topGradient = '0' + topGradient;
+            }
+            topGradient = '#' + topGradient;
+
+            bottomGradient = room.gradient.bottom;
+            while (bottomGradient.length < 6) {
+                bottomGradient = '0' + bottomGradient;
+            }
+            bottomGradient = '#' + bottomGradient;
+
+        } else {
+            var r = ((room.gradient.top >> 16) & 0xff);
+            var g = ((room.gradient.top >> 8) & 0xff);
+            var b = ((room.gradient.top) & 0xff);
+            topGradient = 'rgb(' + r + ',' + g + ',' + b + ')';
+
+            r = ((room.gradient.bottom >> 16) & 0xff);
+            g = ((room.gradient.bottom >> 8) & 0xff);
+            b = ((room.gradient.bottom) & 0xff);
+            bottomGradient = 'rgb(' + r + ',' + g + ',' + b + ')';
+        }
+
+        $('.stage').css('background-image', '-webkit-gradient(linear, left top, left bottom, color-stop(0, ' + topGradient + '), color-stop(1, ' + bottomGradient + '))');
+        $('.stage').css('background-image', '-o-linear-gradient(bottom, ' + topGradient + ' 0%, ' + bottomGradient + ' 100%)');
+        $('.stage').css('background-image', '-moz-linear-gradient(bottom, ' + topGradient + ' 0%, ' + bottomGradient + ' 100%)');
+        $('.stage').css('background-image', '-webkit-linear-gradient(bottom, ' + topGradient + ' 0%, ' + bottomGradient + ' 100%)');
+        $('.stage').css('background-image', '-ms-linear-gradient(bottom, ' + topGradient + ' 0%, ' + bottomGradient + ' 100%)');
+        $('.stage').css('background-image', 'linear-gradient(to bottom, ' + topGradient + ' 0%, ' + bottomGradient + ' 100%)');
 
         //  Update the values we need for scrolling the scene.
         control.percentageOf = $('.stage').width() - window.innerWidth;
@@ -493,7 +515,7 @@ control = {
             }
             control.currentImageCount--;
             var percent = 100 - parseInt(control.currentImageCount / control.maxImageCount * 100, 10);
-            $('.debug').text(percent + '%');
+            $('.percent').css('width', percent + '%');
 
             $('.offscreenBuffer').empty();
             control.loadImages();
@@ -503,26 +525,14 @@ control = {
         //  and move it over.
         newImg.bind('load', function() {
 
-            //  Put the image into the source canvas, flipping if needed.
-            //  Note we are making the canvas twice the height as a hack
-            //  to allow us to rotate if we need to, and also put the
-            //  image into the main canvas based on the center points.
-            var sourceCanvas = $('<canvas>');
-            sourceCanvas.attr({width: item.w, height: item.h * 2})
-            .css({width: item.w, height: item.h * 2})
-            .css({position: 'absolute', top: 0, left: 0});
-            //$('.offscreenBuffer').append(sourceCanvas);
-            sourceContext = sourceCanvas[0].getContext('2d');
-            if (item.h_flip) {
-                sourceContext.scale(-1, 1);
-                sourceContext.drawImage(this, -item.w, 0, item.w, item.h);
-            } else {
-                sourceContext.drawImage(this, 0, 0, item.w, item.h);
-            }
+
+            var thisImg = this;
 
             //  TODO:
             //  Now is probable the time to apply filters to the image if we want to
             //  like tinting.
+            //  TURN THIS OFF FOR THE MOMENT AS ITS STILL NOT RIGHT
+            /*
             if ('tintColor' in room.dynamic.layers[layerId].filters && room.dynamic.layers[layerId].filters.tintColor !== '' && 'tintAmount' in room.dynamic.layers[layerId].filters && room.dynamic.layers[layerId].filters.tintAmount !== '') {
                 var tintColor = room.dynamic.layers[layerId].filters.tintColor;
                 var tintAmount = room.dynamic.layers[layerId].filters.tintAmount;
@@ -537,7 +547,26 @@ control = {
                 } else {
                     tintAmount = 0;
                 }
-                //console.log('rgb = (' + r + ',' + g + ',' + b + ',' + tintAmount + ')');
+                var rgbks = control.generateRGBKs(newImg[0]);
+                thisImg = control.generateTintImage( newImg[0], rgbks, r, g, b );
+            }
+            */
+
+            //  Put the image into the source canvas, flipping if needed.
+            //  Note we are making the canvas twice the height as a hack
+            //  to allow us to rotate if we need to, and also put the
+            //  image into the main canvas based on the center points.
+            var sourceCanvas = $('<canvas>');
+            sourceCanvas.attr({width: item.w, height: item.h * 2})
+            .css({width: item.w, height: item.h * 2})
+            .css({position: 'absolute', top: 0, left: 0});
+            //$('.offscreenBuffer').append(sourceCanvas);
+            sourceContext = sourceCanvas[0].getContext('2d');
+            if (item.h_flip) {
+                sourceContext.scale(-1, 1);
+                sourceContext.drawImage(thisImg, -item.w, 0, item.w, item.h);
+            } else {
+                sourceContext.drawImage(thisImg, 0, 0, item.w, item.h);
             }
 
             //$('.offscreenBuffer').append(sourceCanvas);
@@ -576,7 +605,7 @@ control = {
             //  Reduce down the current image count
             control.currentImageCount--;
             var percent = 100 - parseInt(control.currentImageCount / control.maxImageCount * 100, 10);
-            $('.debug').text(percent + '%');
+            $('.percent').css('width', percent + '%');
             //  Load the images again
             $('.offscreenBuffer').empty();
             control.loadImages();
@@ -605,6 +634,88 @@ control = {
             $('.debug').empty();
         }
 
+        $('.loading_holder').fadeOut(600);
+
+    },
+
+    //  COLOUR TINT CODE FROM:
+    //  http://www.playmycode.com/blog/2011/06/realtime-image-tinting-on-html5-canvas/
+    generateRGBKs: function(img, alpha) {
+
+        var w = img.width;
+        var h = img.height;
+        var rgbks = [];
+
+        var canvas = document.createElement("canvas");
+        canvas.width = w;
+        canvas.height = h;
+
+        var ctx = canvas.getContext("2d");
+        ctx.globalAlpha = alpha;
+        ctx.drawImage( img, 0, 0 );
+
+        var pixels = ctx.getImageData( 0, 0, w, h ).data;
+
+        // 4 is used to ask for 3 images: red, green, blue and
+        // black in that order.
+        for ( var rgbI = 0; rgbI < 4; rgbI++ ) {
+            canvas = document.createElement("canvas");
+            canvas.width  = w;
+            canvas.height = h;
+            
+            ctx = canvas.getContext('2d');
+            ctx.drawImage( img, 0, 0 );
+            var to = ctx.getImageData( 0, 0, w, h );
+            var toData = to.data;
+            
+            for (
+                    var i = 0, len = pixels.length;
+                    i < len;
+                    i += 4
+            ) {
+                toData[i  ] = (rgbI === 0) ? pixels[i  ] : 0;
+                toData[i+1] = (rgbI === 1) ? pixels[i+1] : 0;
+                toData[i+2] = (rgbI === 2) ? pixels[i+2] : 0;
+                toData[i+3] =                pixels[i+3]    ;
+            }
+            
+            ctx.putImageData( to, 0, 0 );
+
+            var imgComp = new Image();
+            imgComp.src = canvas.toDataURL();
+            
+            rgbks.push( imgComp );                        
+        }
+
+        return rgbks;
+    },
+
+    generateTintImage: function( img, rgbks, red, green, blue ) {
+        var buff = document.createElement( "canvas" );
+        buff.width  = img.width;
+        buff.height = img.height;
+        
+        var ctx  = buff.getContext("2d");
+
+        ctx.globalAlpha = 1;
+        ctx.globalCompositeOperation = 'copy';
+        ctx.drawImage( img, 0, 0 );
+
+        ctx.globalCompositeOperation = 'lighter';
+        if ( red > 0 ) {
+            ctx.globalAlpha = red   / 255.0;
+            ctx.drawImage( rgbks[0], 0, 0 );
+        }
+        if ( green > 0 ) {
+            ctx.globalAlpha = green / 255.0;
+            ctx.drawImage( rgbks[1], 0, 0 );
+        }
+        if ( blue > 0 ) {
+            ctx.globalAlpha = blue  / 255.0;
+            ctx.drawImage( rgbks[2], 0, 0 );
+        }
+
+        return buff;
     }
 
 };

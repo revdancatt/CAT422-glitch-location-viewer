@@ -5,7 +5,7 @@ CAT422-glitch-location-viewer
 
 This code is an attempt to bring Glitch landscapes back to life, and maybe even eventually walk around them and chat with other people. In the meantime try out the viewer here, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.7.0
 
-[Read the blogpost "Rebuilding Ur, bringing back the beauty of Glitch locations" for more information](http://revdancatt.com/2013/11/26/slowly-bringing-glitch-back-to-life/)
+Read the blogpost ["Rebuilding Ur, bringing back the beauty of Glitch locations"](http://revdancatt.com/2013/11/26/slowly-bringing-glitch-back-to-life/) for more information.
 
 See the TODO list down at the end for more information
 

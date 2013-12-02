@@ -68,6 +68,8 @@ control = {
         $('.stage').fadeTo(1333, 0.1);
         $('.location').text('');
         $('.player_holder').remove();
+        $('.other_player_holders').remove();
+        player.otherUsers = {};
         player.loaded = false;
         $('.exits').empty();
 
@@ -333,12 +335,20 @@ control = {
                         $('<div>').attr('class', 'player').css('background-image', 'url(img/glitchen/root_base.png)')
                     )
                 );
+                playerSprite.append($('<div>').addClass('nameLabel').text(player.username));
 
                 //  For the moment, set the player position to be half the stage
                 //  and 300 from the bottom.
                 //  In future we will get this from the sign-post connection information
                 player.setPosition(parseInt(layer.w, 10) / 2 + 100, 100);
                 newLayer.append(playerSprite);
+
+                //  tell the backend we've moved rooms
+                if (player.connected) {
+                    console.log('socket.emit');
+                    socket.emit('joinroom', room.label, player.position.x, player.position.y, player.position.facing);
+                }
+
             }
 
             //  Now attach the layer.

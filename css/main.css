@@ -170,7 +170,8 @@ html, body {
     background: #999;
 }
 
-.player_holder {
+.player_holder,
+.other_player_holder {
     position: absolute;
     top: 0;
     left: 0;
@@ -178,7 +179,8 @@ html, body {
     height: 119px;
 }
 
-.player_frame {
+.player_frame,
+.other_player_frame {
     position: absolute;
     top: 0;
     left: 0;
@@ -187,7 +189,8 @@ html, body {
     overflow: hidden;
 }
 
-.player {
+.player,
+.other_player {
     position: absolute;
     top: 0;
     left: 0;
@@ -195,6 +198,11 @@ html, body {
     height: 119px;
     overflow: hidden;
     background-position: -1092px 0;
+}
+
+.nameLabel {
+    margin-top: -20px;
+    text-shadow: 0 0 1px rgb(255,255,255);
 }
 
 .facingLeft {

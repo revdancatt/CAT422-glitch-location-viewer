@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Location test</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css?v=0.7.0" />
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=0.8.0" />
 </head>
 <body>
 
@@ -60,11 +60,17 @@
     </div>
 
     <script src="js/jquery-2.0.3.min.js"></script>
-    <script src="js/control.js?v=0.7.0"></script>
-    <script src="js/player.js?v=0.7.0"></script>
+    <script src="js/control.js?v=0.8.0"></script>
+    <script src="js/player.js?v=0.8.0"></script>
+    <script src="http://glitch-backend.revdancatt.com:8888/socket.io/socket.io.js"></script>
     <script>
+        var socket = io.connect('http://glitch-backend.revdancatt.com:8888', {
+            'reconnect': true,
+            'reconnection delay': 500,
+            'max reconnection attempts': 50
+        });
         $(document).ready(function() {
-            var startRoom = 'GLIERMJ93DE1H25'
+            var startRoom = 'GLIERMJ93DE1H25';
             //  Really poor way of doing URL stuff, but what the heck
             try {
                 startRoom = document.location.hash.split('/')[1].replace('L','G');

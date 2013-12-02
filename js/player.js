@@ -6,8 +6,9 @@ player = {
         frame: 0,
         facing: 'right',
         moving: false,
-        startTime: new Date()
+        startTime: new Date(),
     },
+    username: null,
     size: {
         width: 78,
         height: 119
@@ -20,8 +21,12 @@ player = {
         downPressed: false
     },
     loaded: false,
+    connected: false,
+    otherUsers: {},
 
     init: function() {
+
+        this.username = 'Guest' + parseInt(Math.random() * 100000, 10);
 
         //  do stuff with the window positions
         //  and interface positions
@@ -100,12 +105,147 @@ player = {
             //  if the player is moving update the frame
             if (player.position.moving) {
                 var frame = Math.floor((new Date() - player.position.startTime) / 50) % 11;
-                $('.player').css('background-position', -(frame * player.size.width) + 'px 0');
+                $('.player').css({
+                    'background-position': -(frame * player.size.width) + 'px 0'
+                });
             } else {
-                $('.player').css('background-position', -(14 * player.size.width) + 'px 0');
+                $('.player').css({
+                    'background-position': -(14 * player.size.width) + 'px 0'
+                });
             }
 
+            $('.player_holder').css('z-index', 9999 - player.position.y);
+
         }, 40);
+
+        //  Draw the other players
+        setInterval(function() {
+
+            //  Work out where the other players are currently and where they're
+            //  going towards
+            var thisUser = null;
+            var otherPlayerSprite = null;
+            var isMoving = null;
+            var frame = null;
+
+            for (var user in player.otherUsers) {
+                thisUser = player.otherUsers[user];
+
+                isMoving = false;
+
+                //  If we are trying to move then move now
+                if (thisUser.position.x != thisUser.target.x || thisUser.position.y != thisUser.target.y) {
+
+                    isMoving = true;
+
+                    //  If we are within x pixels then just move them there
+                    if (Math.abs(thisUser.target.x - thisUser.position.x) <= player.speed) {
+                        thisUser.position.x = thisUser.target.x;
+                    } else {
+                        if (thisUser.position.x < thisUser.target.x) thisUser.position.x += player.speed;
+                        if (thisUser.position.x > thisUser.target.x) thisUser.position.x -= player.speed;
+                    }
+
+                    //  Same for y
+                    if (Math.abs(thisUser.target.y - thisUser.position.y) <= player.speed) {
+                        thisUser.position.y = thisUser.target.y;
+                    } else {
+                        if (thisUser.position.y < thisUser.target.y) thisUser.position.y += player.speed;
+                        if (thisUser.position.y > thisUser.target.y) thisUser.position.y -= player.speed;
+                    }
+
+                }
+
+                //  Update the users position
+                otherPlayer = $('#other_player_holder_' + user);
+                if (otherPlayer.length === 0) {
+                    var otherPlayerSprite = $('<div>').addClass('other_player_holder').attr({'id': 'other_player_holder_' + user, 'data-id': user}).append(
+                        $('<div>').attr('class', 'other_player_frame').append(
+                            $('<div>').attr('class', 'other_player').css('background-image', 'url(img/glitchen/root_base.png)')
+                        )
+                    );
+                    otherPlayerSprite.append($('<div>').addClass('nameLabel').text(user));
+                    $('#middleground').append(otherPlayerSprite);
+                }
+
+                otherPlayer.css({
+                    'transform': 'translateX(' + (thisUser.position.x - (player.size.width/2)) + 'px) translateY(' + (control.stageHeight - thisUser.position.y - player.size.height) + 'px)',
+                    'z-index': 9999 - thisUser.position.y
+                });
+
+                if (thisUser.position.facing == 'left') {
+                    $('#other_player_holder_' + user + ' .other_player_frame').addClass('facingLeft');
+                } else {
+                    $('#other_player_holder_' + user + ' .other_player_frame').removeClass('facingLeft');
+                }
+
+                if (isMoving) {
+                    frame = Math.floor((new Date() - thisUser.startTime) / 50) % 11;
+                    $('#other_player_holder_' + user + ' .other_player').css('background-position', -(frame * player.size.width) + 'px 0');
+                } else {
+                    $('#other_player_holder_' + user + ' .other_player').css('background-position', -(14 * player.size.width) + 'px 0');
+                }
+
+            }
+        }, 40);
+
+        this.setSockets();
+
+    },
+
+    setSockets: function() {
+        
+        socket.on('connect', function() {
+            console.log('HAVE CONNECTED');
+            socket.emit('adduser', player.username, room.label, player.position.x, player.position.y, player.position.facing);
+            player.connected = true;
+
+        });
+        
+        //  Send the position to the server
+        setInterval(function() {
+            //  If we aren't loaded or connected then dont do this
+            if (!player.loaded) return;
+            if (!player.connected) return;
+
+            socket.emit('setPosition', {x: player.position.x, y: player.position.y, facing: player.position.facing});
+
+        }, 333);
+
+        //  On getting positions back from the server
+        socket.on('positions', function (users) {
+            for (var user in users) {
+                if (user != player.username) {
+                    if (user in player.otherUsers) {
+                        player.otherUsers[user].target = {
+                            x: users[user].x,
+                            y: users[user].y,
+                            facing: users[user].facing
+                        };
+                        player.otherUsers[user].position.facing = users[user].facing;
+                    } else {
+                        player.otherUsers[user] = {
+                            position: {
+                                x: users[user].x,
+                                y: users[user].y,
+                                facing: users[user].facing
+                            },
+                            target: {
+                                x: users[user].x,
+                                y: users[user].y,
+                                facing: users[user].facing
+                            },
+                            startTime: new Date()
+                        };
+                    }
+                }
+            }
+        });
+
+        socket.on('leaveRoom', function(userId) {
+            delete player.otherUsers[userId];
+            $('#other_player_holder_' + userId).remove();
+        });
 
     },
 

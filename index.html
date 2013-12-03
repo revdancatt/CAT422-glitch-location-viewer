@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Location test</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css?v=0.8.0" />
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=0.8.1" />
 </head>
 <body>
 
@@ -10,7 +10,9 @@
         </div>
     </div>
 
-    <div class="location">
+    <div class="location_holder">
+        <div class="location">
+        </div>
     </div>
 
     <div class="loading_holder">
@@ -29,9 +31,6 @@
     <div class="debug">
     </div>
 
-    <div class="offScreenBuffer">
-    </div>
-
     <div class="instructions">
         <p>
             WASD or cursor keys to move.
@@ -44,8 +43,8 @@
             and stuck other players.
         </p>
         <p>
-            <a href="http://revdancatt.com/2013/11/26/slowly-bringing-glitch-back-to-life/">Blogpost/About</a><br />
-            <a href="https://github.com/revdancatt/CAT422-glitch-location-viewer">Source code on GitHub</a><br />
+            <a href="http://revdancatt.com/2013/11/26/slowly-bringing-glitch-back-to-life/">Blogpost/About</a><br>
+            <a href="https://github.com/revdancatt/CAT422-glitch-location-viewer">Source code on GitHub</a><br>
             <a href="https://twitter.com/revdancatt">Twitter @revdancatt</a>
         </p>
         <p>
@@ -55,17 +54,28 @@
             Things <strong>WILL</strong> break, hitting reload will sometimes help.
         </p>
         <p>
-            Chrome YES, Firefox MAYBE,<br />
+            Chrome YES, Firefox MAYBE,<br>
             Safari SLOW. IE??? Pfff.
         </p>
     </div>
 
+    <div class="offScreenBuffer">
+    </div>
+
+    <div class="nameChange">
+        <strong>Change name:</strong><br />
+        <input name="newName" class="newName" type="text" disabled></input><button disabled>Set</button>
+    </div>
+
     <script src="js/jquery-2.0.3.min.js"></script>
-    <script src="js/control.js?v=0.8.0"></script>
-    <script src="js/player.js?v=0.8.0"></script>
+    <script src="js/control.js?v=0.8.1"></script>
+    <script src="js/player.js?v=0.8.1"></script>
     <script src="http://glitch-backend.revdancatt.com:8888/socket.io/socket.io.js"></script>
+    <!-- <script src="http://localhost:8282/socket.io/socket.io.js"></script> -->
     <script>
-        var socket = io.connect('http://glitch-backend.revdancatt.com:8888', {
+        var socketUrl = 'http://glitch-backend.revdancatt.com:8888';
+        //var socketUrl = 'http://localhost:8282';
+        var socket = io.connect(socketUrl, {
             'reconnect': true,
             'reconnection delay': 500,
             'max reconnection attempts': 50

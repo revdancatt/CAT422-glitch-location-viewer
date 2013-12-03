@@ -26,11 +26,12 @@ html, body {
 
 .stage_holder {
     position: relative;
-    top: 0;
-    left: 0;
+    top: 4px;
+    left: 4px;
     height: 645px;
     overflow: hidden;
     margin-right: 320px;
+    border-radius: 4px;
 }
 
 .stage {
@@ -73,16 +74,16 @@ html, body {
 
 .exits {
     position: fixed;
-    top: 0;
-    right: 12px;
-    width: 296px;
-    background: white;
+    top: 42px;
+    right: 320px;
+    background: rgba(255, 255, 255, 0.75);
     font-size: 14px;
     z-index: 1000;
     color: #666;
     padding: 4px;
     text-align: left;
     white-space: nowrap;
+    border-radius: 6px;
 }
 
 .exits h2 {
@@ -105,12 +106,20 @@ html, body {
 }
 
 
-.location {
-    position: fixed;
+.location_holder {
+    position: absolute;
     top: 0;
-    left: 0;
+    left: 4px;
+    overflow: hidden;
     width: 100%;
-    text-align: center;
+    margin-right: 328px;
+}
+
+.location {
+    width: 300px;
+    margin-left: auto;
+    margin-right: 324px;
+    text-align: right;
     font-size: 36px;
     color: #333;
     text-shadow: 0px 3px 1px rgba(255, 255, 255, 0.85);
@@ -121,14 +130,6 @@ html, body {
     top: 0;
     left: 0;
     display: none;
-}
-
-.instructions {
-    position: fixed;
-    top: 180px;
-    right: 12px;
-    width: 296px;
-    text-align: center;
 }
 
 .loading_holder {
@@ -203,6 +204,7 @@ html, body {
 .nameLabel {
     margin-top: -20px;
     text-shadow: 0 0 1px rgb(255,255,255);
+    text-align: center;
 }
 
 .facingLeft {
@@ -213,3 +215,26 @@ html, body {
     filter: FlipH;
     -ms-filter: "FlipH";
 }
+
+.nameChange {
+    position: fixed;
+    top: 4px;
+    right: 4px;
+    width: 296px;
+    border: 1px solid #DDD;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.instructions {
+    position: fixed;
+    top: 62px;
+    right: 4px;
+    width: 296px;
+    border: 1px solid #DDD;
+    border-radius: 6px;
+    padding: 6px;
+    text-align: center;
+}
+
+

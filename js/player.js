@@ -26,7 +26,20 @@ player = {
 
     init: function() {
 
+        //  Get the username
         this.username = 'Guest' + parseInt(Math.random() * 100000, 10);
+
+        try {
+            if ('username' in localStorage && localStorage.username !== '') {
+                this.username = localStorage.username.replace(/\ /g, '_').replace(/[^a-zA-Z 0-9 ]+/g,'');
+            } else {
+                localStorage.username = this.username;
+            }
+        } catch(er) {
+            //Nowt
+        }
+
+        $('.newName').val(player.username);
 
         //  do stuff with the window positions
         //  and interface positions
@@ -118,6 +131,7 @@ player = {
 
         }, 40);
 
+
         //  Draw the other players
         setInterval(function() {
 
@@ -193,15 +207,39 @@ player = {
 
     },
 
+
     setSockets: function() {
         
+
+        //  When the player has connected we can allow them to change their name
         socket.on('connect', function() {
             console.log('HAVE CONNECTED');
             socket.emit('adduser', player.username, room.label, player.position.x, player.position.y, player.position.facing);
             player.connected = true;
+            $('.newName').removeAttr('disabled');
+            $('.nameChange button').removeAttr('disabled');
+
 
         });
         
+        //  Don't send keypresses to the game window
+        $('.nameChange').bind('keydown', function(e) {
+            e.stopPropagation();
+            if (e.keyCode == 13) {
+                $('.nameChange button').click();
+            }
+        });
+
+        //  If the user hits the change name button, then send it off to the backend
+        $('.nameChange button').bind('click', function() {
+            var newName = $('.newName').val().replace(/\ /g, '_').replace(/[^a-zA-Z 0-9 ]+/g,'');
+            console.log(newName);
+            if (newName !== '' && newName !== player.username) {
+                socket.emit('changeName', newName);
+            }
+        });
+
+
         //  Send the position to the server
         setInterval(function() {
             //  If we aren't loaded or connected then dont do this
@@ -212,8 +250,64 @@ player = {
 
         }, 333);
 
+        socket.on('changeName', function (oldName, newName) {
+
+            //  If the oldName was the player, then we update the player
+            //  name so nothing funky goes on
+            if (player.username == oldName) {
+                player.username = newName;
+                $('.player_holder .nameLabel').text(newName.replace(/_/g, ' '));
+                //  Just incase we've gotten the player as a new
+                //  other player, due to timing kill it
+                setTimeout(function() {
+                    $('#other_player_holder_' + newName).remove();
+                }, 200);
+
+                //  Store the name
+                try {
+                    localStorage.username = newName;
+                } catch(er) {
+                    //Nowt
+                }
+
+            } else {
+                //  Try and swap the id on the hodler
+                $('#other_player_holder_' + oldName).attr('id', 'other_player_holder_' + newName);
+                $('#other_player_holder_' + newName + ' .nameLabel').attr('data-id', newName).text(newName.replace(/_/g, ' '));
+                delete player.otherUsers[oldName];
+                setTimeout(function() {
+                    console.log('Removing #other_player_holder_' + oldName);
+                    $('#other_player_holder_' + oldName).remove();
+                }, 200);
+            }
+
+        });
+
+        /*
+        //  If a name has been changed we handle that here
+        socket.io('changeName', function(oldName, newName) {
+
+            //  If the oldName was the player, then we update the player
+            //  name so nothing funky goes on
+            if (player.username == oldName) {
+                $('.player_holder .nameLabel').text(newName);
+                //  Just incase we've gotten the player as a new
+                //  other player, due to timing kill it
+                setTimeout(function() {
+                    $('#other_player_holder_' + newName).remove();
+                }, 200)
+            }
+
+            //  Check to make sure the old glitch doesn't exists somehow
+            //  and if it does kill it
+            $('#other_player_holder_' + oldName).remove();
+
+        });
+        */
+
         //  On getting positions back from the server
         socket.on('positions', function (users) {
+
             for (var user in users) {
                 if (user != player.username) {
                     if (user in player.otherUsers) {

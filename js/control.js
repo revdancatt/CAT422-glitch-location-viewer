@@ -69,6 +69,7 @@ control = {
         $('.location').text('');
         $('.player_holder').remove();
         $('.other_player_holders').remove();
+        $('.localChat ul').empty();
         player.otherUsers = {};
         player.loaded = false;
         $('.exits').empty();

@@ -213,7 +213,7 @@ player = {
 
         //  When the player has connected we can allow them to change their name
         socket.on('connect', function() {
-            console.log('HAVE CONNECTED');
+            $('.instructions').fadeOut('slow');
             socket.emit('adduser', player.username, room.label, player.position.x, player.position.y, player.position.facing);
             player.connected = true;
             $('.newName').removeAttr('disabled');
@@ -339,6 +339,51 @@ player = {
         socket.on('leaveRoom', function(userId) {
             delete player.otherUsers[userId];
             $('#other_player_holder_' + userId).remove();
+        });
+
+
+        //  Localchat
+        $('.localChat input').bind('keydown', function(e) {
+            e.stopPropagation();
+            if (e.keyCode == 13) {
+                socket.emit('localChat', $('.localChat input').val());
+                $('.localChat input').val('');
+            }
+        });
+
+        socket.on('localChat', function (username, msg) {
+            console.log(username + ': ' + msg);
+            var strong = $('<strong>').text(username + ': ');
+            var li = $('<li>').text(msg);
+            li.prepend(strong);
+            $('.localChat ul').append(li);
+
+            //  Count the amount of li so we can remove some if we have too many
+            while ($('.localChat li').length > 100) {
+                $($('.localChat li')[0]).remove();
+            }
+        });
+
+        //  globalChat
+        $('.globalChat input').bind('keydown', function(e) {
+            e.stopPropagation();
+            if (e.keyCode == 13) {
+                socket.emit('globalChat', $('.globalChat input').val());
+                $('.globalChat input').val('');
+            }
+        });
+
+        socket.on('globalChat', function (username, msg) {
+            console.log(username + ': ' + msg);
+            var strong = $('<strong>').text(username + ': ');
+            var li = $('<li>').text(msg);
+            li.prepend(strong);
+            $('.globalChat ul').append(li);
+
+            //  Count the amount of li so we can remove some if we have too many
+            while ($('.globalChat li').length > 100) {
+                $($('.globalChat li')[0]).remove();
+            }
         });
 
     },

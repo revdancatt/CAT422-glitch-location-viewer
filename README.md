@@ -3,7 +3,7 @@ CAT422-glitch-location-viewer
 
 ![Landscape](http://revdancatt.github.io/CAT422-glitch-location-viewer/img/landscape1.jpg)
 
-This code is an attempt to bring Glitch landscapes back to life, and maybe even eventually walk around them and chat with other people. In the meantime try out the viewer here, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.8.1
+This code is an attempt to bring Glitch landscapes back to life, and maybe even eventually walk around them and chat with other people. In the meantime try out the viewer here, maybe it'll work!: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.9.0
 
 Read the blogpost ["Rebuilding Ur, bringing back the beauty of Glitch locations"](http://revdancatt.com/2013/11/26/slowly-bringing-glitch-back-to-life/) for more information.
 
@@ -11,7 +11,7 @@ See the TODO list down at the end for more information
 
 ## Viewer
 
-The viewer is here: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.8.1 and is just an example of how you can load in the location .json files and render thelandscape with the .png files.
+The viewer is here: http://revdancatt.github.io/CAT422-glitch-location-viewer/?v=0.9.0 and is just an example of how you can load in the location .json files and render thelandscape with the .png files.
 
 Its not tested on all browsers and is for demo purposes only.
 
@@ -59,13 +59,15 @@ You don't _need_ to use it, as you can just use the .pngs hosted here. But it's 
 ## TODO
 
 
-* Impliment global and local chat
+* Lots of optimisation
+* Lots of bug fixes :) 
+* Add signposts to the scene so the user can move from one location to another using those
 * Convert the Path lines and walls into the JSON to, so we know where a play can walk
 * Work out which bits of scenery are missing (these now display in a debug text area)
 * At some point move image assets to CDN on multiple domains and parallelise the loading of assets
 * Apply the filters to change the colours
-* Add signposts to the scene so the user can move from one location to another using those
 * Option checkbox to turn blurring on/off (blurring slows everything down)
+* ~~Impliment global and local chat~~
 * ~~Allow users to change their name~~
 * ~~Add a simple node/socket.io chat server~~
 * ~~Add a player sprite to the scene and let them walk round~~

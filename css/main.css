@@ -228,13 +228,111 @@ html, body {
 
 .instructions {
     position: fixed;
+    top: 4px;
+    right: 4px;
+    width: 296px;
+    height: 645px;
+    border: 1px solid #DDD;
+    border-radius: 6px;
+    padding: 6px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.instructions h2 {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.globalChat,
+.localChat {
+    position: fixed;
     top: 62px;
+    height: 278px;
     right: 4px;
     width: 296px;
     border: 1px solid #DDD;
     border-radius: 6px;
     padding: 6px;
-    text-align: center;
 }
 
+.localChat {
+    top: 357px;
+}
 
+.globalChat h3,
+.localChat h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 302px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 0;
+    padding-left: 6px;
+    background: white;
+    height: 24px;
+    font-size: 16px;
+}
+
+.globalChat .shader,
+.localChat .shader {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    margin-top: 0;
+    padding-left: 6px;
+    width: 302px;
+    height: 48px;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, rgba(255, 255, 255, 1)),
+        color-stop(1, rgba(255, 255, 255, 0))
+    );
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -ms-linear-gradient(bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.globalChat .ulHolder,
+.localChat .ulHolder {
+    position: absolute;
+    top: 4px;
+    width: 296px;
+    height: 260px;
+    margin: 0;
+    padding: 0;
+    overflow: auto;    
+}
+
+.globalChat ul,
+.localChat ul {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.globalChat li,
+.localChat li {
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.globalChat input,
+.localChat input {
+    position: absolute;
+    bottom: 4px;
+    width: 296px;
+}

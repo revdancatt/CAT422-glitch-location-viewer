@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Location test</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css?v=0.8.1" />
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=0.9.0" />
 </head>
 <body>
 
@@ -31,7 +31,36 @@
     <div class="debug">
     </div>
 
+    <div class="offScreenBuffer">
+    </div>
+
+    <div class="nameChange">
+        <strong>Change name:</strong><br />
+        <input name="newName" class="newName" type="text" disabled></input><button disabled>Set</button>
+    </div>
+
+    <div class="globalChat">
+        <div class="ulHolder">
+            <ul>
+            </ul>
+        </div>
+        <input type="text" name="global">
+        <h3>Global chat</h3>
+        <div class="shader"></div>
+    </div>
+
+    <div class="localChat">
+        <div class="ulHolder">
+            <ul>
+            </ul>
+        </div>
+        <input type="text" name="local">
+        <h3>Local chat</h3>
+        <div class="shader"></div>
+    </div>
+
     <div class="instructions">
+        <h2>Connecting...</h2>
         <p>
             WASD or cursor keys to move.
         </p>
@@ -59,17 +88,9 @@
         </p>
     </div>
 
-    <div class="offScreenBuffer">
-    </div>
-
-    <div class="nameChange">
-        <strong>Change name:</strong><br />
-        <input name="newName" class="newName" type="text" disabled></input><button disabled>Set</button>
-    </div>
-
     <script src="js/jquery-2.0.3.min.js"></script>
-    <script src="js/control.js?v=0.8.1"></script>
-    <script src="js/player.js?v=0.8.1"></script>
+    <script src="js/control.js?v=0.9.0"></script>
+    <script src="js/player.js?v=0.9.0"></script>
     <script src="http://glitch-backend.revdancatt.com:8888/socket.io/socket.io.js"></script>
     <!-- <script src="http://localhost:8282/socket.io/socket.io.js"></script> -->
     <script>

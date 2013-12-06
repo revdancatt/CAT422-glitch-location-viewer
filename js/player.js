@@ -233,7 +233,6 @@ player = {
         //  If the user hits the change name button, then send it off to the backend
         $('.nameChange button').bind('click', function() {
             var newName = $('.newName').val().replace(/\ /g, '_').replace(/[^a-zA-Z 0-9 ]+/g,'');
-            console.log(newName);
             if (newName !== '' && newName !== player.username) {
                 socket.emit('changeName', newName);
             }
@@ -276,7 +275,6 @@ player = {
                 $('#other_player_holder_' + newName + ' .nameLabel').attr('data-id', newName).text(newName.replace(/_/g, ' '));
                 delete player.otherUsers[oldName];
                 setTimeout(function() {
-                    console.log('Removing #other_player_holder_' + oldName);
                     $('#other_player_holder_' + oldName).remove();
                 }, 200);
             }
@@ -352,7 +350,6 @@ player = {
         });
 
         socket.on('localChat', function (username, msg) {
-            console.log(username + ': ' + msg);
             var strong = $('<strong>').text(username + ': ');
             var li = $('<li>').text(msg);
             li.prepend(strong);
@@ -374,7 +371,6 @@ player = {
         });
 
         socket.on('globalChat', function (username, msg) {
-            console.log(username + ': ' + msg);
             var strong = $('<strong>').text(username + ': ');
             var li = $('<li>').text(msg);
             li.prepend(strong);

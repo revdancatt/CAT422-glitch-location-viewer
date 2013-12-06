@@ -651,7 +651,7 @@ control = {
         //  Now attach the image to the offscreen buffer
         //  and load it.
         $('.offscreenBuffer').append(newImg);
-        newImg.attr('src', 'img/scenery/' + item.filename + '.png');
+        newImg.attr('src', 'http://revdancatt.github.io/CAT422-glitch-location-viewer/img/scenery/' + item.filename + '.png');
 
     },
 

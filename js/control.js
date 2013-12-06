@@ -91,7 +91,7 @@ control = {
         //  ...without needing to worry about cross-domain stuff.
         //  Note that we're loading the room
         this.loadingRoom = true;
-        $.getScript('locations/' + roomId + '.callback.json');
+        $.getScript('http://revdancatt.github.io/CAT422-glitch-location-viewer/locations/' + roomId + '.callback.json');
 
     },
 

@@ -15,6 +15,10 @@ The viewer is here: http://mvurxi.com and is just an example of how you can load
 
 Its not tested on all browsers and is for demo purposes only.
 
+## Server
+
+The backend server can be found here: https://github.com/revdancatt/CAT424-glitch-backend
+
 ## Location JSON files
 
 All the locations in the game have been converted from their original [.xml files](https://github.com/tinyspeck/glitch-locations) into JSON files. Not all the content in the .xml has been ported over to the JSON *yet*, but there's enough to build the scene. You can find them in the `locations` directory.

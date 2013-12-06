@@ -101,6 +101,7 @@ control = {
 
         room = this.gameObject;
 
+        document.title = 'MVURXI : ' + room.label;
         $('.location').text(room.label);
 
         //  Stop the animation on the stage, empty it and 

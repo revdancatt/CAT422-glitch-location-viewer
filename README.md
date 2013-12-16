@@ -97,5 +97,5 @@ All scenery .png files and location .json files are provided under the [Creative
 
 Original files can be found via [glitchthegame.com](http://glitchthegame.com)
 
-The javascript code (i.e the rendering "client") has a GNU GENERAL PUBLIC LICENSE.
+The javascript code (i.e the rendering "client") has a MIT LICENSE.
 

@@ -104,15 +104,14 @@ convert =
 							result[layer.$.id].decos = convert.getDecos(layer.object)
 							result[layer.$.id].signposts = convert.getSignposts(layer.object)   
 							result[layer.$.id].platformLines = convert.getPlatformLines(layer.object)                 
+							result[layer.$.id].ladders = convert.getLadders(layer.object)
+							result[layer.$.id].walls = convert.getWalls(layer.object)
 
 							#   TODO: Impliment the following
 							#   use GUVVV3FU2FC38SK.json as a test source
 							###
-							result[layer.$.id].walls = convert.getWalls(layer.object)
 							result[layer.$.id].boxes = convert.getBoxes(layer.object)
 							result[layer.$.id].doors = convert.getDoors(layer.object)
-							result[layer.$.id].ladders = convert.getLadders(layer.object)
-							result[layer.$.id].platformLines = convert.getPlatformLines(layer.object)
 							result[layer.$.id].targets = convert.getTargets(layer.object)
 							###
 
@@ -237,6 +236,42 @@ convert =
 								newPlatformLine.endpoints.push newEndpoint
 
 						result.push newPlatformLine
+
+		result
+
+	getLadders: (layer) ->
+
+		result = []
+		for element in layer
+			if element.$.id is 'ladders'
+				if 'object' of element
+					for ladder in element.object
+						newLadder = {}
+						newLadder.id = ladder.$.id
+
+						if 'int' of ladder
+							for i in ladder.int
+								newLadder[i.$.id] = parseInt(i._, 10)
+
+						result.push newLadder
+
+		result
+
+	getWalls: (layer) ->
+
+		result = []
+		for element in layer
+			if element.$.id is 'walls'
+				if 'object' of element
+					for wall in element.object
+						newWall = {}
+						newWall.id = wall.$.id
+
+						if 'int' of wall
+							for i in wall.int
+								newWall[i.$.id] = parseInt(i._, 10)
+
+						result.push newWall
 
 		result
 

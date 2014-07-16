@@ -1,0 +1,585 @@
+<game_object tsid="LUVVMMKT2FC3V5B" ts="1364245575728" label="Koti Pakoti" class_tsid="town" hubid="140" moteid="9" letime="3g8fvg0a" rbtime="3cf2tkv5" upd_gs="gs6" load_time="2013-03-25 12:58:54.000">
+	<object id="dynamic">
+		<bool id="jobs_is_locked">false</bool>
+		<object id="events">
+			<object id="upvent">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">physics</str>
+						<str id="param">gravity</str>
+						<str id="value">-11.0</str>
+						<int id="duration">1600</int>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="a2">
+						<str id="type">physics</str>
+						<str id="param">friction_air</str>
+						<str id="value">0.1</str>
+						<bool id="all_players">true</bool>
+						<int id="duration">1600</int>
+					</object>
+					<object id="a3">
+						<str id="type">physics</str>
+						<str id="param">vy_max</str>
+						<str id="value">2</str>
+						<int id="duration">1600</int>
+					</object>
+				</object>
+			</object>
+			<object id="downvent">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">physics</str>
+						<str id="param">gravity</str>
+						<str id="value">7</str>
+						<int id="duration">600</int>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="a2">
+						<str id="type">physics</str>
+						<str id="param">friction_air</str>
+						<str id="value">0.1</str>
+						<int id="duration">600</int>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="a3">
+						<str id="type">physics</str>
+						<str id="param">vy_max</str>
+						<str id="value">3</str>
+						<int id="duration">600</int>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+		</object>
+		<bool id="disallow_animals">true</bool>
+		<bool id="no_rook">true</bool>
+		<object id="loading_image">
+			<str id="url">streets/2012-11-14/LUVVMMKT2FC3V5B_loading_1352935838.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-11-14/LUVVMMKT2FC3V5B_main_1352935846.jpg</str>
+			<int id="w">720</int>
+			<int id="h">692</int>
+		</object>
+		<object id="edit_history">
+			<str id="1352154006">tsauth-gyoza:add_street_obj-signposts</str>
+			<str id="1352154015">tsauth-gyoza:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352154063">tsauth-gyoza:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352160764">tsauth-gyoza:add_street_obj-signposts</str>
+			<str id="1352160791">tsauth-gyoza:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352161125">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1352161291">tsauth-gyoza:add_street_obj-signposts</str>
+			<str id="1352161313">tsauth-gyoza:modify_street_obj-signposts-signpost_3</str>
+			<str id="1352161518">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1352244550">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1352333905">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1352334402">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1352334528">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1352334927">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1352336084">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1352336486">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1352935512">PIF5NL12S3D1BH3:Jade:locodeco-replace</str>
+			<str id="1352935649">PIF5NL12S3D1BH3:Jade:locodeco-replace</str>
+			<str id="1352935670">PIF5NL12S3D1BH3:Jade:locodeco-replace</str>
+			<str id="1352935722">PIF5NL12S3D1BH3:Jade:locodeco-replace</str>
+		</object>
+		<object id="qurazy">
+		</object>
+		<object id="hi_sign_evasion_record">
+			<str id="pc_tsid">PUV7JC4GTIJ2PGO</str>
+			<str id="pc_label">Shaniqua</str>
+			<int id="secs">13</int>
+			<int id="when">1354828103</int>
+			<int id="version">10</int>
+			<str id="day_key">26-03-35</str>
+		</object>
+		<object id="streaking_increments">
+			<object id="25-10-37">
+				<int id="PCRE15VHINS1RJI">1353554491</int>
+				<int id="PA9CPTVMJ4E2J61">1353555587</int>
+				<int id="PHFGIBN0F3D2R8O">1353559643</int>
+			</object>
+			<object id="25-10-38">
+				<int id="PUV1D62CP6D2M64">1353570134</int>
+			</object>
+			<object id="25-10-39">
+				<int id="PUVK9R6PARB3ALA">1353586955</int>
+				<int id="PUVOLK1RA6D2DJP">1353587605</int>
+			</object>
+			<object id="25-10-40">
+				<int id="PUVH4JOK59G2BM3">1353592213</int>
+			</object>
+			<object id="25-10-41">
+				<int id="PIF761SOOQKUIH">1353614247</int>
+				<int id="PA99P57G76E2KT7">1353617319</int>
+				<int id="PUV2T1MGQ9G2B9J">1353617956</int>
+			</object>
+			<object id="25-10-42">
+				<int id="PHV89FL42742GGO">1353619007</int>
+				<int id="PCR14AIGQJO1V4O">1353624133</int>
+			</object>
+			<object id="25-10-47">
+				<int id="PUVG9VDGPRE2FJ3">1353701029</int>
+				<int id="PUVTMVI961G2PNI">1353702116</int>
+			</object>
+			<object id="25-11-01">
+				<int id="PHV95NLAUG22JIQ">1353710418</int>
+			</object>
+			<object id="25-11-02">
+				<int id="PA9SEU1KQ5E2M49">1353719033</int>
+				<int id="PUVKNEGN8OH2COF">1353720447</int>
+			</object>
+			<object id="25-11-05">
+				<int id="PHFODCHB93D2L7K">1353767868</int>
+			</object>
+			<object id="25-11-07">
+				<int id="PUVFQFKLETB3V67">1353793277</int>
+				<int id="PUV3B32Q8JG2DB3">1353802677</int>
+			</object>
+			<object id="25-11-08">
+				<int id="PUVB5F5VDPB3AKP">1353815238</int>
+			</object>
+			<object id="25-11-10">
+				<int id="PA97I2RED7E2KE2">1353838302</int>
+				<int id="PIF5040Q3V53DTT">1353843989</int>
+			</object>
+			<object id="25-12-01">
+				<int id="PUVN43KAO6D2EQU">1353865155</int>
+			</object>
+			<object id="26-01-01">
+				<int id="PIF5040Q3V53DTT">1353877403</int>
+			</object>
+			<object id="26-01-10">
+				<int id="PHVMDUDJ6C92K6C">1354012621</int>
+			</object>
+			<object id="26-01-14">
+				<int id="PUVPNPPS76D3PA5">1354065302</int>
+				<int id="PUVTDGC5TTH2HNR">1354076397</int>
+			</object>
+			<object id="26-01-16">
+				<int id="PHVMDUDJ6C92K6C">1354101086</int>
+				<int id="PUV3VP0LS8D2CK1">1354102140</int>
+			</object>
+			<object id="26-01-18">
+				<int id="PHVMDUDJ6C92K6C">1354129317</int>
+			</object>
+			<object id="26-01-19">
+				<int id="PA9LJFAJSFD245A">1354141910</int>
+			</object>
+			<object id="26-01-26">
+				<int id="PUV43JV649C3OI1">1354245918</int>
+			</object>
+			<object id="26-02-01">
+				<int id="PUV27HCU39B3HUV">1354303731</int>
+			</object>
+			<object id="26-02-03">
+				<int id="PUV43NSO9VD3O28">1354330859</int>
+				<int id="PUV9N3PK4G9370C">1354336526</int>
+			</object>
+			<object id="26-03-07">
+				<int id="PHFNS9AVU2D2BE6">1354424719</int>
+			</object>
+			<object id="26-03-27">
+				<int id="PUVCQ5766073FL8">1354719585</int>
+			</object>
+			<object id="26-03-35">
+				<int id="PUV8J2EOETF2UFR">1354828129</int>
+			</object>
+			<object id="26-03-53">
+				<int id="PA9JJ2NQ4EI2QKR">1355100993</int>
+			</object>
+			<object id="26-04-01">
+				<int id="PHVC0HO5CF228AQ">1355105055</int>
+				<int id="PUVPRDR4LLB3K3E">1355107099</int>
+				<int id="PUV68RBT5AC32VU">1355107711</int>
+			</object>
+		</object>
+		<object id="incantations">
+			<object id="PHV7VR28QG822HB">
+				<int id="step">1</int>
+				<int id="ts">1354914744</int>
+			</object>
+			<object id="PHVRLNSOM032AAO">
+				<int id="step">1</int>
+				<int id="ts">1354916887</int>
+			</object>
+		</object>
+		<int id="incantations_step">1</int>
+		<object id="incantations_redux">
+			<object id="PIF14GJO15D1P84">
+				<int id="step">1</int>
+				<int id="ts">1354917420</int>
+			</object>
+			<object id="PHVR0962PO02QFU">
+				<int id="step">2</int>
+				<int id="ts">1354917428</int>
+			</object>
+			<object id="PCR31L66BAO1BOV">
+				<int id="step">3</int>
+				<int id="ts">1354917430</int>
+			</object>
+			<object id="PUVQHQDI39G22VQ">
+				<int id="step">1</int>
+				<int id="ts">1354918257</int>
+			</object>
+			<object id="PUV9M5CKV0A39KV">
+				<int id="step">1</int>
+				<int id="ts">1354918417</int>
+			</object>
+			<object id="PUV771P9IME25MS">
+				<int id="step">1</int>
+				<int id="ts">1354919649</int>
+			</object>
+			<object id="PCR3M6A0A0N1KVG">
+				<int id="step">1</int>
+				<int id="ts">1354921024</int>
+			</object>
+			<object id="PCR44OG2AUT12IH">
+				<int id="step">1</int>
+				<int id="ts">1354921971</int>
+			</object>
+			<object id="PCRFLA5IKNS19P1">
+				<int id="step">2</int>
+				<int id="ts">1354921979</int>
+			</object>
+			<object id="PCR45R93AUT1EMH">
+				<int id="step">1</int>
+				<int id="ts">1354922087</int>
+			</object>
+			<object id="PM1A3P8FSA0242M">
+				<int id="step">1</int>
+				<int id="ts">1354922305</int>
+			</object>
+			<object id="PCR6L4VMU3N1H72">
+				<int id="step">2</int>
+				<int id="ts">1354922305</int>
+			</object>
+			<object id="PCR4R99KAUT1JQ7">
+				<int id="step">3</int>
+				<int id="ts">1354922310</int>
+			</object>
+			<object id="PUV9H4HP7PL2SLO">
+				<int id="step">1</int>
+				<int id="ts">1354922664</int>
+			</object>
+			<object id="PUV9VNS5SOS22Q9">
+				<int id="step">2</int>
+				<int id="ts">1354922668</int>
+			</object>
+			<object id="PIFC9L6RU463IE3">
+				<int id="step">3</int>
+				<int id="ts">1354922676</int>
+			</object>
+			<object id="PCR4KMJVCAO1OQ7">
+				<int id="step">1</int>
+				<int id="ts">1354924177</int>
+			</object>
+			<object id="PHV7FR190MB2I9S">
+				<int id="step">1</int>
+				<int id="ts">1354925813</int>
+			</object>
+			<object id="PCRL10FT5GV1JM3">
+				<int id="step">2</int>
+				<int id="ts">1354925815</int>
+			</object>
+			<object id="PCR7ANQCSVT185R">
+				<int id="step">3</int>
+				<int id="ts">1354925817</int>
+			</object>
+			<object id="PHVIBHO8RN02DFH">
+				<int id="step">1</int>
+				<int id="ts">1354926203</int>
+			</object>
+			<object id="PIFLP80SP0633BR">
+				<int id="step">2</int>
+				<int id="ts">1354926216</int>
+			</object>
+			<object id="PHFTE76HQ4D2CLU">
+				<int id="step">1</int>
+				<int id="ts">1354927297</int>
+			</object>
+			<object id="PUVIJ7TCMQA3P45">
+				<int id="step">1</int>
+				<int id="ts">1354929059</int>
+			</object>
+			<object id="PUVOV284NNA3T07">
+				<int id="step">2</int>
+				<int id="ts">1354929061</int>
+			</object>
+			<object id="PUV9IQOTQH931R1">
+				<int id="step">3</int>
+				<int id="ts">1354929062</int>
+			</object>
+			<object id="PCRAFRDJFUT1PGB">
+				<int id="step">1</int>
+				<int id="ts">1354929209</int>
+			</object>
+			<object id="PM158MS1P302N9T">
+				<int id="step">1</int>
+				<int id="ts">1354930666</int>
+			</object>
+			<object id="PUVOSJVQQFD3OUB">
+				<int id="step">1</int>
+				<int id="ts">1354930731</int>
+			</object>
+			<object id="PM120IAKPK123LN">
+				<int id="step">1</int>
+				<int id="ts">1354932058</int>
+			</object>
+			<object id="PCRNBUJSCJL1SOG">
+				<int id="step">1</int>
+				<int id="ts">1354932275</int>
+			</object>
+			<object id="PUVMUKUEHRE2KME">
+				<int id="step">1</int>
+				<int id="ts">1354934312</int>
+			</object>
+			<object id="PUVSHFHOUTF2I22">
+				<int id="step">2</int>
+				<int id="ts">1354935355</int>
+			</object>
+			<object id="PUVQ6I3032D3097">
+				<int id="step">1</int>
+				<int id="ts">1354935435</int>
+			</object>
+			<object id="PUV6KCLJ9FC3UGK">
+				<int id="step">2</int>
+				<int id="ts">1354935436</int>
+			</object>
+			<object id="PUV8KRHK6EG25DT">
+				<int id="step">3</int>
+				<int id="ts">1354935438</int>
+			</object>
+			<object id="PIFIPU7QSO53BHU">
+				<int id="step">1</int>
+				<int id="ts">1354937129</int>
+			</object>
+			<object id="PUVE3E5L9HA3K5S">
+				<int id="step">1</int>
+				<int id="ts">1354938479</int>
+			</object>
+			<object id="PHFINSK9JCD29H5">
+				<int id="step">1</int>
+				<int id="ts">1354944921</int>
+			</object>
+			<object id="PUV2HOTM25B3BN6">
+				<int id="step">2</int>
+				<int id="ts">1354947822</int>
+			</object>
+			<object id="PHVLV990UJ92PCK">
+				<int id="step">1</int>
+				<int id="ts">1354951959</int>
+			</object>
+			<object id="PUVF5CIS8UE2209">
+				<int id="step">1</int>
+				<int id="ts">1354952232</int>
+			</object>
+			<object id="PHF624MH10D2RFE">
+				<int id="step">1</int>
+				<int id="ts">1354952254</int>
+			</object>
+			<object id="PIFLC6T4UK63AKI">
+				<int id="step">2</int>
+				<int id="ts">1354952257</int>
+			</object>
+			<object id="PHF3EMI4JDD2EUU">
+				<int id="step">1</int>
+				<int id="ts">1354954898</int>
+			</object>
+			<object id="PUV3GDPPB9E27VF">
+				<int id="step">2</int>
+				<int id="ts">1354955807</int>
+			</object>
+			<object id="PUVJGMGHIIA388B">
+				<int id="step">1</int>
+				<int id="ts">1354957775</int>
+			</object>
+			<object id="PUVERUQUIIJ2TCI">
+				<int id="step">2</int>
+				<int id="ts">1354957779</int>
+			</object>
+			<object id="PA95UHHMLID28OO">
+				<int id="step">3</int>
+				<int id="ts">1354957780</int>
+			</object>
+			<object id="PUVC77TNAEC356A">
+				<int id="step">1</int>
+				<int id="ts">1354978999</int>
+			</object>
+			<object id="PA9TLH9T15E2EVD">
+				<int id="step">1</int>
+				<int id="ts">1354979092</int>
+			</object>
+			<object id="PUV7EK0U8GF23ES">
+				<int id="step">1</int>
+				<int id="ts">1354979252</int>
+			</object>
+			<object id="PUVU3OIE4UE2U9S">
+				<int id="step">2</int>
+				<int id="ts">1354980149</int>
+			</object>
+			<object id="PUVQ5E7NNTE2BMF">
+				<int id="step">1</int>
+				<int id="ts">1354986013</int>
+			</object>
+			<object id="PIFCN0H01L638B9">
+				<int id="step">2</int>
+				<int id="ts">1354986360</int>
+			</object>
+			<object id="PIFOC6038Q53T2J">
+				<int id="step">3</int>
+				<int id="ts">1354986375</int>
+			</object>
+			<object id="PHFFBFIS13D2P5J">
+				<int id="step">1</int>
+				<int id="ts">1354989518</int>
+			</object>
+			<object id="PUVF7TDOFA93ATH">
+				<int id="step">2</int>
+				<int id="ts">1354989520</int>
+			</object>
+			<object id="PUVKME5Q70E3SR1">
+				<int id="step">3</int>
+				<int id="ts">1354989523</int>
+			</object>
+			<object id="PUVMGINAHS93C42">
+				<int id="step">1</int>
+				<int id="ts">1354991069</int>
+			</object>
+			<object id="PUVJ86DSLSM2BDC">
+				<int id="step">2</int>
+				<int id="ts">1354991072</int>
+			</object>
+			<object id="PDOQHB9V1AR2F84">
+				<int id="step">3</int>
+				<int id="ts">1354991075</int>
+			</object>
+			<object id="PUV6RP01J9830J7">
+				<int id="step">1</int>
+				<int id="ts">1354991141</int>
+			</object>
+			<object id="PUVF751B6373TO6">
+				<int id="step">1</int>
+				<int id="ts">1354991281</int>
+			</object>
+			<object id="PUVA7GDH99E2EPU">
+				<int id="step">2</int>
+				<int id="ts">1354991303</int>
+			</object>
+			<object id="PUVAK5P8TQ63FJO">
+				<int id="step">1</int>
+				<int id="ts">1354996437</int>
+			</object>
+			<object id="PUVO98RBO5D20DN">
+				<int id="step">2</int>
+				<int id="ts">1354996453</int>
+			</object>
+			<object id="PUVGE0QBTOB3PJC">
+				<int id="step">3</int>
+				<int id="ts">1354996456</int>
+			</object>
+			<object id="PUV811HCEAD38PB">
+				<int id="step">1</int>
+				<int id="ts">1354997730</int>
+			</object>
+			<object id="PHFNSK3Q9TC2IBS">
+				<int id="step">2</int>
+				<int id="ts">1354997736</int>
+			</object>
+			<object id="PCRE15VHINS1RJI">
+				<int id="step">1</int>
+				<int id="ts">1354998640</int>
+			</object>
+			<object id="PUVG9V8E32J2L79">
+				<int id="step">2</int>
+				<int id="ts">1354998648</int>
+			</object>
+			<object id="PUVC8AD0CEK258Q">
+				<int id="step">1</int>
+				<int id="ts">1354999430</int>
+			</object>
+			<object id="PUVNIBP02EE2L04">
+				<int id="step">2</int>
+				<int id="ts">1354999529</int>
+			</object>
+			<object id="PUVVEUBT0KE20IO">
+				<int id="step">1</int>
+				<int id="ts">1355000197</int>
+			</object>
+			<object id="PUVUJR1UUTG2SJP">
+				<int id="step">2</int>
+				<int id="ts">1355000269</int>
+			</object>
+			<object id="PHVAFBUQTI829U0">
+				<int id="step">3</int>
+				<int id="ts">1355000295</int>
+			</object>
+		</object>
+		<object id="hi_sign_daily_evasion_record">
+			<str id="pc_tsid">PUVFN2LHIHC3LN7</str>
+			<str id="pc_label">mixofsunandcloud</str>
+			<int id="secs">11</int>
+			<int id="when">1355105063</int>
+			<int id="version">10</int>
+			<str id="day_key">26-04-01</str>
+		</object>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IIFPA61O98G3A3V" label="Salmon"/>
+		<objref tsid="IIF4C56VM6G37MG" label="Salmon"/>
+		<objref tsid="IUVEQ1601JD3859" label="Coin"/>
+		<objref tsid="IUVEPD101JD3Q5F" label="Coin"/>
+		<objref tsid="IUVEQ3701JD3L39" label="Coin"/>
+		<objref tsid="IUVEQB901JD3Q3F" label="Coin"/>
+		<objref tsid="IUVERDG01JD3U01" label="Coin"/>
+		<objref tsid="IIF4ANOUM6G33CJ" label="Salmon"/>
+		<objref tsid="IUVF2KM11JD394V" label="Coin"/>
+		<objref tsid="IUVELOIV0JD3R15" label="Coin"/>
+		<objref tsid="IUVEMKMV0JD3D7R" label="Coin"/>
+		<objref tsid="IUVEQMC01JD32L7" label="Coin"/>
+		<objref tsid="IIFCN3S628G3SBS" label="Salmon"/>
+		<objref tsid="IIF4BR3VM6G3P3S" label="Salmon"/>
+		<objref tsid="IUVF0LA11JD3JCA" label="Coin"/>
+		<objref tsid="IUVF27J11JD3VJ3" label="Coin"/>
+		<objref tsid="IIF49RIUM6G34AD" label="Salmon"/>
+		<objref tsid="IIFUM0BAA8G3HHU" label="Salmon"/>
+		<objref tsid="IIFM25MV76G3NQC" label="Salmon"/>
+		<objref tsid="IUVEMTPV0JD34PK" label="Coin"/>
+		<objref tsid="IUVEM0LV0JD363C" label="Coin"/>
+		<objref tsid="IIF31CFGM6G3P70" label="Salmon"/>
+		<objref tsid="IUVF0G811JD3L9R" label="Coin"/>
+		<objref tsid="IIFULVBAA8G3HGI" label="Salmon"/>
+		<objref tsid="IIF4A8LUM6G3MUP" label="Salmon"/>
+		<objref tsid="IUVF2UP11JD3LQI" label="Coin"/>
+		<objref tsid="IUVFE3341JD3O21" label="Qurazy marker"/>
+		<objref tsid="IUVEVE211JD3P2E" label="Coin"/>
+		<objref tsid="IIFULUBAA8G3HGN" label="Salmon"/>
+		<objref tsid="IUVFGGG41JD3DT6" label="spawner"/>
+		<objref tsid="IUVF3GS11JD3J83" label="Coin"/>
+		<objref tsid="IUVEP8001JD3DBC" label="Coin"/>
+		<objref tsid="IUVER0F01JD30JF" label="Coin"/>
+		<objref tsid="IIF48O7UM6G37MJ" label="Salmon"/>
+		<objref tsid="IUVF0VC11JD3L9C" label="Coin"/>
+		<objref tsid="IIF4CRDVM6G3J4A" label="Salmon"/>
+		<objref tsid="IUVEUJU01JD3AH7" label="Coin"/>
+		<objref tsid="IUVF4B121JD32DK" label="Coin"/>
+		<objref tsid="IUVF1FE11JD3Q43" label="Coin"/>
+		<objref tsid="IUVEUO011JD369J" label="Coin"/>
+		<objref tsid="IUVELTKV0JD303D" label="Coin"/>
+		<objref tsid="IUVES3M01JD36EM" label="Coin"/>
+		<objref tsid="IUVEL9HV0JD3J49" label="Coin"/>
+		<objref tsid="IIF3781JM6G3HHA" label="Salmon"/>
+		<objref tsid="IUVEPQ301JD37IK" label="Coin"/>
+		<objref tsid="IIF3EB0LM6G309J" label="Salmon"/>
+		<objref tsid="IIFOQNPD38G35G6" label="Salmon"/>
+		<objref tsid="IUVERNJ01JD328T" label="Coin"/>
+		<objref tsid="IUVF02711JD342S" label="Coin"/>
+	</objrefs>
+	<objrefs id="players">
+		<objref tsid="PUVTVRH3K1A30EQ" label="Zen 10"/>
+		<objref tsid="PUV6C8OH60E3PNB" label="L0opy"/>
+	</objrefs>
+</game_object>

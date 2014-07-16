@@ -1,0 +1,873 @@
+<game_object tsid="LHFCVOD2GN631RJ" ts="1344879555830" label="Starlit Night" class_tsid="town" hubid="130" moteid="10" letime="36ng2d1r" rbtime="36ng2d1r" upd_gs="gs-float1" load_time="2012-08-13 10:27:42.734">
+	<object id="dynamic">
+		<str id="instance_of">LHFD3EU3SH2307J</str>
+		<object id="special_loading_image">
+			<str id="url">streets/2012-06-29-static/1341015289-loadingscreen_t2p_starlitnight.png</str>
+			<int id="w">530</int>
+			<int id="h">353</int>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-06-22/LHFD3EU3SH2307J_loading_1340405198.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-06-22/LHFD3EU3SH2307J_main_1340405205.jpg</str>
+			<int id="w">720</int>
+			<int id="h">432</int>
+		</object>
+		<object id="events">
+			<object id="moon">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">moon_asset_plain_1335402673477</str>
+						<int id="fade">1500</int>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">BIG_STAR_9</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_1">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335464904092</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check1</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_1</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_2">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335464904096</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check2</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_2</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_3">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335464904086</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check3</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_3</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_4">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335402673478</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check4</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_4</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_5">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335464904098</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check5</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_5</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_6">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335464904082</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check6</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_6</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_7">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335464904084</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check7</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_7</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_8">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335402673473</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check8</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_8</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_9">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335402673472</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check9</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_9</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_11">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335464904095</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check11</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_10</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_12">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335464904093</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check12</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_12</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_13">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335464904094</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check13</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_11</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_14">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335464904088</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check14</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_13</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_15">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335402673479</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check15</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_14</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_17">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335464904083</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check17</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_16</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_18">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335464904099</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check18</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_17</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_19">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335464904100</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check19</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_18</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_21">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335464904101</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check21</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_19</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_23">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335464904090</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check23</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_3</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="star_24">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335464904089</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">check24</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_4</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="player_enter">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335464904092</str>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335464904096</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335464904086</str>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335402673478</str>
+					</object>
+					<object id="11111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335464904098</str>
+					</object>
+					<object id="111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335464904082</str>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335464904084</str>
+					</object>
+					<object id="11111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335402673473</str>
+					</object>
+					<object id="111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335402673472</str>
+					</object>
+					<object id="1111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335464904087</str>
+					</object>
+					<object id="11111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335464904095</str>
+					</object>
+					<object id="111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335464904093</str>
+					</object>
+					<object id="1111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335464904094</str>
+					</object>
+					<object id="11111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335464904088</str>
+					</object>
+					<object id="111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335402673479</str>
+					</object>
+					<object id="1111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335464904097</str>
+					</object>
+					<object id="11111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335464904083</str>
+					</object>
+					<object id="111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335464904099</str>
+					</object>
+					<object id="1111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335464904100</str>
+					</object>
+					<object id="11111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335464904091</str>
+					</object>
+					<object id="111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335464904101</str>
+					</object>
+					<object id="1111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335464904085</str>
+					</object>
+					<object id="11111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335464904090</str>
+					</object>
+					<object id="111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335464904089</str>
+					</object>
+					<object id="1111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">moon_asset_plain_1335402673477</str>
+					</object>
+					<object id="11111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">start</str>
+					</object>
+					<object id="111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">cloud_blueShade3_1339456562969</str>
+					</object>
+					<object id="1111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">cloud_vpuff2_1339456562959</str>
+					</object>
+					<object id="11111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">cloud_vpuff2_1339456562970</str>
+					</object>
+					<object id="111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">cloud_vpuff2_1339456562960</str>
+					</object>
+					<object id="1111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">corey_sign_blank_1339456562973</str>
+					</object>
+					<object id="11111111111111111111111111111111">
+						<str id="type">plat</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+						<str id="plat_id">plat_1339456562971</str>
+					</object>
+					<object id="111111111111111111111111111111111">
+						<str id="type">plat</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+						<str id="plat_id">plat_1339456562972</str>
+					</object>
+					<object id="1111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check1</str>
+					</object>
+					<object id="11111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check2</str>
+					</object>
+					<object id="111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check3</str>
+					</object>
+					<object id="1111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check4</str>
+					</object>
+					<object id="111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check6</str>
+					</object>
+					<object id="11111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check5</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check7</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check8</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check9</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check11</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check12</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check13</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check14</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check15</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check17</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check18</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check19</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check21</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check23</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">check24</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">corey_sign_blank_1340398529211</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">exit1</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">corey_sign_blank_1340932887540</str>
+					</object>
+				</object>
+			</object>
+			<object id="disappear">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">start</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">start</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_blueShade3_1339456562969</str>
+						<int id="fade">600</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_vpuff2_1339456562959</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="11111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_vpuff2_1339456562970</str>
+						<int id="fade">150</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_vpuff2_1339456562960</str>
+						<int id="fade">150</int>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">corey_sign_blank_1339456562973</str>
+						<int id="fade">1500</int>
+					</object>
+					<object id="11111111">
+						<str id="type">plat</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+						<str id="plat_id">plat_1339456562971</str>
+					</object>
+					<object id="111111111">
+						<str id="type">plat</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+						<str id="plat_id">plat_1339456562972</str>
+					</object>
+				</object>
+			</object>
+			<object id="exit_message">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">exit1</str>
+					</object>
+					<object id="111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check3</str>
+					</object>
+					<object id="1111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check4</str>
+					</object>
+					<object id="11111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check5</str>
+					</object>
+					<object id="111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check6</str>
+					</object>
+					<object id="1111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check7</str>
+					</object>
+					<object id="11111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check8</str>
+					</object>
+					<object id="111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check9</str>
+					</object>
+					<object id="11111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check11</str>
+					</object>
+					<object id="111111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check12</str>
+					</object>
+					<object id="1111111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check13</str>
+					</object>
+					<object id="11111111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check14</str>
+					</object>
+					<object id="111111111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check15</str>
+					</object>
+					<object id="11111111111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check17</str>
+					</object>
+					<object id="111111111111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check18</str>
+					</object>
+					<object id="1111111111111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check19</str>
+					</object>
+					<object id="111111111111111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check21</str>
+					</object>
+					<object id="11111111111111111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check23</str>
+					</object>
+					<object id="111111111111111111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">check24</str>
+					</object>
+					<object id="1111111111111111111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">check1</str>
+					</object>
+					<object id="11111111111111111111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">check2</str>
+					</object>
+					<object id="111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="name"></str>
+						<str id="deco_id"></str>
+						<str id="flag">exit1</str>
+					</object>
+					<object id="1111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="name"></str>
+						<str id="deco_id">corey_sign_blank_1340398529211</str>
+						<int id="fade">3000</int>
+					</object>
+					<object id="11111111111111111111111111111">
+						<str id="type">play_sound</str>
+						<str id="name">MOON_APPEARS</str>
+					</object>
+					<object id="111111111111111111111111111111">
+						<str id="type">event</str>
+						<str id="event">exit_message2</str>
+						<int id="delay">7000</int>
+					</object>
+				</object>
+			</object>
+			<object id="exit_message2">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">corey_sign_blank_1340398529211</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<int id="fade">3000</int>
+						<str id="deco_id">corey_sign_blank_1340932887540</str>
+					</object>
+					<object id="111">
+						<str id="type">play_sound</str>
+						<str id="event"></str>
+						<str id="name">MOON_APPEARS</str>
+					</object>
+					<object id="1111">
+						<str id="type">event</str>
+						<str id="event">exit_message3</str>
+						<int id="delay">7000</int>
+					</object>
+				</object>
+			</object>
+			<object id="exit_message3">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<int id="fade">3000</int>
+						<str id="deco_id">corey_sign_blank_1340932887540</str>
+					</object>
+				</object>
+			</object>
+		</object>
+		<bool id="is_instance">true</bool>
+		<str id="instance_id">paradise_starlit_night_1344878151</str>
+		<objref id="instance" tsid="RHFCRV02GN63BLP"/>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IHFD07D2GN631T5" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD0UD2GN631VC" label="Coin"/>
+		<objref tsid="IHFCVRD2GN631TA" label="Coin"/>
+		<objref tsid="IHFD0RD2GN631V8" label="Coin"/>
+		<objref tsid="IHFD08D2GN631TH" label="Coin"/>
+		<objref tsid="IHFD04D2GN631TP" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFCVQD2GN631S1" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD01D2GN631T4" label="Coin"/>
+		<objref tsid="IHFD0KD2GN631VB" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD0TD2GN631V9" label="Coin"/>
+		<objref tsid="IHFD09D2GN631U7" label="Coin"/>
+		<objref tsid="IHFCVSD2GN631TM" label="Collision-triggered Physics Changer"/>
+		<objref tsid="IHFD0CD2GN631U5" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD0HD2GN631U6" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD0OD2GN631VI" label="Coin"/>
+		<objref tsid="IHFD0QD2GN631V0" label="Coin"/>
+		<objref tsid="IHFD0LD2GN631VE" label="Coin"/>
+		<objref tsid="IHFD0VD2GN631V5" label="Coin"/>
+		<objref tsid="IHFD0ED2GN631UK" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD0MD2GN631VS" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD0BD2GN631UQ" label="Coin"/>
+		<objref tsid="IHFD11D2GN6320B" label="Coin"/>
+		<objref tsid="IHFD06D2GN631TA" label="Coin"/>
+		<objref tsid="IHFD03D2GN631T3" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD0SD2GN631VE" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD00D2GN631T3" label="Teleport Marker"/>
+		<objref tsid="IHFD0PD2GN631VV" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD10D2GN631VN" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD0DD2GN631UU" label="Coin"/>
+		<objref tsid="IHFD0ND2GN631VC" label="Coin"/>
+		<objref tsid="IHFCVPD2GN631SR" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFCVVD2GN631TK" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD13D2GN63206" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD0AD2GN631U9" label="Coin"/>
+		<objref tsid="IHFD12D2GN63207" label="Coin"/>
+		<objref tsid="IHFD0FD2GN631UT" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD0GD2GN631U7" label="Coin"/>
+		<objref tsid="IHFCVTD2GN631TH" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD0ID2GN631UT" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD16D2GN63203" label="Coin"/>
+		<objref tsid="IHFD02D2GN631T7" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD0JD2GN631V6" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD14D2GN6320O" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFD05D2GN631T1" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFCVUD2GN631TR" label="Coin"/>
+		<objref tsid="IHFD15D2GN6320V" label="Collision-triggered Event Box"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

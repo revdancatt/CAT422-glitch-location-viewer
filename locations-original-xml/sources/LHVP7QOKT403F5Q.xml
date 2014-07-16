@@ -1,0 +1,867 @@
+<game_object tsid="LHVP7QOKT403F5Q" ts="1364239873595" label="Purplysa" class_tsid="town" hubid="125" moteid="10" letime="3eg2gbp4" rbtime="304tkof5" upd_gs="gs6" load_time="2013-03-25 12:20:54.000">
+	<object id="dynamic">
+		<bool id="jobs_is_locked">false</bool>
+		<object id="events">
+			<object id="first_player_enter">
+				<object id="actions">
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337036905111</str>
+					</object>
+					<object id="111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337187375152</str>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337202603208</str>
+					</object>
+					<object id="11111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557461</str>
+					</object>
+					<object id="111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557472</str>
+					</object>
+					<object id="1111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557462</str>
+					</object>
+					<object id="11111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557474</str>
+					</object>
+					<object id="111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557464</str>
+					</object>
+					<object id="1111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557463</str>
+					</object>
+					<object id="11111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557476</str>
+					</object>
+					<object id="111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557480</str>
+					</object>
+					<object id="1111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557478</str>
+					</object>
+					<object id="11111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557466</str>
+					</object>
+					<object id="111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557465</str>
+					</object>
+					<object id="1111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557467</str>
+					</object>
+					<object id="11111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557481</str>
+					</object>
+					<object id="111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557483</str>
+					</object>
+					<object id="1111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557450</str>
+					</object>
+					<object id="11111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557456</str>
+					</object>
+					<object id="111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557459</str>
+					</object>
+					<object id="1111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557451</str>
+					</object>
+					<object id="11111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557471</str>
+					</object>
+					<object id="1111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">show2</str>
+					</object>
+					<object id="111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">show3</str>
+					</object>
+				</object>
+			</object>
+			<object id="part1_gravity_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics</str>
+						<str id="value">-0.1</str>
+						<int id="duration">0</int>
+						<str id="param">gravity</str>
+					</object>
+					<object id="11">
+						<str id="type">physics</str>
+						<str id="deco_id"></str>
+						<str id="param">vy_jump</str>
+						<str id="value">0.1</str>
+						<int id="duration">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">physics</str>
+						<str id="param">vx_accel_add_in_air</str>
+						<str id="value">2.2</str>
+						<int id="duration">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="part1_gravity_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics</str>
+						<str id="param">gravity</str>
+						<str id="value">0.4</str>
+						<int id="duration">1</int>
+					</object>
+					<object id="11">
+						<str id="type">physics</str>
+						<str id="deco_id"></str>
+						<str id="param">vy_jump</str>
+						<str id="value">1</str>
+						<int id="duration">1</int>
+					</object>
+					<object id="1111">
+						<str id="type">physics</str>
+						<str id="param">vx_accel_add_in_air</str>
+						<int id="duration">1</int>
+						<str id="value">2.2</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">part1_gravity_normal</str>
+						<int id="delay">1100</int>
+					</object>
+				</object>
+			</object>
+			<object id="secret_in">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1337036905111</str>
+						<int id="fade">800</int>
+					</object>
+				</object>
+			</object>
+			<object id="secret_out">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337036905111</str>
+						<int id="fade">800</int>
+					</object>
+				</object>
+			</object>
+			<object id="part1_gravity_normal">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics_reset</str>
+						<str id="param">all</str>
+					</object>
+				</object>
+			</object>
+			<object id="in_fire">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics</str>
+						<str id="param">vx_max</str>
+						<str id="value">0.1</str>
+						<int id="duration">1</int>
+					</object>
+					<object id="11">
+						<str id="type">physics</str>
+						<str id="param">vx_accel_add_in_floor</str>
+						<str id="value">0.1</str>
+						<int id="duration">1</int>
+					</object>
+					<object id="111">
+						<str id="type">physics</str>
+						<str id="param">friction_floor</str>
+						<str id="value">7</str>
+						<int id="duration">1</int>
+					</object>
+					<object id="1111">
+						<str id="type">physics</str>
+						<str id="param">vy_max</str>
+						<str id="value">0.3</str>
+						<int id="duration">1</int>
+					</object>
+					<object id="11111">
+						<str id="type">physics</str>
+						<str id="param">vy_jump</str>
+						<str id="value">0.3</str>
+						<int id="duration">1</int>
+					</object>
+					<object id="111111">
+						<str id="type">physics</str>
+						<str id="param">friction_air</str>
+						<str id="value">2</str>
+						<int id="duration">1</int>
+					</object>
+				</object>
+			</object>
+			<object id="part2_gravity_normal">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics_reset</str>
+						<str id="param">all</str>
+					</object>
+				</object>
+			</object>
+			<object id="part2_gravity_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics</str>
+						<str id="value">-0.1</str>
+						<int id="duration">0</int>
+						<str id="param">gravity</str>
+					</object>
+					<object id="11">
+						<str id="type">physics</str>
+						<str id="deco_id"></str>
+						<str id="param">vy_jump</str>
+						<str id="value">0.1</str>
+						<int id="duration">0</int>
+					</object>
+					<object id="11111">
+						<str id="type">physics</str>
+						<str id="param">vx_accel_add_in_air</str>
+						<str id="value">2.2</str>
+						<int id="duration">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="part2_gravity_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics</str>
+						<str id="param">gravity</str>
+						<str id="value">0.4</str>
+						<int id="duration">1</int>
+					</object>
+					<object id="11">
+						<str id="type">physics</str>
+						<str id="deco_id"></str>
+						<str id="param">vy_jump</str>
+						<str id="value">1</str>
+						<int id="duration">1</int>
+					</object>
+					<object id="11111">
+						<str id="type">physics</str>
+						<str id="param">vx_accel_add_in_air</str>
+						<str id="value">2.2</str>
+						<int id="duration">1</int>
+					</object>
+					<object id="111111">
+						<str id="type">event</str>
+						<str id="event">part2_gravity_normal</str>
+						<int id="delay">1000</int>
+					</object>
+				</object>
+			</object>
+			<object id="hidden_in">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1337187375152</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+			<object id="hidden_out">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337187375152</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+			<object id="bonus_out">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337202603208</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+			<object id="bonus_in">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1337202603208</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+			<object id="part3_gravity_normal">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics_reset</str>
+						<str id="param">all</str>
+					</object>
+				</object>
+			</object>
+			<object id="part3_gravity_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics</str>
+						<str id="value">-0.1</str>
+						<int id="duration">0</int>
+						<str id="param">gravity</str>
+					</object>
+					<object id="11">
+						<str id="type">physics</str>
+						<str id="deco_id"></str>
+						<str id="param">vy_jump</str>
+						<str id="value">0.1</str>
+						<int id="duration">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">physics</str>
+						<str id="value">2.2</str>
+						<int id="duration">0</int>
+						<str id="param">vx_accel_add_in_air</str>
+					</object>
+				</object>
+			</object>
+			<object id="part3_gravity_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics</str>
+						<int id="duration">4</int>
+						<str id="value">0.1</str>
+						<str id="param">gravity</str>
+					</object>
+					<object id="111">
+						<str id="type">physics</str>
+						<str id="param">vy_jump</str>
+						<int id="duration">4</int>
+						<str id="value">1</str>
+					</object>
+					<object id="1111">
+						<str id="type">physics</str>
+						<str id="param">vx_accel_add_in_air</str>
+						<str id="value">2.2</str>
+						<int id="duration">4</int>
+					</object>
+				</object>
+			</object>
+			<object id="part3_gravity_off_fall">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics</str>
+						<str id="param">gravity</str>
+						<str id="value">-0.1</str>
+						<int id="duration">0</int>
+					</object>
+					<object id="11">
+						<str id="type">physics</str>
+						<str id="deco_id"></str>
+						<str id="param">vy_jump</str>
+						<str id="value">0.1</str>
+						<int id="duration">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">physics</str>
+						<str id="param">vx_accel_add_in_air</str>
+						<int id="duration">0</int>
+						<str id="value">2.2</str>
+					</object>
+				</object>
+			</object>
+			<object id="bad_gravity_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics</str>
+						<str id="value">-0.1</str>
+						<int id="duration">0</int>
+						<str id="param">gravity</str>
+					</object>
+					<object id="11">
+						<str id="type">physics</str>
+						<str id="value">0.1</str>
+						<int id="duration">0</int>
+						<str id="param">vy_jump</str>
+					</object>
+					<object id="11111">
+						<str id="type">physics</str>
+						<str id="value">0.5</str>
+						<int id="duration">0</int>
+						<str id="param">vx_accel_add_in_air</str>
+					</object>
+				</object>
+			</object>
+			<object id="finish_hide3">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557480</str>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557478</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557466</str>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557465</str>
+					</object>
+					<object id="11111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557467</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557481</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="1111111">
+						<str id="type">physics_reset</str>
+						<str id="param">all</str>
+					</object>
+				</object>
+			</object>
+			<object id="show3_hide2">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">show3</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">show3</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557461</str>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557472</str>
+					</object>
+					<object id="11111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557462</str>
+					</object>
+					<object id="111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557474</str>
+					</object>
+					<object id="11111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557463</str>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557464</str>
+					</object>
+					<object id="111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557476</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="1111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557480</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="11111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557478</str>
+					</object>
+					<object id="111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557466</str>
+					</object>
+					<object id="1111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557465</str>
+					</object>
+					<object id="11111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557467</str>
+					</object>
+					<object id="111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557481</str>
+					</object>
+				</object>
+			</object>
+			<object id="show2_hide3">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">show3</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">show3</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557480</str>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557478</str>
+					</object>
+					<object id="11111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557466</str>
+					</object>
+					<object id="111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557465</str>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557467</str>
+					</object>
+					<object id="11111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557481</str>
+					</object>
+					<object id="111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557474</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="1111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557472</str>
+					</object>
+					<object id="11111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557462</str>
+					</object>
+					<object id="1111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557464</str>
+					</object>
+					<object id="111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557461</str>
+					</object>
+					<object id="11111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557463</str>
+					</object>
+					<object id="111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557476</str>
+						<int id="fade">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="show2_hide1">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">show2</str>
+					</object>
+					<object id="111">
+						<str id="type">flag_clear</str>
+						<str id="flag">show2</str>
+					</object>
+					<object id="11111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557483</str>
+					</object>
+					<object id="111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557450</str>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557456</str>
+					</object>
+					<object id="11111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557459</str>
+					</object>
+					<object id="111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557451</str>
+					</object>
+					<object id="1111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557471</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="11111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557461</str>
+					</object>
+					<object id="111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557472</str>
+					</object>
+					<object id="1111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557462</str>
+					</object>
+					<object id="11111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557474</str>
+					</object>
+					<object id="111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557464</str>
+					</object>
+					<object id="1111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557463</str>
+					</object>
+					<object id="11111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557476</str>
+					</object>
+				</object>
+			</object>
+			<object id="show1_hide2">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">show2</str>
+					</object>
+					<object id="1111">
+						<str id="type">flag_set</str>
+						<str id="flag">show2</str>
+					</object>
+					<object id="11111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557461</str>
+					</object>
+					<object id="111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557472</str>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557462</str>
+					</object>
+					<object id="11111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557474</str>
+					</object>
+					<object id="111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557464</str>
+					</object>
+					<object id="1111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557463</str>
+					</object>
+					<object id="11111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hover_platform_1340320557476</str>
+					</object>
+					<object id="111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557483</str>
+					</object>
+					<object id="1111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557450</str>
+					</object>
+					<object id="11111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557456</str>
+					</object>
+					<object id="111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557459</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="1111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557451</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="11111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">hover_platform_1340320557471</str>
+						<int id="fade">300</int>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object id="hidden_decos">
+			<int id="stars_move_up_1337202603216">1340319756</int>
+			<int id="stars_move_up_1337036905158">1340319807</int>
+			<int id="ug_wall_heights_1337187375152">1353218817</int>
+			<int id="hover_platform_1340320557483">1353218847</int>
+			<int id="hover_platform_1340320557450">1353218847</int>
+			<int id="hover_platform_1340320557456">1353218847</int>
+			<int id="hover_platform_1340320557459">1353218847</int>
+			<int id="hover_platform_1340320557451">1353218847</int>
+			<int id="hover_platform_1340320557471">1353218847</int>
+			<int id="hover_platform_1340320557461">1353218917</int>
+			<int id="hover_platform_1340320557472">1353218917</int>
+			<int id="hover_platform_1340320557462">1353218917</int>
+			<int id="hover_platform_1340320557474">1353218917</int>
+			<int id="hover_platform_1340320557463">1353218917</int>
+			<int id="hover_platform_1340320557464">1353218917</int>
+			<int id="hover_platform_1340320557476">1353218917</int>
+			<int id="hover_platform_1340320557480">1353218993</int>
+			<int id="hover_platform_1340320557478">1353218993</int>
+			<int id="hover_platform_1340320557466">1353218993</int>
+			<int id="hover_platform_1340320557465">1353218993</int>
+			<int id="hover_platform_1340320557467">1353218993</int>
+			<int id="hover_platform_1340320557481">1353218993</int>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-06-21/LHVP7QOKT403F5Q_loading_1340328930.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-06-21/LHVP7QOKT403F5Q_main_1340328933.jpg</str>
+			<int id="w">720</int>
+			<int id="h">79</int>
+		</object>
+		<object id="edit_history">
+			<str id="1340321601">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1340321749">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1340322065">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1340322131">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1340322213">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1340322236">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1340322550">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1340322949">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1340325081">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1340328696">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1340328763">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1340762187">tsauth-lisa:edit_street_meta</str>
+			<str id="1340764489">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1340764751">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1340764762">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1340764769">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1340818756">tsauth-lisa:edit_street_meta</str>
+			<str id="1341444090">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1359401779">tsauth-mygrant:modify_street_obj-doors-door_1337969766399</str>
+			<str id="1359401784">tsauth-mygrant:modify_street_obj-doors-door_1337969766399</str>
+		</object>
+		<bool id="jobs_auto_unlock">false</bool>
+		<bool id="no_teleportation">true</bool>
+		<bool id="disallow_animals">true</bool>
+		<bool id="no_rook">true</bool>
+		<str id="instance_me">underground_puzzle_purplysa</str>
+		<int id="instance_max_members">1</int>
+		<objref id="instances" tsid="DNVKSJJUBK03F78" label="Instances"/>
+		<object id="flags">
+		</object>
+	</object>
+	<int id="delayed_call_count">2</int>
+	<delayed_call when="1359401781811" func="geo_links_cleanup" call_id="LHVP7QOKT403F5Q.geo_links_cleanup"/>
+	<delayed_call when="1359401783811" func="jobs_modify_outgoing_connections" call_id="LHVP7QOKT403F5Q.jobs_modify_outgoing_connections"/>
+	<objrefs id="items">
+		<objref tsid="INVJ2DQKT403M47" label="Coin"/>
+		<objref tsid="INVJ2TQKT403M5J" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ2FQKT403M4R" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ30QKT403M5S" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ40QKT403M80" label="Coin"/>
+		<objref tsid="INVJ3OQKT403M80" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ2HQKT403M44" label="Collision-triggered Teleporter"/>
+		<objref tsid="INV7S2SANF23E3O" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ2CQKT403M49" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVJ39QKT403M6L" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVJ31QKT403M5B" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ24QKT403M3L" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ49QKT403M9K" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ2IQKT403M4M" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ3MQKT403M7G" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ3BQKT403M6G" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ2OQKT403M5O" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ3NQKT403M77" label="Collision-triggered Event Box"/>
+		<objref tsid="INV7NKL9NF237BV" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ3EQKT403M7Q" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVJ1VQKT403M2H" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ48QKT403M94" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ22QKT403M38" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVJ2LQKT403M48" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ41QKT403M8M" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVJ3TQKT403M8S" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ3UQKT403M8V" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ1NQKT403M26" label="Coin"/>
+		<objref tsid="INVJ2PQKT403M5O" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVS8ET4IU23MBN" label="Coin"/>
+		<objref tsid="INVS1PC1IU23MQA" label="Coin"/>
+		<objref tsid="INVJ44QKT403M9G" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ2JQKT403M4F" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ3CQKT403M6R" label="Coin"/>
+		<objref tsid="INVJ21QKT403M20" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVJ2UQKT403M5J" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVJ37QKT403M6E" label="Coin"/>
+		<objref tsid="INVJ46QKT403M9D" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ3QQKT403M88" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ2AQKT403M3T" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ2QQKT403M5T" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ29QKT403M3L" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVJ2NQKT403M58" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFE41AEK903T27" label="Teleport Marker"/>
+		<objref tsid="INVJ3VQKT403M8U" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVJ3GQKT403M75" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ23QKT403M3Q" label="Collision-triggered Event Box"/>
+		<objref tsid="INV7QH5ANF23JQN" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ33QKT403M66" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ2RQKT403M5R" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ2MQKT403M4L" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVJ3SQKT403M8F" label="Collision-triggered Event Box"/>
+		<objref tsid="INV7OFS9NF2356S" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ38QKT403M6T" label="Collision-triggered Event Box"/>
+		<objref tsid="INVF5MIBS333H8L" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ1RQKT403M2B" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ47QKT403M9P" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ1OQKT403M2P" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ3FQKT403M7R" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ42QKT403M8P" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVJ2KQKT403M4I" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ2GQKT403M4T" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ26QKT403M3E" label="Coin"/>
+		<objref tsid="INVJ3KQKT403M7E" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVJ1UQKT403M2T" label="Collision-triggered Event Box"/>
+		<objref tsid="INVSAAO5IU235OP" label="Coin"/>
+		<objref tsid="INVJ2EQKT403M44" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ28QKT403M32" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVJ3JQKT403M78" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ2BQKT403M3R" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ43QKT403M9Q" label="Coin"/>
+		<objref tsid="INV7QSBANF23K6U" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ3DQKT403M6B" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ3IQKT403M7L" label="Coin"/>
+		<objref tsid="INVS2P52IU23P4E" label="Coin"/>
+		<objref tsid="INVJ36QKT403M6D" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ2VQKT403M51" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ3LQKT403M71" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVJ3HQKT403M7R" label="Collision-triggered Event Box"/>
+		<objref tsid="INVJ34QKT403M64" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVJ2SQKT403M5S" label="Collision-triggered Event Box"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

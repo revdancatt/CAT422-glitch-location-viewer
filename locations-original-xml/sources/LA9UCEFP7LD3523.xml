@@ -1,0 +1,203 @@
+<game_object tsid="LA9UCEFP7LD3523" ts="1364245697145" label="Organish Chute" class_tsid="town" hubid="142" moteid="10" letime="3g365c54" rbtime="3dl7pf52" upd_gs="gs6" load_time="2013-03-25 12:15:29.000">
+	<object id="dynamic">
+		<bool id="jobs_is_locked">false</bool>
+		<object id="events">
+			<object id="player_enter">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">//if(pc.y&gt;-1500) //tp'd to bottom
+//{
+  //pc.startedAT = &quot;bottom&quot;;
+ // pc.addCTPCPhysics({
+//		gravity:-1
+ // });
+//}
+//else //tp'd to top
+//{
+//  pc.startedAT = &quot;top&quot;;
+//  pc.addCTPCPhysics({
+//		gravity:1
+ // });
+//}
+if(pc.y&gt;-350)
+{
+if(pc.x&gt;1730)
+{
+
+call_event('check_b');
+}}
+</str>
+					</object>
+				</object>
+			</object>
+			<object id="invert_phys">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code"> pc.addCTPCPhysics({
+		gravity:-1
+  });</str>
+					</object>
+				</object>
+			</object>
+			<object id="reset_phys">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code"> pc.addCTPCPhysics({
+		gravity:1
+  });</str>
+					</object>
+				</object>
+			</object>
+			<object id="should_tp_bottom">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">    delete pc.startedAT;
+    pc.teleportToLocation('LA9BT2I0ILD340S', 1359, -1000);</str>
+					</object>
+				</object>
+			</object>
+			<object id="should_tp_top">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">  delete pc.startedAT;
+  pc.teleportToLocation('LA5GNCQ4T3137M7', 60, -85); 
+</str>
+					</object>
+				</object>
+			</object>
+			<object id="check_b">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">if(!pc.check_a)
+{
+    pc.startedAT = &quot;bottom&quot;;
+  pc.addCTPCPhysics({
+		gravity:-1
+  });
+}
+
+if(pc.check_a==null)
+{
+  pc.startedAT = &quot;bottom&quot;;
+  pc.addCTPCPhysics({
+		gravity:-1
+  });
+}</str>
+					</object>
+				</object>
+			</object>
+			<object id="check_a">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">pc.check_a=true;</str>
+					</object>
+				</object>
+			</object>
+			<object id="player_exit">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">delete pc.check_a;</str>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-11-09/LA9UCEFP7LD3523_loading_1352511696.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-11-09/LA9UCEFP7LD3523_main_1352511698.jpg</str>
+			<int id="w">720</int>
+			<int id="h">540</int>
+		</object>
+		<object id="edit_history">
+			<str id="1352440463">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352485207">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352485218">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352485907">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352485909">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352486332">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352486349">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352486520">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352486523">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352486728">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352486752">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352486754">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352486758">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352487780">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352488119">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352488122">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352489970">PCR1DCC40RT1I9G:kt:locodeco-replace</str>
+			<str id="1352513315">tsauth-mackenzie:edit_street_meta</str>
+			<str id="1352849171">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352849174">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+		</object>
+		<int id="debug_events">1</int>
+		<bool id="jobs_auto_unlock">false</bool>
+		<bool id="no_teleportation">false</bool>
+		<bool id="disallow_animals">true</bool>
+		<bool id="no_rook">true</bool>
+		<str id="instance_me">Organish Chute</str>
+		<int id="instance_max_members">53</int>
+		<str id="instance_location_type"></str>
+		<objref id="instances" tsid="DA966MSAPND37T8" label="Instances"/>
+		<object id="special_loading_image">
+			<str id="url">streets/2012-11-08-static/1352420233-loading_organishchute.jpg</str>
+			<int id="w">600</int>
+			<int id="h">400</int>
+		</object>
+		<object id="hi_sign_evasion_record">
+			<str id="pc_tsid">PUVG2EDJV8G2ADK</str>
+			<str id="pc_label">PixeIs</str>
+			<int id="secs">21</int>
+			<int id="when">1352426288</int>
+			<int id="version">10</int>
+			<str id="day_key">25-08-01</str>
+		</object>
+		<object id="hi_sign_daily_evasion_record">
+			<str id="pc_tsid">PUVDA80N87C30HF</str>
+			<str id="pc_label">Violets</str>
+			<int id="secs">13</int>
+			<int id="when">1353104695</int>
+			<int id="version">10</int>
+			<str id="day_key">25-10-06</str>
+		</object>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IA9UDGHP7LD3HRJ" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9HUGA13OD3OCK" label="Coin"/>
+		<objref tsid="IA9UDEHP7LD3HRH" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9HUUF13OD3F10" label="Coin"/>
+		<objref tsid="IA9IDQ4M7QD3D2S" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9HV8Q13OD3V33" label="Coin"/>
+		<objref tsid="IA9I0TL23OD355F" label="Coin"/>
+		<objref tsid="IA9UDDHP7LD3HRM" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9UDFHP7LD3HRH" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9IU8LC3OD352S" label="Coin"/>
+		<objref tsid="IA9UDBHP7LD3HRN" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9P36539QD3E7M" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFIS5DT4MD3SE0" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9UDHHP7LD3HRD" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFJAV2V4MD375T" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9I2DA33OD3EJK" label="Coin"/>
+		<objref tsid="IA9I1AT23OD3I3E" label="Coin"/>
+		<objref tsid="IA9HVDV13OD3L93" label="Coin"/>
+		<objref tsid="IA9ITNEC3OD3TJG" label="Coin"/>
+		<objref tsid="IA9I0LG23OD3F4S" label="Coin"/>
+		<objref tsid="IA9UDCHP7LD3HRG" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9UDJHP7LD3HR6" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9UDIHP7LD3HR6" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9I28733OD3JA6" label="Coin"/>
+		<objref tsid="IA9UDAHP7LD3HQJ" label="Collision-triggered Event Box"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

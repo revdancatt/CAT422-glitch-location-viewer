@@ -1,0 +1,240 @@
+<game_object tsid="LA9TKSRJ7LD3SGK" ts="1364245697501" label="Duodenal Browns" class_tsid="town" hubid="142" moteid="10" letime="3g368l3s" rbtime="3dl7jrsg" upd_gs="gs6" load_time="2013-03-25 13:54:20.000">
+	<object id="dynamic">
+		<bool id="jobs_is_locked">false</bool>
+		<object id="events">
+			<object id="player_enter">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">
+/*
+if(!pc.startedAT)
+{
+if(pc.y&gt;-2670) //tp'd to bottom
+{
+pc.startedAtBottom = true;
+  pc.startedAT = &quot;bottom&quot;;
+  //pc.addCTPCPhysics({
+//		gravity:-1
+ // });
+}
+else //tp'd to top
+{
+  pc.startedAT = &quot;top&quot;;
+ // pc.addCTPCPhysics({
+//		gravity:1
+//  });
+}
+}
+*/</str>
+					</object>
+				</object>
+			</object>
+			<object id="reset_phys_top">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">if(pc.startedAT == &quot;top&quot;)
+{
+  pc.addCTPCPhysics({
+		gravity:1
+  });
+}</str>
+					</object>
+				</object>
+			</object>
+			<object id="invert_phys_top">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">if(pc.startedAT == &quot;top&quot;)
+{
+  pc.addCTPCPhysics({
+		gravity:-1
+  });
+}</str>
+					</object>
+				</object>
+			</object>
+			<object id="reset_phys_bottom">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">if(pc.startedAT == &quot;bottom&quot;)
+{
+  pc.addCTPCPhysics({
+		gravity:1
+  });
+}</str>
+					</object>
+				</object>
+			</object>
+			<object id="invert_phys_bottom">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">if(pc.startedAT == &quot;bottom&quot;)
+{
+  pc.addCTPCPhysics({
+		gravity:-1
+  });
+}</str>
+					</object>
+				</object>
+			</object>
+			<object id="should_tp_bottom">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code"> delete pc.startedAT;
+   pc.teleportToLocation('LA9BT2I0ILD340S', 2273, -1000); </str>
+					</object>
+				</object>
+			</object>
+			<object id="should_tp_top">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code"> delete pc.startedAT;
+   pc.teleportToLocation('LA9T7IFRDIA2N0K', 354, -205); </str>
+					</object>
+				</object>
+			</object>
+			<object id="start_bottom">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">if(pc.startedAtBottom==null)
+{
+   pc.startedAtBottom =true;
+pc.startedAT = &quot;bottom&quot;;
+  pc.addCTPCPhysics({
+		gravity:-1
+  });
+}
+
+if(pc.startedAtBottom)
+{
+  pc.startedAT = &quot;bottom&quot;;
+  pc.addCTPCPhysics({
+		gravity:-1
+  });
+}
+</str>
+					</object>
+				</object>
+			</object>
+			<object id="player_exit">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">delete pc.startedAtBottom;</str>
+					</object>
+				</object>
+			</object>
+			<object id="remove_bottom">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">pc.startedAtBottom = false;</str>
+					</object>
+				</object>
+			</object>
+			<object id="set_top">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code"> pc.startedAT = &quot;top&quot;;</str>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-11-09/LA9TKSRJ7LD3SGK_loading_1352512183.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-11-09/LA9TKSRJ7LD3SGK_main_1352512190.jpg</str>
+			<int id="w">720</int>
+			<int id="h">720</int>
+		</object>
+		<object id="edit_history">
+			<str id="1352421332">PCR1DCC40RT1I9G:kt:locodeco-replace</str>
+			<str id="1352424504">PCR1DCC40RT1I9G:kt:locodeco-replace</str>
+			<str id="1352424762">PCR1DCC40RT1I9G:kt:locodeco-replace</str>
+			<str id="1352424844">PCR1DCC40RT1I9G:kt:locodeco-replace</str>
+			<str id="1352425172">PCR1DCC40RT1I9G:kt:locodeco-replace</str>
+			<str id="1352425362">PCR1DCC40RT1I9G:kt:locodeco-replace</str>
+			<str id="1352425383">PCR1DCC40RT1I9G:kt:locodeco-replace</str>
+			<str id="1352425408">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352425767">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352425770">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352433435">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352440224">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352440498">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352440501">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352492253">PCR1DCC40RT1I9G:kt:locodeco-replace</str>
+			<str id="1352512165">PIF5NL12S3D1BH3:Jade:locodeco-replace</str>
+			<str id="1352529753">PIF5NL12S3D1BH3:Jade:locodeco-replace</str>
+			<str id="1352529773">PIF5NL12S3D1BH3:Jade:locodeco-replace</str>
+			<str id="1352849790">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352849795">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+		</object>
+		<bool id="jobs_auto_unlock">false</bool>
+		<bool id="no_teleportation">false</bool>
+		<bool id="disallow_animals">true</bool>
+		<bool id="no_rook">true</bool>
+		<str id="instance_me">Duodenal Browns</str>
+		<int id="instance_max_members">53</int>
+		<str id="instance_location_type"></str>
+		<objref id="instances" tsid="DA5AQB89PND3DME" label="Instances"/>
+		<object id="special_loading_image">
+			<str id="url">streets/2012-11-08-static/1352411748-loading_duodenalbrowns.jpg</str>
+			<int id="w">600</int>
+			<int id="h">400</int>
+		</object>
+		<object id="hi_sign_evasion_record">
+			<str id="pc_tsid">PUV68HKCS3A3DHC</str>
+			<str id="pc_label">bitchypoo</str>
+			<int id="secs">25</int>
+			<int id="when">1352427372</int>
+			<int id="version">10</int>
+			<str id="day_key">25-08-01</str>
+		</object>
+		<object id="hi_sign_daily_evasion_record">
+			<str id="pc_tsid">PUV6Q0DF6DB3GPV</str>
+			<str id="pc_label">JulieAnne</str>
+			<int id="secs">12</int>
+			<int id="when">1353045617</int>
+			<int id="version">10</int>
+			<str id="day_key">25-10-02</str>
+		</object>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IA5LNIF22OD34N1" label="Coin"/>
+		<objref tsid="IA5LMJ722OD3RF7" label="Coin"/>
+		<objref tsid="IA9OCJJB4MD3GNG" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFI1HUJ7LD390A" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFI1KUJ7LD390T" label="Collision-triggered Event Box"/>
+		<objref tsid="IA5LMTB22OD34E1" label="Coin"/>
+		<objref tsid="IA5K71EN1OD3NLL" label="Coin"/>
+		<objref tsid="IA5K75JN1OD32M6" label="Coin"/>
+		<objref tsid="IHFI1DUJ7LD38V6" label="Collision-triggered Event Box"/>
+		<objref tsid="IA5LFHK02OD3ICB" label="Coin"/>
+		<objref tsid="IHFI1LUJ7LD390J" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFI1BUJ7LD38VT" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9IJSKO2MD3IQK" label="Collision-triggered Event Box"/>
+		<objref tsid="IA5LM0322OD3F16" label="Coin"/>
+		<objref tsid="IA9M9SFN3MD3RIH" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFI1CUJ7LD38VJ" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFI1JUJ7LD3907" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFI1EUJ7LD390U" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFI1GUJ7LD390O" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFI1IUJ7LD390C" label="Collision-triggered Event Box"/>
+		<objref tsid="IA5LL5R12OD36V4" label="Coin"/>
+		<objref tsid="IHFI1FUJ7LD390M" label="Collision-triggered Event Box"/>
+		<objref tsid="IA5LK2N12OD3DMP" label="Coin"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

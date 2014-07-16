@@ -24,6 +24,11 @@ convert =
 			
 	#   Now go through each on in turn converting it
 	convertFiles: (file, callback) ->
+
+		#sources is a folder, not a file
+		if file is 'sources'
+			return
+
 		#   Lazy check, should use filters above
 		if file is '.DS_Store'
 			return callback()
@@ -35,11 +40,17 @@ convert =
 			throw err if err
 			parser.parseString data, (err, dataJSON) ->
 
+				#read in the source file for this street and parse it
+				sourceData = convert.getSourceData(dataJSON)
+
 				##  Get the base information
-				locationJSON = convert.getBaseInformation(dataJSON)
+				locationJSON = convert.getBaseInformation(dataJSON,sourceData)
 				locationJSON.gradient = convert.getGradient(dataJSON)
 				locationJSON.dynamic = convert.getBaseDimensions(dataJSON)
 				locationJSON.dynamic.layers = convert.getLayers(dataJSON)
+
+				#extract the objrefs tag from the sourceData
+				locationJSON.objrefs = convert.getObjRefs(sourceData)
 
 				#   Write the file out
 				fs.writeFile './locations/' + file.replace('.xml', '.json'), JSON.stringify(locationJSON, null, 4), (err) ->
@@ -48,12 +59,47 @@ convert =
 						throw err if err
 						callback()
 
-	getBaseInformation: (dataJSON) ->
+	getSourceData: (dataJSON) ->
+
+		sourceData = ""
+		tsid = dataJSON.game_object.$.tsid
+		#read in the corresponding source file
+		tsid = "L" + tsid.slice(1,tsid.length)
+		sourceFile = fs.readFileSync './locations-original-xml/sources/' + tsid + '.xml'
+				
+		#parse the xml
+		parser = new xml2js.Parser()
+		parser.parseString sourceFile, (err, data) ->
+			sourceData = data
+
+		sourceData
+
+	getBaseInformation: (dataJSON,sourceData) ->
 
 		locationJSON = {}
 		locationJSON.tsid = dataJSON.game_object.$.tsid
 		locationJSON.label = dataJSON.game_object.$.label
+		locationJSON.hub_id = sourceData.game_object.$.hubid
+		locationJSON.mote_id = sourceData.game_object.$.moteid
+		locationJSON.loading_image = convert.getLoadingImage(sourceData)
+
 		locationJSON
+
+	getLoadingImage: (sourceData) ->
+
+		loading_image = {}
+		for o in sourceData.game_object.object
+			if o.$.id is 'dynamic'
+				if 'object' of o
+					for object in o.object
+						if object.$.id is 'loading_image'
+							if 'str' of object
+								loading_image.url = "http://c2.glitch.bz/" + object.str[0]._
+							if 'int' of object
+								for d in object.int
+									loading_image[d.$.id] = parseInt(d._, 10)
+			
+		loading_image
 
 	getGradient: (dataJSON) ->
 
@@ -117,6 +163,23 @@ convert =
 
 
 		result
+
+	getObjRefs: (sourceData) ->
+
+		objrefs = []
+		#Get the items listed in objrefs and add them to the json
+		if 'objrefs' of sourceData.game_object
+			for item in sourceData.game_object.objrefs
+				if item.$.id is 'items'
+					if 'objref' of item
+						for oref in item.objref
+							if '$' of oref
+								objref = {}
+								objref.tsid = oref.$.tsid
+								objref.label = oref.$.label
+								objrefs.push objref
+
+		objrefs
 
 	#   Get the filters out of the json into some nice
 	#   friendly format

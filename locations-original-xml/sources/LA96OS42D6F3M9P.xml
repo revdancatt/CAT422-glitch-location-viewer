@@ -1,0 +1,4901 @@
+<game_object tsid="LA96OS42D6F3M9P" ts="1364245875184" label="Piano Party" class_tsid="town" hubid="143" moteid="9" letime="3limesil" rbtime="3f6d24m9" upd_gs="gs6" load_time="2013-03-25 12:27:16.000">
+	<object id="dynamic">
+		<bool id="jobs_is_locked">false</bool>
+		<object id="events">
+			<object id="key1">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key1_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key1_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340828550943</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_19</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">key1_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="key1_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340828550943</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key1_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="first_player_enter">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_clear</str>
+						<str id="flag">key1_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key2_down</str>
+					</object>
+					<object id="111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key3_down</str>
+					</object>
+					<object id="1111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key4_down</str>
+					</object>
+					<object id="11111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key5_down</str>
+					</object>
+					<object id="111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key6_down</str>
+					</object>
+					<object id="1111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key7_down</str>
+					</object>
+					<object id="11111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key8_down</str>
+					</object>
+					<object id="111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key9_down</str>
+					</object>
+					<object id="1111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key10_down</str>
+					</object>
+					<object id="11111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key11_down</str>
+					</object>
+					<object id="111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key12_down</str>
+					</object>
+					<object id="1111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key13_down</str>
+					</object>
+					<object id="11111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key14_down</str>
+					</object>
+					<object id="111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key15_down</str>
+					</object>
+					<object id="1111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key16_down</str>
+					</object>
+					<object id="11111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key17_down</str>
+					</object>
+					<object id="111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key18_down</str>
+					</object>
+					<object id="1111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">key19_down</str>
+					</object>
+					<object id="11111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340828550943</str>
+					</object>
+					<object id="1111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340828550936</str>
+					</object>
+					<object id="11111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038651</str>
+					</object>
+					<object id="11111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038654</str>
+					</object>
+					<object id="1111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038650</str>
+					</object>
+					<object id="111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038652</str>
+					</object>
+					<object id="111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038655</str>
+					</object>
+					<object id="111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340828550935</str>
+					</object>
+					<object id="1111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038653</str>
+					</object>
+					<object id="11111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038657</str>
+					</object>
+					<object id="111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038658</str>
+					</object>
+					<object id="1111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038656</str>
+					</object>
+					<object id="11111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038663</str>
+					</object>
+					<object id="111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038664</str>
+					</object>
+					<object id="1111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038662</str>
+					</object>
+					<object id="11111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038660</str>
+					</object>
+					<object id="111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038661</str>
+					</object>
+					<object id="1111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038659</str>
+					</object>
+					<object id="11111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038665</str>
+					</object>
+					<object id="111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star1</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star2</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star3</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star4</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star5</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star11</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star10</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star9</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star8</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star7</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star6</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star12</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star13</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star14</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star15</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star16</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star17</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star18</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star19</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star20</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star21</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star22</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star23</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star24</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star25</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star27</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star29</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star30</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star31</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star26</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star28</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star32</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star33</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">star34</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550870</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550869</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550867</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550866</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550865</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550863</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550864</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550871</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550872</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550868</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550862</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550861</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550860</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550873</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550875</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550874</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550859</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550877</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550876</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550878</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550858</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550879</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550880</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550842</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550856</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550855</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550881</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550884</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550883</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550885</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550882</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550886</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550887</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550857</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar1</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar2</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar3</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar4</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar5</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar6</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar7</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar8</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar9</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550896</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550897</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550898</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550899</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550900</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550901</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550902</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550903</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550904</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar10</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar11</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar12</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340847397145</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340847397146</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340847397147</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon1</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340920723256</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">moon_asset_smile_1340920723203</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon3</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon2</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon4</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon5</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon6</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon7</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon8</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon9</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon10</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon11</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon12</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550891</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550889</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550888</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550890</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550895</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340845790236</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340845790237</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340845790239</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340845790238</str>
+					</object>
+					<object id="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550894</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550893</str>
+					</object>
+					<object id="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550892</str>
+					</object>
+					<object id="11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon_done</str>
+					</object>
+				</object>
+			</object>
+			<object id="key2">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key2_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key2_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340828550935</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_18</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">key2_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="key2_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340828550935</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key2_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key3">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key3_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key3_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340828550936</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_17</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">key3_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="key3_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340828550936</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key3_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key4">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key4_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key4_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038651</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_16</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">key4_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="key4_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038651</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key4_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key5">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key5_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key5_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038652</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_15</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">key5_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="key5_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038652</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key5_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key6">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key6_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key6_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038650</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<str id="name">LITTLE_STAR_14</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">key6_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="key6_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038650</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key6_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key7">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key7_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key7_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038654</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<str id="name">LITTLE_STAR_13</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">key7_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="key7_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038654</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key7_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key8">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key8_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key8_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038655</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<str id="name">LITTLE_STAR_12</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">key8_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="key8_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038655</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key8_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key9">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key9_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key9_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038653</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<str id="name">LITTLE_STAR_11</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">key9_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="key9_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038653</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key9_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key10">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key10_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key10_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038657</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<str id="name">LITTLE_STAR_10</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">key10_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="key10_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038657</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key10_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key11">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key11_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key11_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038658</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<str id="name">LITTLE_STAR_9</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">key11_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="key11_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038658</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key11_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key12">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key12_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key12_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038656</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<str id="name">LITTLE_STAR_8</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">key12_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="key12_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038656</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key12_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key13">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key13_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key13_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038663</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<str id="name">LITTLE_STAR_7</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">key13_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="key13_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038663</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key13_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key14">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key14_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key14_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038664</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<str id="name">LITTLE_STAR_6</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">key14_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="key14_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038664</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key14_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key15">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key15_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key15_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038662</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<str id="name">LITTLE_STAR_5</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">key15_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="key15_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038662</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key15_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key16">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key16_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key16_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038660</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_4</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">key16_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="key16_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038660</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key16_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key17">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key17_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key17_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038661</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_3</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">key17_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="key17_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038661</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key17_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key18">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key18_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key18_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038659</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_2</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">key18_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="key18_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038659</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key18_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="key19">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key19_down</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">key19_down</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1340832038665</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">LITTLE_STAR_1</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">key19_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="key19_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1340832038665</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">key19_down</str>
+					</object>
+				</object>
+			</object>
+			<object id="star1_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star1</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star1</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550870</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_1</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star1_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star1_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550870</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star1</str>
+					</object>
+				</object>
+			</object>
+			<object id="star2_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star2</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star2</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550869</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_2</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star2_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star2_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550869</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star2</str>
+					</object>
+				</object>
+			</object>
+			<object id="star3_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star3</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star3</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550867</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_3</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star3_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star3_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550867</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star3</str>
+					</object>
+				</object>
+			</object>
+			<object id="star4_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star4</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star4</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550866</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_4</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star4_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star4_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550866</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star4</str>
+					</object>
+				</object>
+			</object>
+			<object id="star5_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star5</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star5</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550865</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_5</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star5_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star5_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550865</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star5</str>
+					</object>
+				</object>
+			</object>
+			<object id="star6_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star6</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star6</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550863</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_6</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star6_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star6_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550863</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star6</str>
+					</object>
+				</object>
+			</object>
+			<object id="star7_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star7</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star7</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550864</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_7</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star7_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star7_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550864</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star7</str>
+					</object>
+				</object>
+			</object>
+			<object id="star8_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star8</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star8</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550871</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_8</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star8_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star8_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550871</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star8</str>
+					</object>
+				</object>
+			</object>
+			<object id="star9_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star9</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star9</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550872</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_9</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star9_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star9_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550872</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star9</str>
+					</object>
+				</object>
+			</object>
+			<object id="star10_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star10</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star10</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550868</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_10</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star10_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star10_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550868</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star10</str>
+					</object>
+				</object>
+			</object>
+			<object id="star11_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star11</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star11</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550862</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_11</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star11_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star11_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550862</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star11</str>
+					</object>
+				</object>
+			</object>
+			<object id="star12_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star12</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star12</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550861</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_12</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star12_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star12_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550861</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star12</str>
+					</object>
+				</object>
+			</object>
+			<object id="star13_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star13</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star13</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550860</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_13</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star13_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star13_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550860</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star13</str>
+					</object>
+				</object>
+			</object>
+			<object id="star14_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star14</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star14</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550873</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_14</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star14_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star14_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550873</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star14</str>
+					</object>
+				</object>
+			</object>
+			<object id="star15_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star15</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star15</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550875</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_15</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star15_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star15_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550875</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star15</str>
+					</object>
+				</object>
+			</object>
+			<object id="star16_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star16</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star16</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550874</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_16</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star16_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star16_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550874</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star16</str>
+					</object>
+				</object>
+			</object>
+			<object id="star17_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star17</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star17</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550859</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_17</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star17_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star17_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550859</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star17</str>
+					</object>
+				</object>
+			</object>
+			<object id="star18_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star18</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star18</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550877</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_18</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star18_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star18_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550877</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star18</str>
+					</object>
+				</object>
+			</object>
+			<object id="star19_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star19</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star19</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550876</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_19</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star19_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star19_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550876</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star19</str>
+					</object>
+				</object>
+			</object>
+			<object id="star20_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star20</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star20</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550878</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_1</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star20_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star20_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550878</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star20</str>
+					</object>
+				</object>
+			</object>
+			<object id="star21_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star21</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star21</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550858</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_2</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star21_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star21_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550858</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star21</str>
+					</object>
+				</object>
+			</object>
+			<object id="star22_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star22</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star22</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550879</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_3</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star22_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star22_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550879</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star22</str>
+					</object>
+				</object>
+			</object>
+			<object id="star23_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star23</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star23</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550880</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_4</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star23_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star23_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550880</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star23</str>
+					</object>
+				</object>
+			</object>
+			<object id="star24_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star24</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star24</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550842</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_5</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star24_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star24_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550842</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star24</str>
+					</object>
+				</object>
+			</object>
+			<object id="star25_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star25</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star25</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550856</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_6</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star25_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star25_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550856</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star25</str>
+					</object>
+				</object>
+			</object>
+			<object id="star26_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star26</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star26</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550855</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_7</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star26_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star26_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550855</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star26</str>
+					</object>
+				</object>
+			</object>
+			<object id="star27_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star27</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star27</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550881</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_8</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">star27_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="star27_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550881</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star27</str>
+					</object>
+				</object>
+			</object>
+			<object id="star28_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star28</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star28</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550884</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_9</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">star28_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="star28_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550884</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star28</str>
+					</object>
+				</object>
+			</object>
+			<object id="star29_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star29</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star29</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550883</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_10</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">star29_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="star29_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550883</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star29</str>
+					</object>
+				</object>
+			</object>
+			<object id="star30_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star30</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star30</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550885</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_11</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">star30_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="star30_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550885</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star30</str>
+					</object>
+				</object>
+			</object>
+			<object id="star31_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star31</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star31</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550882</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_12</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">star31_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="star31_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550882</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star31</str>
+					</object>
+				</object>
+			</object>
+			<object id="star32_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star32</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star32</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550886</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_13</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">star32_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="star32_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550886</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star32</str>
+					</object>
+				</object>
+			</object>
+			<object id="star33_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star33</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star33</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550887</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_14</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">star33_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="star33_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550887</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star33</str>
+					</object>
+				</object>
+			</object>
+			<object id="star34_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">star34</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">star34</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550857</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">LITTLE_STAR_15</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">star34_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="star34_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550857</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">star34</str>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar1_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">bigstar1</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">bigstar1</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550896</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">BIG_STAR_1</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">bigstar1_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar1_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550896</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar1</str>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar2_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">bigstar2</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">bigstar2</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550897</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">BIG_STAR_2</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">bigstar2_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar2_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550897</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar2</str>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar3_on">
+				<object id="actions">
+					<object id="11">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">bigstar3</str>
+					</object>
+					<object id="1">
+						<str id="type">flag_set</str>
+						<str id="flag">bigstar3</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550898</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">BIG_STAR_3</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">bigstar3_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar3_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550898</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar3</str>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar4_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">bigstar4</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">bigstar4</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550899</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">BIG_STAR_4</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">bigstar4_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar4_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550899</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar4</str>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar5_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">bigstar5</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">bigstar5</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550900</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">BIG_STAR_5</str>
+						<bool id="multi">true</bool>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">bigstar5_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar5_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550900</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar5</str>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar6_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">bigstar6</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">bigstar6</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550901</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">BIG_STAR_6</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">bigstar6_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar6_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550901</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar6</str>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar7_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">bigstar7</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">bigstar7</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550902</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">BIG_STAR_7</str>
+						<bool id="multi">true</bool>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">bigstar7_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar7_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550902</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar7</str>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar8_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">bigstar8</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">bigstar8</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550903</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">BIG_STAR_8</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">bigstar8_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar8_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550903</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar8</str>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar9_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">bigstar9</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">bigstar9</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550904</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<str id="name">BIG_STAR_9</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">bigstar9_off</str>
+						<int id="delay">400</int>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar9_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550904</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar9</str>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar10_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">bigstar10</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">bigstar10</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340847397145</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">BIG_STAR_10</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">bigstar10_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar10_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340847397145</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar10</str>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar11_on">
+				<object id="actions">
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340847397146</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">bigstar11_off</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">bigstar11</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">BIG_STAR_11</str>
+					</object>
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">bigstar11</str>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar11_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340847397146</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar11</str>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar12_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">bigstar12</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">bigstar12</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340847397147</str>
+					</object>
+					<object id="1111">
+						<str id="type">play_sound</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+						<str id="name">BIG_STAR_12</str>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<int id="delay">400</int>
+						<str id="event">bigstar12_off</str>
+					</object>
+				</object>
+			</object>
+			<object id="bigstar12_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340847397147</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_clear</str>
+						<str id="flag">bigstar12</str>
+					</object>
+				</object>
+			</object>
+			<object id="moon_check1">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">moon_done</str>
+					</object>
+					<object id="111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">moon1</str>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550894</str>
+					</object>
+				</object>
+			</object>
+			<object id="moon_check2">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">moon_done</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon1</str>
+					</object>
+					<object id="111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">moon2</str>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550893</str>
+					</object>
+				</object>
+			</object>
+			<object id="moon_check3">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">moon_done</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon1</str>
+					</object>
+					<object id="111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon2</str>
+					</object>
+					<object id="1111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">moon3</str>
+					</object>
+					<object id="11111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550892</str>
+					</object>
+				</object>
+			</object>
+			<object id="moon_check4">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">moon_done</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon1</str>
+					</object>
+					<object id="111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon2</str>
+					</object>
+					<object id="1111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon3</str>
+					</object>
+					<object id="11111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">moon4</str>
+					</object>
+					<object id="111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550891</str>
+					</object>
+				</object>
+			</object>
+			<object id="moon_check5">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">moon_done</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon1</str>
+					</object>
+					<object id="111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon2</str>
+					</object>
+					<object id="1111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon3</str>
+					</object>
+					<object id="11111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon4</str>
+					</object>
+					<object id="111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">moon5</str>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550889</str>
+					</object>
+				</object>
+			</object>
+			<object id="moon_check6">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">moon_done</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon1</str>
+					</object>
+					<object id="111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon2</str>
+					</object>
+					<object id="1111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon3</str>
+					</object>
+					<object id="11111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon4</str>
+					</object>
+					<object id="111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon5</str>
+					</object>
+					<object id="1111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">moon6</str>
+					</object>
+					<object id="11111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550888</str>
+					</object>
+				</object>
+			</object>
+			<object id="moon_check7">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">moon_done</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon1</str>
+					</object>
+					<object id="111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon2</str>
+					</object>
+					<object id="1111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon3</str>
+					</object>
+					<object id="11111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon4</str>
+					</object>
+					<object id="111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon5</str>
+					</object>
+					<object id="1111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon6</str>
+					</object>
+					<object id="11111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">moon7</str>
+					</object>
+					<object id="111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550890</str>
+					</object>
+				</object>
+			</object>
+			<object id="moon_check8">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">moon_done</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon1</str>
+					</object>
+					<object id="111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon2</str>
+					</object>
+					<object id="1111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon3</str>
+					</object>
+					<object id="11111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon4</str>
+					</object>
+					<object id="111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon5</str>
+					</object>
+					<object id="1111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon6</str>
+					</object>
+					<object id="11111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon7</str>
+					</object>
+					<object id="111111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">moon8</str>
+					</object>
+					<object id="1111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340828550895</str>
+					</object>
+				</object>
+			</object>
+			<object id="moon_check9">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">moon_done</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon1</str>
+					</object>
+					<object id="111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon2</str>
+					</object>
+					<object id="1111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon3</str>
+					</object>
+					<object id="11111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon4</str>
+					</object>
+					<object id="111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon5</str>
+					</object>
+					<object id="1111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon6</str>
+					</object>
+					<object id="11111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon7</str>
+					</object>
+					<object id="111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon8</str>
+					</object>
+					<object id="1111111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">moon9</str>
+					</object>
+					<object id="11111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340845790236</str>
+					</object>
+				</object>
+			</object>
+			<object id="moon_check10">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">moon_done</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon1</str>
+					</object>
+					<object id="111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon2</str>
+					</object>
+					<object id="1111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon3</str>
+					</object>
+					<object id="11111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon4</str>
+					</object>
+					<object id="111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon5</str>
+					</object>
+					<object id="1111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon6</str>
+					</object>
+					<object id="11111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon7</str>
+					</object>
+					<object id="111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon8</str>
+					</object>
+					<object id="1111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon9</str>
+					</object>
+					<object id="11111111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">moon10</str>
+					</object>
+					<object id="111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340845790237</str>
+					</object>
+				</object>
+			</object>
+			<object id="moon_check11">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">moon_done</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon1</str>
+					</object>
+					<object id="111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon2</str>
+					</object>
+					<object id="1111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon3</str>
+					</object>
+					<object id="11111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon4</str>
+					</object>
+					<object id="111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon5</str>
+					</object>
+					<object id="1111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon6</str>
+					</object>
+					<object id="11111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon7</str>
+					</object>
+					<object id="111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon8</str>
+					</object>
+					<object id="1111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon9</str>
+					</object>
+					<object id="11111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon10</str>
+					</object>
+					<object id="111111111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">moon11</str>
+					</object>
+					<object id="1111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340845790239</str>
+					</object>
+				</object>
+			</object>
+			<object id="moon_check12">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">moon_done</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon1</str>
+					</object>
+					<object id="111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon2</str>
+					</object>
+					<object id="1111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon3</str>
+					</object>
+					<object id="11111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon4</str>
+					</object>
+					<object id="111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon5</str>
+					</object>
+					<object id="1111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon6</str>
+					</object>
+					<object id="11111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon7</str>
+					</object>
+					<object id="111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon8</str>
+					</object>
+					<object id="1111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon9</str>
+					</object>
+					<object id="11111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon10</str>
+					</object>
+					<object id="111111111111">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">moon11</str>
+					</object>
+					<object id="1111111111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">moon12</str>
+					</object>
+					<object id="11111111111111">
+						<str id="type">deco_show</str>
+						<str id="event"></str>
+						<str id="deco_id">light_shafts_blue_bottom_1340845790238</str>
+					</object>
+					<object id="111111111111111">
+						<str id="type">event</str>
+						<str id="event">moon_show</str>
+						<int id="delay">3000</int>
+					</object>
+				</object>
+			</object>
+			<object id="moon_show">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_set</str>
+						<str id="flag">moon_done</str>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1340920723256</str>
+						<int id="fade">3000</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">moon_asset_smile_1340920723203</str>
+						<int id="fade">3000</int>
+					</object>
+					<object id="11111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon1</str>
+					</object>
+					<object id="111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon2</str>
+					</object>
+					<object id="1111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon3</str>
+					</object>
+					<object id="11111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon4</str>
+					</object>
+					<object id="111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon5</str>
+					</object>
+					<object id="1111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon6</str>
+					</object>
+					<object id="11111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon7</str>
+					</object>
+					<object id="111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon8</str>
+					</object>
+					<object id="1111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon9</str>
+					</object>
+					<object id="11111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon10</str>
+					</object>
+					<object id="111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon11</str>
+					</object>
+					<object id="1111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">moon12</str>
+					</object>
+					<object id="11111111111111111">
+						<str id="type">play_sound</str>
+						<str id="name">MOON_APPEARS</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-11-28/LA96OS42D6F3M9P_loading_1354139980.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-11-28/LA96OS42D6F3M9P_main_1354139983.jpg</str>
+			<int id="w">720</int>
+			<int id="h">480</int>
+		</object>
+		<object id="edit_history">
+			<str id="1353968377">tsauth-lisa:add_street_obj-signposts</str>
+			<str id="1353968379">tsauth-lisa:modify_street_obj-signposts-signpost_2</str>
+			<str id="1353968520">PCR11BHHPVN1AIQ:Lisa:locodeco-replace</str>
+			<str id="1353970279">tsauth-lisa:modify_street_obj-signposts-signpost_2</str>
+			<str id="1353970296">tsauth-lisa:modify_street_obj-signposts-signpost_1</str>
+			<str id="1354139506">PIF5NL12S3D1BH3:Jade:locodeco-replace</str>
+			<str id="1354155517">tsauth-mackenzie:edit_street_meta</str>
+		</object>
+		<object id="hidden_decos">
+			<int id="light_shafts_blue_bottom_1340828550863">1355108642</int>
+			<int id="light_shafts_blue_bottom_1340828550884">1355111666</int>
+			<int id="light_shafts_blue_bottom_1340828550883">1355111842</int>
+			<int id="light_shafts_blue_bottom_1340828550855">1355111911</int>
+			<int id="light_shafts_blue_bottom_1340828550862">1355111913</int>
+			<int id="light_shafts_blue_bottom_1340828550865">1355111919</int>
+			<int id="light_shafts_blue_bottom_1340828550875">1355111962</int>
+			<int id="light_shafts_blue_bottom_1340828550857">1355111970</int>
+			<int id="light_shafts_blue_bottom_1340828550887">1355111977</int>
+			<int id="light_shafts_blue_bottom_1340828550882">1355111996</int>
+			<int id="light_shafts_blue_bottom_1340828550886">1355111998</int>
+			<int id="light_shafts_blue_bottom_1340828550901">1355112003</int>
+			<int id="light_shafts_blue_bottom_1340828550842">1355112008</int>
+			<int id="light_shafts_blue_bottom_1340828550874">1355112025</int>
+			<int id="light_shafts_blue_bottom_1340828550885">1355112032</int>
+			<int id="light_spot_1340828550943">1355112033</int>
+			<int id="light_spot_1340832038665">1355112036</int>
+			<int id="light_shafts_blue_bottom_1340828550902">1355112043</int>
+			<int id="light_shafts_blue_bottom_1340828550881">1355112044</int>
+			<int id="light_spot_1340828550935">1355112050</int>
+			<int id="light_shafts_blue_bottom_1340828550870">1355112051</int>
+			<int id="light_shafts_blue_bottom_1340828550864">1355112053</int>
+			<int id="light_shafts_blue_bottom_1340828550866">1355112056</int>
+			<int id="light_shafts_blue_bottom_1340828550867">1355112056</int>
+			<int id="light_shafts_blue_bottom_1340828550898">1355112058</int>
+			<int id="light_spot_1340832038659">1355112059</int>
+			<int id="light_spot_1340832038661">1355112059</int>
+			<int id="light_spot_1340832038660">1355112059</int>
+			<int id="light_spot_1340832038662">1355112059</int>
+			<int id="light_spot_1340832038664">1355112060</int>
+			<int id="light_shafts_blue_bottom_1340828550900">1355112060</int>
+			<int id="light_spot_1340832038663">1355112060</int>
+			<int id="light_spot_1340832038656">1355112061</int>
+			<int id="light_shafts_blue_bottom_1340828550868">1355112061</int>
+			<int id="light_spot_1340832038658">1355112062</int>
+			<int id="light_shafts_blue_bottom_1340828550899">1355112063</int>
+			<int id="light_spot_1340832038657">1355112063</int>
+			<int id="light_spot_1340832038653">1355112063</int>
+			<int id="light_spot_1340832038655">1355112066</int>
+			<int id="light_spot_1340832038654">1355112067</int>
+			<int id="light_spot_1340832038650">1355112067</int>
+			<int id="light_spot_1340832038652">1355112067</int>
+			<int id="light_spot_1340832038651">1355112068</int>
+			<int id="light_spot_1340828550936">1355112068</int>
+			<int id="light_shafts_blue_bottom_1340828550856">1355112071</int>
+			<int id="light_shafts_blue_bottom_1340828550858">1355112071</int>
+			<int id="light_shafts_blue_bottom_1340828550903">1355112072</int>
+			<int id="light_shafts_blue_bottom_1340828550859">1355112072</int>
+			<int id="light_shafts_blue_bottom_1340828550861">1355112073</int>
+			<int id="light_shafts_blue_bottom_1340828550879">1355112074</int>
+			<int id="light_shafts_blue_bottom_1340828550860">1355112074</int>
+			<int id="light_shafts_blue_bottom_1340828550904">1355112074</int>
+			<int id="light_shafts_blue_bottom_1340828550880">1355112074</int>
+			<int id="light_shafts_blue_bottom_1340828550897">1355112076</int>
+			<int id="light_shafts_blue_bottom_1340828550878">1355112076</int>
+			<int id="light_shafts_blue_bottom_1340828550876">1355112077</int>
+			<int id="light_shafts_blue_bottom_1340828550869">1355112081</int>
+			<int id="light_shafts_blue_bottom_1340828550873">1355112081</int>
+			<int id="light_shafts_blue_bottom_1340828550896">1355112082</int>
+			<int id="light_shafts_blue_bottom_1340847397145">1355112083</int>
+			<int id="light_shafts_blue_bottom_1340847397147">1355112084</int>
+			<int id="light_shafts_blue_bottom_1340828550877">1355112084</int>
+			<int id="light_shafts_blue_bottom_1340847397146">1355112084</int>
+			<int id="light_shafts_blue_bottom_1340828550871">1355112085</int>
+			<int id="light_shafts_blue_bottom_1340828550872">1355112086</int>
+		</object>
+		<object id="flags">
+			<bool id="moon_done">true</bool>
+			<bool id="star6">true</bool>
+		</object>
+		<bool id="jobs_auto_unlock">false</bool>
+		<bool id="no_teleportation">false</bool>
+		<bool id="disallow_animals">true</bool>
+		<bool id="no_rook">true</bool>
+		<object id="qurazy">
+			<objref id="PHF59DU2NDD2IFE" tsid="IA9PM3BGC8G3AH1" label="Coin"/>
+		</object>
+		<object id="hi_sign_evasion_record">
+			<str id="pc_tsid">PUVNF6K9P173IF8</str>
+			<str id="pc_label">Lad10</str>
+			<int id="secs">91</int>
+			<int id="when">1355085114</int>
+			<int id="version">10</int>
+			<str id="day_key">26-03-52</str>
+		</object>
+		<object id="streaking_increments">
+			<object id="26-01-25">
+				<int id="PHVO2VL5MP02ONH">1354229476</int>
+				<int id="PUVTMVI961G2PNI">1354233488</int>
+			</object>
+			<object id="26-01-26">
+				<int id="PHV95NLAUG22JIQ">1354246354</int>
+			</object>
+			<object id="26-01-27">
+				<int id="PUVTDGC5TTH2HNR">1354256569</int>
+			</object>
+			<object id="26-01-28">
+				<int id="PHV9HLKUC5A2CPC">1354273506</int>
+			</object>
+			<object id="26-01-29">
+				<int id="PHVMDUDJ6C92K6C">1354282373</int>
+				<int id="PUVCQ5766073FL8">1354292935</int>
+			</object>
+			<object id="26-02-01">
+				<int id="PUVH4JOK59G2BM3">1354296361</int>
+				<int id="PHFODCHB93D2L7K">1354298104</int>
+				<int id="PUV27HCU39B3HUV">1354298492</int>
+				<int id="PUVMA9PJFSE2FPF">1354302362</int>
+			</object>
+			<object id="26-02-02">
+				<int id="PHV5AI7DGI72EMV">1354313233</int>
+				<int id="PCR14AIGQJO1V4O">1354314544</int>
+			</object>
+			<object id="26-02-03">
+				<int id="PA97I2RED7E2KE2">1354327723</int>
+				<int id="PUV9N3PK4G9370C">1354330335</int>
+				<int id="PUV43NSO9VD3O28">1354333685</int>
+			</object>
+			<object id="26-03-03">
+				<int id="PUVB5F5VDPB3AKP">1354375148</int>
+			</object>
+			<object id="26-03-04">
+				<int id="PUVQ4NQ360I2M93">1354386529</int>
+			</object>
+			<object id="26-03-05">
+				<int id="PUV24HS1UHC3H00">1354399815</int>
+			</object>
+			<object id="26-03-06">
+				<int id="PHFVC13NF2D2E4V">1354414095</int>
+				<int id="PUV5UJTSU2C35KR">1354422551</int>
+			</object>
+			<object id="26-03-07">
+				<int id="PIF761SOOQKUIH">1354434327</int>
+			</object>
+			<object id="26-03-11">
+				<int id="PA998GBOSJD2EDI">1354491217</int>
+			</object>
+			<object id="26-03-15">
+				<int id="PUV4BFTRRUC3RLF">1354545075</int>
+			</object>
+			<object id="26-03-16">
+				<int id="PA9LJFAJSFD245A">1354556453</int>
+				<int id="PUVTD2NVTID3NDN">1354557196</int>
+			</object>
+			<object id="26-03-17">
+				<int id="PHVTSSG7CP625U7">1354578273</int>
+			</object>
+			<object id="26-03-20">
+				<int id="PHVMDUDJ6C92K6C">1354625151</int>
+			</object>
+			<object id="26-03-21">
+				<int id="PHV95NLAUG22JIQ">1354631968</int>
+			</object>
+			<object id="26-03-23">
+				<int id="PUV24HS1UHC3H00">1354664172</int>
+			</object>
+			<object id="26-03-29">
+				<int id="PIFCDP3J0R5353H">1354745090</int>
+			</object>
+			<object id="26-03-42">
+				<int id="PHV95NLAUG22JIQ">1354930704</int>
+				<int id="PUVRC5QORQD3214">1354938401</int>
+				<int id="PUV1C9DM7JE2KRJ">1354939061</int>
+				<int id="PUVFEHU904J2T3U">1354939218</int>
+			</object>
+			<object id="26-03-45">
+				<int id="PUVG9VDGPRE2FJ3">1354981076</int>
+				<int id="PHV129UF5G32V98">1354985284</int>
+			</object>
+			<object id="26-03-47">
+				<int id="PUVRC5QORQD3214">1355010068</int>
+				<int id="PUVJHQIDICJ263U">1355012618</int>
+			</object>
+			<object id="26-03-48">
+				<int id="PUV2T1MGQ9G2B9J">1355017098</int>
+			</object>
+			<object id="26-03-52">
+				<int id="PUV24HS1UHC3H00">1355072503</int>
+				<int id="PHVC72C4BV720RB">1355081384</int>
+				<int id="PUVF1115PUE3TQI">1355082640</int>
+			</object>
+			<object id="26-03-53">
+				<int id="PUVRC5QORQD3214">1355087488</int>
+				<int id="PUVF1115PUE3TQI">1355091167</int>
+				<int id="PHFVC13NF2D2E4V">1355099816</int>
+			</object>
+			<object id="26-04-01">
+				<int id="PHVU404FE3A23JT">1355101936</int>
+				<int id="PIF17RS00KKUSJ">1355102536</int>
+				<int id="PHFG6RUSF1D2GQU">1355102730</int>
+				<int id="PIF1OM8JBB417TD">1355103164</int>
+				<int id="PHFNCFTVB4D2DNN">1355103240</int>
+				<int id="PIF82R4LQF01ISK">1355103354</int>
+				<int id="PDOA3DM4VDT2AUE">1355103372</int>
+				<int id="PUVQ41T638D2IL3">1355103772</int>
+				<int id="PUVM0NPD3QC3EDD">1355103979</int>
+				<int id="PHFR7B7RJ2D2HBQ">1355104271</int>
+				<int id="PIF6PJ5TLP533U4">1355104450</int>
+				<int id="PUVCU25MO9G2KAS">1355104467</int>
+				<int id="PUVBGBBRGE939A1">1355104489</int>
+				<int id="PHF6T83Q74D2R0F">1355104645</int>
+				<int id="PUV2HGN6GFF2BCL">1355104823</int>
+				<int id="PUVQC6A3SNF26PB">1355104838</int>
+				<int id="PA9JJ2NQ4EI2QKR">1355104954</int>
+				<int id="PUVEQ5OV37L2SJ9">1355105106</int>
+				<int id="PHF5EJAB10D2JP8">1355105777</int>
+				<int id="PUVHQI14P7C3CQN">1355106943</int>
+				<int id="PUVEAA6V85D2UI9">1355106981</int>
+				<int id="PUV7VPMPF413VQ3">1355107163</int>
+				<int id="PUVTTMS7LQ633PT">1355107394</int>
+				<int id="PUVE0G0LG5E3PPS">1355108028</int>
+				<int id="PUVKVEKLH5E3C10">1355108540</int>
+				<int id="PUVG2FNSD2C3H3P">1355108692</int>
+				<int id="PHV61IB6K5A2NJ6">1355108861</int>
+				<int id="PUVVRSULB6H23M5">1355108890</int>
+				<int id="PUV6F0FM9NH20JP">1355109328</int>
+				<int id="PIF16VFNV2C1KH2">1355109347</int>
+				<int id="PUVPPE5CM583388">1355109438</int>
+				<int id="PUV3MQV14G93IO4">1355110130</int>
+				<int id="PUVSRRNK75732HB">1355110202</int>
+				<int id="PHVO3VOR3N621PJ">1355111157</int>
+				<int id="PUV4MP5FJG83KA7">1355112087</int>
+				<int id="PUVBODHOT9E2LB8">1355112111</int>
+			</object>
+		</object>
+		<object id="delayed_sounds">
+		</object>
+		<object id="action_requests">
+		</object>
+		<object id="incantations">
+			<object id="PCRBR9Q1NEV1P77">
+				<int id="step">1</int>
+				<int id="ts">1354914769</int>
+			</object>
+			<object id="PHF4VCR245D2MK3">
+				<int id="step">2</int>
+				<int id="ts">1354914771</int>
+			</object>
+			<object id="PHF3SVTUB3D2MGO">
+				<int id="step">3</int>
+				<int id="ts">1354914774</int>
+			</object>
+			<object id="PHFOU973H3D26IQ">
+				<int id="step">1</int>
+				<int id="ts">1354915116</int>
+			</object>
+			<object id="PUV7NAD487C368L">
+				<int id="step">2</int>
+				<int id="ts">1354915127</int>
+			</object>
+			<object id="PUVUJR1UUTG2SJP">
+				<int id="step">1</int>
+				<int id="ts">1354916170</int>
+			</object>
+			<object id="PA96Q577D5E2NUV">
+				<int id="step">2</int>
+				<int id="ts">1354916192</int>
+			</object>
+			<object id="PHVN5LGIJQ52V2V">
+				<int id="step">1</int>
+				<int id="ts">1354916214</int>
+			</object>
+		</object>
+		<object id="incantations_redux">
+			<object id="PHFLI70OU2D2ISM">
+				<int id="step">1</int>
+				<int id="ts">1354917702</int>
+			</object>
+			<object id="PHFIS28II2D239P">
+				<int id="step">1</int>
+				<int id="ts">1354917706</int>
+			</object>
+			<object id="PUVEEBF98V932RG">
+				<int id="step">1</int>
+				<int id="ts">1354917756</int>
+			</object>
+			<object id="PUVHL9FSGF93U3Q">
+				<int id="step">2</int>
+				<int id="ts">1354917757</int>
+			</object>
+			<object id="PHVC0HO5CF228AQ">
+				<int id="step">3</int>
+				<int id="ts">1354917758</int>
+			</object>
+			<object id="PUV8PBHEH5K2E9N">
+				<int id="step">1</int>
+				<int id="ts">1354918184</int>
+			</object>
+			<object id="PUV7E0B8VHE30UN">
+				<int id="step">1</int>
+				<int id="ts">1354918899</int>
+			</object>
+			<object id="PUV5EVLD0KF2669">
+				<int id="step">2</int>
+				<int id="ts">1354918914</int>
+			</object>
+			<object id="PUVDS4F1CF9341U">
+				<int id="step">3</int>
+				<int id="ts">1354918944</int>
+			</object>
+			<object id="PA9UNV5QH7E2B0P">
+				<int id="step">1</int>
+				<int id="ts">1354918968</int>
+			</object>
+			<object id="PA9R43RJ84E2EKB">
+				<int id="step">2</int>
+				<int id="ts">1354918970</int>
+			</object>
+			<object id="PA9PV1PN67E24FQ">
+				<int id="step">3</int>
+				<int id="ts">1354918972</int>
+			</object>
+			<object id="PHFEC4MJITC26KF">
+				<int id="step">1</int>
+				<int id="ts">1354919818</int>
+			</object>
+			<object id="PHF9GGUJH4D24IG">
+				<int id="step">1</int>
+				<int id="ts">1354920312</int>
+			</object>
+			<object id="PHFKGTOEK4D24VC">
+				<int id="step">1</int>
+				<int id="ts">1354920534</int>
+			</object>
+			<object id="PCR5D0D4EAO1FM1">
+				<int id="step">1</int>
+				<int id="ts">1354920985</int>
+			</object>
+			<object id="PA9T8Q9677E20UC">
+				<int id="step">1</int>
+				<int id="ts">1354921205</int>
+			</object>
+			<object id="PCRAFRDJFUT1PGB">
+				<int id="step">1</int>
+				<int id="ts">1354921392</int>
+			</object>
+			<object id="PUVPEAH7FOS29G3">
+				<int id="step">1</int>
+				<int id="ts">1354922697</int>
+			</object>
+			<object id="PM1A3P8FSA0242M">
+				<int id="step">1</int>
+				<int id="ts">1354922821</int>
+			</object>
+			<object id="PCR6L4VMU3N1H72">
+				<int id="step">2</int>
+				<int id="ts">1354922825</int>
+			</object>
+			<object id="PCR4R99KAUT1JQ7">
+				<int id="step">3</int>
+				<int id="ts">1354922826</int>
+			</object>
+			<object id="PHF9LSI6S4D2FTF">
+				<int id="step">1</int>
+				<int id="ts">1354922895</int>
+			</object>
+			<object id="PHVAI4B3TK82G0N">
+				<int id="step">2</int>
+				<int id="ts">1354922941</int>
+			</object>
+			<object id="PHV7G2H1M642RO4">
+				<int id="step">1</int>
+				<int id="ts">1354923430</int>
+			</object>
+			<object id="PHFFBFIS13D2P5J">
+				<int id="step">2</int>
+				<int id="ts">1354923441</int>
+			</object>
+			<object id="PUVCI5AC1SC3HR3">
+				<int id="step">1</int>
+				<int id="ts">1354923480</int>
+			</object>
+			<object id="PIF7QJMDT163NNM">
+				<int id="step">1</int>
+				<int id="ts">1354923500</int>
+			</object>
+			<object id="PCR45R93AUT1EMH">
+				<int id="step">1</int>
+				<int id="ts">1354923803</int>
+			</object>
+			<object id="PA9VQP2O3RD2F7O">
+				<int id="step">1</int>
+				<int id="ts">1354925012</int>
+			</object>
+			<object id="PUVJ2IDUJ4G2MKF">
+				<int id="step">2</int>
+				<int id="ts">1354925015</int>
+			</object>
+			<object id="PUVKSMIKR8L2A6S">
+				<int id="step">3</int>
+				<int id="ts">1354925016</int>
+			</object>
+			<object id="PUVE0P38UUC3P2O">
+				<int id="step">1</int>
+				<int id="ts">1354925180</int>
+			</object>
+			<object id="PUVCGKMH58C3E1E">
+				<int id="step">2</int>
+				<int id="ts">1354925182</int>
+			</object>
+			<object id="PA95UHHMLID28OO">
+				<int id="step">3</int>
+				<int id="ts">1354925183</int>
+			</object>
+			<object id="PIFLP80SP0633BR">
+				<int id="step">1</int>
+				<int id="ts">1354925197</int>
+			</object>
+			<object id="PHVIBHO8RN02DFH">
+				<int id="step">1</int>
+				<int id="ts">1354925330</int>
+			</object>
+			<object id="PUV52GQ8N8D22PF">
+				<int id="step">1</int>
+				<int id="ts">1354925422</int>
+			</object>
+			<object id="PUVDP005IKG2P8J">
+				<int id="step">2</int>
+				<int id="ts">1354925424</int>
+			</object>
+			<object id="PUVH7BU7IQC3O8D">
+				<int id="step">3</int>
+				<int id="ts">1354925426</int>
+			</object>
+			<object id="PHV18UFRTL72ISG">
+				<int id="step">1</int>
+				<int id="ts">1354926407</int>
+			</object>
+			<object id="PHFQG5V7V2D2RK5">
+				<int id="step">1</int>
+				<int id="ts">1354926927</int>
+			</object>
+			<object id="PUVIJ7TCMQA3P45">
+				<int id="step">1</int>
+				<int id="ts">1354928488</int>
+			</object>
+			<object id="PUV9IQOTQH931R1">
+				<int id="step">2</int>
+				<int id="ts">1354928489</int>
+			</object>
+			<object id="PUVOV284NNA3T07">
+				<int id="step">3</int>
+				<int id="ts">1354928521</int>
+			</object>
+			<object id="PHFTE76HQ4D2CLU">
+				<int id="step">1</int>
+				<int id="ts">1354928528</int>
+			</object>
+			<object id="PUVHV1J9EJ833AL">
+				<int id="step">2</int>
+				<int id="ts">1354928545</int>
+			</object>
+			<object id="PUVBHA1C58C33PQ">
+				<int id="step">1</int>
+				<int id="ts">1354928984</int>
+			</object>
+			<object id="PUVH597T7DC32E1">
+				<int id="step">1</int>
+				<int id="ts">1354931873</int>
+			</object>
+			<object id="PLI16FSFK2I91">
+				<int id="step">1</int>
+				<int id="ts">1354932433</int>
+			</object>
+			<object id="PHFDC65755D2PKQ">
+				<int id="step">2</int>
+				<int id="ts">1354932451</int>
+			</object>
+			<object id="PM15Q1RCEO12EVV">
+				<int id="step">1</int>
+				<int id="ts">1354932930</int>
+			</object>
+			<object id="PUV271CR6JF2S8J">
+				<int id="step">1</int>
+				<int id="ts">1354933094</int>
+			</object>
+			<object id="PUVIJ9KTN5D24U6">
+				<int id="step">1</int>
+				<int id="ts">1354934255</int>
+			</object>
+			<object id="PIF1A4TQFI5VQ">
+				<int id="step">2</int>
+				<int id="ts">1354934265</int>
+			</object>
+			<object id="PHVU7SLO6K92SGR">
+				<int id="step">3</int>
+				<int id="ts">1354934281</int>
+			</object>
+			<object id="PIF3GK0HQR53PJH">
+				<int id="step">1</int>
+				<int id="ts">1354934840</int>
+			</object>
+			<object id="PIF16E4TD7811VQ">
+				<int id="step">1</int>
+				<int id="ts">1354935117</int>
+			</object>
+			<object id="PUVQ6I3032D3097">
+				<int id="step">1</int>
+				<int id="ts">1354936145</int>
+			</object>
+			<object id="PUV6KCLJ9FC3UGK">
+				<int id="step">2</int>
+				<int id="ts">1354936145</int>
+			</object>
+			<object id="PUV8KRHK6EG25DT">
+				<int id="step">3</int>
+				<int id="ts">1354936147</int>
+			</object>
+			<object id="PUVC77TNAEC356A">
+				<int id="step">1</int>
+				<int id="ts">1354936593</int>
+			</object>
+			<object id="PUV3HSIJ7AE2UI5">
+				<int id="step">1</int>
+				<int id="ts">1354937803</int>
+			</object>
+			<object id="PUVVKU7JU7E3O0Q">
+				<int id="step">2</int>
+				<int id="ts">1354937823</int>
+			</object>
+			<object id="PHVDJU1RQK7253H">
+				<int id="step">1</int>
+				<int id="ts">1354938514</int>
+			</object>
+			<object id="PHV3VBFT4A42TGA">
+				<int id="step">2</int>
+				<int id="ts">1354938523</int>
+			</object>
+			<object id="PIF3BGJLFU5337A">
+				<int id="step">1</int>
+				<int id="ts">1354938625</int>
+			</object>
+			<object id="PUVFDC083PE2F30">
+				<int id="step">1</int>
+				<int id="ts">1354939032</int>
+			</object>
+			<object id="PUVFEHU904J2T3U">
+				<int id="step">2</int>
+				<int id="ts">1354939057</int>
+			</object>
+			<object id="PUV1C9DM7JE2KRJ">
+				<int id="step">3</int>
+				<int id="ts">1354939059</int>
+			</object>
+			<object id="PHFBJB377AD29TL">
+				<int id="step">1</int>
+				<int id="ts">1354939077</int>
+			</object>
+			<object id="PUVCQDB4G8D21AA">
+				<int id="step">2</int>
+				<int id="ts">1354939100</int>
+			</object>
+			<object id="PIFTD4GOCF63P8S">
+				<int id="step">1</int>
+				<int id="ts">1354939665</int>
+			</object>
+			<object id="PUV5EJR1BBE29EG">
+				<int id="step">2</int>
+				<int id="ts">1354939671</int>
+			</object>
+			<object id="PUVEFAGJBHE2J57">
+				<int id="step">3</int>
+				<int id="ts">1354939683</int>
+			</object>
+			<object id="PA97PHPM54E2M0U">
+				<int id="step">1</int>
+				<int id="ts">1354940815</int>
+			</object>
+			<object id="PA9VHKNCKQD2LUN">
+				<int id="step">2</int>
+				<int id="ts">1354940816</int>
+			</object>
+			<object id="PUVKMVKGUCG2PM3">
+				<int id="step">3</int>
+				<int id="ts">1354940818</int>
+			</object>
+			<object id="PUVDMN19HMA3EKP">
+				<int id="step">1</int>
+				<int id="ts">1354942411</int>
+			</object>
+			<object id="PUVA6OS08S832L9">
+				<int id="step">2</int>
+				<int id="ts">1354942415</int>
+			</object>
+			<object id="PUVBCE59EGC3FK4">
+				<int id="step">1</int>
+				<int id="ts">1354942785</int>
+			</object>
+			<object id="PUVLT2ERIP73LA3">
+				<int id="step">2</int>
+				<int id="ts">1354942790</int>
+			</object>
+			<object id="PIFHIBOVJ6632DF">
+				<int id="step">1</int>
+				<int id="ts">1354943130</int>
+			</object>
+			<object id="PUVSL8IPBFC3144">
+				<int id="step">2</int>
+				<int id="ts">1354943142</int>
+			</object>
+			<object id="PUVI1B1B0RH2J87">
+				<int id="step">1</int>
+				<int id="ts">1354943290</int>
+			</object>
+			<object id="PCRE15VHINS1RJI">
+				<int id="step">1</int>
+				<int id="ts">1354943635</int>
+			</object>
+			<object id="PHV6K47IF852EAT">
+				<int id="step">2</int>
+				<int id="ts">1354943640</int>
+			</object>
+			<object id="PHVLV990UJ92PCK">
+				<int id="step">1</int>
+				<int id="ts">1354945166</int>
+			</object>
+			<object id="PUV2MPU7T083Q73">
+				<int id="step">1</int>
+				<int id="ts">1354945218</int>
+			</object>
+			<object id="PUVB7AMD18E3HV8">
+				<int id="step">1</int>
+				<int id="ts">1354945779</int>
+			</object>
+			<object id="PUV4SIBEU993IE4">
+				<int id="step">1</int>
+				<int id="ts">1354945873</int>
+			</object>
+			<object id="PUV4HGMID9C3A6A">
+				<int id="step">1</int>
+				<int id="ts">1354945925</int>
+			</object>
+			<object id="PUVJ4F7G14L2HTI">
+				<int id="step">1</int>
+				<int id="ts">1354946426</int>
+			</object>
+			<object id="PUVFVIM4HLD3F02">
+				<int id="step">2</int>
+				<int id="ts">1354946441</int>
+			</object>
+			<object id="PHV4027764A2NOE">
+				<int id="step">1</int>
+				<int id="ts">1354947095</int>
+			</object>
+			<object id="PIFU8BFBGO539IC">
+				<int id="step">2</int>
+				<int id="ts">1354947114</int>
+			</object>
+			<object id="PIFE0KQK4C633IB">
+				<int id="step">1</int>
+				<int id="ts">1354947966</int>
+			</object>
+			<object id="PHFINSK9JCD29H5">
+				<int id="step">1</int>
+				<int id="ts">1354949258</int>
+			</object>
+			<object id="PUVAFM9LNKC3RLS">
+				<int id="step">2</int>
+				<int id="ts">1354949279</int>
+			</object>
+			<object id="PIFKV75KG163LL9">
+				<int id="step">3</int>
+				<int id="ts">1354950327</int>
+			</object>
+			<object id="PHFCUUMNT2D2O0A">
+				<int id="step">1</int>
+				<int id="ts">1354951318</int>
+			</object>
+			<object id="PUVF5CIS8UE2209">
+				<int id="step">1</int>
+				<int id="ts">1354951351</int>
+			</object>
+			<object id="PIFLC6T4UK63AKI">
+				<int id="step">2</int>
+				<int id="ts">1354951353</int>
+			</object>
+			<object id="PHF624MH10D2RFE">
+				<int id="step">3</int>
+				<int id="ts">1354951354</int>
+			</object>
+			<object id="PUV3SNNI6B930EJ">
+				<int id="step">1</int>
+				<int id="ts">1354951677</int>
+			</object>
+			<object id="PA9JS1T4E2E2UB7">
+				<int id="step">2</int>
+				<int id="ts">1354951687</int>
+			</object>
+			<object id="PUVGL71SA8D3CE5">
+				<int id="step">3</int>
+				<int id="ts">1354952302</int>
+			</object>
+			<object id="PUVPTCKJR0F2T3E">
+				<int id="step">1</int>
+				<int id="ts">1354953632</int>
+			</object>
+			<object id="PUVS00IIIJ932CP">
+				<int id="step">1</int>
+				<int id="ts">1354955897</int>
+			</object>
+			<object id="PUVAJKHV28G2BQR">
+				<int id="step">2</int>
+				<int id="ts">1354955900</int>
+			</object>
+			<object id="PHFFAI36B2D228O">
+				<int id="step">3</int>
+				<int id="ts">1354955904</int>
+			</object>
+			<object id="PIF5BVIM5PKUO6">
+				<int id="step">1</int>
+				<int id="ts">1354956142</int>
+			</object>
+			<object id="PIFPPHIJFP531DH">
+				<int id="step">2</int>
+				<int id="ts">1354956256</int>
+			</object>
+			<object id="PUVFBCERLMF2KHE">
+				<int id="step">1</int>
+				<int id="ts">1354956727</int>
+			</object>
+			<object id="PIF84UGBT56324C">
+				<int id="step">1</int>
+				<int id="ts">1354956810</int>
+			</object>
+			<object id="PIF37IOVLQ53B17">
+				<int id="step">1</int>
+				<int id="ts">1354959240</int>
+			</object>
+			<object id="PHVBCAMV5I725SM">
+				<int id="step">1</int>
+				<int id="ts">1354962117</int>
+			</object>
+			<object id="PHFVCRK8V4D22NS">
+				<int id="step">2</int>
+				<int id="ts">1354965375</int>
+			</object>
+			<object id="PUV8C6CRE3F2RU3">
+				<int id="step">3</int>
+				<int id="ts">1354965416</int>
+			</object>
+			<object id="PHFE0LJP04D2E6S">
+				<int id="step">1</int>
+				<int id="ts">1354965786</int>
+			</object>
+			<object id="PCRKFODORUT188S">
+				<int id="step">2</int>
+				<int id="ts">1354967357</int>
+			</object>
+			<object id="PUVN43KAO6D2EQU">
+				<int id="step">1</int>
+				<int id="ts">1354971301</int>
+			</object>
+			<object id="PUV2QB4A8BC3DH3">
+				<int id="step">1</int>
+				<int id="ts">1354975904</int>
+			</object>
+			<object id="PIF1J1O8KL5362P">
+				<int id="step">1</int>
+				<int id="ts">1354976333</int>
+			</object>
+			<object id="PUV9H4HP7PL2SLO">
+				<int id="step">2</int>
+				<int id="ts">1354976339</int>
+			</object>
+			<object id="PIFGIS1CEP53CDM">
+				<int id="step">1</int>
+				<int id="ts">1354976763</int>
+			</object>
+			<object id="PUVU3OIE4UE2U9S">
+				<int id="step">2</int>
+				<int id="ts">1354978959</int>
+			</object>
+			<object id="PA9E1LMNLSD2EOO">
+				<int id="step">1</int>
+				<int id="ts">1354979128</int>
+			</object>
+			<object id="PUVI45C5IH937J2">
+				<int id="step">1</int>
+				<int id="ts">1354980851</int>
+			</object>
+			<object id="PIFHJ5TCM6D1558">
+				<int id="step">2</int>
+				<int id="ts">1354980861</int>
+			</object>
+			<object id="PUVG9VDGPRE2FJ3">
+				<int id="step">1</int>
+				<int id="ts">1354980981</int>
+			</object>
+			<object id="PHF1DC9BE4D2JPK">
+				<int id="step">1</int>
+				<int id="ts">1354981444</int>
+			</object>
+			<object id="PUV1UL7EGC83HM4">
+				<int id="step">2</int>
+				<int id="ts">1354981477</int>
+			</object>
+			<object id="PHVU832JQT22V43">
+				<int id="step">1</int>
+				<int id="ts">1354981804</int>
+			</object>
+			<object id="PUVPTF7N2DG203S">
+				<int id="step">1</int>
+				<int id="ts">1354983012</int>
+			</object>
+			<object id="PUV1NMOQOFE3PQ8">
+				<int id="step">2</int>
+				<int id="ts">1354983025</int>
+			</object>
+			<object id="PUVP531IMVB3ANT">
+				<int id="step">1</int>
+				<int id="ts">1354983099</int>
+			</object>
+			<object id="PUVS444UMVB3DNJ">
+				<int id="step">2</int>
+				<int id="ts">1354983110</int>
+			</object>
+			<object id="PUV49S895DC37ST">
+				<int id="step">1</int>
+				<int id="ts">1354985074</int>
+			</object>
+			<object id="PUVU760TM4H2155">
+				<int id="step">1</int>
+				<int id="ts">1354986978</int>
+			</object>
+			<object id="PUVBQSHGQ6D2QA5">
+				<int id="step">2</int>
+				<int id="ts">1354988002</int>
+			</object>
+			<object id="PUVTVRH3K1A30EQ">
+				<int id="step">3</int>
+				<int id="ts">1354989399</int>
+			</object>
+			<object id="PUVUTSGV5JB37FB">
+				<int id="step">1</int>
+				<int id="ts">1354989642</int>
+			</object>
+			<object id="PUVNQ08H15C3F2V">
+				<int id="step">1</int>
+				<int id="ts">1354989666</int>
+			</object>
+			<object id="PUVK70NAB8G2K4K">
+				<int id="step">2</int>
+				<int id="ts">1354989666</int>
+			</object>
+			<object id="PUVMGINAHS93C42">
+				<int id="step">1</int>
+				<int id="ts">1354990571</int>
+			</object>
+			<object id="PUVJ86DSLSM2BDC">
+				<int id="step">2</int>
+				<int id="ts">1354990575</int>
+			</object>
+			<object id="PDOQHB9V1AR2F84">
+				<int id="step">3</int>
+				<int id="ts">1354990582</int>
+			</object>
+			<object id="PHVFPRUN8842C72">
+				<int id="step">1</int>
+				<int id="ts">1354993016</int>
+			</object>
+			<object id="PUVE6BTEA8F2NRG">
+				<int id="step">2</int>
+				<int id="ts">1354993156</int>
+			</object>
+			<object id="PUVI79TPFEC36S0">
+				<int id="step">1</int>
+				<int id="ts">1354994128</int>
+			</object>
+			<object id="PUVI12KBBTL22CS">
+				<int id="step">1</int>
+				<int id="ts">1354994473</int>
+			</object>
+			<object id="PUV6JPAODNB3FOK">
+				<int id="step">1</int>
+				<int id="ts">1354994639</int>
+			</object>
+			<object id="PUV112Q33KC3BVF">
+				<int id="step">1</int>
+				<int id="ts">1354994839</int>
+			</object>
+			<object id="PHFEQQV20UC2ES4">
+				<int id="step">1</int>
+				<int id="ts">1354994935</int>
+			</object>
+			<object id="PUVBO9CH8B83E74">
+				<int id="step">1</int>
+				<int id="ts">1354994977</int>
+			</object>
+			<object id="PUV5FLF16L935CN">
+				<int id="step">1</int>
+				<int id="ts">1354995262</int>
+			</object>
+			<object id="PHF89KUEK3D2KU7">
+				<int id="step">1</int>
+				<int id="ts">1354996050</int>
+			</object>
+			<object id="PUV1CQC9KF93TNP">
+				<int id="step">1</int>
+				<int id="ts">1354996907</int>
+			</object>
+			<object id="PUV17KH0E7C3CII">
+				<int id="step">2</int>
+				<int id="ts">1354996917</int>
+			</object>
+			<object id="PHFDCK7D5TC26HI">
+				<int id="step">1</int>
+				<int id="ts">1354997002</int>
+			</object>
+			<object id="PHFSRKE6T0D2GH8">
+				<int id="step">1</int>
+				<int id="ts">1354997281</int>
+			</object>
+			<object id="PUVAK5P8TQ63FJO">
+				<int id="step">1</int>
+				<int id="ts">1354997707</int>
+			</object>
+			<object id="PUVO98RBO5D20DN">
+				<int id="step">2</int>
+				<int id="ts">1354997711</int>
+			</object>
+			<object id="PUVGE0QBTOB3PJC">
+				<int id="step">3</int>
+				<int id="ts">1354997714</int>
+			</object>
+			<object id="PUV811HCEAD38PB">
+				<int id="step">1</int>
+				<int id="ts">1354998374</int>
+			</object>
+			<object id="PIFN5NSLBEB13Q0">
+				<int id="step">1</int>
+				<int id="ts">1354999174</int>
+			</object>
+			<object id="PUV23OCM3IE261O">
+				<int id="step">2</int>
+				<int id="ts">1354999178</int>
+			</object>
+			<object id="PCR3M6A0A0N1KVG">
+				<int id="step">1</int>
+				<int id="ts">1354999388</int>
+			</object>
+			<object id="PUVNAEJ0PH936S7">
+				<int id="step">1</int>
+				<int id="ts">1354999888</int>
+			</object>
+			<object id="PUV2Q6A9KUD3IDU">
+				<int id="step">1</int>
+				<int id="ts">1354999949</int>
+			</object>
+			<object id="PUVNIBP02EE2L04">
+				<int id="step">2</int>
+				<int id="ts">1354999954</int>
+			</object>
+			<object id="PHFIU1P4P4D2PHL">
+				<int id="step">1</int>
+				<int id="ts">1355000020</int>
+			</object>
+			<object id="PUVG9V8E32J2L79">
+				<int id="step">2</int>
+				<int id="ts">1355000028</int>
+			</object>
+			<object id="PIFK4684UI63MEP">
+				<int id="step">3</int>
+				<int id="ts">1355000061</int>
+			</object>
+			<object id="PUVMIF7R28D2K3C">
+				<int id="step">1</int>
+				<int id="ts">1355000144</int>
+			</object>
+			<object id="PHFNQ6DGP2D2B3L">
+				<int id="step">2</int>
+				<int id="ts">1355000178</int>
+			</object>
+		</object>
+		<object id="hi_sign_daily_evasion_record">
+			<str id="pc_tsid">PHFDVKMQTQC2ENN</str>
+			<str id="pc_label">Roger Conte</str>
+			<int id="secs">27</int>
+			<int id="when">1355105337</int>
+			<int id="version">10</int>
+			<str id="day_key">26-04-01</str>
+		</object>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IA96R582D6F3AON" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96QV82D6F3AOU" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96Q982D6F3AL8" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96QG82D6F3AMR" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96R382D6F3AOE" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96S582D6F3ASU" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96QN82D6F3ANI" label="Collision-triggered Physics Changer"/>
+		<objref tsid="IA96S682D6F3ASB" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96QI82D6F3AML" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96R082D6F3AO3" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96QO82D6F3ANU" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96QD82D6F3AM5" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96R782D6F3AOD" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96R282D6F3AO3" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96QT82D6F3AOS" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96RU82D6F3ARN" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96QA82D6F3ALQ" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96RI82D6F3AQ0" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96QM82D6F3ANH" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96SR82D6F3B04" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96QH82D6F3AMN" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96QF82D6F3AM3" label="Collision-triggered Physics Changer"/>
+		<objref tsid="IA96SE82D6F3AUF" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96QP82D6F3ANB" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96QS82D6F3ANM" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96SC82D6F3AUN" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96SG82D6F3AUK" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96R482D6F3AO0" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96S482D6F3AS4" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96RN82D6F3AR6" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96S182D6F3ASC" label="Collision-triggered Physics Changer"/>
+		<objref tsid="IA96RV82D6F3AS4" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96RE82D6F3AQ2" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96RQ82D6F3AR7" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96R182D6F3AO0" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96SD82D6F3AUA" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96SN82D6F3B0I" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96RG82D6F3AQL" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96RS82D6F3ARB" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96Q682D6F3AKS" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96SF82D6F3AUK" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96SH82D6F3AV3" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96RP82D6F3ARJ" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96RD82D6F3AQE" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96RR82D6F3ARB" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9PM3BGC8G3AH1" label="Coin"/>
+		<objref tsid="IA96RT82D6F3AR8" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96SL82D6F3B0Q" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96Q582D6F3AKC" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96R882D6F3APC" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96RF82D6F3AQQ" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96QR82D6F3AN4" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96S382D6F3AS6" label="Collision-triggered Event Box"/>
+		<objref tsid="IA922N3KVBF34LN" label="Qurazy marker"/>
+		<objref tsid="IA96QU82D6F3AO9" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96RM82D6F3AR3" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96S882D6F3ATE" label="Collision-triggered Event Box"/>
+		<objref tsid="IA940914MGF3BHN" label="Patch"/>
+		<objref tsid="IA96QJ82D6F3AM4" label="Collision-triggered Physics Changer"/>
+		<objref tsid="IA96R682D6F3AOB" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96S282D6F3ASL" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96RO82D6F3ARI" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9UQHFJTSF3H8D" label="Patch"/>
+		<objref tsid="IA96QQ82D6F3AN2" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96SM82D6F3B0R" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96RJ82D6F3AQJ" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96SO82D6F3B00" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96SP82D6F3B06" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96RL82D6F3ARV" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96S982D6F3ATS" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96S082D6F3AS2" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96R982D6F3APU" label="Collision-triggered Event Box"/>
+		<objref tsid="IA96Q782D6F3AKV" label="Collision-triggered Event Box"/>
+	</objrefs>
+	<objrefs id="players">
+		<objref tsid="PUVQ0M6DEVB3P30" label="Seraph79"/>
+		<objref tsid="PUV2F9O2MJC3T2O" label="Asria"/>
+		<objref tsid="PUVC1F6UD5D2QEH" label="toochunky"/>
+		<objref tsid="PUVKQMJS9DE3JFV" label="Liese"/>
+		<objref tsid="PHFVDKOQGAD2610" label="Sparklepunk"/>
+		<objref tsid="PIFMVBEU0463K6I" label="pipefan413"/>
+		<objref tsid="PUVC099NSFE3PFM" label="Teaser"/>
+		<objref tsid="PUV5KFO4NDB3LTA" label="Meredith Autumn"/>
+		<objref tsid="PHVEB9RVCF22MVJ" label="JanaDear"/>
+		<objref tsid="PCRUC0209OS1UPM" label="carley"/>
+		<objref tsid="PUVMH35IRTC30BO" label="Ferrous"/>
+		<objref tsid="PUV3NG6HO4L2CTS" label="Reign of Terror"/>
+		<objref tsid="PHVHVMKM9G92N10" label="Sekhmet"/>
+		<objref tsid="PUVB5JS585C3JVU" label="heygirl"/>
+		<objref tsid="PUVI30LSPBC37F1" label="Vectorplasm"/>
+		<objref tsid="PIFVQUHJVK630FU" label="Nika Stone"/>
+		<objref tsid="PUVD1AGC03C3J34" label="Maory"/>
+		<objref tsid="PHVV19S6MN62O8A" label="nomcat"/>
+		<objref tsid="PUVBLS7175E3P64" label="Rosita05"/>
+		<objref tsid="PHFBIK7CTED23DH" label="Evallia"/>
+		<objref tsid="PHF9RK5P45D23PS" label="Darkchaos"/>
+		<objref tsid="PUV3HK9599D2G7V" label="Patin"/>
+		<objref tsid="PUVGFQM595D2QET" label="Ghosties"/>
+		<objref tsid="PUVJE99TFEC3D9J" label="smarny"/>
+		<objref tsid="PUVIKLMMV6C332T" label="dragonitequeen"/>
+		<objref tsid="PHFJTIJMI2D2VQL" label="Aachoo"/>
+		<objref tsid="PUVA7V22GFI2U2L" label="Zombilly"/>
+		<objref tsid="PHVKAOG97R52OCF" label="Ancalime"/>
+		<objref tsid="PUVBJOS4IQE2HT8" label="Nezutori"/>
+		<objref tsid="PUV4H1RQI8D2UI2" label="Mizuno"/>
+		<objref tsid="PHFCK7PQ63D2S26" label="Eggboys"/>
+		<objref tsid="PUV8MQ1OKCD3C0I" label="Lesimasa"/>
+		<objref tsid="PHV1G09RNF72RFM" label="bitmOO"/>
+		<objref tsid="PUV7HF07JEA30H3" label="Invalid user"/>
+		<objref tsid="PHVS3L4A7VA2F7A" label="Mistress Morse"/>
+		<objref tsid="PCR9GV15J9N14U4" label="Revrent"/>
+		<objref tsid="PUV8HEEO9NF3FDT" label="Trent Reznor"/>
+		<objref tsid="PA9IG1OCQUD2DLT" label="Pii"/>
+		<objref tsid="PHV59PE06G22VOU" label="hoppy"/>
+		<objref tsid="PUVTU0O31MB3T1E" label="ricepapergirl"/>
+		<objref tsid="PUVJDB93R0F21DL" label="Bonus Jokes"/>
+		<objref tsid="PIFQ9CICRG63VLA" label="Typhoid Mary"/>
+		<objref tsid="PCR4BJU0BUM1TUF" label="Lola Munchkin"/>
+		<objref tsid="PIF1AU5Q2KKUSM" label="fluorescence"/>
+		<objref tsid="PHFLFBHESBD27U4" label="Bellyra"/>
+		<objref tsid="PIFTI4FBDK535GP" label="Cereal Killer"/>
+		<objref tsid="PUVB5KR51GE2JSU" label="kelliebob"/>
+		<objref tsid="PHV19OKESO62P13" label="Asperity"/>
+		<objref tsid="PHVF6E0TT082QDF" label="Fairystinky"/>
+		<objref tsid="PUV3GJ9SQ7D3JAB" label="wurthers"/>
+		<objref tsid="PUV2PFVFARC39R6" label="MsBits"/>
+		<objref tsid="PIFTQ2MDVT53SQJ" label="sparklez sunset"/>
+		<objref tsid="PUVS9IB797B3P66" label="Tensu"/>
+		<objref tsid="PUVSEGI0N7C3UOS" label="Bunting"/>
+		<objref tsid="PUV6QB9A35C31SG" label="Phileas Fogg"/>
+		<objref tsid="PUVEER0QR6C3FD2" label="errolphant"/>
+		<objref tsid="PUVBF5Q7E7830LP" label="Lemurise"/>
+		<objref tsid="PUV4MP5FJG83KA7" label="Quotient"/>
+		<objref tsid="PUVCRM7PT6L2AO8" label="Flora Lloyd"/>
+		<objref tsid="PUVTTMS7LQ633PT" label="ninabear"/>
+		<objref tsid="PUV42DQABDD3EJ9" label="Diadem"/>
+		<objref tsid="PA97RN0K1TD2BIJ" label="ZaneChaos"/>
+		<objref tsid="PUVV45KPTDB3IAN" label="Tour DeCanada"/>
+		<objref tsid="PUV3O4O76GB3392" label="sodiumion"/>
+		<objref tsid="PHFHJABVNUC285L" label="Moomin"/>
+		<objref tsid="PHVHCH4O4SA2ECJ" label="Betti"/>
+		<objref tsid="PHVLV990UJ92PCK" label="Hannah Bee"/>
+		<objref tsid="PUVG2FNSD2C3H3P" label="nikibunni"/>
+		<objref tsid="PIFG98JHIP53EIT" label="Kaxa"/>
+		<objref tsid="PUV8UJR6O7C3S6U" label="gisabellae"/>
+		<objref tsid="PHF8D8M4M2D29AI" label="Pizza Butts"/>
+		<objref tsid="PUV1SDJ96HB3V5G" label="Pyra"/>
+		<objref tsid="PHF3CJ7J9BD2QA0" label="tiggy"/>
+		<objref tsid="PUVH2HMP7GB3NHG" label="hersmalldream"/>
+		<objref tsid="PHF1N2DDQTC2BKC" label="Magnus the Whale"/>
+		<objref tsid="PUVMFKE6UA93MCF" label="putako"/>
+		<objref tsid="PHFDC65755D2PKQ" label="Tbones"/>
+		<objref tsid="PUV5GQG3NVF28O6" label="Britonsi"/>
+		<objref tsid="PUVOA8JMNBD3E5K" label="Missmaybe"/>
+		<objref tsid="PUVJOLIGC893FGR" label="Lady Gemma"/>
+		<objref tsid="PHFV9DKGV0D2NGN" label="Gazkab"/>
+		<objref tsid="PA9N4GF0MRD2RJJ" label="Luzula"/>
+		<objref tsid="PUV6HO90PGD3POI" label="Snicker-snack"/>
+		<objref tsid="PHV4CMNVRN82N9O" label="Lacunalunacy"/>
+		<objref tsid="PA943GFATOD23H1" label="Louis Louisson"/>
+		<objref tsid="PIFFE7RHSR53BL9" label="Scep"/>
+		<objref tsid="PA929UNQBKD2UAM" label="Elisabeth"/>
+		<objref tsid="PHVPITVULK42N4P" label="Shahab"/>
+		<objref tsid="PCR11CUFEQS1IA4" label="Vexia"/>
+		<objref tsid="PUVHM3IMDFC3TRH" label="Telepathic Panda"/>
+		<objref tsid="PHV9TGA3V3A21F9" label="Barcodeplane"/>
+		<objref tsid="PUVUE4MFM9A31G8" label="Haley Megan"/>
+		<objref tsid="PUVVJJB233D3FC7" label="bonemangrove"/>
+		<objref tsid="PUVTAKVLLFD3CFO" label="halaska1"/>
+		<objref tsid="PUV3SNNI6B930EJ" label="Rahsa"/>
+		<objref tsid="PUVHQ4O5C7D2953" label="QueenKellee"/>
+		<objref tsid="PHFB43O0O4D2I4L" label="sirhccarpenter"/>
+		<objref tsid="PIF6AGKI6G21MB9" label="Destroyo the Gentle"/>
+		<objref tsid="PUVPINSLBAD31T8" label="Miss Darling"/>
+		<objref tsid="PUVUOGPLCOE23Q8" label="Wubwubwubwuub"/>
+		<objref tsid="PUVDUUN1IP73DO3" label="Latigirl"/>
+		<objref tsid="PHVP5QN8J852BAQ" label="The Pooka"/>
+		<objref tsid="PHFIITKD23D29PK" label="Ephiny"/>
+	</objrefs>
+</game_object>

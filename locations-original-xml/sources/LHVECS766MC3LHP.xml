@@ -1,0 +1,276 @@
+<game_object tsid="LHVECS766MC3LHP" ts="1364245277359" label="Distant End" class_tsid="town" hubid="66" moteid="9" letime="3cmn2ouu" rbtime="3cm667lh" upd_gs="gs6" load_time="2013-03-25 13:49:45.000">
+	<object id="dynamic">
+		<bool id="jobs_is_locked">false</bool>
+		<object id="events">
+			<object id="small">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">physics</str>
+						<str id="param">pc_scale</str>
+						<str id="value">0.191</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="a2">
+						<str id="type">physics</str>
+						<str id="param">vx_max</str>
+						<str id="value">0.4</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="a4">
+						<str id="type">physics</str>
+						<str id="param">vy_jump</str>
+						<str id="value">0.5</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="a5">
+						<str id="type">physics</str>
+						<str id="param">gravity</str>
+						<str id="value">0.46</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="player_enter">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">physics</str>
+						<str id="param">pc_scale</str>
+						<str id="value">1</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="big">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">event</str>
+						<str id="param">pc_scale</str>
+						<bool id="all_players">true</bool>
+						<str id="event">make_big</str>
+						<int id="delay">10</int>
+					</object>
+					<object id="a2">
+						<str id="type">physics_reset</str>
+						<str id="param">vx_max</str>
+						<str id="value">0.3</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="a3">
+						<str id="type">physics_reset</str>
+						<str id="param">vy_jump</str>
+						<bool id="all_players">true</bool>
+						<str id="value">0.75</str>
+					</object>
+					<object id="a4">
+						<str id="type">physics_reset</str>
+						<str id="param">gravity</str>
+						<bool id="all_players">true</bool>
+						<str id="value">0.3</str>
+					</object>
+				</object>
+			</object>
+			<object id="make_big">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">physics_reset</str>
+						<str id="param">pc_scale</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="spawnq">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">q</str>
+					</object>
+					<object id="a1">
+						<str id="type">code_location</str>
+						<str id="code">var s = loc.createItemStack('quoin', 1, 59, -500);
+
+s.setInstanceProp('class_name', '');
+s.setInstanceProp('respawn_time', 400000);
+s.setInstanceProp('type', 'qurazy');</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1343941963024</str>
+					</object>
+					<object id="a7">
+						<str id="type">play_sound</str>
+						<str id="name">MB_F2</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="a6">
+						<str id="type">flag_set</str>
+						<str id="flag">fly</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_set</str>
+						<str id="flag">q</str>
+					</object>
+				</object>
+			</object>
+			<object id="instance_created">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">q</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1343941963024</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">fly</str>
+					</object>
+					<object id="a12">
+						<str id="type">physics_reset</str>
+						<bool id="all_players">true</bool>
+						<str id="param">gravity</str>
+					</object>
+					<object id="a13">
+						<str id="type">physics_reset</str>
+						<bool id="all_players">true</bool>
+						<str id="param">vy_max</str>
+					</object>
+					<object id="a14">
+						<str id="type">physics_reset</str>
+						<bool id="all_players">true</bool>
+						<str id="param">vx_max</str>
+					</object>
+					<object id="a15">
+						<str id="type">physics_reset</str>
+						<bool id="all_players">true</bool>
+						<str id="param">vx_accel_add_in_air</str>
+					</object>
+					<object id="a16">
+						<str id="type">event</str>
+						<str id="event">big</str>
+					</object>
+				</object>
+			</object>
+			<object id="fadesun">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1343941963024</str>
+						<int id="fade">1200</int>
+					</object>
+				</object>
+			</object>
+			<object id="fly">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">fly</str>
+					</object>
+					<object id="a2">
+						<str id="type">physics</str>
+						<str id="param">gravity</str>
+						<str id="value">-0.01</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="a4">
+						<str id="type">physics</str>
+						<str id="param">vy_max</str>
+						<str id="value">0.17</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="a5">
+						<str id="type">physics</str>
+						<str id="param">vx_max</str>
+						<str id="value">0.1</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="a6">
+						<str id="type">physics</str>
+						<str id="param">vx_accel_add_in_air</str>
+						<str id="value">0.5</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">fadesun</str>
+						<int id="delay">2700</int>
+					</object>
+				</object>
+			</object>
+			<object id="fade_music">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">pc.announce_music_stop('PIANO_THEME1', 3.5);</str>
+					</object>
+				</object>
+			</object>
+			<object id="tp">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">event</str>
+						<str id="event">teleport</str>
+						<int id="delay">700</int>
+					</object>
+				</object>
+			</object>
+			<object id="teleport">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">pc.teleportToLocation(&quot;LDOU1UON87E3K2T&quot;, -1335, -655);</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+		</object>
+		<str id="instance_me">distant_end</str>
+		<int id="instance_max_members">1</int>
+		<bool id="no_teleportation">true</bool>
+		<bool id="disallow_animals">true</bool>
+		<object id="loading_image">
+			<str id="url">streets/2012-08-02/LHF6IS64NR53L7B_loading_1343948867.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-08-02/LHF6IS64NR53L7B_main_1343948875.jpg</str>
+			<int id="w">720</int>
+			<int id="h">504</int>
+		</object>
+		<bool id="jobs_auto_unlock">false</bool>
+		<bool id="no_rook">false</bool>
+		<str id="instance_location_type"></str>
+		<object id="edit_history">
+			<str id="1351276892">tsauth-ryan:edit_street_meta</str>
+			<str id="1351287165">tsauth-ryan:modify_street_obj-doors-door_1342831653504</str>
+			<str id="1351287173">tsauth-ryan:modify_street_obj-doors-door_1342832105993</str>
+			<str id="1351287438">tsauth-ryan:modify_street_obj-doors-door_1342831653504</str>
+			<str id="1351287704">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1351290723">tsauth-ryan:modify_street_obj-doors-door_1343067264455</str>
+		</object>
+		<objref id="instances" tsid="DHVA6CMBFMC3EID" label="Instances"/>
+		<object id="flags">
+			<bool id="fly">true</bool>
+			<bool id="q">true</bool>
+		</object>
+		<object id="hidden_decos">
+			<int id="light_spot_1343941963024">1351288044</int>
+		</object>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IHVEDHA66MC30JT" label="Collision-triggered Event Box"/>
+		<objref tsid="IHVED8A66MC30IN" label="Collision-triggered Event Box"/>
+		<objref tsid="IHVED6A66MC30IA" label="Collision-triggered Event Box"/>
+		<objref tsid="IHVEDEA66MC30J7" label="Collision-triggered Event Box"/>
+		<objref tsid="IHVED9A66MC30I0" label="Teleport Marker"/>
+		<objref tsid="IHVEDDA66MC30I4" label="Coin"/>
+		<objref tsid="IHVEDBA66MC30IF" label="Coin"/>
+		<objref tsid="IHVEDLA66MC30JB" label="Coin"/>
+		<objref tsid="IHVEDCA66MC30IQ" label="Collision-triggered Event Box"/>
+		<objref tsid="IHVEDJA66MC30JK" label="Coin"/>
+		<objref tsid="IHVEDKA66MC30J1" label="Collision-triggered Event Box"/>
+		<objref tsid="IHVEDMA66MC30JL" label="Coin"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

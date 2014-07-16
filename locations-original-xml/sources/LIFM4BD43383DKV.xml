@@ -1,0 +1,5676 @@
+<game_object tsid="LIFM4BD43383DKV" ts="1346344870324" label="Le Miserable" class_tsid="town" hubid="135" moteid="10" letime="3833htbu" rbtime="38334ddk" upd_gs="gs-float1" load_time="2012-08-30 09:36:34.000">
+	<object id="dynamic">
+		<str id="instance_of">LIFMMN6E7A73R0T</str>
+		<object id="special_loading_image">
+			<str id="url">streets/2012-08-20-static/1345507329-loadingscreen_lemiserable_c.png</str>
+			<int id="w">552</int>
+			<int id="h">399</int>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-08-22/LIFMMN6E7A73R0T_loading_1345685273.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-08-22/LIFMMN6E7A73R0T_main_1345685275.jpg</str>
+			<int id="w">720</int>
+			<int id="h">157</int>
+		</object>
+		<object id="events">
+			<object id="instance_created">
+				<object id="actions">
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_off</str>
+					</object>
+					<object id="a14">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_checks</str>
+					</object>
+					<object id="a15">
+						<str id="type">event</str>
+						<str id="event">green_lights_off</str>
+					</object>
+					<object id="a16">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a17">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_green_tubes_off</str>
+					</object>
+					<object id="a18">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_off</str>
+					</object>
+					<object id="a19">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a20">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_checks</str>
+					</object>
+					<object id="a21">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a22">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_off</str>
+					</object>
+					<object id="a23">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">Teleporter_Beam_1345084508826</str>
+					</object>
+					<object id="a24">
+						<str id="type">flag_set</str>
+						<str id="flag">pc_scale</str>
+					</object>
+					<object id="a25">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_checks</str>
+					</object>
+				</object>
+			</object>
+			<object id="puzzle_1_off">
+				<object id="actions">
+					<object id="a16">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1344905394769</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1344905394768</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1344905394767</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1344905394772</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1344905394771</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1344905394770</str>
+					</object>
+					<object id="a7">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1344905394775</str>
+					</object>
+					<object id="a8">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1344905394774</str>
+					</object>
+					<object id="a9">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1344905394773</str>
+					</object>
+					<object id="a10">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1344905394778</str>
+					</object>
+					<object id="a11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1344905394777</str>
+					</object>
+					<object id="a12">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1344905394776</str>
+					</object>
+					<object id="a13">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sky_square_black_1344964489741</str>
+					</object>
+					<object id="a14">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sky_square_black_1344964489742</str>
+					</object>
+					<object id="a15">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sky_square_black_1344964489743</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_yellow_1_on">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1344905394769</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">p1_yellow_1_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p1_sounds_a1</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_yellow_2_on">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1344905394768</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">p1_yellow_2_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p1_sounds_a2</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_yellow_3_on">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1344905394767</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">p1_yellow_3_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p1_sounds_a3</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_red_1_on">
+				<object id="actions">
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_1</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1344905394772</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p1_red_1_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_red_2_on">
+				<object id="actions">
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_2</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1344905394771</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p1_red_2_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_red_3_on">
+				<object id="actions">
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_3</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1344905394770</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p1_red_3_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_blue_1_on">
+				<object id="actions">
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_1</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1344905394775</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">p1_blue_1_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_blue_2_on">
+				<object id="actions">
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_2</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1344905394774</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">p1_blue_2_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_blue_3_on">
+				<object id="actions">
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_3</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1344905394773</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">p1_blue_3_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_purple_1_on">
+				<object id="actions">
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_blue_1</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1344905394778</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">p1_purple_1_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_purple_2_on">
+				<object id="actions">
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_blue_2</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1344905394777</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">p1_purple_2_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_purple_3_on">
+				<object id="actions">
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_blue_3</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1344905394776</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">p1_purple_3_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_black_1_on">
+				<object id="actions">
+					<object id="a6">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_blue_1</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_purple_1</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sky_square_black_1344964489741</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">p1_black_1_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_black_2_on">
+				<object id="actions">
+					<object id="a6">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_blue_2</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_purple_2</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sky_square_black_1344964489742</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">p1_black_2_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_black_3_on">
+				<object id="actions">
+					<object id="a6">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_blue_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_purple_3</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sky_square_black_1344964489743</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">p1_black_3_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="puzzle_1_checks">
+				<object id="actions">
+					<object id="a16">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_yellow_1</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_yellow_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_red_1</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_red_2</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_red_3</str>
+					</object>
+					<object id="a7">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_blue_1</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_blue_2</str>
+					</object>
+					<object id="a9">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_blue_3</str>
+					</object>
+					<object id="a10">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_purple_1</str>
+					</object>
+					<object id="a11">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_purple_2</str>
+					</object>
+					<object id="a12">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_purple_3</str>
+					</object>
+					<object id="a13">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_black_1</str>
+					</object>
+					<object id="a14">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_black_2</str>
+					</object>
+					<object id="a15">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_black_3</str>
+					</object>
+					<object id="a17">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_black_light_1</str>
+					</object>
+					<object id="a18">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_black_light_2</str>
+					</object>
+					<object id="a19">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_black_light_3</str>
+					</object>
+				</object>
+			</object>
+			<object id="green_lights_off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">treehouselight_round_green_limbo1_1344909246408</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">treehouselight_round_green_limbo1_1344909246499</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">treehouselight_round_green_limbo1_1344909246501</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">treehouselight_round_green_limbo1_1344909246412</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">treehouselight_round_green_limbo1_1344909246413</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">treehouselight_round_green_limbo1_1344909246414</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_yellow_1_check">
+				<object id="actions">
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_yellow_1</str>
+					</object>
+					<object id="a2">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_yellow_2_check">
+				<object id="actions">
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_yellow_2</str>
+					</object>
+					<object id="a2">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_yellow_3_check">
+				<object id="actions">
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_yellow_3</str>
+					</object>
+					<object id="a2">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_red_1_check">
+				<object id="actions">
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_1</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_red_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_red_2_check">
+				<object id="actions">
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_2</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_red_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_red_3_check">
+				<object id="actions">
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_3</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_red_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_blue_1_check">
+				<object id="actions">
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_1</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_blue_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_blue_2_check">
+				<object id="actions">
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_2</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_blue_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_blue_3_check">
+				<object id="actions">
+					<object id="a6">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_3</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_blue_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_purple_1_check">
+				<object id="actions">
+					<object id="a6">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_blue_1</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_purple_1</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_purple_2_check">
+				<object id="actions">
+					<object id="a6">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_blue_2</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_purple_2</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_purple_3_check">
+				<object id="actions">
+					<object id="a6">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_blue_3</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_purple_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_black_1_check">
+				<object id="actions">
+					<object id="a7">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_blue_1</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_purple_1</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_black_1</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_black_light_1</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_verify</str>
+					</object>
+					<object id="a9">
+						<str id="type">event</str>
+						<str id="event">p1_sounds_b</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_black_2_check">
+				<object id="actions">
+					<object id="a8">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_blue_2</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_purple_2</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_black_2</str>
+					</object>
+					<object id="a9">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_black_light_2</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_verify</str>
+					</object>
+					<object id="a10">
+						<str id="type">event</str>
+						<str id="event">p1_sounds_b</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_black_3_check">
+				<object id="actions">
+					<object id="a7">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_blue_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_purple_3</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_black_3</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_clear</str>
+						<str id="flag">p1_black_light_3</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_verify</str>
+					</object>
+					<object id="a9">
+						<str id="type">event</str>
+						<str id="event">p1_sounds_b</str>
+					</object>
+				</object>
+			</object>
+			<object id="puzzle_1_verify">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_1</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_yellow_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_1</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_red_2</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p1_red_3</str>
+					</object>
+					<object id="a7">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_blue_1</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p1_blue_2</str>
+					</object>
+					<object id="a9">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p1_blue_3</str>
+					</object>
+					<object id="a10">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p1_purple_1</str>
+					</object>
+					<object id="a11">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p1_purple_2</str>
+					</object>
+					<object id="a12">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p1_purple_3</str>
+					</object>
+					<object id="a13">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p1_black_1</str>
+					</object>
+					<object id="a14">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p1_black_2</str>
+					</object>
+					<object id="a15">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p1_black_3</str>
+					</object>
+					<object id="a17">
+						<str id="type">flag_set</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a16">
+						<str id="type">event</str>
+						<str id="event">puzzle_1_green_light_on</str>
+					</object>
+					<object id="a18">
+						<str id="type">play_sound</str>
+						<str id="name">ACTIVATE_1</str>
+					</object>
+					<object id="a19">
+						<str id="type">deco_show</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1344993000388</str>
+					</object>
+					<object id="a20">
+						<str id="type">deco_show</str>
+						<str id="deco_id">puzzletube_on_elbow_starter_1344993000377</str>
+					</object>
+					<object id="a21">
+						<str id="type">deco_show</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1344993000375</str>
+					</object>
+					<object id="a22">
+						<str id="type">deco_show</str>
+						<str id="deco_id">puzzletube_on_elbow_starter_1344993000387</str>
+					</object>
+					<object id="a23">
+						<str id="type">deco_show</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1344993000389</str>
+					</object>
+					<object id="a27">
+						<str id="type">deco_show</str>
+						<str id="deco_id">treehouselight_round_green_limbo1_1344909246414</str>
+					</object>
+					<object id="a28">
+						<str id="type">event</str>
+						<str id="event">win_condition</str>
+					</object>
+				</object>
+			</object>
+			<object id="puzzle_1_green_light_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">treehouselight_round_green_limbo1_1344909246408</str>
+					</object>
+				</object>
+			</object>
+			<object id="puzzle_1_green_tubes_off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1344993000388</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">puzzletube_on_elbow_starter_1344993000377</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1344993000375</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">puzzletube_on_elbow_starter_1344993000387</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1344993000389</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1345063656630</str>
+					</object>
+					<object id="a7">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">puzzletube_on_elbow_starter_1345063656628</str>
+					</object>
+					<object id="a8">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1345063656626</str>
+					</object>
+					<object id="a9">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">puzzletube_on_elbow_starter_1345063656627</str>
+					</object>
+					<object id="a10">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1345063656629</str>
+					</object>
+					<object id="a11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1345069794277</str>
+					</object>
+					<object id="a12">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">puzzletube_on_elbow_starter_1345069794278</str>
+					</object>
+					<object id="a13">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1345069794279</str>
+					</object>
+					<object id="a14">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">puzzletube_on_elbow_starter_1345069794281</str>
+					</object>
+					<object id="a15">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1345069794280</str>
+					</object>
+				</object>
+			</object>
+			<object id="_______________________________________________________">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">plat</str>
+						<str id="plat_id">idonothing</str>
+					</object>
+				</object>
+			</object>
+			<object id="puzzle_2_off">
+				<object id="actions">
+					<object id="a26">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285977</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285976</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285975</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285979</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285978</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285984</str>
+					</object>
+					<object id="a7">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285983</str>
+					</object>
+					<object id="a8">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285982</str>
+					</object>
+					<object id="a9">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285981</str>
+					</object>
+					<object id="a10">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285980</str>
+					</object>
+					<object id="a11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285989</str>
+					</object>
+					<object id="a12">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285988</str>
+					</object>
+					<object id="a13">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285987</str>
+					</object>
+					<object id="a14">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285986</str>
+					</object>
+					<object id="a15">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285985</str>
+					</object>
+					<object id="a16">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285994</str>
+					</object>
+					<object id="a17">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285993</str>
+					</object>
+					<object id="a18">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285992</str>
+					</object>
+					<object id="a19">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285991</str>
+					</object>
+					<object id="a20">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345049285990</str>
+					</object>
+					<object id="a21">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sky_square_black_1345049285997</str>
+					</object>
+					<object id="a22">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sky_square_black_1345049285996</str>
+					</object>
+					<object id="a23">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sky_square_black_1345049285995</str>
+					</object>
+					<object id="a24">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sky_square_black_1345049285999</str>
+					</object>
+					<object id="a25">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sky_square_black_1345049285998</str>
+					</object>
+				</object>
+			</object>
+			<object id="puzzle_2_checks">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_yellow_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_yellow_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_yellow_4</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_yellow_5</str>
+					</object>
+					<object id="a7">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_red_1</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_red_2</str>
+					</object>
+					<object id="a9">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_red_3</str>
+					</object>
+					<object id="a10">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_red_4</str>
+					</object>
+					<object id="a11">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_red_5</str>
+					</object>
+					<object id="a12">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_blue_1</str>
+					</object>
+					<object id="a13">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_blue_2</str>
+					</object>
+					<object id="a14">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_blue_3</str>
+					</object>
+					<object id="a15">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_blue_4</str>
+					</object>
+					<object id="a16">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_blue_5</str>
+					</object>
+					<object id="a17">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_purple_1</str>
+					</object>
+					<object id="a18">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_purple_2</str>
+					</object>
+					<object id="a19">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_purple_3</str>
+					</object>
+					<object id="a20">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_purple_4</str>
+					</object>
+					<object id="a21">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_purple_5</str>
+					</object>
+					<object id="a22">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_black_1</str>
+					</object>
+					<object id="a23">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_black_2</str>
+					</object>
+					<object id="a24">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_black_3</str>
+					</object>
+					<object id="a25">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_black_4</str>
+					</object>
+					<object id="a26">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_black_5</str>
+					</object>
+					<object id="a27">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_black_light_1</str>
+					</object>
+					<object id="a28">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_black_light_2</str>
+					</object>
+					<object id="a29">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_black_light_3</str>
+					</object>
+					<object id="a30">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_black_light_4</str>
+					</object>
+					<object id="a31">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_black_light_5</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_yellow_1_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285977</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">p2_yellow_1_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p2_sounds_a1</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_yellow_2_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285976</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">p2_yellow_2_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p2_sounds_a2</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_yellow_3_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285975</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">p2_yellow_3_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p2_sounds_a3</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_yellow_4_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285979</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">p2_yellow_4_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p2_sounds_a4</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_yellow_5_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285978</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">p2_yellow_5_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p2_sounds_a5</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_red_1_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285984</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p2_red_1_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_red_2_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285983</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p2_red_2_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_red_3_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285982</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p2_red_3_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_red_4_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285981</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p2_red_4_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_red_5_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285980</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p2_red_5_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_blue_1_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285989</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">p2_blue_1_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_blue_2_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285988</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">p2_blue_2_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_blue_3_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285987</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">p2_blue_3_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_blue_4_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_4</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285986</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">p2_blue_4_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_blue_5_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_5</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285985</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">p2_blue_5_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_purple_1_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_1</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285994</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">p2_purple_1_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_purple_2_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_2</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285993</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">p2_purple_2_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_purple_3_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285992</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">p2_purple_3_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_purple_4_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_4</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_4</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285991</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">p2_purple_4_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_purple_5_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_5</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_5</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345049285990</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">p2_purple_5_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_black_1_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_1</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_purple_1</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sky_square_black_1345049285997</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">p2_black_1_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_black_2_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_2</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_purple_2</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sky_square_black_1345049285996</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">p2_black_2_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_black_3_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_purple_3</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sky_square_black_1345049285995</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">p2_black_3_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_black_4_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_4</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_4</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_purple_4</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sky_square_black_1345049285999</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">p2_black_4_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_black_5_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_5</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_5</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_purple_5</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sky_square_black_1345049285998</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">p2_black_5_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_yellow_1_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_yellow_2_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_yellow_3_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_yellow_4_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_yellow_5_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_red_1_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_red_2_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_red_3_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_red_4_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_red_4</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_red_5_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_red_5</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_blue_1_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_blue_1</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_blue_2_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_blue_2</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_blue_3_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_blue_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_blue_4_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_4</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_blue_4</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_blue_5_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_5</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_blue_5</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_purple_1_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_1</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_purple_1</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_purple_2_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_2</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_purple_2</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_purple_3_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_purple_3</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_purple_4_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_4</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_4</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_purple_4</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_purple_5_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_5</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_5</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_purple_5</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_black_1_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_1</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_purple_1</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_black_1</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_black_light_1</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+					<object id="a9">
+						<str id="type">event</str>
+						<str id="event">p2_sounds_b</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_black_2_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_2</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_purple_2</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_black_2</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_black_light_2</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+					<object id="a9">
+						<str id="type">event</str>
+						<str id="event">p2_sounds_b</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_black_3_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_purple_3</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_black_3</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_black_light_3</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+					<object id="a9">
+						<str id="type">event</str>
+						<str id="event">p2_sounds_b</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_black_4_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_4</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_4</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_purple_4</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_black_4</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_black_light_4</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+					<object id="a9">
+						<str id="type">event</str>
+						<str id="event">p2_sounds_b</str>
+					</object>
+				</object>
+			</object>
+			<object id="p2_black_5_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_5</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_5</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_purple_5</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_black_5</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_clear</str>
+						<str id="flag">p2_black_light_5</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">puzzle_2_verify</str>
+					</object>
+					<object id="a9">
+						<str id="type">event</str>
+						<str id="event">p2_sounds_b</str>
+					</object>
+				</object>
+			</object>
+			<object id="puzzle_2_verify">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_1</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_4</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_yellow_5</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_1</str>
+					</object>
+					<object id="a7">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_2</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_</str>
+					</object>
+					<object id="a9">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_4</str>
+					</object>
+					<object id="a10">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_red_5</str>
+					</object>
+					<object id="a11">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_1</str>
+					</object>
+					<object id="a12">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_2</str>
+					</object>
+					<object id="a13">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p2_blue_3</str>
+					</object>
+					<object id="a14">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_4</str>
+					</object>
+					<object id="a15">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_blue_5</str>
+					</object>
+					<object id="a16">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_purple_1</str>
+					</object>
+					<object id="a17">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p2_purple_2</str>
+					</object>
+					<object id="a18">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p2_purple_3</str>
+					</object>
+					<object id="a19">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p2_purple_4</str>
+					</object>
+					<object id="a20">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_purple_5</str>
+					</object>
+					<object id="a21">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p2_black_1</str>
+					</object>
+					<object id="a22">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p2_black_2</str>
+					</object>
+					<object id="a23">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p2_black_3</str>
+					</object>
+					<object id="a24">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p2_black_4</str>
+					</object>
+					<object id="a25">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p2_black_5</str>
+					</object>
+					<object id="a26">
+						<str id="type">flag_set</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a27">
+						<str id="type">deco_show</str>
+						<str id="deco_id">treehouselight_round_green_limbo1_1344909246499</str>
+					</object>
+					<object id="a28">
+						<str id="type">play_sound</str>
+						<str id="name">ACTIVATE_1</str>
+						<bool id="multi">true</bool>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="a29">
+						<str id="type">deco_show</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1345063656630</str>
+					</object>
+					<object id="a30">
+						<str id="type">deco_show</str>
+						<str id="deco_id">puzzletube_on_elbow_starter_1345063656628</str>
+					</object>
+					<object id="a31">
+						<str id="type">deco_show</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1345063656626</str>
+					</object>
+					<object id="a32">
+						<str id="type">deco_show</str>
+						<str id="deco_id">puzzletube_on_elbow_starter_1345063656627</str>
+					</object>
+					<object id="a33">
+						<str id="type">deco_show</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1345063656629</str>
+					</object>
+					<object id="a34">
+						<str id="type">deco_show</str>
+						<str id="deco_id">treehouselight_round_green_limbo1_1344909246413</str>
+					</object>
+					<object id="a35">
+						<str id="type">event</str>
+						<str id="event">win_condition</str>
+					</object>
+				</object>
+			</object>
+			<object id="____________________________________________________">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">event</str>
+						<str id="event">idonothing</str>
+					</object>
+				</object>
+			</object>
+			<object id="puzzle_3_off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794239</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794238</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794237</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794236</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794235</str>
+					</object>
+					<object id="a7">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794241</str>
+					</object>
+					<object id="a8">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794240</str>
+					</object>
+					<object id="a9">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794248</str>
+					</object>
+					<object id="a10">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794247</str>
+					</object>
+					<object id="a11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794246</str>
+					</object>
+					<object id="a12">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794245</str>
+					</object>
+					<object id="a13">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794244</str>
+					</object>
+					<object id="a14">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794243</str>
+					</object>
+					<object id="a15">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794242</str>
+					</object>
+					<object id="a16">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794255</str>
+					</object>
+					<object id="a17">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794254</str>
+					</object>
+					<object id="a18">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794253</str>
+					</object>
+					<object id="a19">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794252</str>
+					</object>
+					<object id="a20">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794251</str>
+					</object>
+					<object id="a21">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794250</str>
+					</object>
+					<object id="a22">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794249</str>
+					</object>
+					<object id="a23">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794262</str>
+					</object>
+					<object id="a24">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794261</str>
+					</object>
+					<object id="a25">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794260</str>
+					</object>
+					<object id="a26">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794259</str>
+					</object>
+					<object id="a27">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794258</str>
+					</object>
+					<object id="a28">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794257</str>
+					</object>
+					<object id="a29">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">bg_white_patch_1345069794256</str>
+					</object>
+					<object id="a30">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sky_square_black_1345069794267</str>
+					</object>
+					<object id="a31">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sky_square_black_1345069794266</str>
+					</object>
+					<object id="a32">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sky_square_black_1345069794265</str>
+					</object>
+					<object id="a33">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sky_square_black_1345069794264</str>
+					</object>
+					<object id="a34">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sky_square_black_1345069794263</str>
+					</object>
+					<object id="a35">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sky_square_black_1345069794269</str>
+					</object>
+					<object id="a36">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sky_square_black_1345069794268</str>
+					</object>
+				</object>
+			</object>
+			<object id="puzzle_3_checks">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_yellow_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_yellow_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_yellow_4</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_yellow_5</str>
+					</object>
+					<object id="a7">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_yellow_6</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_yellow_7</str>
+					</object>
+					<object id="a9">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_red_1</str>
+					</object>
+					<object id="a10">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_red_2</str>
+					</object>
+					<object id="a11">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_red_3</str>
+					</object>
+					<object id="a12">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_red_4</str>
+					</object>
+					<object id="a13">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_red_5</str>
+					</object>
+					<object id="a14">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_red_6</str>
+					</object>
+					<object id="a15">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_red_7</str>
+					</object>
+					<object id="a16">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_blue_1</str>
+					</object>
+					<object id="a17">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_blue_2</str>
+					</object>
+					<object id="a18">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_blue_3</str>
+					</object>
+					<object id="a19">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_blue_4</str>
+					</object>
+					<object id="a20">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_blue_5</str>
+					</object>
+					<object id="a21">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_blue_6</str>
+					</object>
+					<object id="a22">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_blue_7</str>
+					</object>
+					<object id="a23">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_purple_1</str>
+					</object>
+					<object id="a24">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_purple_2</str>
+					</object>
+					<object id="a25">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_purple_3</str>
+					</object>
+					<object id="a26">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_purple_4</str>
+					</object>
+					<object id="a27">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_purple_5</str>
+					</object>
+					<object id="a28">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_purple_6</str>
+					</object>
+					<object id="a29">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_purple_7</str>
+					</object>
+					<object id="a30">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_black_1</str>
+					</object>
+					<object id="a31">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_black_2</str>
+					</object>
+					<object id="a32">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_black_3</str>
+					</object>
+					<object id="a33">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_black_4</str>
+					</object>
+					<object id="a34">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_black_5</str>
+					</object>
+					<object id="a35">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_black_6</str>
+					</object>
+					<object id="a36">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_black_7</str>
+					</object>
+					<object id="a37">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_black_light_1</str>
+					</object>
+					<object id="a38">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_black_light_2</str>
+					</object>
+					<object id="a39">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_black_light_3</str>
+					</object>
+					<object id="a40">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_black_light_4</str>
+					</object>
+					<object id="a41">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_black_light_5</str>
+					</object>
+					<object id="a42">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_black_light_6</str>
+					</object>
+					<object id="a43">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_black_light_7</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_yellow_1_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794239</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">p3_yellow_1_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p3_sounds_a1</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_yellow_2_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794238</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">p3_yellow_2_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p3_sounds_a2</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_yellow_3_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794237</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">p3_yellow_3_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p3_sounds_a3</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_yellow_4_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794236</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">p3_yellow_4_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p3_sounds_a4</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_yellow_5_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794235</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">p3_yellow_5_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p3_sounds_a5</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_yellow_6_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794241</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">p3_yellow_6_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p3_sounds_a6</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_yellow_7_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794240</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">p3_yellow_7_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p3_sounds_a7</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_red_1_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794248</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p3_red_1_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_red_2_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794247</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p3_red_2_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_red_3_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794246</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p3_red_3_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_red_4_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794245</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p3_red_4_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_red_5_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794244</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p3_red_5_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_red_6_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_6</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794243</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p3_red_6_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_red_7_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_7</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794242</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">p3_red_7_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_blue_1_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794255</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">p3_blue_1_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_blue_2_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794254</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">p3_blue_2_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_blue_3_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794253</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">p3_blue_3_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_blue_4_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_4</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794252</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">p3_blue_4_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_blue_5_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_5</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794251</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">p3_blue_5_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_blue_6_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_6</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_6</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794250</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">p3_blue_6_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_blue_7_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_7</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_7</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794249</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">p3_blue_7_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_purple_1_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_1</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794262</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">p3_purple_1_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_purple_2_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_2</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794261</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">p3_purple_2_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_purple_3_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794260</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">p3_purple_3_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_purple_4_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_4</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_4</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794259</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">p3_purple_4_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_purple_5_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_5</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_5</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794258</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">p3_purple_5_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_purple_6_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_6</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_6</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_6</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794257</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">p3_purple_6_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_purple_7_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_7</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_7</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_7</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_show</str>
+						<str id="deco_id">bg_white_patch_1345069794256</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">p3_purple_7_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_black_1_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_1</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_purple_1</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sky_square_black_1345069794267</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">p3_black_1_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_black_2_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_purple_2</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sky_square_black_1345069794266</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">p3_black_2_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_black_3_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_purple_3</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sky_square_black_1345069794265</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">p3_black_3_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_black_4_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_4</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_4</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_purple_4</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sky_square_black_1345069794264</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">p3_black_4_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_black_5_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_5</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_5</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_purple_5</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sky_square_black_1345069794263</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">p3_black_5_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_black_6_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_6</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_6</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_6</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_purple_6</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sky_square_black_1345069794269</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">p3_black_6_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_black_7_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_7</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_7</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_7</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_purple_7</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sky_square_black_1345069794268</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">p3_black_7_check</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_yellow_1_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_yellow_2_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_yellow_3_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_yellow_4_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_yellow_5_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_yellow_6_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_yellow_6</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_yellow_7_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_yellow_7</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_red_1_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_red_2_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_red_3_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_red_4_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_red_4</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_red_5_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_red_5</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_red_6_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_6</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_red_6</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_red_7_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_7</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_red_7</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_blue_1_check">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_1</str>
+					</object>
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_blue_1</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_blue_2_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_blue_2</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_blue_3_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_blue_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_blue_4_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_4</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_blue_4</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_blue_5_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_5</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_blue_5</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_blue_6_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_6</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_6</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_blue_6</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_blue_7_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_7</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_7</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_blue_7</str>
+					</object>
+					<object id="a5">
+						<str id="type">event</str>
+						<str id="plat_id">puzzle_3_verify</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_purple_1_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_1</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_purple_1</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_purple_2_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_2</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_purple_2</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_purple_3_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_purple_3</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_purple_4_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_4</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_4</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_purple_4</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_purple_5_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_5</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_5</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_purple_5</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_purple_6_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_6</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_6</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_6</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_purple_6</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_purple_7_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_7</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_7</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_7</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_purple_7</str>
+					</object>
+					<object id="a6">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_black_1_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_1</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_1</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_purple_1</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_black_1</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_black_light_1</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+					<object id="a9">
+						<str id="type">event</str>
+						<str id="event">p3_sounds_b</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_black_2_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_2</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_2</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_purple_2</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_black_2</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_black_light_2</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+					<object id="a9">
+						<str id="type">event</str>
+						<str id="event">p3_sounds_b</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_black_3_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_3</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_purple_3</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_black_3</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_black_light_3</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+					<object id="a9">
+						<str id="type">event</str>
+						<str id="event">p3_sounds_b</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_black_4_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_4</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_4</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_purple_4</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_black_4</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_black_light_4</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+					<object id="a9">
+						<str id="type">event</str>
+						<str id="event">p3_sounds_b</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_black_5_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_5</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_5</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_purple_5</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_black_5</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_black_light_5</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+					<object id="a9">
+						<str id="type">event</str>
+						<str id="event">p3_sounds_b</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_black_6_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_6</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_6</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_6</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_purple_6</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_black_6</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_black_light_6</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+					<object id="a9">
+						<str id="type">event</str>
+						<str id="event">p3_sounds_b</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_black_7_check">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_7</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_7</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_7</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_purple_7</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_black_7</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_clear</str>
+						<str id="flag">p3_black_light_7</str>
+					</object>
+					<object id="a7">
+						<str id="type">event</str>
+						<str id="event">puzzle_3_verify</str>
+					</object>
+					<object id="a9">
+						<str id="type">event</str>
+						<str id="event">p3_sounds_b</str>
+					</object>
+				</object>
+			</object>
+			<object id="puzzle_3_verify">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_1</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_3</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_4</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_5</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_6</str>
+					</object>
+					<object id="a7">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_yellow_7</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_red_1</str>
+					</object>
+					<object id="a9">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_2</str>
+					</object>
+					<object id="a10">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_3</str>
+					</object>
+					<object id="a11">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_4</str>
+					</object>
+					<object id="a12">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_5</str>
+					</object>
+					<object id="a13">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_red_6</str>
+					</object>
+					<object id="a14">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_red_7</str>
+					</object>
+					<object id="a15">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_blue_1</str>
+					</object>
+					<object id="a16">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_blue_2</str>
+					</object>
+					<object id="a17">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_3</str>
+					</object>
+					<object id="a18">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_4</str>
+					</object>
+					<object id="a19">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_blue_5</str>
+					</object>
+					<object id="a20">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_blue_6</str>
+					</object>
+					<object id="a21">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_blue_7</str>
+					</object>
+					<object id="a22">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_purple_1</str>
+					</object>
+					<object id="a23">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_purple_2</str>
+					</object>
+					<object id="a24">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_purple_3</str>
+					</object>
+					<object id="a25">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_purple_4</str>
+					</object>
+					<object id="a26">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_purple_5</str>
+					</object>
+					<object id="a27">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_purple_6</str>
+					</object>
+					<object id="a28">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_purple_7</str>
+					</object>
+					<object id="a29">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_black_1</str>
+					</object>
+					<object id="a30">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_black_2</str>
+					</object>
+					<object id="a31">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_black_3</str>
+					</object>
+					<object id="a32">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_black_4</str>
+					</object>
+					<object id="a33">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_black_5</str>
+					</object>
+					<object id="a34">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_black_6</str>
+					</object>
+					<object id="a35">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_black_7</str>
+					</object>
+					<object id="a36">
+						<str id="type">flag_set</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a37">
+						<str id="type">deco_show</str>
+						<str id="deco_id">treehouselight_round_green_limbo1_1344909246501</str>
+					</object>
+					<object id="a38">
+						<str id="type">play_sound</str>
+						<str id="name">ACTIVATE_1</str>
+					</object>
+					<object id="a39">
+						<str id="type">deco_show</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1345069794277</str>
+					</object>
+					<object id="a40">
+						<str id="type">deco_show</str>
+						<str id="deco_id">puzzletube_on_elbow_starter_1345069794278</str>
+					</object>
+					<object id="a41">
+						<str id="type">deco_show</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1345069794279</str>
+					</object>
+					<object id="a42">
+						<str id="type">deco_show</str>
+						<str id="deco_id">puzzletube_on_elbow_starter_1345069794281</str>
+					</object>
+					<object id="a43">
+						<str id="type">deco_show</str>
+						<str id="deco_id">puzzletube_on_tube_starter_1345069794280</str>
+					</object>
+					<object id="a44">
+						<str id="type">deco_show</str>
+						<str id="deco_id">treehouselight_round_green_limbo1_1344909246412</str>
+					</object>
+					<object id="a45">
+						<str id="type">event</str>
+						<str id="event">win_condition</str>
+					</object>
+				</object>
+			</object>
+			<object id="win_condition">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">Teleporter_Beam_1345084508826</str>
+					</object>
+					<object id="a6">
+						<str id="type">play_sound</str>
+						<str id="name">TELEPORTER_VISIBLE_APPEAR</str>
+					</object>
+					<object id="a7">
+						<str id="type">play_sound</str>
+						<str id="name">TELEPORTER_VISIBLE_PORTAL</str>
+						<int id="loops">99999</int>
+					</object>
+					<object id="a9">
+						<str id="type">flag_clear</str>
+						<str id="flag">pc_scale</str>
+					</object>
+					<object id="a10">
+						<str id="type">code_player</str>
+						<str id="code">pc.quests_set_flag('turn_on_machine');</str>
+					</object>
+				</object>
+			</object>
+			<object id="pc_scale">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">pc_scale</str>
+					</object>
+					<object id="a2">
+						<str id="type">physics</str>
+						<str id="param">pc_scale</str>
+						<str id="value">0.5</str>
+					</object>
+				</object>
+			</object>
+			<object id="_________________sounds_____________________________">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">event</str>
+						<str id="event">idonothing</str>
+					</object>
+				</object>
+			</object>
+			<object id="p1_sounds_a1">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p1_black_light_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">play_sound</str>
+						<str id="name">TEST_SOUND</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="p1_sounds_a2">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p1_black_light_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">play_sound</str>
+						<str id="name">TEST_SOUND</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="p1_sounds_a3">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p1_black_light_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">play_sound</str>
+						<str id="name">TEST_SOUND</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="p1_sounds_b">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p1_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">play_sound</str>
+						<str id="name">YOU_TAKE_CROWN</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="p2_sounds_a1">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p2_black_light_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">play_sound</str>
+						<str id="name">TEST_SOUND</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="p2_sounds_a2">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p2_black_light_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">play_sound</str>
+						<str id="name">TEST_SOUND</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="p2_sounds_a3">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p2_black_light_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">play_sound</str>
+						<str id="name">TEST_SOUND</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="p2_sounds_a4">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p2_black_light_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">play_sound</str>
+						<str id="name">TEST_SOUND</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="p2_sounds_a5">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p2_black_light_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">play_sound</str>
+						<str id="name">TEST_SOUND</str>
+						<bool id="multi">true</bool>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="p2_sounds_b">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p2_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">play_sound</str>
+						<str id="name">YOU_TAKE_CROWN</str>
+						<bool id="all_players">true</bool>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="p3_sounds_a1">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_black_light_1</str>
+					</object>
+					<object id="a3">
+						<str id="type">play_sound</str>
+						<str id="name">TEST_SOUND</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_sounds_a2">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_black_light_2</str>
+					</object>
+					<object id="a3">
+						<str id="type">play_sound</str>
+						<str id="name">TEST_SOUND</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_sounds_a3">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_black_light_3</str>
+					</object>
+					<object id="a3">
+						<str id="type">play_sound</str>
+						<str id="name">TEST_SOUND</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_sounds_a4">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_black_light_4</str>
+					</object>
+					<object id="a3">
+						<str id="type">play_sound</str>
+						<str id="name">TEST_SOUND</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_sounds_a5">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_black_light_5</str>
+					</object>
+					<object id="a3">
+						<str id="type">play_sound</str>
+						<str id="name">TEST_SOUND</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_sounds_a6">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_black_light_6</str>
+					</object>
+					<object id="a3">
+						<str id="type">play_sound</str>
+						<str id="name">TEST_SOUND</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_sounds_a7">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">p3_black_light_7</str>
+					</object>
+					<object id="a3">
+						<str id="type">play_sound</str>
+						<str id="name">TEST_SOUND</str>
+					</object>
+				</object>
+			</object>
+			<object id="p3_sounds_b">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">p3_win_check</str>
+					</object>
+					<object id="a2">
+						<str id="type">play_sound</str>
+						<str id="name">YOU_TAKE_CROWN</str>
+					</object>
+				</object>
+			</object>
+			<object id="pc_scale_normal">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">physics_reset</str>
+						<str id="param">pc_scale</str>
+					</object>
+				</object>
+			</object>
+			<object id="button_press">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">play_sound</str>
+						<str id="name">BUTTON_2</str>
+						<bool id="multi">true</bool>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object id="hidden_decos">
+			<int id="bg_white_patch_1344905394775">1346341078</int>
+			<int id="bg_white_patch_1344905394774">1346341078</int>
+			<int id="bg_white_patch_1344905394773">1346341078</int>
+			<int id="bg_white_patch_1344905394778">1346341078</int>
+			<int id="bg_white_patch_1344905394777">1346341078</int>
+			<int id="bg_white_patch_1344905394776">1346341078</int>
+			<int id="sky_square_black_1344964489741">1346341078</int>
+			<int id="sky_square_black_1344964489742">1346341078</int>
+			<int id="sky_square_black_1344964489743">1346341078</int>
+			<int id="treehouselight_round_green_limbo1_1344909246408">1346340994</int>
+			<int id="treehouselight_round_green_limbo1_1344909246499">1346340994</int>
+			<int id="treehouselight_round_green_limbo1_1344909246501">1346340994</int>
+			<int id="treehouselight_round_green_limbo1_1344909246412">1346340994</int>
+			<int id="treehouselight_round_green_limbo1_1344909246413">1346340994</int>
+			<int id="treehouselight_round_green_limbo1_1344909246414">1346340994</int>
+			<int id="puzzletube_on_tube_starter_1344993000388">1346340994</int>
+			<int id="puzzletube_on_elbow_starter_1344993000377">1346340994</int>
+			<int id="puzzletube_on_tube_starter_1344993000375">1346340994</int>
+			<int id="puzzletube_on_elbow_starter_1344993000387">1346340994</int>
+			<int id="puzzletube_on_tube_starter_1344993000389">1346340994</int>
+			<int id="puzzletube_on_tube_starter_1345063656630">1346340994</int>
+			<int id="puzzletube_on_elbow_starter_1345063656628">1346340994</int>
+			<int id="puzzletube_on_tube_starter_1345063656626">1346340994</int>
+			<int id="puzzletube_on_elbow_starter_1345063656627">1346340994</int>
+			<int id="puzzletube_on_tube_starter_1345063656629">1346340994</int>
+			<int id="puzzletube_on_tube_starter_1345069794277">1346340994</int>
+			<int id="puzzletube_on_elbow_starter_1345069794278">1346340994</int>
+			<int id="puzzletube_on_tube_starter_1345069794279">1346340994</int>
+			<int id="puzzletube_on_elbow_starter_1345069794281">1346340994</int>
+			<int id="puzzletube_on_tube_starter_1345069794280">1346340994</int>
+			<int id="bg_white_patch_1345049285989">1346340994</int>
+			<int id="bg_white_patch_1345049285988">1346340994</int>
+			<int id="bg_white_patch_1345049285987">1346340994</int>
+			<int id="bg_white_patch_1345049285986">1346340994</int>
+			<int id="bg_white_patch_1345049285985">1346340994</int>
+			<int id="bg_white_patch_1345049285994">1346340994</int>
+			<int id="bg_white_patch_1345049285993">1346340994</int>
+			<int id="bg_white_patch_1345049285992">1346340994</int>
+			<int id="bg_white_patch_1345049285991">1346340994</int>
+			<int id="bg_white_patch_1345049285990">1346340994</int>
+			<int id="sky_square_black_1345049285997">1346340994</int>
+			<int id="sky_square_black_1345049285996">1346340994</int>
+			<int id="sky_square_black_1345049285995">1346340994</int>
+			<int id="sky_square_black_1345049285999">1346340994</int>
+			<int id="sky_square_black_1345049285998">1346340994</int>
+			<int id="bg_white_patch_1345069794255">1346340994</int>
+			<int id="bg_white_patch_1345069794254">1346340994</int>
+			<int id="bg_white_patch_1345069794253">1346340994</int>
+			<int id="bg_white_patch_1345069794252">1346340994</int>
+			<int id="bg_white_patch_1345069794251">1346340994</int>
+			<int id="bg_white_patch_1345069794250">1346340994</int>
+			<int id="bg_white_patch_1345069794249">1346340994</int>
+			<int id="bg_white_patch_1345069794262">1346340994</int>
+			<int id="bg_white_patch_1345069794261">1346340994</int>
+			<int id="bg_white_patch_1345069794260">1346340994</int>
+			<int id="bg_white_patch_1345069794259">1346340994</int>
+			<int id="bg_white_patch_1345069794258">1346340994</int>
+			<int id="bg_white_patch_1345069794257">1346340994</int>
+			<int id="bg_white_patch_1345069794256">1346340994</int>
+			<int id="sky_square_black_1345069794267">1346340994</int>
+			<int id="sky_square_black_1345069794266">1346340994</int>
+			<int id="sky_square_black_1345069794265">1346340994</int>
+			<int id="sky_square_black_1345069794264">1346340994</int>
+			<int id="sky_square_black_1345069794263">1346340994</int>
+			<int id="sky_square_black_1345069794269">1346340994</int>
+			<int id="sky_square_black_1345069794268">1346340994</int>
+			<int id="Teleporter_Beam_1345084508826">1346340994</int>
+			<int id="bg_white_patch_1344905394768">1346341078</int>
+			<int id="bg_white_patch_1344905394767">1346341078</int>
+			<int id="bg_white_patch_1344905394772">1346341078</int>
+			<int id="bg_white_patch_1344905394771">1346341078</int>
+			<int id="bg_white_patch_1344905394770">1346341078</int>
+			<int id="bg_white_patch_1344905394769">1346341078</int>
+		</object>
+		<object id="flags">
+			<bool id="p1_blue_1">true</bool>
+			<bool id="p1_blue_2">true</bool>
+			<bool id="p1_blue_3">true</bool>
+			<bool id="p1_purple_1">true</bool>
+			<bool id="p1_purple_2">true</bool>
+			<bool id="p1_purple_3">true</bool>
+			<bool id="p1_black_1">true</bool>
+			<bool id="p1_black_2">true</bool>
+			<bool id="p1_black_3">true</bool>
+			<bool id="p1_black_light_1">true</bool>
+			<bool id="p1_black_light_2">true</bool>
+			<bool id="p1_black_light_3">true</bool>
+			<bool id="p2_blue_1">true</bool>
+			<bool id="p2_blue_2">true</bool>
+			<bool id="p2_blue_3">true</bool>
+			<bool id="p2_blue_4">true</bool>
+			<bool id="p2_blue_5">true</bool>
+			<bool id="p2_purple_1">true</bool>
+			<bool id="p2_purple_2">true</bool>
+			<bool id="p2_purple_3">true</bool>
+			<bool id="p2_purple_4">true</bool>
+			<bool id="p2_purple_5">true</bool>
+			<bool id="p2_black_1">true</bool>
+			<bool id="p2_black_2">true</bool>
+			<bool id="p2_black_3">true</bool>
+			<bool id="p2_black_4">true</bool>
+			<bool id="p2_black_5">true</bool>
+			<bool id="p2_black_light_1">true</bool>
+			<bool id="p2_black_light_2">true</bool>
+			<bool id="p2_black_light_3">true</bool>
+			<bool id="p2_black_light_4">true</bool>
+			<bool id="p2_black_light_5">true</bool>
+			<bool id="pc_scale">true</bool>
+			<bool id="p3_blue_1">true</bool>
+			<bool id="p3_blue_2">true</bool>
+			<bool id="p3_blue_3">true</bool>
+			<bool id="p3_blue_4">true</bool>
+			<bool id="p3_blue_5">true</bool>
+			<bool id="p3_blue_6">true</bool>
+			<bool id="p3_blue_7">true</bool>
+			<bool id="p3_purple_1">true</bool>
+			<bool id="p3_purple_2">true</bool>
+			<bool id="p3_purple_3">true</bool>
+			<bool id="p3_purple_4">true</bool>
+			<bool id="p3_purple_5">true</bool>
+			<bool id="p3_purple_6">true</bool>
+			<bool id="p3_purple_7">true</bool>
+			<bool id="p3_black_1">true</bool>
+			<bool id="p3_black_2">true</bool>
+			<bool id="p3_black_3">true</bool>
+			<bool id="p3_black_4">true</bool>
+			<bool id="p3_black_5">true</bool>
+			<bool id="p3_black_6">true</bool>
+			<bool id="p3_black_7">true</bool>
+			<bool id="p3_black_light_1">true</bool>
+			<bool id="p3_black_light_2">true</bool>
+			<bool id="p3_black_light_3">true</bool>
+			<bool id="p3_black_light_4">true</bool>
+			<bool id="p3_black_light_5">true</bool>
+			<bool id="p3_black_light_6">true</bool>
+			<bool id="p3_black_light_7">true</bool>
+			<bool id="p1_yellow_2">true</bool>
+			<bool id="p1_yellow_3">true</bool>
+			<bool id="p1_red_1">true</bool>
+			<bool id="p1_red_2">true</bool>
+			<bool id="p1_red_3">true</bool>
+			<bool id="p1_yellow_1">true</bool>
+		</object>
+		<bool id="is_instance">true</bool>
+		<str id="instance_id">le_miserable</str>
+		<objref id="instance" tsid="RHFRFSD43383E3A"/>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IIFM4ED43383DNN" label="Wall Button"/>
+		<objref tsid="IIFM54D43383DP9" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM4UD43383DO6" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM4FD43383DNJ" label="Coin"/>
+		<objref tsid="IIFM5FD43383DPS" label="Wall Button"/>
+		<objref tsid="IIFM4VD43383DOE" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM4GD43383DOJ" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM4SD43383DOM" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM5CD43383DP6" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM53D43383DPM" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM5ED43383DP3" label="Teleport Marker"/>
+		<objref tsid="IIFM55D43383DPV" label="Coin"/>
+		<objref tsid="IIFM5GD43383DPO" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM56D43383DPK" label="Coin"/>
+		<objref tsid="IIFM4ID43383DO5" label="MaintenanceBot M-64"/>
+		<objref tsid="IIFM52D43383DOS" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM4CD43383DN6" label="Wall Button"/>
+		<objref tsid="IIFM5BD43383DPQ" label="Coin"/>
+		<objref tsid="IIFM50D43383DO5" label="Coin"/>
+		<objref tsid="IIFM4QD43383DOL" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM4TD43383DO8" label="Coin"/>
+		<objref tsid="IIFM58D43383DPC" label="Coin"/>
+		<objref tsid="IIFM4MD43383DO3" label="Coin"/>
+		<objref tsid="IIFM4HD43383DOA" label="Coin"/>
+		<objref tsid="IIFM4LD43383DOC" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM4PD43383DOT" label="Coin"/>
+		<objref tsid="IIFM59D43383DPI" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM4DD43383DNP" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM4ND43383DOB" label="Coin"/>
+		<objref tsid="IIFM4RD43383DOK" label="Coin"/>
+		<objref tsid="IIFM4KD43383DOC" label="Coin"/>
+		<objref tsid="IIFM57D43383DPS" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM5AD43383DPF" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM51D43383DOG" label="Collision-triggered Event Box"/>
+		<objref tsid="IIFM4OD43383DOH" label="Coin"/>
+		<objref tsid="IIFM5DD43383DPI" label="Coin"/>
+		<objref tsid="IIFM4JD43383DOF" label="Collision-triggered Event Box"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

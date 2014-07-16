@@ -1,0 +1,94 @@
+<game_object tsid="LA93VBH3H3D38HF" ts="1362533513037" label="Gentle Island Exit" class_tsid="town" hubid="129" moteid="9" letime="3fpeutv9" rbtime="3d3h3h8h" upd_gs="gs6" load_time="2013-03-05 17:21:14.000">
+	<object id="dynamic">
+		<bool id="jobs_is_locked">false</bool>
+		<object id="events">
+			<object id="explain_upgrades">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">explain_upgrades</str>
+					</object>
+					<object id="a2">
+						<str id="type">pc_vog</str>
+						<str id="text">Oh right! Upgrades! You are now free to choose them whenever you wish.//There’s a special cloud for it in the Imagination menu …</str>
+						<str id="next_event">callout_upgrades</str>
+					</object>
+					<object id="a4">
+						<str id="type">code_location</str>
+						<str id="code">loc.qurazy_got = true;</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_set</str>
+						<str id="flag">explain_upgrades</str>
+					</object>
+				</object>
+			</object>
+			<object id="callout_upgrades">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">pc.apiSendMsg({
+	type: 'open_img_menu'
+});
+
+pc.apiSendMsg({
+	type: &quot;ui_callout&quot;,
+	section: 'upgrades'
+});</str>
+					</object>
+				</object>
+			</object>
+			<object id="enable_wall">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1</str>
+						<null id="pc_perm"/>
+					</object>
+				</object>
+			</object>
+			<object id="disable_wall">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1</str>
+						<int id="pc_perm">0</int>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-10-29/LUVFC099RAB3FSG_loading_1351554569.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-10-29/LUVFC099RAB3FSG_main_1351554570.jpg</str>
+			<int id="w">720</int>
+			<int id="h">120</int>
+		</object>
+		<object id="qurazy">
+		</object>
+		<object id="edit_history">
+			<str id="1351726079">tsauth-ianp:modify_street_obj-signposts-signpost_1349905565422</str>
+			<str id="1351726865">tsauth-jupro:edit_street_meta</str>
+			<str id="1351733221">tsauth-ianp:modify_street_obj-boxes-box_1349905565376</str>
+		</object>
+		<bool id="jobs_auto_unlock">false</bool>
+		<bool id="no_teleportation">false</bool>
+		<bool id="disallow_animals">false</bool>
+		<bool id="no_rook">false</bool>
+		<str id="instance_me">NB_Street4</str>
+		<int id="instance_max_members">1</int>
+		<str id="instance_location_type">newbie_island</str>
+		<objref id="instances" tsid="DA99QNBJP3D3TJ1" label="Instances"/>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IA93VOJ3H3D3K85" label="Coin"/>
+		<objref tsid="IA93VMJ3H3D3K8T" label="Coin"/>
+		<objref tsid="IA93VKJ3H3D3K7T" label="Qurazy marker"/>
+		<objref tsid="IA93VNJ3H3D3K80" label="Coin"/>
+		<objref tsid="IA93VLJ3H3D3K85" label="Coin"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

@@ -82,6 +82,7 @@ convert =
 		locationJSON.hub_id = sourceData.game_object.$.hubid
 		locationJSON.mote_id = sourceData.game_object.$.moteid
 		locationJSON.loading_image = convert.getLoadingImage(sourceData)
+		locationJSON.main_image = convert.getMainImage(sourceData)
 
 		locationJSON
 
@@ -100,6 +101,22 @@ convert =
 									loading_image[d.$.id] = parseInt(d._, 10)
 			
 		loading_image
+
+	getMainImage: (sourceData) ->
+
+		mainImage = {}
+		for o in sourceData.game_object.object
+			if o.$.id is 'dynamic'
+				if 'object' of o
+					for object in o.object
+						if object.$.id is 'image'
+							if 'str' of object
+								mainImage.url = "http://c2.glitch.bz/" + object.str[0]._
+							if 'int' of object
+								for d in object.int
+									mainImage[d.$.id] = parseInt(d._, 10)
+			
+		mainImage
 
 	getGradient: (dataJSON) ->
 

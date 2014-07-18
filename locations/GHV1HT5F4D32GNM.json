@@ -1,6 +1,18 @@
 {
     "tsid": "GHV1HT5F4D32GNM",
     "label": "Kaavin Kit",
+    "hub_id": "75",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-29/LHV1HT5F4D32GNM_loading_1346291211.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-29/LHV1HT5F4D32GNM_main_1346291212.jpg",
+        "w": 720,
+        "h": 174
+    },
     "gradient": {
         "top": "5D8991",
         "bottom": "A8F9FF"
@@ -80,7 +92,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "foreground": {
                 "name": "foreground",
@@ -95,7 +109,9 @@
                 },
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_1": {
                 "name": "bg_1",
@@ -392,7 +408,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -526,7 +544,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2788,7 +2808,24 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1306948190783",
+                        "y": -298,
+                        "w": 50,
+                        "h": 312,
+                        "x": 2047
+                    },
+                    {
+                        "id": "ladder_1306955588848",
+                        "y": -246,
+                        "w": 50,
+                        "h": 601,
+                        "x": -902
+                    }
+                ],
+                "walls": []
             },
             "bg_2": {
                 "name": "bg_2",
@@ -2927,8 +2964,60 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHV1JLNR9D3293E",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IHVC8AUOC2E3DTP",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "IIFMEBUNF183KVH",
+            "label": "Visiting Stone"
+        },
+        {
+            "tsid": "IHVG08RQU2E36CC",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "IHVS57L7HGQ29K0",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IHV1KAOUAD329T4",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV1KB2VAD32L1O",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV1KDJ1BD329RH",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IHV13I3QID62H95",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IHV1JJFQ9D32FTV",
+            "label": "Shrine to Lem"
+        },
+        {
+            "tsid": "IHV17F7LAI32R0P",
+            "label": "Mailbox"
+        },
+        {
+            "tsid": "IHV8SHEVN7E3U16",
+            "label": "Bubble Tree"
+        }
+    ]
 }

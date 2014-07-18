@@ -1,0 +1,151 @@
+<game_object tsid="LA9U27HN7LD3FVE" ts="1364245699174" label="Greyving Grays" class_tsid="town" hubid="142" moteid="10" letime="3g366mfr" rbtime="3dl7nhfv" upd_gs="gs6" load_time="2013-03-25 13:54:20.000">
+	<object id="dynamic">
+		<bool id="jobs_is_locked">false</bool>
+		<object id="events">
+			<object id="player_enter">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">if(pc.y&gt;-550)
+{
+if(pc.x&lt;-850)
+{
+    pc.startedAT = &quot;bottom&quot;;
+  pc.addCTPCPhysics({
+		gravity:-1
+  });
+}
+}</str>
+					</object>
+				</object>
+			</object>
+			<object id="should_tp_bottom">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">//if(pc.startedAT == &quot;top&quot;)
+//{
+    delete pc.startedAT;
+    pc.teleportToLocation('LA9BT2I0ILD340S', -239, -1000); 
+//}</str>
+					</object>
+				</object>
+			</object>
+			<object id="should_tp_top">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code"> delete pc.startedAT;
+    pc.teleportToLocation('LIF153KDV872SE5', -297, -147); 
+</str>
+					</object>
+				</object>
+			</object>
+			<object id="reset_phys">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code"> pc.startedAT = &quot;top&quot;;
+  pc.addCTPCPhysics({
+		gravity:1
+  });</str>
+					</object>
+				</object>
+			</object>
+			<object id="invert_phys">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">  pc.startedAT = &quot;bottom&quot;;
+  pc.addCTPCPhysics({
+		gravity:-1
+  });</str>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-11-09/LA9U27HN7LD3FVE_loading_1352511646.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-11-09/LA9U27HN7LD3FVE_main_1352511647.jpg</str>
+			<int id="w">720</int>
+			<int id="h">960</int>
+		</object>
+		<object id="edit_history">
+			<str id="1352343632">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352343678">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352343697">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352343789">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352399716">tsauth-ryan:edit_street_meta</str>
+			<str id="1352401530">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352402739">tsauth-ryan:edit_street_meta</str>
+			<str id="1352405557">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352405559">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352419416">tsauth-ryan:edit_street_meta</str>
+			<str id="1352425530">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352425674">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352425677">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352440328">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352440474">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352440476">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352510103">PCR1DCC40RT1I9G:kt:locodeco-replace</str>
+			<str id="1352510131">PCR1DCC40RT1I9G:kt:locodeco-replace</str>
+			<str id="1352849183">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352849186">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+		</object>
+		<object id="streaking_increments">
+			<object id="25-07-12">
+				<int id="PLI10TT96BL3U">1352394486</int>
+			</object>
+		</object>
+		<bool id="jobs_auto_unlock">false</bool>
+		<bool id="no_teleportation">false</bool>
+		<bool id="disallow_animals">true</bool>
+		<bool id="no_rook">true</bool>
+		<str id="instance_me">Greyving Grays</str>
+		<int id="instance_max_members">53</int>
+		<str id="instance_location_type"></str>
+		<objref id="instances" tsid="DA93DVAIOND33I3" label="Instances"/>
+		<object id="hi_sign_evasion_record">
+			<str id="pc_tsid">PUV7281593F2747</str>
+			<str id="pc_label">StMungosRN</str>
+			<int id="secs">11</int>
+			<int id="when">1352656958</int>
+			<int id="version">10</int>
+			<str id="day_key">25-08-17</str>
+		</object>
+		<object id="special_loading_image">
+			<str id="url">streets/2012-11-08-static/1352412414-loading_greyvinggrays.jpg</str>
+			<int id="w">600</int>
+			<int id="h">400</int>
+		</object>
+		<object id="hi_sign_daily_evasion_record">
+			<str id="pc_tsid">PUV7281593F2747</str>
+			<str id="pc_label">StMungosRN</str>
+			<int id="secs">11</int>
+			<int id="when">1352656958</int>
+			<int id="version">10</int>
+			<str id="day_key">25-08-17</str>
+		</object>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IA5775JN7LD3PN5" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFOVP222MD35RA" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9FLF292OD3GPP" label="Coin"/>
+		<objref tsid="IA9FMJJ92OD3QTO" label="Coin"/>
+		<objref tsid="IA9FGHM72OD3HMU" label="Coin"/>
+		<objref tsid="IA9FMDD92OD3Q05" label="Coin"/>
+		<objref tsid="IA5774JN7LD3PNO" label="Collision-triggered Event Box"/>
+		<objref tsid="IA9FGLP72OD3UCG" label="Coin"/>
+		<objref tsid="IA9FM3992OD3EQO" label="Coin"/>
+		<objref tsid="IA9FJ6C82OD3PEK" label="Coin"/>
+		<objref tsid="IA9FIQ982OD356M" label="Coin"/>
+		<objref tsid="IA9FJQK82OD36HD" label="Coin"/>
+		<objref tsid="IA9FG8H72OD36EG" label="Coin"/>
+		<objref tsid="IA5776JN7LD3PNJ" label="Collision-triggered Event Box"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

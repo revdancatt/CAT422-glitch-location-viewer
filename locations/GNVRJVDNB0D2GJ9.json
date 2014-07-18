@@ -1,6 +1,18 @@
 {
     "tsid": "GNVRJVDNB0D2GJ9",
     "label": "Alakol Start",
+    "hub_id": "76",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-28/LNVRJVDNB0D2GJ9_loading_1317258347.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-28/LNVRJVDNB0D2GJ9_main_1317258349.jpg",
+        "w": 720,
+        "h": 198
+    },
     "gradient": {
         "top": "9DBCCC",
         "bottom": "4D4D4D"
@@ -539,7 +551,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1303509543155": {
                 "name": "T_1303509543155",
@@ -1679,7 +1693,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_1": {
                 "name": "bg_1",
@@ -2026,7 +2042,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -5396,6 +5414,33 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1317231135573",
+                        "y": -192,
+                        "w": 50,
+                        "h": 748,
+                        "x": -825
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1317231135577",
+                        "y": -1095,
+                        "w": 0,
+                        "h": 980,
+                        "x": -81,
+                        "pc_perm": 0
+                    },
+                    {
+                        "id": "wall_1317231135578",
+                        "y": -1090,
+                        "w": 0,
+                        "h": 988,
+                        "x": 354,
+                        "pc_perm": 0
+                    }
                 ]
             },
             "bg_2": {
@@ -5492,8 +5537,44 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "INV1GDJMC0D2R49",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVSMQIUB0D2OE7",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVSMBGUB0D2O7Q",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVSN2LUB0D25BJ",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVTET63C0D2A7A",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVTEG33C0D29PS",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVRQSTOB0D26LB",
+            "label": "Patch"
+        },
+        {
+            "tsid": "INV1GJKMC0D2TRD",
+            "label": "Coin"
+        }
+    ]
 }

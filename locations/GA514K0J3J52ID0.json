@@ -1,6 +1,18 @@
 {
     "tsid": "GA514K0J3J52ID0",
     "label": "Yokel Yarn 5",
+    "hub_id": "91",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-26/LA514K0J3J52ID0_loading_1317086709.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-26/LA514K0J3J52ID0_main_1317086710.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "87A8C9",
         "bottom": "FFC400"
@@ -264,7 +276,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1307999415185": {
                 "name": "sky",
@@ -367,7 +381,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -1989,6 +2005,45 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1308096660220",
+                        "y": -98,
+                        "w": 50,
+                        "h": 212,
+                        "x": -1699
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1308093585358",
+                        "y": -229,
+                        "w": 0,
+                        "h": 140,
+                        "x": -1929
+                    },
+                    {
+                        "id": "wall_1308096660229",
+                        "y": -305,
+                        "w": 0,
+                        "h": 59,
+                        "x": -1769
+                    },
+                    {
+                        "id": "wall_1308096660230",
+                        "y": -304,
+                        "w": 0,
+                        "h": 49,
+                        "x": -1646
+                    },
+                    {
+                        "id": "wall_1308096660242",
+                        "y": -284,
+                        "w": 0,
+                        "h": 46,
+                        "x": 47
+                    }
                 ]
             },
             "T_1307999415184": {
@@ -2611,7 +2666,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1307999415182": {
                 "name": "middleplus",
@@ -3455,8 +3512,64 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA51JKA5GJ52PG5",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA51JID4GJ527UO",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "INVKHF5750R2MGE",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IUVRO0N5RE53GR3",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA51JHA3GJ52SO6",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IH132MA18IV2EBU",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA51JCOVFJ525RQ",
+            "label": "Dust Trap"
+        },
+        {
+            "tsid": "IA51JE12GJ52A3V",
+            "label": "Dirt Pile"
+        },
+        {
+            "tsid": "IA51JLM5GJ52D7K",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA51JG33GJ52QFT",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA51JBDVFJ52DR7",
+            "label": "Dust Trap"
+        },
+        {
+            "tsid": "IA51JJV4GJ523UP",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA51JFV2GJ52TA6",
+            "label": "Quoin"
+        }
+    ]
 }

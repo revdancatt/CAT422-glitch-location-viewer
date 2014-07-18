@@ -1,6 +1,18 @@
 {
     "tsid": "GDO5D2B1Q2R2M9S",
     "label": "Sunela Citrine",
+    "hub_id": "119",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-24/LDO5D2B1Q2R2M9S_loading_1335320451.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-24/LDO5D2B1Q2R2M9S_main_1335320454.jpg",
+        "w": 720,
+        "h": 1152
+    },
     "gradient": {
         "top": "A7C8D9",
         "bottom": "D9B166"
@@ -77,7 +89,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1309380358068": {
                 "name": "bg2",
@@ -134,7 +148,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1332179455456": {
                 "name": "middle plus",
@@ -149,7 +165,9 @@
                 },
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -1258,7 +1276,31 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1332363654940",
+                        "w": 50,
+                        "y": -1507,
+                        "x": 411,
+                        "h": 492
+                    },
+                    {
+                        "id": "ladder_1332363654934",
+                        "w": 50,
+                        "y": -338,
+                        "x": 126,
+                        "h": 569
+                    },
+                    {
+                        "id": "ladder_1332363654939",
+                        "w": 50,
+                        "y": -952,
+                        "x": 325,
+                        "h": 513
+                    }
+                ],
+                "walls": []
             },
             "T_1332194656173": {
                 "name": "asset middleground",
@@ -3068,7 +3110,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1309376088089": {
                 "name": "bg1",
@@ -3134,8 +3178,64 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IDOBOPN0C7R2D1N",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOBDC2TB7R2VM0",
+            "label": "Dirt Pile"
+        },
+        {
+            "tsid": "IDOA7R3IB7R2CI2",
+            "label": "Shrine to Lem"
+        },
+        {
+            "tsid": "IDOUFGN0H7R26SB",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IDOBPFU0C7R20R7",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOAEOFJB7R2I8N",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IDOAUF5OB7R2C5N",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOB1AVOB7R2J99",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOB2KDPB7R2JIO",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOAU61OB7R2NTM",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOATTVNB7R2QI6",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOBP7Q0C7R2MGA",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOB1I1PB7R2F72",
+            "label": "Coin"
+        }
+    ]
 }

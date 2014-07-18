@@ -1,6 +1,18 @@
 {
     "tsid": "GA5UDRLCE9S20ER",
     "label": "Dorji Park",
+    "hub_id": "121",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-30/LA5UDRLCE9S20ER_loading_1335828256.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-30/LA5UDRLCE9S20ER_main_1335828258.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "6E9182",
         "bottom": "E8FCFC"
@@ -191,7 +203,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3192,6 +3206,18 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1333477438686",
+                        "w": 0,
+                        "y": -995,
+                        "pc_perm": 0,
+                        "x": 929,
+                        "h": 777,
+                        "item_perm": -1
+                    }
                 ]
             },
             "T_1331344663982": {
@@ -3446,7 +3472,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331341122141": {
                 "name": "foreground",
@@ -3612,7 +3640,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331344663989": {
                 "name": "bg3",
@@ -3676,7 +3706,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331341122118": {
                 "name": "middleplus",
@@ -4569,8 +4601,40 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5TF7OCJTS2TM9",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5TGQ8DJTS25FS",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5TFEUCJTS2L5G",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5TGI1DJTS2K1L",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA532D9FUQS2I9Q",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA5TIIBEJTS2FS8",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IA5LNUAIHNT23T0",
+            "label": "Fox Ranger"
+        }
+    ]
 }

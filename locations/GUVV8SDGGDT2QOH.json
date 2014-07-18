@@ -1,6 +1,18 @@
 {
     "tsid": "GUVV8SDGGDT2QOH",
     "label": "Jansin Park",
+    "hub_id": "93",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-23/LUVV8SDGGDT2QOH_loading_1335230803.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-23/LUVV8SDGGDT2QOH_main_1335230805.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "9DBCCC",
         "bottom": "4D4D4D"
@@ -643,7 +655,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331845429793": {
                 "name": "bg_1",
@@ -1677,7 +1691,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331845429794": {
                 "name": "bg_2",
@@ -2219,7 +2235,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3635,6 +3653,18 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1334013031443",
+                        "w": 0,
+                        "y": -1015,
+                        "item_perm": 1,
+                        "x": -1004,
+                        "h": 825,
+                        "pc_perm": 0
+                    }
                 ]
             },
             "T_1331845429792": {
@@ -3842,8 +3872,44 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IUVDEV9DKDT21TL",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVPUCBBJFT2Q0F",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IUVDG0GDKDT22AV",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVDED2DKDT2MLO",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVV71DEPNT2PHN",
+            "label": "Fox Ranger"
+        },
+        {
+            "tsid": "IUVD8E9BKDT2AEM",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IUVDFKEDKDT29AF",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVDF7BDKDT2FIK",
+            "label": "Fox Stop Marker"
+        }
+    ]
 }

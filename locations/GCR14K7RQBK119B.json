@@ -1,6 +1,18 @@
 {
     "tsid": "GCR14K7RQBK119B",
     "label": "Footlands Heath",
+    "hub_id": "58",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LCR14K7RQBK119B_loading_1343865864.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LCR14K7RQBK119B_main_1343865865.jpg",
+        "w": 720,
+        "h": 360
+    },
     "gradient": {
         "bottom": "E8FEFD",
         "top": "5EE0FF"
@@ -62,7 +74,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleplus": {
                 "name": "middleplus",
@@ -92,7 +106,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_1": {
                 "name": "bg_1",
@@ -147,7 +163,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_2": {
                 "name": "bg_2",
@@ -206,7 +224,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -851,6 +871,24 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1293151484079",
+                        "y": -1014,
+                        "w": 0,
+                        "x": 742,
+                        "h": 250,
+                        "pc_perm": -1
+                    },
+                    {
+                        "id": "wall_1290625130933",
+                        "y": -162,
+                        "w": 0,
+                        "x": 503,
+                        "h": 100
+                    }
                 ]
             },
             "sky": {
@@ -878,8 +916,24 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IDOPM10FBLQ2IER",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA511MJPID62IM4",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IDODDQ8MEMF3RQM",
+            "label": "Fruit Tree"
+        }
+    ]
 }

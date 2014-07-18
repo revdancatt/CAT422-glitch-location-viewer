@@ -1,6 +1,18 @@
 {
     "tsid": "GA5H2M7G7UB24FO",
     "label": "Mica Nephe",
+    "hub_id": "102",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-10-27/LA5H2M7G7UB24FO_loading_1351380241.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-10-27/LA5H2M7G7UB24FO_main_1351380243.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "8ABDFF",
         "bottom": "FFFFFF"
@@ -43,7 +55,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1315334860411": {
                 "name": "bg_1",
@@ -219,7 +233,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1315334860410": {
                 "name": "middleplus",
@@ -232,7 +248,9 @@
                 },
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3726,7 +3744,24 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1316159432683",
+                        "x": -540,
+                        "h": 339,
+                        "y": -211,
+                        "w": 50
+                    },
+                    {
+                        "id": "ladder_1316489316272",
+                        "x": 2365,
+                        "h": 175,
+                        "y": -212,
+                        "w": 50
+                    }
+                ],
+                "walls": []
             },
             "T_1315334860412": {
                 "name": "sky",
@@ -3870,8 +3905,52 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IIF6Q70BNGQ2AV7",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IIF27S4CU8C2RL2",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IIF23RFJN8C2629",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IIF246GQN8C2T37",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IIF24B3SN8C28IH",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IIFS4D904TF3FOR",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IIF23Q9EN8C2RPG",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IIF27QH8U8C2VJN",
+            "label": "Shrine to Mab"
+        },
+        {
+            "tsid": "IIF27R2AU8C2OAH",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IIFE1ITM3QF3V0E",
+            "label": "Fruit Tree"
+        }
+    ]
 }

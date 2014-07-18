@@ -1,6 +1,18 @@
 {
     "tsid": "GA5CUF0978T2L64",
     "label": "Enjan Park",
+    "hub_id": "123",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-20/LA5CUF0978T2L64_loading_1334972607.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-20/LA5CUF0978T2L64_main_1334972609.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "99CC",
         "bottom": "FFEA96"
@@ -90,7 +102,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -4191,6 +4205,18 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1334598017041",
+                        "w": 0,
+                        "y": -1000,
+                        "item_perm": -1,
+                        "pc_perm": 0,
+                        "x": 941,
+                        "h": 772
+                    }
                 ]
             },
             "T_1332176701528": {
@@ -4360,7 +4386,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1332176701172": {
                 "name": "middleplus",
@@ -5375,7 +5403,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1332176701173": {
                 "name": "bg_1",
@@ -5627,8 +5657,44 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5OEB5FC8T2RQT",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA5OBSIEC8T2QHB",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5OC5MEC8T292E",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5OBACEC8T2T2S",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5OBOGEC8T296J",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5H816098T2LK9",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IA5OG9T4JNT2ENU",
+            "label": "Fox Ranger"
+        },
+        {
+            "tsid": "IA5NS0I8C8T26NL",
+            "label": "Fox Stop Marker"
+        }
+    ]
 }

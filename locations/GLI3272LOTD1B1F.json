@@ -1,6 +1,18 @@
 {
     "tsid": "GLI3272LOTD1B1F",
     "label": "Groddle Forest Junction",
+    "hub_id": "56",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LLI3272LOTD1B1F_loading_1343863309.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LLI3272LOTD1B1F_main_1343863311.jpg",
+        "w": 720,
+        "h": 144
+    },
     "gradient": {
         "top": "D1F4FF",
         "bottom": "99FFFD"
@@ -550,7 +562,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -4876,7 +4890,24 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1285375120035",
+                        "y": -442,
+                        "w": 50,
+                        "h": 600,
+                        "x": -580
+                    },
+                    {
+                        "id": "ladder_1285375468965",
+                        "y": -163,
+                        "w": 50,
+                        "h": 670,
+                        "x": -1206
+                    }
+                ],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -5108,7 +5139,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "foreground": {
                 "name": "foreground",
@@ -5127,7 +5160,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleplus": {
                 "name": "middleplus",
@@ -5482,8 +5517,252 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHF8JHJGLCD2HL6",
+            "label": "Shrine to Friendly"
+        },
+        {
+            "tsid": "IA5NKV91E7G34JG",
+            "label": "Spice Plant"
+        },
+        {
+            "tsid": "IIF1EVB2GMF1PTV",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5K5I94F8G3KJH",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIF1F1F2GMF1SS5",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF1F3T3GMF1TJU",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA573J8IA7G3TL5",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "IIFF4R165AF17SF",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA555N7T48G3GF9",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IUVG57L71HQ28MU",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IIFBSQLITQG1NGP",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5MO2SCF8G3EO6",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIF1F0D2GMF14GS",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5C96FJH7G3V9L",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "IIFBSSEJTQG1CIB",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5K5F94F8G3JRJ",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA51S3L718G3PMK",
+            "label": "Gas Plant"
+        },
+        {
+            "tsid": "IA5JN21Q67G3882",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "IUVLF7NNIO9320H",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5K5G94F8G3K1S",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIF1F504GMF18J3",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IUVLF8NNIO9320Q",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5K5H94F8G3KAK",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFF4I7V4AF120B",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA555O7T48G3GHI",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFF4S265AF156V",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA53B9OC18G3C83",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IIF70DLIA0E102N",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIFBSVPKTQG1IBB",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIFF4Q065AF1MMJ",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF70EOIA0E17S2",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA54OCDI18G39IN",
+            "label": "Spice Plant"
+        },
+        {
+            "tsid": "IIF1EUA2GMF1D6E",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIFBSRBJTQG1TSO",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF1F614GMF1HOR",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF1F864GMF143F",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA555Q7T48G3GND",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIF70CIIA0E1MAR",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIFF4PM05AF1BHQ",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIFF4UG75AF1IGO",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIFBSU3KTQG14KP",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIFF50I75AF1CRF",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF10HAPID62SIV",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IIF1F2H2GMF13CQ",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF1F4V3GMF1488",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA555P7T48G3GL8",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFF4LEV4AF163F",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIFF4VH75AF1GNO",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IUVLF5NNIO931VH",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IUVLF6NNIO931VH",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5VBVD118G3K36",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "IIFF4OL05AF19LD",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIFF4NK05AF1ADA",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA555M7T48G3GD4",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFBST0KTQG1346",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIFF4MI05AF1JPP",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIFBT0SKTQG12PT",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF1F744GMF1VK1",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IUVLF4NNIO931VT",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIF1ET92GMF17LR",
+            "label": "Quoin"
+        }
+    ]
 }

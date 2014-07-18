@@ -1,6 +1,18 @@
 {
     "tsid": "GA5OO9PJC8T26KE",
     "label": "Bossam Preserve",
+    "hub_id": "123",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-20/LA5OO9PJC8T26KE_loading_1334960420.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-20/LA5OO9PJC8T26KE_main_1334960422.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "99CC",
         "bottom": "FFEA96"
@@ -90,7 +102,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1332176701172": {
                 "name": "middleplus",
@@ -1051,7 +1065,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -4505,6 +4521,18 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1334619144133",
+                        "w": 0,
+                        "y": -1001,
+                        "item_perm": 1,
+                        "x": -1153,
+                        "h": 787,
+                        "pc_perm": 0
+                    }
                 ]
             },
             "T_1332176701173": {
@@ -4782,7 +4810,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1332176701528": {
                 "name": "bg_2",
@@ -4937,8 +4967,40 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA543PK8H8T2G4B",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5OEP93JNT2QB4",
+            "label": "Fox Ranger"
+        },
+        {
+            "tsid": "IA5T01OKE8T2OM5",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IA5442Q8H8T2ALE",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA545EJ9H8T24VT",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA544FU8H8T2I7Q",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA544J19H8T2TDC",
+            "label": "Fox Stop Marker"
+        }
+    ]
 }

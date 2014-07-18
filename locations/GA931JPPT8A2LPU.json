@@ -1,6 +1,18 @@
 {
     "tsid": "GA931JPPT8A2LPU",
     "label": "Ladag Mach",
+    "hub_id": "99",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-11-09/LA931JPPT8A2LPU_loading_1320892373.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-11-09/LA931JPPT8A2LPU_main_1320892375.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "E6DA81",
         "bottom": "4D2222"
@@ -150,7 +162,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1314033507667": {
                 "name": "bg_2",
@@ -314,7 +328,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3384,6 +3400,37 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1314267845623",
+                        "y": -624,
+                        "w": 0,
+                        "h": 44,
+                        "x": -2187
+                    },
+                    {
+                        "id": "wall_1314267845574",
+                        "y": -999,
+                        "w": 0,
+                        "h": 687,
+                        "x": 2271
+                    },
+                    {
+                        "id": "wall_1314267845573",
+                        "y": -1000,
+                        "w": 0,
+                        "h": 696,
+                        "x": 1459
+                    },
+                    {
+                        "id": "wall_1314267845619",
+                        "y": -620,
+                        "w": 0,
+                        "h": 48,
+                        "x": -2087
+                    }
                 ]
             },
             "T_1313790503835": {
@@ -3579,7 +3626,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1314344280700": {
                 "name": "foreground",
@@ -3685,7 +3734,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1313790503833": {
                 "name": "middleplus",
@@ -3985,8 +4036,160 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5E0FMVH7G3HOA",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IA9149CODNA2PPO",
+            "label": "Peat Bog"
+        },
+        {
+            "tsid": "IUVQL9829JQ2901",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA5P89JR38G3DM2",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IUVGMP0BOHF2UB4",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IUVCP5EUNHF2RK7",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IA91473IDNA20HP",
+            "label": "Shrine to Tii"
+        },
+        {
+            "tsid": "IUVGMN0BOHF2S0E",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IUVK8C7B9KD3HKK",
+            "label": "Gas Plant"
+        },
+        {
+            "tsid": "IUVBVGBRNHF20NU",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IA914NM6ENA2GB5",
+            "label": "Peat Bog"
+        },
+        {
+            "tsid": "IA914I54ENA2IAI",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IUVJ5DU6OSQ244D",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IA5QVLIV38G3A2I",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IA5LNP8ND7G32RI",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IUVGMFVAOHF2UHO",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IA9148LIDNA2CFG",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA5K92LA38G3CTR",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IUVGMO0BOHF2U99",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IA5A8AS4B7G3JJM",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IUVGN21BOHF2RD6",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IA914LF5ENA2NIC",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5O5QMN38G3H6A",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IA914O6BENA2ADC",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IA914GVVDNA21DJ",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA914A0RDNA24OU",
+            "label": "Mortar Barnacle"
+        },
+        {
+            "tsid": "IA914D3UDNA2EL2",
+            "label": "Mortar Barnacle"
+        },
+        {
+            "tsid": "IA5HUBN238G3E9N",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IA914J74ENA2VQA",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5GKLOU28G3FND",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IA914FOVDNA2IK3",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA914M36ENA29TS",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA914CHTDNA2ON0",
+            "label": "Mortar Barnacle"
+        },
+        {
+            "tsid": "IA914KS4ENA236E",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5C810KB7G3RE1",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IA914EBUDNA2L2H",
+            "label": "Mortar Barnacle"
+        },
+        {
+            "tsid": "IA5JB2M638G3CQM",
+            "label": "Firefly"
+        }
+    ]
 }

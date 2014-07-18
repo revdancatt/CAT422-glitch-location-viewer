@@ -1,6 +1,18 @@
 {
     "tsid": "GA9MU59GB792T80",
     "label": "Besara Community Machine Room",
+    "hub_id": "98",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-16/LA9MU59GB792T80_loading_1337155080.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-16/LA9MU59GB792T80_main_1337155083.jpg",
+        "w": 720,
+        "h": 360
+    },
     "gradient": {
         "bottom": "000000",
         "top": "000000"
@@ -21,7 +33,9 @@
                 "filters": {},
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -108,8 +122,51 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1313198224346",
+                        "y": -574,
+                        "w": 0,
+                        "x": -635,
+                        "h": 434
+                    },
+                    {
+                        "id": "wall_1313198224344",
+                        "y": -577,
+                        "w": 0,
+                        "x": 640,
+                        "h": 414
+                    }
                 ]
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5IGK6538G37ST",
+            "label": "Butler Cubimal"
+        },
+        {
+            "tsid": "BA983SJ77E92HH0",
+            "label": "Notice Board"
+        },
+        {
+            "tsid": "IA9LA103LQA2J8U",
+            "label": "Blockmaker"
+        },
+        {
+            "tsid": "IHV10AAIAHV2S0H",
+            "label": "Metal Machine"
+        },
+        {
+            "tsid": "IHV17TANAHV25N4",
+            "label": "Fuelmaker"
+        },
+        {
+            "tsid": "IHV13PMKAHV2IEG",
+            "label": "Woodworker"
+        }
+    ]
 }

@@ -1,0 +1,1307 @@
+<game_object tsid="LNVV9IM8PL4301V" ts="1344879748599" label="A Summer&apos;s Day" class_tsid="town" hubid="61" moteid="10" letime="34lpi401" rbtime="34lp8m01" upd_gs="gs-float1" load_time="2012-08-13 10:31:08.351">
+	<object id="dynamic">
+		<str id="instance_of">LNVIH6NU3M13MJJ</str>
+		<object id="special_loading_image">
+			<str id="url">streets/2012-06-11/loading_a_summers_day.png</str>
+			<int id="width">600</int>
+			<int id="height">400</int>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-06-12/LNVIH6NU3M13MJJ_loading_1339522404.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-06-12/LNVIH6NU3M13MJJ_main_1339522405.jpg</str>
+			<int id="w">720</int>
+			<int id="h">144</int>
+		</object>
+		<object id="events">
+			<object id="flutter_wings">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id">firebog_sign_blank_1335378517202</str>
+						<str id="flag">owl1_trigged</str>
+					</object>
+					<object id="5">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">flitterbug_limbo1_1335572507954</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">firebog_sign_blank_1335378517218</str>
+						<int id="fade">4000</int>
+					</object>
+					<object id="6">
+						<str id="type">event</str>
+						<int id="delay">1500</int>
+						<str id="event">wall1_delay</str>
+					</object>
+					<object id="61">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_sign_blank_1335378517202</str>
+					</object>
+					<object id="611">
+						<str id="type">flag_set</str>
+						<str id="flag">owl1_trigged</str>
+					</object>
+					<object id="6111">
+						<str id="type">play_sound</str>
+						<str id="name">FLITTERBUG_COLLISION</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="flutter_wings2">
+				<object id="actions">
+				</object>
+			</object>
+			<object id="player_enter">
+				<object id="actions">
+					<object id="4">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_sign_blank_1335378517202</str>
+					</object>
+					<object id="5">
+						<str id="type">deco_show</str>
+						<str id="deco_id">flitterbug_limbo1_1335572507954</str>
+					</object>
+					<object id="7">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1335378517236</str>
+						<int id="pc_perm">1</int>
+					</object>
+					<object id="8">
+						<str id="type">deco_show</str>
+						<str id="deco_id">background_wallpaper_test_1335378517235</str>
+					</object>
+					<object id="9">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">boulder_1_1335378517244</str>
+					</object>
+					<object id="6">
+						<str id="type">deco_show</str>
+						<str id="deco_id">background_wallpaper_test_1335389378234</str>
+					</object>
+					<object id="10">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_sign_blank_1335378517218</str>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_sign_blank_1335391499967</str>
+					</object>
+					<object id="12">
+						<str id="type">event</str>
+						<str id="event">owl2_on</str>
+					</object>
+					<object id="14">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">wall_shelf1_1335464372628</str>
+					</object>
+					<object id="15">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_sign_blank_1335401803850</str>
+					</object>
+					<object id="16">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">wall_shelf1_1335464372626</str>
+					</object>
+					<object id="18">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335401803840</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="19">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335401803841</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="20">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335401803843</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="17">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">wall_shelf1_1335464372627</str>
+					</object>
+					<object id="20111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">sign1_trigged</str>
+					</object>
+					<object id="201111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">owl1_trigged</str>
+					</object>
+					<object id="2011111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">owl2_trigged</str>
+					</object>
+					<object id="20111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">ball1_trigged</str>
+					</object>
+					<object id="201111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">ball2_trigged</str>
+					</object>
+					<object id="2011111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">ball3_trigged</str>
+					</object>
+					<object id="2011111111111111">
+						<str id="type">event</str>
+						<str id="event">water_plat_hide</str>
+					</object>
+					<object id="20111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_sign_blank_1335478834099</str>
+					</object>
+					<object id="201111111111111111">
+						<str id="type">event</str>
+						<str id="event">owl3_on</str>
+					</object>
+					<object id="2011111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">owl3_trigged</str>
+					</object>
+					<object id="20111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">hide_dots</str>
+					</object>
+					<object id="201111111111111111111111111111">
+						<str id="type">event</str>
+						<str id="deco_id">water_ripple_double_1_1335481059113</str>
+						<str id="event">3_dots_show</str>
+					</object>
+					<object id="2011111111111111111111111111111">
+						<str id="type">event</str>
+						<str id="event">owl4_on</str>
+					</object>
+					<object id="20111111111111111111111111111111">
+						<str id="type">event</str>
+						<str id="event">show_balls</str>
+					</object>
+					<object id="201111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">boulder_1_1335566503937</str>
+					</object>
+					<object id="2011111111111111111111111111111111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335566503938</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="20111111111111111111111111111111111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335566503939</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="201111111111111111111111111111111111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335566503947</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="2011111111111111111111111111111111111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335566503949</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="20111111111111111111111111111111111111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335566503951</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="201111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">wall_shelf1_1335566503946</str>
+					</object>
+					<object id="2011111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">wall_shelf1_1335566503948</str>
+					</object>
+					<object id="20111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">wall_shelf1_1335566503950</str>
+					</object>
+					<object id="201111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">pulseDot_1335563642982</str>
+					</object>
+					<object id="2011111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">pulseDot_1335563642984</str>
+					</object>
+					<object id="20111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">pulseDot_1335563642985</str>
+					</object>
+					<object id="201111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_sign_blank_1337208228297</str>
+					</object>
+					<object id="2011111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">dontswim</str>
+					</object>
+					<object id="20111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">dot1Flag</str>
+					</object>
+					<object id="201111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">dot2Flag</str>
+					</object>
+					<object id="2011111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">dot3Flag</str>
+					</object>
+					<object id="20111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">end</str>
+					</object>
+				</object>
+			</object>
+			<object id="wall1_delay">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="event">flutter_wings2</str>
+						<int id="delay">1500</int>
+						<str id="deco_id">background_wallpaper_test_1335378517235</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="2">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1335378517236</str>
+						<int id="pc_perm">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="button_down">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="plat_id"></str>
+						<int id="pc_perm">0</int>
+						<str id="flag">b1down</str>
+					</object>
+					<object id="2">
+						<str id="type">plat</str>
+						<str id="deco_id"></str>
+						<str id="plat_id">plat_1335389378242</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="3">
+						<str id="type">deco_hide</str>
+						<str id="plat_id"></str>
+						<int id="pc_perm">-1</int>
+						<str id="deco_id">backhill1_blue_1335389378232</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="4">
+						<str id="type">plat</str>
+						<str id="deco_id"></str>
+						<str id="plat_id">plat_1335378517246</str>
+						<int id="pc_perm">-1</int>
+					</object>
+					<object id="5">
+						<str id="type">deco_show</str>
+						<str id="event"></str>
+						<str id="deco_id">boulder_1_1335378517244</str>
+						<int id="fade">3000</int>
+					</object>
+					<object id="51">
+						<str id="type">event</str>
+						<str id="name"></str>
+						<bool id="all_players">true</bool>
+						<str id="event">button_up</str>
+						<int id="delay">5000</int>
+					</object>
+					<object id="511">
+						<str id="type">play_sound</str>
+						<str id="name">HIT_TRIGGER_SUMMER</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="5111">
+						<str id="type">flag_set</str>
+						<str id="flag">b1down</str>
+					</object>
+				</object>
+			</object>
+			<object id="button_up">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335389378242</str>
+						<int id="pc_perm">-1</int>
+					</object>
+					<object id="2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">backhill1_blue_1335389378232</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">boulder_1_1335378517244</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="4">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335378517246</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="41">
+						<str id="type">play_sound</str>
+						<str id="name">RESET_TRIGGER_SUMMER</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="411">
+						<str id="type">flag_clear</str>
+						<str id="flag">b1down</str>
+					</object>
+				</object>
+			</object>
+			<object id="owl2_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id">owl2_trigged</str>
+						<str id="flag">owl2_trigged</str>
+					</object>
+					<object id="5">
+						<str id="type">event</str>
+						<str id="event">wall2_delay</str>
+					</object>
+					<object id="6">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_sign_blank_1335378517218</str>
+					</object>
+					<object id="61">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">flitterbug_limbo1_1335572507955</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="611">
+						<str id="type">flag_set</str>
+						<str id="flag">owl2_trigged</str>
+					</object>
+					<object id="6111">
+						<str id="type">play_sound</str>
+						<str id="name">FLITTERBUG_COLLISION</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="wall2_delay">
+				<object id="actions">
+					<object id="1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1335389378235</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">background_wallpaper_test_1335389378234</str>
+						<int id="fade">700</int>
+					</object>
+					<object id="3">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id">firebog_sign_blank_1335391499967</str>
+						<int id="fade">4000</int>
+						<str id="flag">dontswim</str>
+					</object>
+					<object id="31">
+						<str id="type">deco_show</str>
+						<str id="deco_id">firebog_sign_blank_1335391499967</str>
+						<int id="fade">4000</int>
+					</object>
+				</object>
+			</object>
+			<object id="owl2_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">flitterbug_limbo1_1335572507955</str>
+					</object>
+					<object id="4">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1335389378235</str>
+						<int id="pc_perm">1</int>
+					</object>
+					<object id="5">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_sign_blank_1335378517218</str>
+					</object>
+				</object>
+			</object>
+			<object id="ball_1">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id">water_ripple_double_1_1335401803831</str>
+						<int id="fade">300</int>
+						<str id="flag">ball1_trigged</str>
+					</object>
+					<object id="2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">pulseDot_1335563642982</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_sign_blank_1335391499967</str>
+					</object>
+					<object id="4">
+						<str id="type">deco_show</str>
+						<str id="deco_id">wall_shelf1_1335464372628</str>
+						<int id="fade">2000</int>
+					</object>
+					<object id="6">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335401803840</str>
+						<int id="pc_perm">-1</int>
+					</object>
+					<object id="611">
+						<str id="type">flag_set</str>
+						<str id="flag">ball1_trigged</str>
+					</object>
+					<object id="6111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">pulseDot_1335563642984</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="61111">
+						<str id="type">play_sound</str>
+						<str id="name">GLOWING_ORB_COLLIDE</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="ball_3">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id">wall_shelf1_1335464372626</str>
+						<int id="fade">2000</int>
+						<str id="flag">ball3_trigged</str>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">pulseDot_1335563642983</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="1111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335401803843</str>
+						<int id="pc_perm">-1</int>
+					</object>
+					<object id="11111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">wall_shelf1_1335464372626</str>
+						<int id="fade">2000</int>
+					</object>
+					<object id="111111">
+						<str id="type">flag_set</str>
+						<str id="flag">ball3_trigged</str>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">pulseDot_1335563642982</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="11111111">
+						<str id="type">play_sound</str>
+						<str id="name">GLOWING_ORB_COLLIDE</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="ball_2">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id">wall_shelf1_1335464372627</str>
+						<int id="fade">2000</int>
+						<str id="flag">ball2_trigged</str>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">pulseDot_1335563642984</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="1111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335401803841</str>
+						<int id="pc_perm">-1</int>
+					</object>
+					<object id="11111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">wall_shelf1_1335464372627</str>
+						<int id="fade">2000</int>
+					</object>
+					<object id="111111">
+						<str id="type">flag_set</str>
+						<str id="flag">ball2_trigged</str>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">pulseDot_1335563642985</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="11111111">
+						<str id="type">play_sound</str>
+						<str id="name">GLOWING_ORB_COLLIDE</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="firts_ign_show">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id">firebog_sign_blank_1335378517202</str>
+						<int id="fade">1500</int>
+						<str id="flag">sign1_trigged</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">sign1_trigged</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">firebog_sign_blank_1335378517202</str>
+						<int id="fade">1500</int>
+					</object>
+				</object>
+			</object>
+			<object id="ball_4">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335401803843</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335401803841</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335401803840</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">wall_shelf1_1335464372626</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="11111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">wall_shelf1_1335464372627</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">wall_shelf1_1335464372628</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_sign_blank_1335401803850</str>
+					</object>
+					<object id="111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">pulseDot_1335563642985</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="1111111111">
+						<str id="type">event</str>
+						<str id="event">water_plat_1</str>
+					</object>
+					<object id="11111111111">
+						<str id="type">play_sound</str>
+						<str id="name">GLOWING_ORB_COLLIDE</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="water_plat_1">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">boulder_1_1335478834094</str>
+						<int id="fade">4000</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">boulder_1_1335478834095</str>
+						<int id="fade">4000</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">boulder_1_1335478834096</str>
+						<int id="fade">4000</int>
+					</object>
+					<object id="1111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335478834097</str>
+						<int id="pc_perm">-1</int>
+					</object>
+					<object id="11111">
+						<str id="type">play_sound</str>
+						<str id="name">HIT_TRIGGER_SUMMER</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="water_plat_hide">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">boulder_1_1335478834094</str>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">boulder_1_1335478834095</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">boulder_1_1335478834096</str>
+					</object>
+					<object id="1111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335478834097</str>
+						<int id="pc_perm">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="owl3_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id">owl_1_1335463094478</str>
+						<str id="flag">owl3_trigged</str>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">flitterbug_limbo1_1335572507956</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="11111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">firebog_sign_blank_1335478834099</str>
+						<int id="fade">4000</int>
+					</object>
+					<object id="111111">
+						<str id="type">flag_set</str>
+						<str id="flag">owl3_trigged</str>
+					</object>
+					<object id="1111111">
+						<str id="type">play_sound</str>
+						<str id="name">FLITTERBUG_COLLISION</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="owl3_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">flitterbug_limbo1_1335572507956</str>
+					</object>
+				</object>
+			</object>
+			<object id="ghost1_on">
+				<object id="actions">
+				</object>
+			</object>
+			<object id="ghost2_on">
+				<object id="actions">
+				</object>
+			</object>
+			<object id="eyes1_close">
+				<object id="actions">
+				</object>
+			</object>
+			<object id="eyes2_close">
+				<object id="actions">
+				</object>
+			</object>
+			<object id="eyes3_close">
+				<object id="actions">
+				</object>
+			</object>
+			<object id="eyes1_open">
+				<object id="actions">
+				</object>
+			</object>
+			<object id="eyes2_open">
+				<object id="actions">
+				</object>
+			</object>
+			<object id="eyes3_open">
+				<object id="actions">
+				</object>
+			</object>
+			<object id="all_eyes_on">
+				<object id="actions">
+				</object>
+			</object>
+			<object id="check_solved">
+				<object id="actions">
+				</object>
+			</object>
+			<object id="remove_ghosts">
+				<object id="actions">
+				</object>
+			</object>
+			<object id="3_dots_show">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">pulseDot_1335556678602</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">pulseDot_1335563642980</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">pulseDot_1335563642981</str>
+						<int id="fade">1000</int>
+					</object>
+				</object>
+			</object>
+			<object id="3_dots_hide">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">pulseDot_1335556678602</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">pulseDot_1335563642980</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">pulseDot_1335563642981</str>
+						<int id="fade">1000</int>
+					</object>
+				</object>
+			</object>
+			<object id="owl4_off">
+				<object id="actions">
+					<object id="11">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id">flitterbug_limbo1_1335572507957</str>
+						<int id="fade">300</int>
+						<str id="flag">end</str>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">flitterbug_limbo1_1335572507957</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="11111">
+						<str id="type">deco_show</str>
+						<str id="plat_id">plat_1335491308267</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+						<str id="deco_id">firebog_sign_blank_1335491308265</str>
+						<int id="fade">4000</int>
+					</object>
+					<object id="111111">
+						<str id="type">plat</str>
+						<str id="deco_id">firebog_ladder_1335492996982</str>
+						<int id="fade">10000</int>
+						<str id="plat_id">plat_1335491308267</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">firebog_ladder_1335492996982</str>
+						<int id="fade">10000</int>
+					</object>
+					<object id="11111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">firebog_ladder_1335492996983</str>
+						<int id="fade">10000</int>
+					</object>
+					<object id="111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">vine_rope_1335492996985</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="1111111111">
+						<str id="type">deco_show</str>
+						<str id="name">FLITTERBUG_COLLISION</str>
+						<bool id="all_players">true</bool>
+						<str id="deco_id">firebog_arrow_2_1335492996986</str>
+						<int id="fade">6000</int>
+					</object>
+					<object id="11111111111">
+						<str id="type">play_sound</str>
+						<str id="name">FLITTERBUG_COLLISION</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">end</str>
+					</object>
+				</object>
+			</object>
+			<object id="owl4_on">
+				<object id="actions">
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">flitterbug_limbo1_1335572507957</str>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_sign_blank_1335491308265</str>
+					</object>
+					<object id="11111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_ladder_1335492996982</str>
+					</object>
+					<object id="111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_ladder_1335492996983</str>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">vine_rope_1335492996985</str>
+					</object>
+					<object id="11111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_arrow_2_1335492996986</str>
+					</object>
+				</object>
+			</object>
+			<object id="swim_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id">firebog_sign_blank_1335401803850</str>
+						<int id="fade">3000</int>
+						<str id="flag">dontswim</str>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">firebog_sign_blank_1335401803850</str>
+						<int id="fade">3000</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_sign_blank_1335391499967</str>
+					</object>
+				</object>
+			</object>
+			<object id="show_balls">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">pulseDot_1335563642982</str>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">pulseDot_1335563642983</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">pulseDot_1335563642984</str>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">pulseDot_1335563642985</str>
+					</object>
+				</object>
+			</object>
+			<object id="dot_1">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id">pulseDot_1335556678602</str>
+						<int id="fade">300</int>
+						<str id="flag">dot1Flag</str>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="plat_id">plat_1335566503947</str>
+						<int id="pc_perm">-1</int>
+						<str id="deco_id">pulseDot_1335556678602</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="deco_id">wall_shelf1_1335566503946</str>
+						<int id="fade">200</int>
+						<str id="plat_id">plat_1335566503947</str>
+						<int id="pc_perm">-1</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="name">GLOWING_ORB_COLLIDE</str>
+						<bool id="all_players">true</bool>
+						<str id="deco_id">wall_shelf1_1335566503946</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="11111">
+						<str id="type">play_sound</str>
+						<str id="name">GLOWING_ORB_COLLIDE</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="111111">
+						<str id="type">flag_set</str>
+						<str id="flag">dot1Flag</str>
+					</object>
+				</object>
+			</object>
+			<object id="button2_down">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="plat_id"></str>
+						<int id="pc_perm">0</int>
+						<str id="flag">b2down</str>
+					</object>
+					<object id="11">
+						<str id="type">plat</str>
+						<str id="deco_id"></str>
+						<str id="plat_id">plat_1335566503953</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="plat_id"></str>
+						<int id="pc_perm">-1</int>
+						<str id="deco_id">backhill1_blue_1335566503941</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="1111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335566503938</str>
+						<int id="pc_perm">-1</int>
+					</object>
+					<object id="11111">
+						<str id="type">plat</str>
+						<str id="deco_id"></str>
+						<str id="plat_id">plat_1335566503939</str>
+						<int id="pc_perm">-1</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_show</str>
+						<str id="event"></str>
+						<str id="deco_id">boulder_1_1335566503937</str>
+						<int id="fade">3000</int>
+					</object>
+					<object id="1111111">
+						<str id="type">event</str>
+						<str id="name"></str>
+						<bool id="all_players">true</bool>
+						<str id="event">button2_up</str>
+						<int id="delay">5000</int>
+					</object>
+					<object id="11111111">
+						<str id="type">play_sound</str>
+						<str id="name">HIT_TRIGGER_SUMMER</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">b2down</str>
+					</object>
+				</object>
+			</object>
+			<object id="button2_up">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335566503953</str>
+						<int id="pc_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">backhill1_blue_1335566503941</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335566503938</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1335566503939</str>
+						<int id="pc_perm">0</int>
+					</object>
+					<object id="11111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">boulder_1_1335566503937</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="111111">
+						<str id="type">play_sound</str>
+						<str id="name">RESET_TRIGGER_SUMMER</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="1111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">b2down</str>
+					</object>
+				</object>
+			</object>
+			<object id="dot_2">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="plat_id">plat_1335566503949</str>
+						<int id="pc_perm">-1</int>
+						<str id="flag">dot2Flag</str>
+					</object>
+					<object id="11">
+						<str id="type">plat</str>
+						<str id="deco_id">wall_shelf1_1335566503948</str>
+						<int id="fade">200</int>
+						<str id="plat_id">plat_1335566503949</str>
+						<int id="pc_perm">-1</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">wall_shelf1_1335566503948</str>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="name">GLOWING_ORB_COLLIDE</str>
+						<bool id="all_players">true</bool>
+						<str id="deco_id">pulseDot_1335563642980</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="11111">
+						<str id="type">play_sound</str>
+						<str id="name">GLOWING_ORB_COLLIDE</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="111111">
+						<str id="type">flag_set</str>
+						<str id="flag">dot2Flag</str>
+					</object>
+				</object>
+			</object>
+			<object id="dot_3">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id">pulseDot_1335563642981</str>
+						<int id="fade">300</int>
+						<str id="flag">dot3Flag</str>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="plat_id">plat_1335566503951</str>
+						<int id="pc_perm">-1</int>
+						<str id="deco_id">pulseDot_1335563642981</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="deco_id">wall_shelf1_1335566503950</str>
+						<int id="fade">200</int>
+						<str id="plat_id">plat_1335566503951</str>
+						<int id="pc_perm">-1</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="name">GLOWING_ORB_COLLIDE</str>
+						<bool id="all_players">true</bool>
+						<str id="deco_id">wall_shelf1_1335566503950</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="11111">
+						<str id="type">play_sound</str>
+						<str id="name">GLOWING_ORB_COLLIDE</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="111111">
+						<str id="type">flag_set</str>
+						<str id="flag">dot3Flag</str>
+					</object>
+				</object>
+			</object>
+			<object id="cant_swim_on">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id">firebog_sign_blank_1337208228297</str>
+						<int id="fade">2000</int>
+						<str id="flag">dontswim</str>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">firebog_sign_blank_1337208228297</str>
+						<int id="fade">2000</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="flag">dontswim</str>
+						<str id="deco_id">firebog_sign_blank_1335401803850</str>
+					</object>
+					<object id="11111">
+						<str id="type">flag_set</str>
+						<str id="event">cant_swim_off</str>
+						<int id="delay">3200</int>
+						<str id="flag">dontswim</str>
+					</object>
+					<object id="111111">
+						<str id="type">event</str>
+						<str id="event">cant_swim_off</str>
+						<int id="delay">3200</int>
+					</object>
+				</object>
+			</object>
+			<object id="set_phys">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics</str>
+						<str id="param">vx_max</str>
+						<str id="value">0.1</str>
+					</object>
+					<object id="11">
+						<str id="type">physics</str>
+						<str id="param">vy_max</str>
+						<str id="value">0.1</str>
+					</object>
+					<object id="111">
+						<str id="type">physics</str>
+						<str id="param">vy_jump</str>
+						<str id="value">0.2</str>
+					</object>
+					<object id="1111">
+						<str id="type">physics</str>
+						<str id="param">y_cam_offset</str>
+						<str id="value">0.5</str>
+					</object>
+					<object id="11111">
+						<str id="type">physics</str>
+						<str id="param">jetpack</str>
+						<str id="value">1</str>
+					</object>
+					<object id="111111">
+						<str id="type">play_sound</str>
+						<str id="name">WATER_SPLASH</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="reset_phys">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics_reset</str>
+						<str id="param">vx_max</str>
+					</object>
+					<object id="11">
+						<str id="type">physics_reset</str>
+						<str id="param">vy_max</str>
+					</object>
+					<object id="111">
+						<str id="type">physics_reset</str>
+						<str id="param">vy_jump</str>
+					</object>
+					<object id="1111">
+						<str id="type">physics_reset</str>
+						<str id="param">y_cam_offset</str>
+					</object>
+					<object id="11111">
+						<str id="type">physics_reset</str>
+						<str id="param">jetpack</str>
+					</object>
+				</object>
+			</object>
+			<object id="cant_swim_off">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">firebog_sign_blank_1337208228297</str>
+						<int id="fade">3000</int>
+					</object>
+				</object>
+			</object>
+		</object>
+		<bool id="is_instance">true</bool>
+		<str id="instance_id">blue_and_white</str>
+		<objref id="instance" tsid="RIFQKOL8PL43V7D"/>
+		<object id="hidden_decos">
+			<int id="firebog_sign_blank_1335478834099">1342673242</int>
+			<int id="firebog_sign_blank_1335491308265">1342673242</int>
+			<int id="firebog_ladder_1335492996982">1342673242</int>
+			<int id="firebog_ladder_1335492996983">1342673242</int>
+			<int id="firebog_arrow_2_1335492996986">1342673242</int>
+			<int id="boulder_1_1335566503937">1342673242</int>
+			<int id="wall_shelf1_1335566503946">1342673242</int>
+			<int id="wall_shelf1_1335566503948">1342673242</int>
+			<int id="wall_shelf1_1335566503950">1342673242</int>
+			<int id="flitterbug_limbo1_1335572507954">1342673294</int>
+			<int id="firebog_sign_blank_1335378517202">1342673294</int>
+			<int id="background_wallpaper_test_1335378517235">1342673296</int>
+			<int id="background_wallpaper_test_1335389378234">1342673368</int>
+			<int id="firebog_sign_blank_1335378517218">1342673368</int>
+			<int id="flitterbug_limbo1_1335572507955">1342673368</int>
+			<int id="firebog_sign_blank_1335391499967">1342673434</int>
+			<int id="firebog_sign_blank_1335401803850">1342673463</int>
+			<int id="firebog_sign_blank_1337208228297">1342673389</int>
+			<int id="pulseDot_1335563642983">1342673404</int>
+			<int id="pulseDot_1335563642982">1342673434</int>
+			<int id="pulseDot_1335563642984">1342673457</int>
+			<int id="wall_shelf1_1335464372626">1342673463</int>
+			<int id="wall_shelf1_1335464372627">1342673463</int>
+			<int id="wall_shelf1_1335464372628">1342673463</int>
+			<int id="pulseDot_1335563642985">1342673463</int>
+			<int id="boulder_1_1335378517244">1342673477</int>
+		</object>
+		<object id="flags">
+			<bool id="hide_dots">true</bool>
+			<bool id="sign1_trigged">true</bool>
+			<bool id="owl1_trigged">true</bool>
+			<bool id="owl2_trigged">true</bool>
+			<bool id="dontswim">true</bool>
+			<bool id="ball3_trigged">true</bool>
+			<bool id="ball1_trigged">true</bool>
+			<bool id="ball2_trigged">true</bool>
+		</object>
+	</object>
+	<objrefs id="items">
+		<objref tsid="INVVA3M8PL4305E" label="Collision-triggered Event Box"/>
+		<objref tsid="INVVA4M8PL43056" label="Collision-triggered Event Box"/>
+		<objref tsid="INVV9PM8PL4305A" label="Collision-triggered Event Box"/>
+		<objref tsid="INVV9VM8PL4305R" label="Collision-triggered Event Box"/>
+		<objref tsid="INVVA7M8PL4306R" label="Collision-triggered Event Box"/>
+		<objref tsid="INVV9TM8PL4305T" label="Collision-triggered Event Box"/>
+		<objref tsid="INVV9JM8PL4304G" label="Collision-triggered Event Box"/>
+		<objref tsid="INVVA0M8PL4305F" label="Collision-triggered Event Box"/>
+		<objref tsid="INVVA6M8PL4305F" label="Collision-triggered Event Box"/>
+		<objref tsid="INVV9QM8PL4305B" label="Collision-triggered Event Box"/>
+		<objref tsid="INVV9LM8PL43041" label="Collision-triggered Event Box"/>
+		<objref tsid="INVV9KM8PL43040" label="Collision-triggered Teleporter"/>
+		<objref tsid="INVV9RM8PL43059" label="Collision-triggered Event Box"/>
+		<objref tsid="INVVA5M8PL43052" label="Collision-triggered Event Box"/>
+		<objref tsid="INVV9OM8PL4305L" label="Collision-triggered Event Box"/>
+		<objref tsid="INVV9NM8PL43049" label="Collision-triggered Event Box"/>
+		<objref tsid="INVV9MM8PL43048" label="Collision-triggered Event Box"/>
+		<objref tsid="INVVA2M8PL4305A" label="Collision-triggered Event Box"/>
+		<objref tsid="INVV9UM8PL43051" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFAVVIDPL43MDM" label="Piggy"/>
+		<objref tsid="INVVA1M8PL4305J" label="Collision-triggered Event Box"/>
+		<objref tsid="INVV9SM8PL43050" label="Collision-triggered Event Box"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

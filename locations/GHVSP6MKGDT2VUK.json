@@ -1,6 +1,18 @@
 {
     "tsid": "GHVSP6MKGDT2VUK",
     "label": "Ajiga Habitat",
+    "hub_id": "98",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-23/LHVSP6MKGDT2VUK_loading_1335244004.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-23/LHVSP6MKGDT2VUK_main_1335244007.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "6E8D91",
         "bottom": "E8FCFC"
@@ -494,7 +506,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331341122141": {
                 "name": "foreground",
@@ -701,7 +715,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331344663989": {
                 "name": "bg3",
@@ -757,7 +773,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3977,6 +3995,18 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1333667310556",
+                        "w": 0,
+                        "item_perm": 1,
+                        "y": -998,
+                        "pc_perm": 0,
+                        "x": -1619,
+                        "h": 998
+                    }
                 ]
             },
             "T_1331341122118": {
@@ -4879,7 +4909,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331344663982": {
                 "name": "bg2",
@@ -5157,8 +5189,44 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHVSPQPKGDT27QM",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IHVVO30BLNT2F84",
+            "label": "Fox Ranger"
+        },
+        {
+            "tsid": "IHVSPPPKGDT27Q4",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IHVSPNPKGDT27Q7",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IHVSPKPKGDT27PT",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IHVSPLPKGDT27QF",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IHVSPMPKGDT27QE",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IHVSPOPKGDT27QB",
+            "label": "Qurazy marker"
+        }
+    ]
 }

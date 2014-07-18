@@ -1,6 +1,18 @@
 {
     "tsid": "GHFIV4V8J6J2I7U",
     "label": "Super Badly Inaccessable Street",
+    "hub_id": "106",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-12-15/LHFIV4V8J6J2I7U_loading_1323988938.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-12-15/LHFIV4V8J6J2I7U_main_1323988941.jpg",
+        "w": 720,
+        "h": 180
+    },
     "gradient": {
         "top": "242424",
         "bottom": "291329"
@@ -119,7 +131,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1317338073608": {
                 "name": "middleplus",
@@ -226,7 +240,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1317338073609": {
                 "name": "bg1",
@@ -708,7 +724,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1317338073611": {
                 "name": "bg2",
@@ -1130,7 +1148,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -4628,6 +4648,56 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1323916997703",
+                        "y": -212,
+                        "w": 50,
+                        "h": 271,
+                        "x": -811
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1323972635369",
+                        "y": -989,
+                        "w": 0,
+                        "h": 316,
+                        "pc_perm": 0,
+                        "x": 292,
+                        "item_perm": 1
+                    },
+                    {
+                        "id": "wall_1323972635366",
+                        "y": -564,
+                        "w": 0,
+                        "h": 102,
+                        "x": 1742
+                    },
+                    {
+                        "id": "wall_1323972635320",
+                        "y": -210,
+                        "w": 0,
+                        "h": 208,
+                        "x": 1623
+                    },
+                    {
+                        "id": "wall_1323972635368",
+                        "y": -563,
+                        "w": 0,
+                        "h": 109,
+                        "x": 1817
+                    },
+                    {
+                        "id": "wall_1323972635370",
+                        "y": -995,
+                        "w": 0,
+                        "h": 330,
+                        "pc_perm": 0,
+                        "x": 510,
+                        "item_perm": -1
+                    }
                 ]
             },
             "T_1317338073610": {
@@ -5217,8 +5287,44 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHFFHFJKH8J2FDP",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFFJO7LH8J29DJ",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFR2KT1L8J2ORV",
+            "label": "Teleport Marker"
+        },
+        {
+            "tsid": "IHF2SG9U8BJ2TU6",
+            "label": "Collision-triggered Teleporter"
+        },
+        {
+            "tsid": "IHFL5UI088O228I",
+            "label": "Ilmenskie Jones"
+        },
+        {
+            "tsid": "IHFFJ0UKH8J2SBI",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFFKKHLH8J2D90",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFFGNAKH8J2IGU",
+            "label": "Coin"
+        }
+    ]
 }

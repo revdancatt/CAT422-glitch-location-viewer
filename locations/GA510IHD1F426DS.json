@@ -1,6 +1,18 @@
 {
     "tsid": "GA510IHD1F426DS",
     "label": "Empty Via 6",
+    "hub_id": "86",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-29/LA510IHD1F426DS_loading_1346287850.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-29/LA510IHD1F426DS_main_1346287852.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "87A8C9",
         "bottom": "FFC400"
@@ -483,7 +495,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -1976,6 +1990,38 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1307999843924",
+                        "y": -88,
+                        "w": 50,
+                        "h": 274,
+                        "x": -712
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1307999843951",
+                        "y": -358,
+                        "w": 0,
+                        "h": 72,
+                        "x": -634
+                    },
+                    {
+                        "id": "wall_1308089403434",
+                        "y": -253,
+                        "w": 0,
+                        "h": 185,
+                        "x": 150
+                    },
+                    {
+                        "id": "wall_1307999843950",
+                        "y": -358,
+                        "w": 0,
+                        "h": 57,
+                        "x": -778
+                    }
                 ]
             },
             "T_1307999415183": {
@@ -2224,7 +2270,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1307999415182": {
                 "name": "middleplus",
@@ -3232,7 +3280,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1307999415185": {
                 "name": "sky",
@@ -3336,8 +3386,60 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA51BBL95452PVU",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA51BA095452GS7",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5S0O7RTVQ2LDT",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA51BEGA54526HU",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA51R4CL93520TK",
+            "label": "Dirt Pile"
+        },
+        {
+            "tsid": "IA5O2K4GAD23U49",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHF2AG8CG183DEV",
+            "label": "Visiting Stone"
+        },
+        {
+            "tsid": "IA515U9VV352T9I",
+            "label": "Paper Tree"
+        },
+        {
+            "tsid": "IA515Q6PV352ROV",
+            "label": "Dust Trap"
+        },
+        {
+            "tsid": "IA51BDCA54527JI",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA51BCP954524BM",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA515V500452MS6",
+            "label": "Dust Trap"
+        }
+    ]
 }

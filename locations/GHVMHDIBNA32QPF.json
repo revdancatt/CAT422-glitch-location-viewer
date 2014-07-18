@@ -1,6 +1,18 @@
 {
     "tsid": "GHVMHDIBNA32QPF",
     "label": "Ora Soon",
+    "hub_id": "75",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-07-21/LHVMHDIBNA32QPF_loading_1311273033.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-07-21/LHVMHDIBNA32QPF_main_1311273036.jpg",
+        "w": 720,
+        "h": 174
+    },
     "gradient": {
         "bottom": "A8F9FF",
         "top": "5D8991"
@@ -151,7 +163,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -293,7 +307,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "foreground": {
                 "name": "foreground",
@@ -349,7 +365,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1305171272698": {
                 "name": "middleplus",
@@ -475,7 +493,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3826,6 +3846,31 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1306883827304",
+                        "y": -177,
+                        "w": 50,
+                        "x": 1347,
+                        "h": 338
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1306883827237",
+                        "y": -202,
+                        "w": 0,
+                        "x": -764,
+                        "h": 113
+                    },
+                    {
+                        "id": "wall_1306883827235",
+                        "y": -313,
+                        "w": 0,
+                        "x": -865,
+                        "h": 104
+                    }
                 ]
             },
             "bg_1": {
@@ -4531,8 +4576,60 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHV10AJ97B32BG4",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IHV93SH3OBF3UBR",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "IHV109467B32FAD",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IHV15IJQID62O1K",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IHV10N7D8B32NN8",
+            "label": "Shrine to Alph"
+        },
+        {
+            "tsid": "IHV11TBCBB32AVJ",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV11UECBB32QAE",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHVVS9TPIGQ2TQ5",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IHV11VPCBB32V97",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHVLF6JIL4F3DQG",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "IHV120KDBB32AAS",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV106C17B32QU4",
+            "label": "Quoin"
+        }
+    ]
 }

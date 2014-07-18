@@ -1,6 +1,18 @@
 {
     "tsid": "GA9EBPF8M2031HB",
     "label": "Hauki Seeks Towers Basement",
+    "hub_id": "75",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-30/LA9EBPF8M2031HB_loading_1338428008.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-30/LA9EBPF8M2031HB_main_1338428009.jpg",
+        "w": 720,
+        "h": 150
+    },
     "gradient": {
         "top": "30608",
         "bottom": "84888A"
@@ -105,7 +117,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -593,6 +607,23 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1334947703842",
+                        "y": -569,
+                        "w": 0,
+                        "h": 475,
+                        "x": -1451
+                    },
+                    {
+                        "id": "wall_1334947703841",
+                        "y": -567,
+                        "w": 0,
+                        "h": 466,
+                        "x": 1473
+                    }
                 ]
             },
             "T_1334280748831": {
@@ -624,7 +655,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1334947703843": {
                 "name": "elev",
@@ -1625,7 +1658,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleplus": {
                 "name": "middleplus",
@@ -2077,8 +2112,24 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA9EC1H8M2039MV",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IHVCIJDV5503Q8H",
+            "label": "Teleport Marker"
+        },
+        {
+            "tsid": "IIFJ3C3LCO632L5",
+            "label": "Collision-triggered Event Box"
+        }
+    ]
 }

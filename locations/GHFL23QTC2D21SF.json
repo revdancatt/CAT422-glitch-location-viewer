@@ -1,6 +1,18 @@
 {
     "tsid": "GHFL23QTC2D21SF",
     "label": "Concept 01",
+    "hub_id": "106",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-11-02/LHFL23QTC2D21SF_loading_1351884029.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-11-02/LHFL23QTC2D21SF_main_1351884032.jpg",
+        "w": 720,
+        "h": 540
+    },
     "gradient": {
         "top": "121212",
         "bottom": "1F0E1F"
@@ -194,7 +206,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1317326758327": {
                 "name": "SKY",
@@ -261,7 +275,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -1802,7 +1818,38 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1317326758306",
+                        "x": 814,
+                        "h": 602,
+                        "y": -328,
+                        "w": 50
+                    },
+                    {
+                        "id": "ladder_1317326758302",
+                        "x": -89,
+                        "h": 398,
+                        "y": -889,
+                        "w": 50
+                    },
+                    {
+                        "id": "ladder_1317326758304",
+                        "x": 218,
+                        "h": 344,
+                        "y": -553,
+                        "w": 50
+                    },
+                    {
+                        "id": "ladder_1317326758313",
+                        "x": 355,
+                        "h": 253,
+                        "y": -163,
+                        "w": 50
+                    }
+                ],
+                "walls": []
             },
             "T_1317326758263": {
                 "name": "BG1",
@@ -2064,8 +2111,68 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHFS3G2RE2D236M",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IHFO5N2SP4D2SG5",
+            "label": "Shrine to Grendaline"
+        },
+        {
+            "tsid": "IHF4TB92NO13MFB",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFS8J9SE2D284T",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IHFS3K4RE2D2MP8",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IHFS3TCRE2D2HT7",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "INVPM5RBLGQ2RQQ",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IHFRIS6SL4D2U26",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IHFS2IFQE2D2FGS",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IHF4TA92NO13MF8",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFOBEATP4D2LKK",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IHFT4V34F2D2K4T",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IHF8T4V3J183VD4",
+            "label": "Visiting Stone"
+        },
+        {
+            "tsid": "IHFE24D7HKD2CUD",
+            "label": "spawner"
+        }
+    ]
 }

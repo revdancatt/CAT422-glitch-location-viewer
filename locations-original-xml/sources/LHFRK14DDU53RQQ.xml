@@ -1,0 +1,292 @@
+<game_object tsid="LHFRK14DDU53RQQ" ts="1344876706107" label="A L&apos;il Animal Kinship" class_tsid="skillquest_ak" hubid="132" moteid="10" letime="35udgcmf" rbtime="35udd4rq" upd_gs="gs-float1" load_time="2012-08-13 09:44:03.976">
+	<object id="dynamic">
+		<str id="instance_of">LHFEB4262843QGP</str>
+		<object id="special_loading_image">
+			<str id="url">streets/2012-07-24-static/1343152301-AK-skill-loading__2.png</str>
+			<int id="w">600</int>
+			<int id="h">400</int>
+		</object>
+		<object id="events">
+			<object id="sign1">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">s1</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1340840145185</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="a3">
+						<str id="type">flag_set</str>
+						<str id="flag">s1</str>
+					</object>
+				</object>
+			</object>
+			<object id="sign2">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">s2</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1340318892614</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="a3">
+						<str id="type">flag_set</str>
+						<str id="flag">s2</str>
+					</object>
+				</object>
+			</object>
+			<object id="sign3">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">s3</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1340318892615</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="a3">
+						<str id="type">flag_set</str>
+						<str id="flag">s3</str>
+					</object>
+				</object>
+			</object>
+			<object id="player_enter">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1340840145185</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1340318892614</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1340318892615</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1342128759604</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1342128759601</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_clear</str>
+						<str id="flag">s1</str>
+					</object>
+					<object id="a7">
+						<str id="type">flag_clear</str>
+						<str id="flag">s2</str>
+					</object>
+					<object id="a8">
+						<str id="type">flag_clear</str>
+						<str id="flag">s3</str>
+					</object>
+					<object id="a9">
+						<str id="type">flag_clear</str>
+						<str id="flag">lot</str>
+					</object>
+					<object id="a10">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_1342128759609</str>
+					</object>
+					<object id="a11">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1342648337026</str>
+						<null id="pc_perm"/>
+					</object>
+					<object id="a12">
+						<str id="type">flag_clear</str>
+						<str id="flag">s4</str>
+					</object>
+					<object id="a13">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1343335116552</str>
+						<null id="pc_perm"/>
+					</object>
+				</object>
+			</object>
+			<object id="lotion">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">lot</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1342128759604</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="a3">
+						<str id="type">flag_set</str>
+						<str id="flag">lot</str>
+					</object>
+				</object>
+			</object>
+			<object id="lotion_off">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1342128759604</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_shafts_blue_1342128759609</str>
+						<int id="fade">2100</int>
+					</object>
+					<object id="a4">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1343335116552</str>
+						<int id="pc_perm">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="sign4">
+				<object id="actions">
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">s4</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1342128759601</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="a2">
+						<str id="type">flag_set</str>
+						<str id="flag">s4</str>
+					</object>
+				</object>
+			</object>
+			<object id="s1off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1340840145185</str>
+						<int id="fade">1000</int>
+					</object>
+				</object>
+			</object>
+			<object id="s2off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1340318892614</str>
+						<int id="fade">1000</int>
+					</object>
+				</object>
+			</object>
+			<object id="chicken">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_location</str>
+						<str id="code">loc.spawnChicken();</str>
+					</object>
+				</object>
+			</object>
+			<object id="pig">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_location</str>
+						<str id="code">loc.spawnPiggy();</str>
+					</object>
+				</object>
+			</object>
+			<object id="butterfly">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_location</str>
+						<str id="code">loc.spawnButterfly();</str>
+					</object>
+				</object>
+			</object>
+			<object id="sign4off">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1340318892615</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1342128759601</str>
+						<int id="fade">1000</int>
+					</object>
+				</object>
+			</object>
+			<object id="wall_off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1342648337026</str>
+						<int id="pc_perm">0</int>
+					</object>
+				</object>
+			</object>
+		</object>
+		<bool id="is_instance">true</bool>
+		<str id="instance_id">skillquest_ak</str>
+		<objref id="instance" tsid="RUVU2V4DDU53T4S"/>
+		<objref id="target_pc" tsid="PIF5LE0LCU53BA9" label="Vorteks"/>
+		<object id="eventscript">
+			<str id="current_step">eventscript_end</str>
+			<object id="waiting_for">
+				<str id="event_id">done</str>
+				<undefined id="target"/>
+			</object>
+		</object>
+		<object id="hidden_decos">
+			<int id="groddle_sign_blank_1340318892614">1344036561</int>
+			<int id="groddle_sign_blank_1342128759604">1344036579</int>
+			<int id="light_shafts_blue_1342128759609">1344036579</int>
+			<int id="groddle_sign_blank_1340318892615">1344036589</int>
+			<int id="groddle_sign_blank_1342128759601">1344036589</int>
+		</object>
+		<array id="location_events_broadcast">
+			<str id="0">s2off</str>
+			<str id="1">lotion_off</str>
+			<str id="2">sign4off</str>
+		</array>
+		<bool id="spawnedChicken">true</bool>
+		<object id="flags">
+			<bool id="s1">true</bool>
+			<bool id="s2">true</bool>
+			<bool id="lot">true</bool>
+			<bool id="s4">true</bool>
+			<bool id="s3">true</bool>
+		</object>
+		<int id="squeeze_count">1</int>
+		<bool id="spawnedPiggy">true</bool>
+		<bool id="spawnedButterfly">true</bool>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IHFRKB4DDU53RR5" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFRKA4DDU53RRR" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFRKI4DDU53RSJ" label="Coin"/>
+		<objref tsid="IHFRKG4DDU53RSB" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFRK34DDU53RRE" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFRK74DDU53RR2" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFRK64DDU53RRF" label="Side Table"/>
+		<objref tsid="IHFRKC4DDU53RRQ" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFRKK4DDU53RS5" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFRKD4DDU53RRS" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFRK84DDU53RR8" label="Coin"/>
+		<objref tsid="IHFROQNDDU53K6P" label="Chicken"/>
+		<objref tsid="IHFRKJ4DDU53RSM" label="Coin"/>
+		<objref tsid="IHFRK24DDU53RRO" label="Collision-triggered Teleporter"/>
+		<objref tsid="IHFRK54DDU53RRE" label="Collision-triggered Event Box"/>
+		<objref tsid="IHFRKH4DDU53RS2" label="Collision-triggered Event Box"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

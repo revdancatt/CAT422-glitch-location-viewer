@@ -1,6 +1,18 @@
 {
     "tsid": "GCR13M5UQEM15TA",
     "label": "Ferncaster End",
+    "hub_id": "56",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LCR13M5UQEM15TA_loading_1343864193.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LCR13M5UQEM15TA_main_1343864194.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "9FFDFA",
         "bottom": "FFF974"
@@ -872,7 +884,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "foreground": {
                 "name": "foreground",
@@ -882,7 +896,9 @@
                 "filters": {},
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_2": {
                 "name": "bg_2",
@@ -1676,7 +1692,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -1751,7 +1769,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "L4834189399821": {
                 "name": "L4834189399821",
@@ -1788,7 +1808,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -5923,7 +5945,31 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1289948871451",
+                        "w": 50,
+                        "y": -104,
+                        "x": -880,
+                        "h": 680
+                    },
+                    {
+                        "id": "ladder_1289948774589",
+                        "w": 50,
+                        "y": -38,
+                        "x": -1502,
+                        "h": 780
+                    },
+                    {
+                        "id": "ladder_1289949041011",
+                        "w": 50,
+                        "y": -31,
+                        "x": 2819,
+                        "h": 700
+                    }
+                ],
+                "walls": []
             },
             "middleplus": {
                 "name": "middleplus",
@@ -6205,8 +6251,116 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IIF1A18OJ922J5U",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IIF19P8OJ922J3G",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF1A68OJ922J6A",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IUV45TFDGJ83QAK",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIF19O8OJ922J31",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF19V8OJ922J5H",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IUVF0D311HQ2A06",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IUV45VFDGJ83QBP",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IUV45SFDGJ83QAV",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIF10A9PID62TAJ",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IUV45UFDGJ83QAU",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIF19U8OJ922J5I",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF19T8OJ922J5U",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5J1I0866G3GE2",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IIF19M8OJ922J3A",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF19K8OJ922J3O",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5J49O866G3TN7",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IIF19L8OJ922J3P",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF1A08OJ922J51",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF19R8OJ922J4S",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IUV460FDGJ83QBP",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IUVBJKT0G0F3JS4",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IA53JFQT03G3GFS",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IIF19Q8OJ922J4I",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF1A28OJ922J56",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF1A88OJ922J73",
+            "label": "Shrine to Friendly"
+        }
+    ]
 }

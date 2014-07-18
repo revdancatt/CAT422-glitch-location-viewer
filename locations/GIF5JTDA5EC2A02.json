@@ -1,6 +1,18 @@
 {
     "tsid": "GIF5JTDA5EC2A02",
     "label": "Marl Pegma",
+    "hub_id": "102",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-09-12/LIF5JTDA5EC2A02_loading_1347471935.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-09-12/LIF5JTDA5EC2A02_main_1347471935.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "8ABDFF",
         "bottom": "FFFFFF"
@@ -1117,7 +1129,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1315334860412": {
                 "name": "sky",
@@ -1391,7 +1405,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -4734,6 +4750,26 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1316655952069",
+                        "x": 2950,
+                        "h": 166,
+                        "y": -66,
+                        "w": 50
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1316655952085",
+                        "item_perm": 1,
+                        "x": 2834,
+                        "y": -245,
+                        "pc_perm": 1,
+                        "h": 197,
+                        "w": 0
+                    }
                 ]
             },
             "T_1316116324547": {
@@ -4950,8 +4986,60 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IIFGB2KGKUE33R6",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "IDOBD4JK5GC2N03",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IHFVSTFLP493TD9",
+            "label": "Visiting Stone"
+        },
+        {
+            "tsid": "IDOB4DGH5GC27TJ",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IIFBDOK4F6F3NKU",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IIF69UV2NGQ2U37",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IDOBE91L5GC2GMU",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IDOB7GJI5GC2JVG",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IDOBH83M5GC2ME3",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IDOATU6F5GC24Q1",
+            "label": "Shrine to Friendly"
+        },
+        {
+            "tsid": "IDOB3D0H5GC2QHP",
+            "label": "Dirt Pile"
+        },
+        {
+            "tsid": "IDOBBVAK5GC2TNC",
+            "label": "Metal Rock"
+        }
+    ]
 }

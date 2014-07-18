@@ -1,0 +1,323 @@
+<game_object tsid="LA9BT2I0ILD340S" ts="1364245695928" label="Shim Shiri" class_tsid="town" hubid="142" moteid="10" letime="3g36408g" rbtime="3dli0i40" upd_gs="gs6" load_time="2013-03-25 13:54:19.000">
+	<object id="dynamic">
+		<bool id="jobs_is_locked">false</bool>
+		<object id="events">
+			<object id="beam_blue">
+				<object id="actions">
+					<object id="a3">
+						<str id="type">physics</str>
+						<str id="param">gravity</str>
+						<str id="value">-1</str>
+					</object>
+					<object id="a4">
+						<str id="type">physics</str>
+						<str id="param">vy_max</str>
+						<str id="value">0.4</str>
+					</object>
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">var target = -1097;
+if(pc.x&lt;target)
+{
+   pc.moveAvatar(target, pc.y, 'right');
+}
+else
+{
+   pc.moveAvatar(target, pc.y, 'left');
+}</str>
+					</object>
+					<object id="a2">
+						<str id="type">event</str>
+						<str id="event">tp_blue</str>
+						<int id="delay">2000</int>
+					</object>
+				</object>
+			</object>
+			<object id="tp_blue">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">pc.teleportToLocation('LA9TCL1H7LD37DC', 0, 3900); </str>
+					</object>
+				</object>
+			</object>
+			<object id="tp_yellow">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">pc.teleportToLocation('LA9UIKNQ7LD3SN0', 2269, -345); </str>
+					</object>
+				</object>
+			</object>
+			<object id="beam_yellow">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">physics</str>
+						<str id="value">-1</str>
+						<str id="param">gravity</str>
+					</object>
+					<object id="a2">
+						<str id="type">physics</str>
+						<str id="value">0.4</str>
+						<str id="param">vy_max</str>
+					</object>
+					<object id="a3">
+						<str id="type">code_player</str>
+						<str id="code">var target = -2042;
+if(pc.x&lt;target)
+{
+   pc.moveAvatar(target, pc.y, 'right');
+}
+else
+{
+   pc.moveAvatar(target, pc.y, 'left');
+}</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<int id="delay">2000</int>
+						<str id="event">tp_yellow</str>
+					</object>
+				</object>
+			</object>
+			<object id="tp_grey">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">pc.teleportToLocation('LA9U27HN7LD3FVE', -1180, -100); </str>
+					</object>
+				</object>
+			</object>
+			<object id="beam_grey">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">physics</str>
+						<str id="param">gravity</str>
+						<str id="value">-1</str>
+					</object>
+					<object id="a3">
+						<str id="type">physics</str>
+						<str id="param">vy_max</str>
+						<str id="value">0.4</str>
+					</object>
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">var target = -239;
+if(pc.x&lt;target)
+{
+   pc.moveAvatar(target, pc.y, 'right');
+}
+else
+{
+   pc.moveAvatar(target, pc.y, 'left');
+}</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">tp_grey</str>
+						<int id="delay">2000</int>
+					</object>
+				</object>
+			</object>
+			<object id="tp_green">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">pc.teleportToLocation('LA931BPTNLD3E35', 1211, -100); </str>
+					</object>
+				</object>
+			</object>
+			<object id="beam_green">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">physics</str>
+						<str id="param">gravity</str>
+						<str id="value">-1</str>
+					</object>
+					<object id="a3">
+						<str id="type">physics</str>
+						<str id="param">vy_max</str>
+						<str id="value">0.4</str>
+					</object>
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">var target = 447;
+if(pc.x&lt;target)
+{
+   pc.moveAvatar(target, pc.y, 'right');
+}
+else
+{
+   pc.moveAvatar(target, pc.y, 'left');
+}
+</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">tp_green</str>
+						<int id="delay">2000</int>
+					</object>
+				</object>
+			</object>
+			<object id="tp_orange">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">pc.teleportToLocation('LA9UCEFP7LD3523', 1843, -150); </str>
+					</object>
+				</object>
+			</object>
+			<object id="beam_orange">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">physics</str>
+						<str id="value">-1</str>
+						<str id="param">gravity</str>
+					</object>
+					<object id="a3">
+						<str id="type">physics</str>
+						<str id="value">0.4</str>
+						<str id="param">vy_max</str>
+					</object>
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">var target = 1359;
+if(pc.x&lt;target)
+{
+   pc.moveAvatar(target, pc.y, 'right');
+}
+else
+{
+   pc.moveAvatar(target, pc.y, 'left');
+}</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">tp_orange</str>
+						<int id="delay">2000</int>
+					</object>
+				</object>
+			</object>
+			<object id="tp_brown">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">pc.teleportToLocation('LA9TKSRJ7LD3SGK', 420, -920); </str>
+					</object>
+				</object>
+			</object>
+			<object id="beam_brown">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">physics</str>
+						<str id="param">gravity</str>
+						<str id="value">-1</str>
+					</object>
+					<object id="a3">
+						<str id="type">physics</str>
+						<str id="param">vy_max</str>
+						<str id="value">0.4</str>
+					</object>
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">var target = 2273;
+if(pc.x&lt;target)
+{
+   pc.moveAvatar(target, pc.y, 'right');
+}
+else
+{
+   pc.moveAvatar(target, pc.y, 'left');
+}</str>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">tp_brown</str>
+						<int id="delay">2000</int>
+					</object>
+				</object>
+			</object>
+			<object id="player_enter">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">if(pc.y&lt;-500)
+{
+  pc.location.announce_sound_to_all(&quot;FART&quot;, 0, false, true);
+}</str>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-11-08/LA9BT2I0ILD340S_loading_1352417714.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-11-08/LA9BT2I0ILD340S_main_1352417716.jpg</str>
+			<int id="w">720</int>
+			<int id="h">120</int>
+		</object>
+		<bool id="jobs_auto_unlock">false</bool>
+		<bool id="no_teleportation">false</bool>
+		<bool id="disallow_animals">true</bool>
+		<bool id="no_rook">true</bool>
+		<object id="edit_history">
+			<str id="1352425786">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352425789">tsauth-ryan:modify_street_obj-signposts-signpost_6</str>
+			<str id="1352425791">tsauth-ryan:modify_street_obj-signposts-signpost_5</str>
+			<str id="1352425793">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352425796">tsauth-ryan:modify_street_obj-signposts-signpost_3</str>
+			<str id="1352425799">tsauth-ryan:modify_street_obj-signposts-signpost_4</str>
+			<str id="1352440551">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352440567">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352440570">tsauth-ryan:modify_street_obj-signposts-signpost_6</str>
+			<str id="1352440572">tsauth-ryan:modify_street_obj-signposts-signpost_5</str>
+			<str id="1352440575">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352440578">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352440580">tsauth-ryan:modify_street_obj-signposts-signpost_3</str>
+			<str id="1352440582">tsauth-ryan:modify_street_obj-signposts-signpost_4</str>
+			<str id="1352503594">PCR1DCC40RT1I9G:kt:locodeco-replace</str>
+			<str id="1352849104">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352849106">tsauth-ryan:modify_street_obj-signposts-signpost_6</str>
+			<str id="1352849109">tsauth-ryan:modify_street_obj-signposts-signpost_5</str>
+			<str id="1352849112">tsauth-ryan:modify_street_obj-signposts-signpost_3</str>
+			<str id="1352849115">tsauth-ryan:modify_street_obj-signposts-signpost_4</str>
+		</object>
+		<str id="instance_me">asslandia_instance</str>
+		<int id="instance_max_members">53</int>
+		<str id="instance_location_type"></str>
+		<objref id="instances" tsid="DNVGB5MNKND34C9" label="Instances"/>
+		<object id="special_loading_image">
+			<str id="url">streets/2012-11-08-static/1352433324-loadingscreen_shimshiri.jpg</str>
+			<int id="w">900</int>
+			<int id="h">600</int>
+		</object>
+		<object id="hi_sign_evasion_record">
+			<str id="pc_tsid">PUV2PAADR773LO4</str>
+			<str id="pc_label">Jenny Wren</str>
+			<int id="secs">56</int>
+			<int id="when">1352426537</int>
+			<int id="version">10</int>
+			<str id="day_key">25-08-01</str>
+		</object>
+		<object id="hi_sign_daily_evasion_record">
+			<str id="pc_tsid">PHFQ9HM9E2D2M68</str>
+			<str id="pc_label">Troy McClure</str>
+			<int id="secs">22</int>
+			<int id="when">1355095205</int>
+			<int id="version">10</int>
+			<str id="day_key">26-03-53</str>
+		</object>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IHFAP4K0ILD3D7A" label="Light Beam"/>
+		<objref tsid="IHFAP1K0ILD3D7G" label="Light Beam"/>
+		<objref tsid="IHFAOVK0ILD3D6U" label="Light Beam"/>
+		<objref tsid="IHFAP2K0ILD3D7C" label="Light Beam"/>
+		<objref tsid="IHFAP0K0ILD3D7I" label="Light Beam"/>
+		<objref tsid="IHFAP3K0ILD3D7D" label="Light Beam"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

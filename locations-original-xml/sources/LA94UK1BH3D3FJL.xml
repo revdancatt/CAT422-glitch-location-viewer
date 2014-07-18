@@ -1,0 +1,142 @@
+<game_object tsid="LA94UK1BH3D3FJL" ts="1362533514655" label="Progress Way" class_tsid="town" hubid="129" moteid="9" letime="3fpf7671" rbtime="3d3hb1fj" upd_gs="gs6" load_time="2013-03-05 17:21:14.000">
+	<object id="dynamic">
+		<bool id="jobs_is_locked">false</bool>
+		<object id="events">
+			<object id="butterfly_lotion_msg_on">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">has_ak</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">butterfly_lotion_msg_off_called</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1342730285889</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1343260081005</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+			<object id="butterfly_lotion_msg_off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1342730285889</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081005</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+			<object id="player_enter">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1342730285889</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1342730285890</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081005</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081006</str>
+					</object>
+				</object>
+			</object>
+			<object id="butterfly_msg_on">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">has_ak</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">butterfly_msg_off_called</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1342730285890</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<int id="fade">500</int>
+						<str id="deco_id">groddle_sign_blank_1343260081006</str>
+					</object>
+				</object>
+			</object>
+			<object id="butterfly_msg_off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1342730285890</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081006</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-11-05/LA94UK1BH3D3FJL_loading_1352158037.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-11-05/LA94UK1BH3D3FJL_main_1352158038.jpg</str>
+			<int id="w">720</int>
+			<int id="h">174</int>
+		</object>
+		<object id="qurazy">
+		</object>
+		<object id="hidden_decos">
+			<int id="groddle_sign_blank_1342730285889">1354608027</int>
+			<int id="groddle_sign_blank_1342730285890">1354608027</int>
+			<int id="groddle_sign_blank_1343260081005">1354608027</int>
+			<int id="groddle_sign_blank_1343260081006">1354608027</int>
+		</object>
+		<object id="edit_history">
+			<str id="1351725898">tsauth-ianp:modify_street_obj-signposts-signpost_1342135590883</str>
+			<str id="1351725916">tsauth-ianp:modify_street_obj-signposts-signpost_1</str>
+			<str id="1351726960">tsauth-jupro:edit_street_meta</str>
+			<str id="1351908037">PCR189KE76V13S7:E-yon:locodeco-replace</str>
+			<str id="1351908248">PCR189KE76V13S7:E-yon:locodeco-replace</str>
+			<str id="1352840051">tsauth-ianp:edit_street_meta</str>
+		</object>
+		<bool id="jobs_auto_unlock">false</bool>
+		<bool id="no_teleportation">false</bool>
+		<bool id="disallow_animals">false</bool>
+		<bool id="no_rook">false</bool>
+		<str id="instance_me">NB_Street3</str>
+		<int id="instance_max_members">1</int>
+		<str id="instance_location_type">newbie_island</str>
+		<objref id="instances" tsid="DA9959CDP3D3V30" label="Instances"/>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IA94V03BH3D3PC4" label="Qurazy marker"/>
+		<objref tsid="IA94UQ3BH3D3PBJ" label="Street Spirit"/>
+		<objref tsid="IA94UR3BH3D3PBT" label="Collision-triggered Event Box"/>
+		<objref tsid="IA94UT3BH3D3PBV" label="Coin"/>
+		<objref tsid="IA94V13BH3D3PCI" label="Coin"/>
+		<objref tsid="IA94US3BH3D3PBG" label="Collision-triggered Event Box"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

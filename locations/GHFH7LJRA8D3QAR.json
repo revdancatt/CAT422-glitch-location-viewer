@@ -1,6 +1,18 @@
 {
     "tsid": "GHFH7LJRA8D3QAR",
     "label": "Fort Aban Don",
+    "hub_id": "141",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-11-18/LHFH7LJRA8D3QAR_loading_1353309216.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-11-18/LHFH7LJRA8D3QAR_main_1353309218.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "81833",
         "bottom": "428A8C"
@@ -1527,7 +1539,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1347658912416": {
                 "name": "dark blue",
@@ -1597,7 +1611,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1347572591655": {
                 "name": "light blue",
@@ -1644,7 +1660,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1348191266336": {
                 "name": "bg_0",
@@ -2035,7 +2053,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3544,6 +3564,62 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1351893811062",
+                        "w": 50,
+                        "y": -180,
+                        "x": 542,
+                        "h": 552
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1351893811076",
+                        "w": 0,
+                        "pc_perm": 1,
+                        "y": -704,
+                        "x": 1219,
+                        "h": 231,
+                        "item_perm": 1
+                    },
+                    {
+                        "id": "wall_1351893811081",
+                        "w": 0,
+                        "pc_perm": -1,
+                        "y": -635,
+                        "x": 1057,
+                        "h": 165,
+                        "item_perm": -1
+                    },
+                    {
+                        "id": "wall_1351893810970",
+                        "w": 0,
+                        "pc_perm": 1,
+                        "y": -657,
+                        "x": 146,
+                        "h": 142,
+                        "item_perm": 1
+                    },
+                    {
+                        "id": "wall_1351893810967",
+                        "w": 0,
+                        "pc_perm": -1,
+                        "y": -716,
+                        "x": -23,
+                        "h": 261,
+                        "item_perm": -1
+                    },
+                    {
+                        "id": "wall_1351876744599",
+                        "w": 0,
+                        "pc_perm": 1,
+                        "y": -1003,
+                        "x": -2474,
+                        "h": 372,
+                        "item_perm": 1
+                    }
                 ]
             },
             "T_1347572591654": {
@@ -3873,7 +3949,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1348191266333": {
                 "name": "foreground",
@@ -4048,7 +4126,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1347572591657": {
                 "name": "bg_2",
@@ -4374,7 +4454,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1348523982991": {
                 "name": "stars",
@@ -4487,7 +4569,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1348611322531": {
                 "name": "asset_mg",
@@ -6624,8 +6708,104 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHFGU1T2R7E3898",
+            "label": "Ice Nubbin"
+        },
+        {
+            "tsid": "IHFHCJG5R7E3N17",
+            "label": "Shrine to Zille"
+        },
+        {
+            "tsid": "IHF8P9TFOIE35JM",
+            "label": "Visiting Stone"
+        },
+        {
+            "tsid": "IHFH3ID3R7E3NCV",
+            "label": "Ice Nubbin"
+        },
+        {
+            "tsid": "IHFH2143R7E3V37",
+            "label": "Ice Nubbin"
+        },
+        {
+            "tsid": "IHFI5D0AR7E3MN5",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFH3DB3R7E3RNQ",
+            "label": "Ice Nubbin"
+        },
+        {
+            "tsid": "IHFI6L4AR7E3744",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFI54U9R7E3E61",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IUVCUCV5OQF3S7R",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "IUVD9BGEBLF3006",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "IHFI79EAR7E3QG6",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFH3JF3R7E34G1",
+            "label": "Ice Nubbin"
+        },
+        {
+            "tsid": "IHFGVJU2R7E3LC4",
+            "label": "Ice Nubbin"
+        },
+        {
+            "tsid": "IUVBSJS1OQF31F5",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "IHFHFDQ5R7E3FIL",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IHFHIRSJIIE3F95",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IHFH40K3R7E36RP",
+            "label": "Ice Nubbin"
+        },
+        {
+            "tsid": "IHFI73BAR7E3ORI",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA9HCUNPQ5G30O1",
+            "label": "Forehorseman"
+        },
+        {
+            "tsid": "IHFH0V33R7E3GMR",
+            "label": "Ice Nubbin"
+        },
+        {
+            "tsid": "IHFI6S8AR7E3UP3",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFH0U23R7E35TO",
+            "label": "Ice Nubbin"
+        }
+    ]
 }

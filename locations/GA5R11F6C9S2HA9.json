@@ -1,6 +1,18 @@
 {
     "tsid": "GA5R11F6C9S2HA9",
     "label": "Gosari Habitat",
+    "hub_id": "121",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-15/LA5R11F6C9S2HA9_loading_1334540061.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-15/LA5R11F6C9S2HA9_main_1334540063.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "6E9182",
         "bottom": "E8FCFC"
@@ -177,7 +189,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331344663982": {
                 "name": "bg2",
@@ -409,7 +423,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331341122118": {
                 "name": "middleplus",
@@ -1087,7 +1103,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331344663944": {
                 "name": "bg1",
@@ -1284,7 +1302,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331344663989": {
                 "name": "bg3",
@@ -1340,7 +1360,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -4002,8 +4024,54 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1333477438686",
+                        "w": 0,
+                        "y": -995,
+                        "item_perm": -1,
+                        "x": 929,
+                        "h": 777,
+                        "pc_perm": 0
+                    }
                 ]
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5T8RF7JTS2HBA",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IA52JVJ8UQS220S",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA5M0PNOHNT2UFO",
+            "label": "Fox Ranger"
+        },
+        {
+            "tsid": "IA5T2AI4JTS2EP7",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5T1M34JTS2O8N",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5T2KM4JTS2AUT",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5T0RP3JTS2RJQ",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5T1R84JTS285A",
+            "label": "Fox Stop Marker"
+        }
+    ]
 }

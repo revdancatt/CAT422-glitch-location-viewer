@@ -1,6 +1,18 @@
 {
     "tsid": "GHV15B8HEQ32SN0",
     "label": "Kanji Sink",
+    "hub_id": "85",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-11-08/LHV15B8HEQ32SN0_loading_1320802058.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-11-08/LHV15B8HEQ32SN0_main_1320802062.jpg",
+        "w": 720,
+        "h": 1235
+    },
     "gradient": {
         "top": "170000",
         "bottom": "000000"
@@ -182,7 +194,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -5628,7 +5642,24 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1305220159128",
+                        "y": -1532,
+                        "w": 50,
+                        "h": 323,
+                        "x": -293
+                    },
+                    {
+                        "id": "ladder_1305220159083",
+                        "y": -852,
+                        "w": 50,
+                        "h": 499,
+                        "x": 178
+                    }
+                ],
+                "walls": []
             },
             "T_1306520684234": {
                 "name": "fg",
@@ -5686,7 +5717,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1305054546660": {
                 "name": "T_1305054546660",
@@ -5933,8 +5966,100 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHVEA3OL9R72AQU",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IHFRGH4MIS73BND",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFRGI4MIS73BNE",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOT4IEQAJQ2DSB",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IHV1376BL352Q8G",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV1238FK35223R",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV12RTPID62R6D",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IHV121QCK3525OF",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV11V7BK35292H",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV13479L352S1R",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV9TEG2A652AE6",
+            "label": "Shrine to Pot"
+        },
+        {
+            "tsid": "IHV13A2HL352R9C",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV132S2L352H1N",
+            "label": "Dirt Pile"
+        },
+        {
+            "tsid": "IHV124FFK352B4B",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV13DBJL3520O7",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV138BDL352AAQ",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV139NEL352TCV",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV13ELJL352J9I",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV1353AL3524DV",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV13C4JL352CH9",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHVRTVQLK652297",
+            "label": "Mailbox"
+        },
+        {
+            "tsid": "IHV133M4L352IB8",
+            "label": "Dirt Pile"
+        }
+    ]
 }

@@ -1,0 +1,298 @@
+<game_object tsid="LUVCT29PSU53G9V" ts="1345481458442" label="Lift Your Light Green Thumb" class_tsid="skill_quest" hubid="132" moteid="10" letime="35ustnek" rbtime="35usp9g9" upd_gs="gs-float1" load_time="2012-08-20 09:46:04.516">
+	<object id="dynamic">
+		<str id="instance_of">LIF4JU7J2043DVT</str>
+		<object id="special_loading_image">
+			<str id="url">streets/2012-07-24-static/1343152278-LGT-skill-loading__2.png</str>
+			<int id="w">600</int>
+			<int id="h">400</int>
+		</object>
+		<object id="events">
+			<object id="player_enter">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_1341885496696</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_shafts_blue_bottom_1341885496695</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1341855586528</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1341855586532</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1341855586533</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1340318892614</str>
+					</object>
+					<object id="a7">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1340318892615</str>
+					</object>
+					<object id="a13">
+						<str id="type">flag_clear</str>
+						<str id="flag">s1</str>
+					</object>
+					<object id="a14">
+						<str id="type">flag_clear</str>
+						<str id="flag">s2</str>
+					</object>
+					<object id="a15">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1342648337028</str>
+						<null id="pc_perm"/>
+					</object>
+					<object id="a16">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1342659683757</str>
+					</object>
+					<object id="a17">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1343335116554</str>
+						<null id="pc_perm"/>
+					</object>
+				</object>
+			</object>
+			<object id="sign1">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">s1</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1340318892614</str>
+						<int id="fade">1000</int>
+					</object>
+					<object id="a4">
+						<str id="type">code_player</str>
+						<str id="code">pc.sendActivity('&lt;font color=\'#000000\'&gt;Regular watering and petting keeps trees happy and healthy.&lt;/font&gt;', null, true);
+</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_set</str>
+						<str id="flag">s1</str>
+					</object>
+				</object>
+			</object>
+			<object id="sign2">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">s2</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<int id="fade">1000</int>
+						<str id="deco_id">groddle_sign_blank_1340318892615</str>
+					</object>
+					<object id="a4">
+						<str id="type">code_player</str>
+						<str id="code">pc.sendActivity('&lt;font color=\'#000000\'&gt;As you advance your skill in Light Green Thumb you can better care for the trees of Ur.&lt;/font&gt;', null, true);
+</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_set</str>
+						<str id="flag">s2</str>
+					</object>
+				</object>
+			</object>
+			<object id="end">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1341855586533</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+			<object id="bottom1">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1341855586528</str>
+						<int id="fade">800</int>
+					</object>
+				</object>
+			</object>
+			<object id="bottom2">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1341855586532</str>
+						<int id="fade">800</int>
+					</object>
+				</object>
+			</object>
+			<object id="bottom3">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1341855586533</str>
+						<int id="fade">800</int>
+					</object>
+				</object>
+			</object>
+			<object id="bottom1off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<int id="fade">800</int>
+						<str id="deco_id">groddle_sign_blank_1341855586528</str>
+					</object>
+				</object>
+			</object>
+			<object id="bottom2off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<int id="fade">800</int>
+						<str id="deco_id">groddle_sign_blank_1341855586532</str>
+					</object>
+				</object>
+			</object>
+			<object id="bottom3off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<int id="fade">800</int>
+						<str id="deco_id">groddle_sign_blank_1341855586533</str>
+					</object>
+				</object>
+			</object>
+			<object id="can">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<int id="fade">2100</int>
+						<str id="deco_id">light_shafts_blue_1341885496696</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<int id="fade">2100</int>
+						<str id="deco_id">light_shafts_blue_bottom_1341885496695</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1342659683757</str>
+						<int id="fade">800</int>
+					</object>
+					<object id="a4">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1343335116554</str>
+						<int id="pc_perm">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="sign1off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1340318892614</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+			<object id="sign2off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1340318892615</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+			<object id="wateringcan_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1342659683757</str>
+						<int id="fade">800</int>
+					</object>
+				</object>
+			</object>
+			<object id="wateringcan_off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1342659683757</str>
+						<int id="fade">800</int>
+					</object>
+				</object>
+			</object>
+			<object id="wall_off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1342648337028</str>
+						<int id="pc_perm">0</int>
+					</object>
+				</object>
+			</object>
+		</object>
+		<bool id="is_instance">true</bool>
+		<str id="instance_id">skill_quest</str>
+		<objref id="instance" tsid="RUVCT19PSU53G3S"/>
+		<objref id="target_pc" tsid="PIFS82RSRU5328N" label="StrawDog"/>
+		<object id="eventscript">
+			<str id="current_step">eventscript_end</str>
+			<object id="waiting_for">
+				<str id="event_id">done</str>
+				<undefined id="target"/>
+			</object>
+		</object>
+		<object id="trant_events">
+			<bool id="wateringcan">true</bool>
+			<bool id="watered">true</bool>
+			<bool id="petted">true</bool>
+			<bool id="bubble_tended_already">true</bool>
+			<bool id="harvested">true</bool>
+		</object>
+		<object id="hidden_decos">
+			<int id="groddle_sign_blank_1341855586532">1344052738</int>
+			<int id="light_shafts_blue_1341885496696">1344052665</int>
+			<int id="light_shafts_blue_bottom_1341885496695">1344052665</int>
+			<int id="groddle_sign_blank_1342659683757">1344052667</int>
+			<int id="groddle_sign_blank_1341855586528">1344052734</int>
+			<int id="groddle_sign_blank_1340318892614">1344052737</int>
+			<int id="groddle_sign_blank_1340318892615">1344052741</int>
+			<int id="groddle_sign_blank_1341855586533">1344052766</int>
+		</object>
+		<array id="location_events_broadcast">
+			<str id="0">can</str>
+			<str id="1">bottom1off</str>
+			<str id="2">bottom2off</str>
+			<str id="3">bottom3off</str>
+			<str id="4">bottom3off</str>
+		</array>
+		<object id="flags">
+			<bool id="s1">true</bool>
+			<bool id="s2">true</bool>
+		</object>
+		<bool id="jobs_is_locked">false</bool>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IUVCTF9PSU53GBB" label="Coin"/>
+		<objref tsid="IUVCTC9PSU53GB4" label="Coin"/>
+		<objref tsid="IUVCT89PSU53GBO" label="Coin"/>
+		<objref tsid="IUVCT69PSU53GB4" label="Bubble Tree"/>
+		<objref tsid="IUVCT79PSU53GBR" label="Collision-triggered Event Box"/>
+		<objref tsid="IUVCTH9PSU53GCH" label="Teleport Marker"/>
+		<objref tsid="IUVCT39PSU53GA9" label="Bean Tree"/>
+		<objref tsid="IUVCT49PSU53GAD" label="Collision-triggered Event Box"/>
+		<objref tsid="IUVCTE9PSU53GBK" label="Collision-triggered Event Box"/>
+		<objref tsid="IUVCTD9PSU53GB7" label="Collision-triggered Teleporter"/>
+		<objref tsid="IUVCTB9PSU53GB8" label="Fruit Tree"/>
+		<objref tsid="IUVCTG9PSU53GC8" label="Collision-triggered Event Box"/>
+		<objref tsid="IUVCT99PSU53GB9" label="Collision-triggered Event Box"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

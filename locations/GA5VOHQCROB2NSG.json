@@ -1,6 +1,18 @@
 {
     "tsid": "GA5VOHQCROB2NSG",
     "label": "Elios Durr",
+    "hub_id": "102",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-09/LA5VOHQCROB2NSG_loading_1336606067.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-09/LA5VOHQCROB2NSG_main_1336606069.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "8ABDFF",
         "bottom": "FFFFFF"
@@ -215,7 +227,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1315334860412": {
                 "name": "sky",
@@ -368,7 +382,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1315938667505": {
                 "name": "middleplus",
@@ -476,7 +492,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -4571,7 +4589,17 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1315938667618",
+                        "x": -762,
+                        "h": 442,
+                        "y": -196,
+                        "w": 50
+                    }
+                ],
+                "walls": []
             },
             "T_1315877686220": {
                 "name": "bg_2",
@@ -4810,8 +4838,60 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5GTTKP3UB2VIC",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5GTN8L3UB25FP",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IA5GTOVL3UB2QMP",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IA5GTVEQ3UB2B2H",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIFR35LN3QD31VH",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "IA5GU1KR3UB24UU",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA5GTPAM3UB2U29",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IIF5362IMGQ2S9Q",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA5GTK2K3UB2DKM",
+            "label": "Shrine to Mab"
+        },
+        {
+            "tsid": "IA5GTRBN3UB2OLT",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IA5GTU4Q3UB2MBG",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5GTI493UB2NRQ",
+            "label": "Dullite Rock"
+        }
+    ]
 }

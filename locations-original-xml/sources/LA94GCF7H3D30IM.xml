@@ -1,0 +1,163 @@
+<game_object tsid="LA94GCF7H3D30IM" ts="1362533514452" label="Doonboggle Trail" class_tsid="town" hubid="129" moteid="9" letime="3fpese54" rbtime="3d3h7f0i" upd_gs="gs6" load_time="2013-03-05 17:21:16.000">
+	<object id="dynamic">
+		<bool id="jobs_is_locked">false</bool>
+		<object id="events">
+			<object id="player_enter">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343169537341</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081002</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081003</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081004</str>
+					</object>
+					<object id="a5">
+						<str id="type">physics</str>
+						<str id="param">y_cam_offset</str>
+						<str id="value">.4</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="musicblock_msg_on">
+				<object id="actions">
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">musicblock_msg_off_called</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1343169537341</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1343260081002</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+			<object id="musicblock_msg_off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343169537341</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081002</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<int id="delay">700</int>
+						<str id="event">musicblock_msg2_on</str>
+					</object>
+				</object>
+			</object>
+			<object id="musicblock_msg2_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1343260081003</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1343260081004</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="a4">
+						<str id="type">event</str>
+						<str id="event">musicblock_msg2_off</str>
+						<int id="delay">5000</int>
+					</object>
+				</object>
+			</object>
+			<object id="musicblock_msg2_off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081003</str>
+						<int id="fade">500</int>
+						<int id="delay">5000</int>
+						<str id="event">really_off</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081004</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-11-02/LA94GCF7H3D30IM_loading_1351907930.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-11-02/LA94GCF7H3D30IM_main_1351907933.jpg</str>
+			<int id="w">720</int>
+			<int id="h">270</int>
+		</object>
+		<object id="qurazy">
+		</object>
+		<object id="hidden_decos">
+			<int id="groddle_sign_blank_1343260081003">1354607660</int>
+			<int id="groddle_sign_blank_1343260081004">1354607660</int>
+			<int id="groddle_sign_blank_1343169537341">1354607660</int>
+			<int id="groddle_sign_blank_1343260081002">1354607660</int>
+		</object>
+		<object id="edit_history">
+			<str id="1351725636">tsauth-ianp:modify_street_obj-signposts-signpost_1343169537801</str>
+			<str id="1351726813">tsauth-jupro:edit_street_meta</str>
+			<str id="1351877827">tsauth-ianp:modify_street_obj-doors-door_1343415170600</str>
+			<str id="1351906818">PCR189KE76V13S7:E-yon:locodeco-replace</str>
+			<str id="1351907086">PCR189KE76V13S7:E-yon:locodeco-replace</str>
+			<str id="1351907809">PCR189KE76V13S7:E-yon:locodeco-replace</str>
+			<str id="1351907895">PCR189KE76V13S7:E-yon:locodeco-replace</str>
+		</object>
+		<bool id="jobs_auto_unlock">false</bool>
+		<bool id="no_teleportation">false</bool>
+		<bool id="disallow_animals">false</bool>
+		<bool id="no_rook">false</bool>
+		<str id="instance_me">NB_Side_Street2</str>
+		<int id="instance_max_members">1</int>
+		<str id="instance_location_type">newbie_island</str>
+		<objref id="instances" tsid="DA9V0BI7N3D3F49" label="Instances"/>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IA94GNH7H3D3B5D" label="Coin"/>
+		<objref tsid="IA94H9H7H3D3S1S" label="Coin"/>
+		<objref tsid="IA94GOH7H3D3B59" label="Coin"/>
+		<objref tsid="IA94GLH7H3D3B4B" label="Coin"/>
+		<objref tsid="IA94GMH7H3D3B4F" label="Coin"/>
+		<objref tsid="IA94H2H7H3D3RVP" label="Bean Tree"/>
+		<objref tsid="IA94GQH7H3D3B56" label="Coin"/>
+		<objref tsid="IA94H0H7H3D3RV7" label="Fruit Tree"/>
+		<objref tsid="IA94HAH7H3D3S1S" label="Coin"/>
+		<objref tsid="IA94GPH7H3D3B5A" label="Coin"/>
+		<objref tsid="IA94H5H7H3D3S0I" label="Garden"/>
+		<objref tsid="IA94GUH7H3D3RV4" label="Coin"/>
+		<objref tsid="IA94H6H7H3D3S1E" label="Qurazy marker"/>
+		<objref tsid="IA94GTH7H3D3RVH" label="Coin"/>
+		<objref tsid="IA94H4H7H3D3S0P" label="Coin"/>
+		<objref tsid="IA94H1H7H3D3RV0" label="Coin"/>
+		<objref tsid="IA94H8H7H3D3S1B" label="Coin"/>
+		<objref tsid="IA94H7H7H3D3S1U" label="Coin"/>
+		<objref tsid="IA94GVH7H3D3RVP" label="Coin"/>
+		<objref tsid="IA94GRH7H3D3B51" label="Collision-triggered Event Box"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

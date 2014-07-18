@@ -1,0 +1,148 @@
+<game_object tsid="LA9TCL1H7LD37DC" ts="1364245697548" label="Bilicious Blues" class_tsid="town" hubid="142" moteid="10" letime="3g8efufd" rbtime="3dl7h17d" upd_gs="gs6" load_time="2013-03-25 13:54:19.000">
+	<object id="dynamic">
+		<bool id="jobs_is_locked">false</bool>
+		<object id="events">
+			<object id="player_enter">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">if(pc.y&gt;0) //tp'd to bottom
+{
+  pc.startedAT = &quot;bottom&quot;;
+  pc.addCTPCPhysics({
+		gravity:-1
+  });
+}
+else //tp'd to top
+{
+  pc.startedAT = &quot;top&quot;;
+  pc.addCTPCPhysics({
+		gravity:1
+  });
+}
+</str>
+					</object>
+				</object>
+			</object>
+			<object id="should_tp_bottom">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">if(pc.startedAT == &quot;top&quot;)
+{
+ delete pc.startedAT;
+ pc.teleportToLocation('LA9BT2I0ILD340S', -1097, -1000); 
+}
+
+</str>
+					</object>
+				</object>
+			</object>
+			<object id="should_tp_top">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">if(pc.startedAT == &quot;bottom&quot;)
+{
+    delete pc.startedAT;
+    pc.teleportToLocation('LIFR1RLV0G43647', 437, -120); 
+}
+</str>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-11-01/LIF8NEEEJCC3S7S_loading_1351807039.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-11-01/LIF8NEEEJCC3S7S_main_1351807045.jpg</str>
+			<int id="w">720</int>
+			<int id="h">4320</int>
+		</object>
+		<object id="edit_history">
+			<str id="1352341103">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352343041">tsauth-ryan:add_street_obj-signposts</str>
+			<str id="1352343042">tsauth-ryan:add_street_obj-signposts</str>
+			<str id="1352343049">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352343094">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352343160">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352343215">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352399646">tsauth-ryan:edit_street_meta</str>
+			<str id="1352402544">tsauth-ryan:edit_street_meta</str>
+			<str id="1352404135">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352405528">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352405530">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352440083">PCR16SRG50O158I:rayn:locodeco-replace</str>
+			<str id="1352440512">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352440515">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+			<str id="1352510933">PIF5NL12S3D1BH3:Jade:locodeco-replace</str>
+			<str id="1352513824">tsauth-mackenzie:edit_street_meta</str>
+			<str id="1352849806">tsauth-ryan:modify_street_obj-signposts-signpost_2</str>
+			<str id="1352849809">tsauth-ryan:modify_street_obj-signposts-signpost_1</str>
+		</object>
+		<object id="streaking_increments">
+			<object id="25-07-11">
+				<int id="PLI10TT96BL3U">1352390584</int>
+			</object>
+			<object id="25-07-12">
+				<int id="PLI10TT96BL3U">1352394513</int>
+			</object>
+		</object>
+		<bool id="jobs_auto_unlock">false</bool>
+		<bool id="no_teleportation">false</bool>
+		<bool id="disallow_animals">true</bool>
+		<bool id="no_rook">true</bool>
+		<str id="instance_me">Bilicious Blues</str>
+		<int id="instance_max_members">53</int>
+		<str id="instance_location_type"></str>
+		<objref id="instances" tsid="DNVTGB5LOND3HLB" label="Instances"/>
+		<object id="special_loading_image">
+			<str id="url">streets/2012-11-08-static/1352411679-loading_biliciousblues.jpg</str>
+			<int id="w">600</int>
+			<int id="h">400</int>
+		</object>
+		<object id="hi_sign_daily_evasion_record">
+			<str id="pc_tsid">PA9IN2DVNHD22DT</str>
+			<str id="pc_label">Iconoclast</str>
+			<int id="secs">80</int>
+			<int id="when">1352499437</int>
+			<int id="version">10</int>
+			<str id="day_key">25-08-06</str>
+		</object>
+		<object id="hi_sign_evasion_record">
+			<str id="pc_tsid">PA9IN2DVNHD22DT</str>
+			<str id="pc_label">Iconoclast</str>
+			<int id="secs">80</int>
+			<int id="when">1352499437</int>
+			<int id="version">10</int>
+			<str id="day_key">25-08-06</str>
+		</object>
+	</object>
+	<objrefs id="items">
+		<objref tsid="INV6JD3H7LD3GGO" label="Coin"/>
+		<objref tsid="INV6JQ3H7LD3GHM" label="Coin"/>
+		<objref tsid="INV6JR3H7LD3GI0" label="Coin"/>
+		<objref tsid="INV6JE3H7LD3GG3" label="Coin"/>
+		<objref tsid="INV6J63H7LD3GGH" label="Collision-triggered Event Box"/>
+		<objref tsid="INV6JA3H7LD3GGO" label="Coin"/>
+		<objref tsid="INV6J43H7LD3GGL" label="Coin"/>
+		<objref tsid="INV6JJ3H7LD3GHL" label="Coin"/>
+		<objref tsid="INV6JG3H7LD3GHR" label="Coin"/>
+		<objref tsid="INV6J33H7LD3GGE" label="Coin"/>
+		<objref tsid="INV6J73H7LD3GGJ" label="Coin"/>
+		<objref tsid="INV6JP3H7LD3GHH" label="Coin"/>
+		<objref tsid="INV6J03H7LD3GF5" label="Coin"/>
+		<objref tsid="INV6JH3H7LD3GHK" label="Coin"/>
+		<objref tsid="INV6JT3H7LD3GI5" label="Coin"/>
+		<objref tsid="INV6JF3H7LD3GHN" label="Coin"/>
+		<objref tsid="INV6JS3H7LD3GIH" label="Coin"/>
+		<objref tsid="INV6JN3H7LD3GH8" label="Coin"/>
+		<objref tsid="INV6J13H7LD3GF2" label="Coin"/>
+		<objref tsid="INV6J93H7LD3GG1" label="Collision-triggered Event Box"/>
+		<objref tsid="INV6JI3H7LD3GHV" label="Coin"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

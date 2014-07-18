@@ -1,6 +1,18 @@
 {
     "tsid": "GA9KL77D1D829Q3",
     "label": "Kumida Middles",
+    "hub_id": "97",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-09/LA9KL77D1D829Q3_loading_1336606332.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-09/LA9KL77D1D829Q3_main_1336606333.jpg",
+        "w": 720,
+        "h": 180
+    },
     "gradient": {
         "top": "8FC9FF",
         "bottom": "FFE159"
@@ -91,7 +103,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -1667,7 +1681,24 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1311790920450",
+                        "y": -203,
+                        "w": 50,
+                        "h": 408,
+                        "x": -1296
+                    },
+                    {
+                        "id": "ladder_1311790920552",
+                        "y": -201,
+                        "w": 50,
+                        "h": 185,
+                        "x": 1530
+                    }
+                ],
+                "walls": []
             },
             "T_1311790920469": {
                 "name": "sky",
@@ -1717,7 +1748,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1309388549234": {
                 "name": "bg_1",
@@ -1801,8 +1834,48 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA9LT3ICID82JKE",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IA9LN27AID82KIF",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA9M2LUEID82V24",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IDOB4D5FOGQ2RJT",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IHV6D7FDV0V23IT",
+            "label": "Mailbox"
+        },
+        {
+            "tsid": "IA9M315FID82BST",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9LU7VCID8269T",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IA9LM7N9ID8251G",
+            "label": "Shrine to Mab"
+        },
+        {
+            "tsid": "IA9C9J3148G345K",
+            "label": "Fruit Tree"
+        }
+    ]
 }

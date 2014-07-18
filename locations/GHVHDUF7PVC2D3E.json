@@ -1,6 +1,18 @@
 {
     "tsid": "GHVHDUF7PVC2D3E",
     "label": "Muufo Start",
+    "hub_id": "97",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-28/LHVHDUF7PVC2D3E_loading_1317254055.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-28/LHVHDUF7PVC2D3E_main_1317254058.jpg",
+        "w": 720,
+        "h": 360
+    },
     "gradient": {
         "bottom": "E3C8AC",
         "top": "69A4CF"
@@ -50,7 +62,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1309388549234": {
                 "name": "bg_2",
@@ -204,7 +218,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1309388549233": {
                 "name": "bg_1",
@@ -516,7 +532,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2141,6 +2159,40 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1317248668966",
+                        "w": 50,
+                        "x": 1128,
+                        "h": 271,
+                        "y": -125
+                    },
+                    {
+                        "id": "ladder_1317248668900",
+                        "w": 50,
+                        "x": 652,
+                        "h": 413,
+                        "y": -157
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1317250607039",
+                        "w": 0,
+                        "pc_perm": 0,
+                        "x": -515,
+                        "h": 476,
+                        "y": -583
+                    },
+                    {
+                        "id": "wall_1317250607040",
+                        "w": 0,
+                        "pc_perm": 0,
+                        "x": -145,
+                        "h": 481,
+                        "y": -587
+                    }
                 ]
             },
             "T_1312409158557": {
@@ -2544,8 +2596,52 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHVAAL0D70D2QCK",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHV62VIF60D2LPN",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHVAG0BD70D2THO",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHVB9TGK70D26AT",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHVTOTGOJ0D2E68",
+            "label": "Patch"
+        },
+        {
+            "tsid": "IHVU3PHSJ0D26SN",
+            "label": "Patch"
+        },
+        {
+            "tsid": "IHV62CAF60D2LRJ",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHV62PFF60D2PR3",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHVAGAFD70D2LAR",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHVAFJ7D70D2I9M",
+            "label": "Coin"
+        }
+    ]
 }

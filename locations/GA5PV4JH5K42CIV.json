@@ -1,6 +1,18 @@
 {
     "tsid": "GA5PV4JH5K42CIV",
     "label": "Contour Rd W",
+    "hub_id": "86",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-26/LA5PV4JH5K42CIV_loading_1317078472.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-26/LA5PV4JH5K42CIV_main_1317078473.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "bottom": "FFD859",
         "top": "7395BF"
@@ -197,7 +209,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1307741552442": {
                 "name": "bg_3",
@@ -372,7 +386,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1307741552440": {
                 "name": "bg_2",
@@ -626,7 +642,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2640,6 +2658,45 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1308260972294",
+                        "y": -141,
+                        "w": 50,
+                        "h": 330,
+                        "x": 55
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1308089286906",
+                        "y": -451,
+                        "w": 0,
+                        "h": 147,
+                        "x": 136
+                    },
+                    {
+                        "id": "wall_1308260972149",
+                        "y": -219,
+                        "w": 0,
+                        "h": 112,
+                        "x": -355
+                    },
+                    {
+                        "id": "wall_1308089286905",
+                        "y": -454,
+                        "w": 0,
+                        "h": 143,
+                        "x": -21
+                    },
+                    {
+                        "id": "wall_1308260972148",
+                        "y": -212,
+                        "w": 0,
+                        "h": 117,
+                        "x": 500
+                    }
                 ]
             },
             "T_1307741552438": {
@@ -3221,7 +3278,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1307741552439": {
                 "name": "bg_1",
@@ -3423,8 +3482,68 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA517P3K2452IRR",
+            "label": "Dust Trap"
+        },
+        {
+            "tsid": "IA517NHJ2452MQ1",
+            "label": "Dust Trap"
+        },
+        {
+            "tsid": "IA51DEJV9452UO9",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5QILB5TVQ25DO",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA51DFNV945259J",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA51D9TT9452VQ0",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA51D7MT9452N5R",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5D4BQKO043BJ3",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA51D8PT9452U4U",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIFOUK8L69D3VJU",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA517RFL2452U66",
+            "label": "Dust Trap"
+        },
+        {
+            "tsid": "IHFHAUQK0T83AQC",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA51DDGV9452F22",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA51D6HT9452IUL",
+            "label": "Quoin"
+        }
+    ]
 }

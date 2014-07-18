@@ -1,6 +1,18 @@
 {
     "tsid": "GA5IUQRKIMB2SGF",
     "label": "Larvik Skarn",
+    "hub_id": "102",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-09/LA5IUQRKIMB2SGF_loading_1336605969.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-09/LA5IUQRKIMB2SGF_main_1336605972.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "8ABDFF",
         "bottom": "FFFFFF"
@@ -66,7 +78,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1315334860411": {
                 "name": "bg_1",
@@ -185,7 +199,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -4448,6 +4464,27 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1315344219493",
+                        "item_perm": 1,
+                        "x": 890,
+                        "y": -559,
+                        "pc_perm": 1,
+                        "h": 65,
+                        "w": 0
+                    },
+                    {
+                        "id": "wall_1315344219492",
+                        "item_perm": -1,
+                        "x": -342,
+                        "y": -612,
+                        "pc_perm": -1,
+                        "h": 119,
+                        "w": 0
+                    }
                 ]
             },
             "T_1315334860410": {
@@ -4639,7 +4676,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1315334860412": {
                 "name": "sky",
@@ -4765,8 +4804,76 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5H25RG6UB2G9P",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IA5H1ON16UB2ND2",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IA5H1UF96UB2F97",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5H27PI6UB24TM",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5H21RC6UB27M9",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA5H28RI6UB2PF3",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5H29UI6UB2J74",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5H24FG6UB23R3",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IA5H1T896UB2U1R",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF61UHVMGQ219J",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IIFR5SB5O4E3MB9",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "IA5H20RB6UB2IHA",
+            "label": "Shrine to Humbaba"
+        },
+        {
+            "tsid": "IIFPL9FA3TF393B",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IA5H26BH6UB273P",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA5H23RF6UB2AH4",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5H1VS96UB21FF",
+            "label": "Dullite Rock"
+        }
+    ]
 }

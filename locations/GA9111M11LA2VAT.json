@@ -1,6 +1,18 @@
 {
     "tsid": "GA9111M11LA2VAT",
     "label": "firebog_06",
+    "hub_id": "99",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-29/LA9111M11LA2VAT_loading_1346289297.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-29/LA9111M11LA2VAT_main_1346289298.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "E6DA81",
         "bottom": "4D2222"
@@ -149,7 +161,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1313790503833": {
                 "name": "middleplus",
@@ -462,7 +476,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1313790503835": {
                 "name": "bg_1",
@@ -800,7 +816,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3120,6 +3138,16 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1314836293229",
+                        "y": -1005,
+                        "w": 0,
+                        "h": 656,
+                        "x": -2385
+                    }
                 ]
             },
             "T_1314033507667": {
@@ -3325,8 +3353,64 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA99NFUMBOA2MF2",
+            "label": "Shrine to Cosma"
+        },
+        {
+            "tsid": "IA9A00IPBOA2EJL",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IUV5PH3SHEE3U61",
+            "label": "Gas Plant"
+        },
+        {
+            "tsid": "IA9A1DUPBOA2337",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IUV9PJPVJAE3LHE",
+            "label": "Spice Plant"
+        },
+        {
+            "tsid": "IUV9PKPVJAE3LIP",
+            "label": "Spice Plant"
+        },
+        {
+            "tsid": "IA9A5V8RBOA2GMR",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA9A0MPPBOA2E8O",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IUVSTPTOH183MH3",
+            "label": "Visiting Stone"
+        },
+        {
+            "tsid": "IUVD31CKC8E3IL0",
+            "label": "Spice Plant"
+        },
+        {
+            "tsid": "IUVQ8NGS8JQ2RF9",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA99PKONBOA2MGB",
+            "label": "Peat Bog"
+        },
+        {
+            "tsid": "IA99OHBNBOA2JFV",
+            "label": "Peat Bog"
+        }
+    ]
 }

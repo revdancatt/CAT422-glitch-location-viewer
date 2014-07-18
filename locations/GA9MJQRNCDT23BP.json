@@ -1,6 +1,18 @@
 {
     "tsid": "GA9MJQRNCDT23BP",
     "label": "Tilnat Park",
+    "hub_id": "75",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-30/LA9MJQRNCDT23BP_loading_1335827519.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-30/LA9MJQRNCDT23BP_main_1335827522.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "6E9182",
         "bottom": "E8FCFC"
@@ -386,7 +398,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3463,6 +3477,18 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1333667310556",
+                        "w": 0,
+                        "y": -998,
+                        "pc_perm": 0,
+                        "x": -1619,
+                        "h": 998,
+                        "item_perm": 1
+                    }
                 ]
             },
             "T_1331344663982": {
@@ -3741,7 +3767,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331341122141": {
                 "name": "foreground",
@@ -3917,7 +3945,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331344663989": {
                 "name": "bg3",
@@ -3973,7 +4003,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331341122118": {
                 "name": "middleplus",
@@ -5010,8 +5042,44 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA9MJTTNCDT2A1R",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA9QLJFTKNT2SBR",
+            "label": "Fox Ranger"
+        },
+        {
+            "tsid": "IA9MK1TNCDT2A1C",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IA9MK3TNCDT2A25",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA9MJUTNCDT2A1Q",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA9MK0TNCDT2A12",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA9MJVTNCDT2A1E",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA9MK2TNCDT2A2I",
+            "label": "Fox Stop Marker"
+        }
+    ]
 }

@@ -1,6 +1,18 @@
 {
     "tsid": "GNVUFE6P7453SAB",
     "label": "And so it begins...",
+    "hub_id": "52",
+    "mote_id": "10",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-04-28/LIF11TMDKL51U3N_loading_1304029947.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-04-28/LIF11TMDKL51U3N_main_1304029949.jpg",
+        "w": 720,
+        "h": 96
+    },
     "gradient": {
         "bottom": "CCC3A7",
         "top": "96B8D9"
@@ -191,7 +203,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "foreground": {
                 "name": "foreground",
@@ -344,7 +358,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -744,6 +760,23 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1275185099874",
+                        "w": 0,
+                        "x": -1116,
+                        "h": 120,
+                        "y": -174
+                    },
+                    {
+                        "id": "wall_1275016022999",
+                        "w": 0,
+                        "x": -1114,
+                        "h": 200,
+                        "y": -691
+                    }
                 ]
             },
             "bg_2": {
@@ -1019,7 +1052,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -1182,7 +1217,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_1": {
                 "name": "bg_1",
@@ -1424,7 +1461,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "L5980502435721": {
                 "name": "L5980502435721",
@@ -1501,8 +1540,28 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "INVUFF6P7453SD5",
+            "label": "Patch"
+        },
+        {
+            "tsid": "INVUFI6P7453SE6",
+            "label": "Watering Can"
+        },
+        {
+            "tsid": "INVUFG6P7453SDV",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "INVUFH6P7453SE7",
+            "label": "Hoe"
+        }
+    ]
 }

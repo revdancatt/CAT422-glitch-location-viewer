@@ -1,6 +1,18 @@
 {
     "tsid": "GDOHDJ84BST2UI2",
     "label": "Fox Hub Seam Street",
+    "hub_id": "66",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-25/LDOHDJ84BST2UI2_loading_1335380873.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-25/LDOHDJ84BST2UI2_main_1335380874.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "99CC",
         "bottom": "E8FCFC"
@@ -530,7 +542,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1335208586383": {
                 "name": "bg2",
@@ -557,7 +571,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1335227758126": {
                 "name": "Street lines",
@@ -752,7 +768,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1335208586353": {
                 "name": "bg1",
@@ -926,7 +944,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1335202978064": {
                 "name": "Sky",
@@ -1035,7 +1055,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -4108,6 +4130,80 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1335219774312",
+                        "y": -1020,
+                        "w": 0,
+                        "h": 803,
+                        "x": 1520
+                    },
+                    {
+                        "id": "wall_1335288709806",
+                        "y": -1020,
+                        "w": 0,
+                        "h": 803,
+                        "x": 1455,
+                        "item_perm": 1,
+                        "pc_perm": 1
+                    },
+                    {
+                        "id": "wall_1335288709805",
+                        "y": -1013,
+                        "w": 0,
+                        "h": 796,
+                        "x": -1463,
+                        "item_perm": -1,
+                        "pc_perm": -1
+                    },
+                    {
+                        "id": "wall_1335208586424",
+                        "y": -1013,
+                        "w": 0,
+                        "h": 796,
+                        "x": -1523
+                    },
+                    {
+                        "id": "wall_1335288709803",
+                        "y": -514,
+                        "w": 0,
+                        "h": 338,
+                        "x": -2275,
+                        "item_perm": 1,
+                        "pc_perm": 1
+                    },
+                    {
+                        "id": "wall_1335219774203",
+                        "y": -592,
+                        "w": 0,
+                        "h": 47,
+                        "x": -2318
+                    },
+                    {
+                        "id": "wall_1335219774279",
+                        "y": -551,
+                        "w": 0,
+                        "h": 340,
+                        "x": 2247
+                    },
+                    {
+                        "id": "wall_1335219774278",
+                        "y": -515,
+                        "w": 0,
+                        "h": 342,
+                        "x": -2199
+                    },
+                    {
+                        "id": "wall_1335288709804",
+                        "y": -551,
+                        "w": 0,
+                        "h": 340,
+                        "x": 2322,
+                        "item_perm": -1,
+                        "pc_perm": -1
+                    }
                 ]
             },
             "T_1335208586364": {
@@ -4345,8 +4441,88 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IDOHE6B4BST27RV",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOHE4B4BST27R3",
+            "label": "Collision-triggered Physics Changer"
+        },
+        {
+            "tsid": "IDOHE7B4BST27RI",
+            "label": "Collision-triggered Teleporter"
+        },
+        {
+            "tsid": "IDOR4DBG0SU2K0D",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IDOHE2B4BST27RA",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOHDVB4BST27QN",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOHE3B4BST27R1",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOHDRB4BST27QF",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOHDOB4BST27Q9",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOHE0B4BST27Q9",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOHE8B4BST27RJ",
+            "label": "Collision-triggered Teleporter"
+        },
+        {
+            "tsid": "IDOHDPB4BST27QK",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOHDQB4BST27QL",
+            "label": "Collision-triggered Physics Changer"
+        },
+        {
+            "tsid": "IDOHDNB4BST27PA",
+            "label": "Collision-triggered Physics Changer"
+        },
+        {
+            "tsid": "IDOHDUB4BST27QN",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOHE1B4BST27R4",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOHE5B4BST27RJ",
+            "label": "Collision-triggered Teleporter"
+        },
+        {
+            "tsid": "IDOHDTB4BST27QG",
+            "label": "Collision-triggered Physics Changer"
+        },
+        {
+            "tsid": "IDOHDSB4BST27QI",
+            "label": "Collision-triggered Teleporter"
+        }
+    ]
 }

@@ -1,6 +1,18 @@
 {
     "tsid": "GA94GCF7H3D30IM",
     "label": "Doonboggle Trail",
+    "hub_id": "129",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-11-02/LA94GCF7H3D30IM_loading_1351907930.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-11-02/LA94GCF7H3D30IM_main_1351907933.jpg",
+        "w": 720,
+        "h": 270
+    },
     "gradient": {
         "top": "679E",
         "bottom": "D6FAFF"
@@ -101,7 +113,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1296180098833": {
                 "name": "sky",
@@ -261,7 +275,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2671,6 +2687,61 @@
                                 "x": 260
                             }
                         ]
+                    }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1343169537668",
+                        "x": 433,
+                        "h": 604,
+                        "y": -735,
+                        "w": 50
+                    },
+                    {
+                        "id": "ladder_1343169537670",
+                        "x": 1760,
+                        "h": 650,
+                        "y": -697,
+                        "w": 50
+                    },
+                    {
+                        "id": "ladder_1343169537667",
+                        "x": 1143,
+                        "h": 585,
+                        "y": -333,
+                        "w": 50
+                    },
+                    {
+                        "id": "ladder_1343169537669",
+                        "x": -68,
+                        "h": 564,
+                        "y": -441,
+                        "w": 50
+                    },
+                    {
+                        "id": "ladder_1343169537671",
+                        "x": 92,
+                        "h": 214,
+                        "y": -161,
+                        "w": 50
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1343169537802",
+                        "x": 171,
+                        "y": -362,
+                        "h": 225,
+                        "w": 0
+                    },
+                    {
+                        "id": "wall_1343169537803",
+                        "pc_perm": 0,
+                        "x": -1177,
+                        "y": -1520,
+                        "h": 1158,
+                        "item_perm": 1,
+                        "w": 0
                     }
                 ]
             },
@@ -5629,7 +5700,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1296180098831": {
                 "name": "bg_1",
@@ -5789,7 +5862,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1342200957763": {
                 "name": "bg 3",
@@ -5928,7 +6003,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1296180098825": {
                 "name": "foreground",
@@ -6623,7 +6700,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1343169537334": {
                 "name": "Asset mdg 1",
@@ -6860,8 +6939,92 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA94GNH7H3D3B5D",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA94H9H7H3D3S1S",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA94GOH7H3D3B59",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA94GLH7H3D3B4B",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA94GMH7H3D3B4F",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA94H2H7H3D3RVP",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "IA94GQH7H3D3B56",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA94H0H7H3D3RV7",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IA94HAH7H3D3S1S",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA94GPH7H3D3B5A",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA94H5H7H3D3S0I",
+            "label": "Garden"
+        },
+        {
+            "tsid": "IA94GUH7H3D3RV4",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA94H6H7H3D3S1E",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA94GTH7H3D3RVH",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA94H4H7H3D3S0P",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA94H1H7H3D3RV0",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA94H8H7H3D3S1B",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA94H7H7H3D3S1U",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA94GVH7H3D3RVP",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA94GRH7H3D3B51",
+            "label": "Collision-triggered Event Box"
+        }
+    ]
 }

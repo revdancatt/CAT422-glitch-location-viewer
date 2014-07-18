@@ -1,6 +1,18 @@
 {
     "tsid": "GHF893IMS2D2AKU",
     "label": "r1",
+    "hub_id": "106",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-29/LHF893IMS2D2AKU_loading_1346290826.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-29/LHF893IMS2D2AKU_main_1346290829.jpg",
+        "w": 720,
+        "h": 540
+    },
     "gradient": {
         "top": "D0D0D",
         "bottom": "381A38"
@@ -301,7 +313,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1317326758327": {
                 "name": "SKY",
@@ -449,7 +463,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2211,7 +2227,24 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1317326758313",
+                        "y": -340,
+                        "w": 50,
+                        "h": 277,
+                        "x": -915
+                    },
+                    {
+                        "id": "ladder_1317326758306",
+                        "y": -183,
+                        "w": 50,
+                        "h": 747,
+                        "x": 270
+                    }
+                ],
+                "walls": []
             },
             "T_1317326758262": {
                 "name": "foreground",
@@ -2414,8 +2447,64 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHF2NLD503D283D",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IHF3125603D278U",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IHF47TPA03D24M3",
+            "label": "Shrine to Mab"
+        },
+        {
+            "tsid": "IHF2RTP503D2U41",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IHF2BI2403D2L68",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IIF3D656V7G3P7T",
+            "label": "Forehorseman"
+        },
+        {
+            "tsid": "INVP2E42LGQ227A",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IHF3QLS803D2P6N",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IHF2FPE403D2H4M",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IHF7644QR4D2RJK",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IHF34NR603D2R38",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IHF5CUFF03D2D2G",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IHFAD6C8J183HR6",
+            "label": "Visiting Stone"
+        }
+    ]
 }

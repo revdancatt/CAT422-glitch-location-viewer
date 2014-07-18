@@ -1,6 +1,18 @@
 {
     "tsid": "GA910DULG012JIE",
     "label": "Punar Grotta",
+    "hub_id": "78",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-05-22/LA910DULG012JIE_loading_1306096118.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-05-22/LA910DULG012JIE_main_1306096120.jpg",
+        "w": 720,
+        "h": 180
+    },
     "gradient": {
         "bottom": "341854",
         "top": "1F1F"
@@ -50,7 +62,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1304379488299": {
                 "name": "Background 1",
@@ -397,7 +411,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1304379488297": {
                 "name": "Foreground",
@@ -407,7 +423,9 @@
                 "filters": {},
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -5535,6 +5553,52 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1304463110294",
+                        "w": 50,
+                        "y": -283,
+                        "x": -592,
+                        "h": 454
+                    },
+                    {
+                        "id": "ladder_1304457227035",
+                        "w": 50,
+                        "y": -154,
+                        "x": 1218,
+                        "h": 268
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1304463110343",
+                        "w": 0,
+                        "y": -687,
+                        "x": -885,
+                        "h": 34
+                    },
+                    {
+                        "id": "wall_1304463110331",
+                        "w": 0,
+                        "y": -401,
+                        "x": 610,
+                        "h": 379
+                    },
+                    {
+                        "id": "wall_1304463110345",
+                        "w": 0,
+                        "y": -266,
+                        "x": -21,
+                        "h": 110
+                    },
+                    {
+                        "id": "wall_1316662209900",
+                        "w": 0,
+                        "y": -998,
+                        "x": -1761,
+                        "h": 324
+                    }
                 ]
             },
             "T_1304379488301": {
@@ -5545,7 +5609,9 @@
                 "filters": {},
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1304379488298": {
                 "name": "Middleground Plus",
@@ -5601,7 +5667,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1304379488300": {
                 "name": "Background 3",
@@ -6512,8 +6580,136 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IIFB8TIDDJQ2PP5",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA91763133129M9",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91682EU212PNJ",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA9186ER5312H28",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA9173LK2312VR1",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA914682Q212BK3",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IA914893Q212VD9",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IA914VARS2121E0",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA917BS53312GG0",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA917CB633121P0",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA915E7CT2124DD",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9171I71312HTR",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA9157T1T21250D",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9178B23312CEN",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9M5RRL37B2RH5",
+            "label": "Quest Spawner"
+        },
+        {
+            "tsid": "IA9166RCU212T8I",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA915D1CT21207A",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9165OCU212G7V",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9150GSS212E3M",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9154TVS212PRV",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA914S8QS212EI1",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91745033121SM",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA915822T212K78",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9156L1T212SFO",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91BL4LJR22EFJ",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA9DT4LAQE228DB",
+            "label": "Shrine to Cosma"
+        },
+        {
+            "tsid": "IA915HEET212787",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9164JCU212KS1",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA914U3RS212EO9",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9152ITS21225N",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9E4D9IQE2280E",
+            "label": "Sparkly Rock"
+        }
+    ]
 }

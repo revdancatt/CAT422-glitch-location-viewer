@@ -1,6 +1,10 @@
 {
     "tsid": "GHFRK14DDU53RQQ",
     "label": "A L'il Animal Kinship",
+    "hub_id": "132",
+    "mote_id": "10",
+    "loading_image": {},
+    "main_image": {},
     "gradient": {
         "bottom": "000000",
         "top": "000000"
@@ -64,7 +68,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -315,6 +321,105 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1340833999452",
+                        "x": 572,
+                        "item_perm": 1,
+                        "w": 0,
+                        "pc_perm": 0,
+                        "h": 535,
+                        "y": -634
+                    },
+                    {
+                        "id": "wall_1340833999457",
+                        "x": 2084,
+                        "item_perm": 1,
+                        "w": 0,
+                        "pc_perm": 0,
+                        "h": 537,
+                        "y": -642
+                    },
+                    {
+                        "id": "wall_1342648337026",
+                        "x": 168,
+                        "w": 0,
+                        "pc_perm": 0,
+                        "h": 945,
+                        "y": -1043
+                    },
+                    {
+                        "id": "wall_1342578009910",
+                        "x": 2486,
+                        "item_perm": -1,
+                        "w": 0,
+                        "pc_perm": 0,
+                        "h": 538,
+                        "y": -646
+                    },
+                    {
+                        "id": "wall_1340833999453",
+                        "x": 819,
+                        "item_perm": -1,
+                        "w": 0,
+                        "pc_perm": 0,
+                        "h": 542,
+                        "y": -641
+                    },
+                    {
+                        "id": "wall_1340833999455",
+                        "x": 1320,
+                        "item_perm": 1,
+                        "w": 0,
+                        "pc_perm": 0,
+                        "h": 535,
+                        "y": -637
+                    },
+                    {
+                        "id": "wall_1342578009911",
+                        "x": 1919,
+                        "item_perm": 1,
+                        "w": 0,
+                        "pc_perm": 0,
+                        "h": 537,
+                        "y": -642
+                    },
+                    {
+                        "id": "wall_1343335116552",
+                        "x": 1912,
+                        "w": 0,
+                        "pc_perm": 0,
+                        "h": 615,
+                        "y": -715
+                    },
+                    {
+                        "id": "wall_1343069513896",
+                        "x": 3355,
+                        "w": 0,
+                        "pc_perm": 1,
+                        "h": 334,
+                        "y": -443
+                    },
+                    {
+                        "id": "wall_1340833999456",
+                        "x": 2306,
+                        "item_perm": -1,
+                        "w": 0,
+                        "pc_perm": 0,
+                        "h": 538,
+                        "y": -646
+                    },
+                    {
+                        "id": "wall_1340833999454",
+                        "x": 1538,
+                        "item_perm": -1,
+                        "w": 0,
+                        "pc_perm": 0,
+                        "h": 531,
+                        "y": -632
+                    }
                 ]
             },
             "T_1338329787540": {
@@ -360,7 +465,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1338328005072": {
                 "name": "middleplus",
@@ -466,7 +573,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1340318892555": {
                 "name": "bg1",
@@ -519,7 +628,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1340318892561": {
                 "name": "bg4",
@@ -564,7 +675,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1340318892558": {
                 "name": "bg3",
@@ -617,8 +730,76 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHFRKB4DDU53RR5",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFRKA4DDU53RRR",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFRKI4DDU53RSJ",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFRKG4DDU53RSB",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFRK34DDU53RRE",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFRK74DDU53RR2",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFRK64DDU53RRF",
+            "label": "Side Table"
+        },
+        {
+            "tsid": "IHFRKC4DDU53RRQ",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFRKK4DDU53RS5",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFRKD4DDU53RRS",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFRK84DDU53RR8",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFROQNDDU53K6P",
+            "label": "Chicken"
+        },
+        {
+            "tsid": "IHFRKJ4DDU53RSM",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFRK24DDU53RRO",
+            "label": "Collision-triggered Teleporter"
+        },
+        {
+            "tsid": "IHFRK54DDU53RRE",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFRKH4DDU53RS2",
+            "label": "Collision-triggered Event Box"
+        }
+    ]
 }

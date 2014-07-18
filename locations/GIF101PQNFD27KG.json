@@ -1,6 +1,10 @@
 {
     "tsid": "GIF101PQNFD27KG",
     "label": "The Next Step",
+    "hub_id": "52",
+    "mote_id": "10",
+    "loading_image": {},
+    "main_image": {},
     "gradient": {
         "bottom": "A9E8C4",
         "top": "8198B5"
@@ -229,7 +233,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -248,7 +254,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_1": {
                 "name": "bg_1",
@@ -385,7 +393,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -683,6 +693,25 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_2",
+                        "y": -574,
+                        "w": 0,
+                        "x": 1419,
+                        "h": 450,
+                        "pc_perm": 0
+                    },
+                    {
+                        "id": "wall_1",
+                        "y": -572,
+                        "w": 0,
+                        "x": 616,
+                        "h": 450,
+                        "pc_perm": 0
+                    }
                 ]
             },
             "foreground": {
@@ -693,7 +722,9 @@
                 "filters": {},
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleplus": {
                 "name": "middleplus",
@@ -883,8 +914,32 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IIF105PQNFD287F",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIF103PQNFD285J",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIF106PQNFD2879",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIF104PQNFD286H",
+            "label": "Piggy"
+        },
+        {
+            "tsid": "IIF102PQNFD2829",
+            "label": "Coin"
+        }
+    ]
 }

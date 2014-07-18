@@ -1,6 +1,18 @@
 {
     "tsid": "GTJ10K7P3812R8F",
     "label": "Corridor Four",
+    "hub_id": "77",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-05-10/LTJ10K7P3812R8F_loading_1305068485.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-05-10/LTJ10K7P3812R8F_main_1305068487.jpg",
+        "w": 720,
+        "h": 240
+    },
     "gradient": {
         "top": "000000",
         "bottom": "000000"
@@ -104,7 +116,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1304591338623": {
                 "name": "FG",
@@ -226,7 +240,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -979,6 +995,37 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1304662935395",
+                        "x": -1675,
+                        "h": 291,
+                        "y": -702,
+                        "w": 0
+                    },
+                    {
+                        "id": "wall_1304666165705",
+                        "x": 183,
+                        "h": 484,
+                        "y": -1045,
+                        "w": 0
+                    },
+                    {
+                        "id": "wall_1304662935426",
+                        "x": 1599,
+                        "h": 280,
+                        "y": -964,
+                        "w": 0
+                    },
+                    {
+                        "id": "wall_1304666165704",
+                        "x": 26,
+                        "h": 495,
+                        "y": -1037,
+                        "w": 0
+                    }
                 ]
             },
             "T_1304591338624": {
@@ -989,8 +1036,24 @@
                 "filters": {},
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA94IMH438G3IIP",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IA92JB2U28G3PU5",
+            "label": "Bug Acknowledgment"
+        },
+        {
+            "tsid": "INVN765T1SU271E",
+            "label": "Qurazy marker"
+        }
+    ]
 }

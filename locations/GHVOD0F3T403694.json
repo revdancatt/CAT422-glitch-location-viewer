@@ -1,6 +1,18 @@
 {
     "tsid": "GHVOD0F3T403694",
     "label": "Green Main",
+    "hub_id": "125",
+    "mote_id": "10",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-30/LHVOD0F3T403694_loading_1338419158.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-30/LHVOD0F3T403694_main_1338419159.jpg",
+        "w": 720,
+        "h": 63
+    },
     "gradient": {
         "top": "EFFFA6",
         "bottom": "450A"
@@ -98,7 +110,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1335478257326": {
                 "name": "sky",
@@ -282,7 +296,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1335489691386": {
                 "name": "ceiling",
@@ -865,7 +881,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -5780,6 +5798,94 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1336613271136",
+                        "y": -330,
+                        "w": 50,
+                        "h": 262,
+                        "x": -575
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1336674360032",
+                        "y": -281,
+                        "w": 0,
+                        "h": 86,
+                        "x": 2844
+                    },
+                    {
+                        "id": "wall_1336692937088",
+                        "y": -600,
+                        "w": 0,
+                        "h": 223,
+                        "x": -646
+                    },
+                    {
+                        "id": "wall_1336587953552",
+                        "y": -202,
+                        "w": 0,
+                        "h": 67,
+                        "x": -2268
+                    },
+                    {
+                        "id": "wall_1336587953610",
+                        "y": -202,
+                        "w": 0,
+                        "h": 71,
+                        "x": -757
+                    },
+                    {
+                        "id": "wall_1336587953589",
+                        "y": -204,
+                        "w": 0,
+                        "h": 77,
+                        "x": -1942
+                    },
+                    {
+                        "id": "wall_1336674359981",
+                        "y": -202,
+                        "w": 0,
+                        "h": 85,
+                        "x": 797
+                    },
+                    {
+                        "id": "wall_1336587953535",
+                        "y": -203,
+                        "w": 0,
+                        "h": 78,
+                        "x": -2944
+                    },
+                    {
+                        "id": "wall_1336674359993",
+                        "y": -280,
+                        "w": 0,
+                        "h": 159,
+                        "x": 1166
+                    },
+                    {
+                        "id": "wall_1336674359987",
+                        "y": -282,
+                        "w": 0,
+                        "h": 70,
+                        "x": 977
+                    },
+                    {
+                        "id": "wall_1336692937089",
+                        "y": -599,
+                        "w": 0,
+                        "h": 221,
+                        "x": -506
+                    },
+                    {
+                        "id": "wall_1336674359950",
+                        "y": -203,
+                        "w": 0,
+                        "h": 74,
+                        "x": -391
+                    }
                 ]
             },
             "T_1335478257325": {
@@ -6521,8 +6627,88 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "INVHQ5H3T403IGS",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVHQ9H3T403IGV",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVHQMH3T403IHN",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFVVCKMVM03AJU",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVHQIH3T403IHF",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVHQEH3T403IH1",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVHQAH3T403IGU",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVHQFH3T403IH3",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVHQ0H3T403IFU",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFGN77I2A03EPK",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVHQHH3T403IHK",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVHPVH3T403IFS",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVHQJH3T403IHA",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVHQ2H3T403IGH",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVHQNH3T403IHT",
+            "label": "Coin"
+        },
+        {
+            "tsid": "INVHQCH3T403IG7",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFE0C9AK903IVE",
+            "label": "Teleport Marker"
+        },
+        {
+            "tsid": "INVHQ8H3T403IG6",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVHQ4H3T403IG1",
+            "label": "Coin"
+        }
+    ]
 }

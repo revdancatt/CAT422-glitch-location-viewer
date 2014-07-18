@@ -1,6 +1,18 @@
 {
     "tsid": "GIF84CCRN203N7P",
     "label": "Sabudana Drama Towers Basement",
+    "hub_id": "101",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-23/LIF84CCRN203N7P_loading_1337793622.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-23/LIF84CCRN203N7P_main_1337793625.jpg",
+        "w": 720,
+        "h": 150
+    },
     "gradient": {
         "top": "000000",
         "bottom": "000000"
@@ -108,7 +120,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1335996240981": {
                 "name": "Ceiling",
@@ -476,7 +490,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "foreground": {
                 "name": "foreground",
@@ -725,7 +741,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1335996240962": {
                 "name": "crates",
@@ -1137,7 +1155,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "backwall",
@@ -1204,7 +1224,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -1518,6 +1540,37 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1336001739930",
+                        "y": -558,
+                        "w": 0,
+                        "h": 158,
+                        "x": -1471
+                    },
+                    {
+                        "id": "wall_1336003657420",
+                        "y": -408,
+                        "w": 0,
+                        "h": 302,
+                        "x": 1509
+                    },
+                    {
+                        "id": "wall_1336003657350",
+                        "y": -400,
+                        "w": 0,
+                        "h": 290,
+                        "x": -1510
+                    },
+                    {
+                        "id": "wall_1336001739929",
+                        "y": -558,
+                        "w": 0,
+                        "h": 150,
+                        "x": 1476
+                    }
                 ]
             },
             "T_1329501743777": {
@@ -1648,7 +1701,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_2": {
                 "name": "floor",
@@ -1842,8 +1897,20 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IDO9OLO56503IFH",
+            "label": "Teleport Marker"
+        },
+        {
+            "tsid": "IIF84QFRN2030BM",
+            "label": "Qurazy marker"
+        }
+    ]
 }

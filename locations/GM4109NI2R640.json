@@ -1,6 +1,18 @@
 {
     "tsid": "GM4109NI2R640",
     "label": "Guillermo Gamera Way",
+    "hub_id": "27",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LM4109NI2R640_loading_1343870658.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LM4109NI2R640_main_1343870659.jpg",
+        "w": 720,
+        "h": 180
+    },
     "gradient": {
         "top": "DEB96A",
         "bottom": "D9DBBA"
@@ -88,7 +100,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "foreground": {
                 "name": "foreground",
@@ -107,7 +121,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "L8951808305521": {
                 "name": "L8951808305521",
@@ -534,7 +550,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -609,7 +627,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleplus": {
                 "name": "middleplus",
@@ -692,7 +712,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_1": {
                 "name": "bg_1",
@@ -1087,7 +1109,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "L9675856784521": {
                 "name": "L9675856784521",
@@ -1226,7 +1250,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2417,8 +2443,84 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1259872095274",
+                        "w": 31,
+                        "y": -1332,
+                        "x": 2304,
+                        "h": 250
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1255147844927",
+                        "w": 0,
+                        "y": -2000,
+                        "x": 3888,
+                        "h": 1099
+                    }
                 ]
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5HV0S6R9G2LHL",
+            "label": "Collision-triggered Teleporter"
+        },
+        {
+            "tsid": "IM411MQCLQSIB",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA510G229I32SCL",
+            "label": "Mailbox"
+        },
+        {
+            "tsid": "IIF143EVEA019A3",
+            "label": "Ix Shrine for Pot"
+        },
+        {
+            "tsid": "IA5MOLOFJ7G3S8J",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "IA5MTEKGJ7G3MT1",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "IIF15GTN8RU4J",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IA51MUNGD8G3T5M",
+            "label": "Spice Plant"
+        },
+        {
+            "tsid": "IA5AOUERCJQ20U3",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA5MHFMGC8G3M38",
+            "label": "Spinning Wheel"
+        },
+        {
+            "tsid": "IM411NQCLR06P",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5DC739V7G3DBK",
+            "label": "Forehorseman"
+        },
+        {
+            "tsid": "IA55LDF35T62UTV",
+            "label": "Race Ticket Dispenser"
+        },
+        {
+            "tsid": "IA5F7Q6P28G347F",
+            "label": "Woodworker"
+        }
+    ]
 }

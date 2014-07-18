@@ -1,6 +1,18 @@
 {
     "tsid": "GDOEMNGFQCD2KI2",
     "label": "Bayadd Yadding",
+    "hub_id": "107",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LDOEMNGFQCD2KI2_loading_1343846559.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LDOEMNGFQCD2KI2_main_1343846562.jpg",
+        "w": 720,
+        "h": 540
+    },
     "gradient": {
         "top": "D0D0D",
         "bottom": "381A38"
@@ -115,7 +127,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1317326758262": {
                 "name": "foreground",
@@ -388,7 +402,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2546,7 +2562,38 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1317341090843",
+                        "y": -582,
+                        "w": 50,
+                        "h": 405,
+                        "x": 574
+                    },
+                    {
+                        "id": "ladder_1317341090829",
+                        "y": -163,
+                        "w": 50,
+                        "h": 182,
+                        "x": 354
+                    },
+                    {
+                        "id": "ladder_1317341090792",
+                        "y": -214,
+                        "w": 50,
+                        "h": 848,
+                        "x": -538
+                    },
+                    {
+                        "id": "ladder_1317326758313",
+                        "y": -330,
+                        "w": 50,
+                        "h": 267,
+                        "x": 768
+                    }
+                ],
+                "walls": []
             },
             "T_1317326758263": {
                 "name": "BG1",
@@ -2759,8 +2806,64 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IDOT88F0SCD2OM6",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOQOBHNRCD2SG5",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IDORTUCRRCD24CD",
+            "label": "Shrine to Alph"
+        },
+        {
+            "tsid": "IDOPE0FJRCD2J2O",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IDOPMUBKRCD2G1R",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IDOQMIBNRCD2I76",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IDOQT60ORCD2CSU",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IDOQQLPNRCD2N6F",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IDOQ9G0MRCD2VR9",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IDOT6670SCD285N",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOTGNE1SCD2SSN",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IDOPJM2KRCD27D9",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IDO9EOIVNGQ2TCV",
+            "label": "Qurazy marker"
+        }
+    ]
 }

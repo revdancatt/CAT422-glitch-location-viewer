@@ -1,6 +1,18 @@
 {
     "tsid": "GA5G15O4BUG2CVB",
     "label": "square_01",
+    "hub_id": "110",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-09-13/LA5G15O4BUG2CVB_loading_1347564708.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-09-13/LA5G15O4BUG2CVB_main_1347564734.jpg",
+        "w": 720,
+        "h": 540
+    },
     "gradient": {
         "top": "D0D0D",
         "bottom": "210F21"
@@ -267,7 +279,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1317326758327": {
                 "name": "SKY",
@@ -421,7 +435,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2835,7 +2851,24 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1321494781136",
+                        "y": -189,
+                        "w": 50,
+                        "h": 350,
+                        "x": 295
+                    },
+                    {
+                        "id": "ladder_1321494781176",
+                        "y": -602,
+                        "w": 50,
+                        "h": 437,
+                        "x": -589
+                    }
+                ],
+                "walls": []
             },
             "T_1317326758263": {
                 "name": "BG1",
@@ -3053,8 +3086,72 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5N3Q44QGQ25K1",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA5N5TNS3NE3K9L",
+            "label": "Egg Plant"
+        },
+        {
+            "tsid": "IA5K9GUGNUG2UJN",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IA5KH17INUG2HBM",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IA5K4G3GNUG2O87",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5K0UAFNUG2M2E",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA5JNOEDNUG2GNK",
+            "label": "Shrine to Grendaline"
+        },
+        {
+            "tsid": "IA5EA1HNB8G3H9M",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5KBMDHNUG2T56",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA5K461GNUG2FS2",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHV3CSB4I793TJ4",
+            "label": "Visiting Stone"
+        },
+        {
+            "tsid": "IA5K5KDGNUG2KE0",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA5JOOODNUG29HT",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA5K7GOGNUG2GII",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA5K4Q6GNUG2G0N",
+            "label": "Coin"
+        }
+    ]
 }

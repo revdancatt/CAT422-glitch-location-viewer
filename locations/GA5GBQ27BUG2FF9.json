@@ -1,6 +1,18 @@
 {
     "tsid": "GA5GBQ27BUG2FF9",
     "label": "square_02",
+    "hub_id": "110",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-11-22/LA5GBQ27BUG2FF9_loading_1322014111.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-11-22/LA5GBQ27BUG2FF9_main_1322014114.jpg",
+        "w": 720,
+        "h": 540
+    },
     "gradient": {
         "top": "D0D0D",
         "bottom": "1A0C1A"
@@ -175,7 +187,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1317326758263": {
                 "name": "BG1",
@@ -325,7 +339,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2308,7 +2324,17 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1321653551533",
+                        "w": 50,
+                        "y": -183,
+                        "x": 936,
+                        "h": 720
+                    }
+                ],
+                "walls": []
             },
             "T_1317326758262": {
                 "name": "foreground",
@@ -2545,8 +2571,48 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5G09T0F3H2O27",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA5MHOOTPGQ2C0T",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA5G5SV1F3H2JBS",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IA5FIHFUE3H2MN3",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA5G8NG2F3H25G6",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA5FMK8VE3H26LU",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA5G3RK1F3H2NJK",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IA5FFOVTE3H24DK",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA5G29A1F3H28T7",
+            "label": "Sparkly Rock"
+        }
+    ]
 }

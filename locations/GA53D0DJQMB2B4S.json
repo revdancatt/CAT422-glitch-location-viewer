@@ -1,6 +1,18 @@
 {
     "tsid": "GA53D0DJQMB2B4S",
     "label": "Meion Nsut",
+    "hub_id": "102",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-15/LA53D0DJQMB2B4S_loading_1316113599.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-15/LA53D0DJQMB2B4S_main_1316113601.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "8ABDFF",
         "bottom": "FFFFFF"
@@ -50,7 +62,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1315334860411": {
                 "name": "bg_1",
@@ -225,7 +239,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3686,7 +3702,17 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1315863523147",
+                        "x": -536,
+                        "h": 355,
+                        "y": -204,
+                        "w": 50
+                    }
+                ],
+                "walls": []
             },
             "T_1315334860410": {
                 "name": "middleplus",
@@ -3726,7 +3752,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1315334860412": {
                 "name": "sky",
@@ -3878,8 +3906,64 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5H32408UB22LN",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IIFGDQOTVPE3EH9",
+            "label": "Heli Kitty"
+        },
+        {
+            "tsid": "IA5H2NAN7UB2O6N",
+            "label": "Shrine to Tii"
+        },
+        {
+            "tsid": "IIFGE2VTVPE32AK",
+            "label": "Heli Kitty"
+        },
+        {
+            "tsid": "IA5H2R4R7UB23CP",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIFVKDOVAKE3RIV",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IA5H2UKS7UB2B3T",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA5H2QSQ7UB24OA",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IIFOUS933TF3OV3",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IA5H2TVR7UB2H53",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IIFGEE4UVPE3HIV",
+            "label": "Heli Kitty"
+        },
+        {
+            "tsid": "IIF6DBO4NGQ2E8V",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA5H2S7R7UB2FDV",
+            "label": "Quoin"
+        }
+    ]
 }

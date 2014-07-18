@@ -1,6 +1,18 @@
 {
     "tsid": "GA9KLA8H1D82JM3",
     "label": "Transition_01",
+    "hub_id": "97",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-03/LA9KLA8H1D82JM3_loading_1344041343.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-03/LA9KLA8H1D82JM3_main_1344041345.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "bottom": "FFC252",
         "top": "5FA3D4"
@@ -315,7 +327,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1311022275144": {
                 "name": "bg_3",
@@ -391,7 +405,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1311386031998": {
                 "name": "middleplus",
@@ -451,7 +467,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2669,6 +2687,33 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1311379072630",
+                        "x": -2487,
+                        "h": 332,
+                        "y": -299,
+                        "w": 50
+                    },
+                    {
+                        "id": "ladder_1311803724995",
+                        "x": 784,
+                        "h": 578,
+                        "y": -103,
+                        "w": 50
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1312310646719",
+                        "pc_perm": 0,
+                        "x": -1063,
+                        "h": 855,
+                        "y": -1001,
+                        "item_perm": 1,
+                        "w": 0
+                    }
                 ]
             },
             "T_1311008164522": {
@@ -2738,7 +2783,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1309388549234": {
                 "name": "bg_2",
@@ -2915,8 +2962,60 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA9KJS24C2G3PRR",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "IA9S8RP7MD82PQF",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IDOBHT2IOGQ2DAF",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA9S49C4MD827LE",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IA9S6OF6MD82L1T",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9S6JB6MD82S43",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9RJO3QLD8242L",
+            "label": "Shrine to Friendly"
+        },
+        {
+            "tsid": "IA9S92U7MD829B7",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9S76R6MD820QR",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IDOFBNIJCLE3QC9",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "IA9RMGCRLD82MIU",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA9SAKM8MD827B4",
+            "label": "Metal Rock"
+        }
+    ]
 }

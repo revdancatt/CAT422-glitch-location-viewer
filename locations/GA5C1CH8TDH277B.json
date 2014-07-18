@@ -1,6 +1,18 @@
 {
     "tsid": "GA5C1CH8TDH277B",
     "label": "Polenta Qado",
+    "hub_id": "110",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-09-13/LA5C1CH8TDH277B_loading_1347564310.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-09-13/LA5C1CH8TDH277B_main_1347564318.jpg",
+        "w": 720,
+        "h": 540
+    },
     "gradient": {
         "top": "D0D0D",
         "bottom": "1C0D1C"
@@ -310,7 +322,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1317326758327": {
                 "name": "SKY",
@@ -462,7 +476,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2225,7 +2241,24 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1322008406286",
+                        "w": 50,
+                        "y": -238,
+                        "x": 927,
+                        "h": 263
+                    },
+                    {
+                        "id": "ladder_1322008406276",
+                        "w": 50,
+                        "y": -549,
+                        "x": 269,
+                        "h": 468
+                    }
+                ],
+                "walls": []
             },
             "T_1317326758263": {
                 "name": "BG1",
@@ -2462,8 +2495,60 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5VGQ401EH28GA",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA511N131EH2NR2",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA5VS1A21EH2MJC",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA5VQE221EH2B5J",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA512Q731EH2THA",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA5NFO77QGQ2PV1",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA515IM31EH2J7S",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IA513EB31EH2BTH",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA5VF6PV0EH21S8",
+            "label": "Shrine to Cosma"
+        },
+        {
+            "tsid": "IHV15HPNH793GC0",
+            "label": "Visiting Stone"
+        },
+        {
+            "tsid": "IA5VU5H21EH2F8P",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IA5VVMO21EH22DB",
+            "label": "Beryl Rock"
+        }
+    ]
 }

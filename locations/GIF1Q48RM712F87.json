@@ -1,6 +1,18 @@
 {
     "tsid": "GIF1Q48RM712F87",
     "label": "Corridor Three",
+    "hub_id": "77",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-05-20/LIF1Q48RM712F87_loading_1305914146.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-05-20/LIF1Q48RM712F87_main_1305914148.jpg",
+        "w": 720,
+        "h": 240
+    },
     "gradient": {
         "top": "000000",
         "bottom": "000000"
@@ -168,7 +180,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1304591338624": {
                 "name": "BG",
@@ -178,7 +192,9 @@
                 "filters": {},
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1304650562160": {
                 "name": "T_1304650562160",
@@ -289,7 +305,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -1126,8 +1144,90 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1304664103557",
+                        "x": 287,
+                        "h": 475,
+                        "y": -99,
+                        "w": 50
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1304664103546",
+                        "x": 342,
+                        "h": 496,
+                        "y": -567,
+                        "w": 0
+                    },
+                    {
+                        "id": "wall_1304664103551",
+                        "x": -40,
+                        "h": 144,
+                        "y": -215,
+                        "w": 0
+                    },
+                    {
+                        "id": "wall_1304664103547",
+                        "x": 236,
+                        "h": 239,
+                        "y": -565,
+                        "w": 0
+                    },
+                    {
+                        "id": "wall_1304662935426",
+                        "x": 1599,
+                        "h": 280,
+                        "y": -964,
+                        "w": 0
+                    },
+                    {
+                        "id": "wall_1304664103540",
+                        "x": -380,
+                        "h": 474,
+                        "y": -977,
+                        "w": 0
+                    },
+                    {
+                        "id": "wall_1304662935395",
+                        "x": -1675,
+                        "h": 291,
+                        "y": -702,
+                        "w": 0
+                    },
+                    {
+                        "id": "wall_1304664103538",
+                        "x": -534,
+                        "h": 482,
+                        "y": -990,
+                        "w": 0
+                    }
                 ]
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "ITJ103C23812GE4",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "ITJ102523812C0D",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "ITJ104RB381219K",
+            "label": "spawner"
+        },
+        {
+            "tsid": "INVMBJ1L1SU2QMN",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "ITJ101R13812HNF",
+            "label": "Quoin"
+        }
+    ]
 }

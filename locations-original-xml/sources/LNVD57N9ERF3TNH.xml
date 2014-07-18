@@ -1,0 +1,4512 @@
+<game_object tsid="LNVD57N9ERF3TNH" ts="1354678308984" label="The Greedy Street Spirit" class_tsid="town" hubid="61" moteid="10" letime="3frekq1m" rbtime="3fre9ntn" upd_gs="gs12" load_time="2012-12-04 18:23:21.000" upd_time="2012-12-04 18:24:50.712">
+	<object id="dynamic">
+		<str id="instance_of">LNVKEU5TKG33K7L</str>
+		<object id="special_loading_image">
+			<str id="url">streets/2012-08-16-static/1345161744-loadingscreen_thegreedystreetspirit.png</str>
+			<int id="w">600</int>
+			<int id="h">450</int>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-08-23/LNVKEU5TKG33K7L_loading_1345750130.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-08-23/LNVKEU5TKG33K7L_main_1345750131.jpg</str>
+			<int id="w">720</int>
+			<int id="h">74</int>
+		</object>
+		<object id="events">
+			<object id="act1_button1_down">
+				<object id="actions">
+					<object id="a11111">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act1_show</str>
+					</object>
+					<object id="a111111">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act1_scene2</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">flag_clear</str>
+						<str id="deco_id"></str>
+						<str id="flag">act1_scene2</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">act1_scene3</str>
+					</object>
+					<object id="a11111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act1_show</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335481122140</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335487337331</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1339623300259</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335555470887</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335555470885</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335481122049</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">zutto_shadow_spot_1_1335481122051</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335481122052</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335481122053</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">zutto_shadow_spot_1_1335481122057</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122131</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122065</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">streetspirit_test_1335481122134</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="flag"></str>
+						<str id="deco_id">crate_1_1335481122059</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="flag"></str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_wall_hole_1_1335481122061</str>
+					</object>
+					<object id="a111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="flag"></str>
+						<str id="deco_id">tree_int_wall_hole_1_1335481122062</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="flag"></str>
+						<int id="fade">200</int>
+						<str id="deco_id">zutto_shadow_spot_1_1335481122136</str>
+					</object>
+					<object id="a11111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="flag"></str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_02_1335481122138</str>
+					</object>
+					<object id="a111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335481122137</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335481122129</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335481122130</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335481122128</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335481122133</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_02_1335481122132</str>
+					</object>
+					<object id="a111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1335487337330</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="flag"></str>
+						<str id="deco_id">light_spot_1335555470886</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="act1_button2_down">
+				<object id="actions">
+					<object id="a11111">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act1_show</str>
+					</object>
+					<object id="a111111">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act1_scene1</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">flag_clear</str>
+						<str id="deco_id"></str>
+						<str id="flag">act1_scene1</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">act1_scene2</str>
+					</object>
+					<object id="a11111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act1_show</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335487337330</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335487337331</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335555470886</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335555470885</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122138</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335481122137</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335481122061</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335481122062</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335481122052</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335481122053</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">zutto_shadow_spot_1_1335481122057</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335481122134</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">zutto_shadow_spot_1_1335481122136</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335481122059</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1345137815737</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815734</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815733</str>
+					</object>
+					<object id="a11111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">streetspirit_test_1335481122049</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">zutto_shadow_spot_1_1335481122051</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335481122131</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335481122065</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335481122129</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335481122130</str>
+					</object>
+					<object id="a11111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335481122128</str>
+					</object>
+					<object id="a111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335481122133</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335481122132</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1339623300259</str>
+					</object>
+					<object id="a111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335481122140</str>
+					</object>
+					<object id="a1111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="flag"></str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335555470887</str>
+					</object>
+					<object id="a4">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="act1_button3_down">
+				<object id="actions">
+					<object id="a11111">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act1_show</str>
+					</object>
+					<object id="a111111">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act1_scene3</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">flag_clear</str>
+						<str id="deco_id"></str>
+						<str id="flag">act1_scene3</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">act1_scene4</str>
+					</object>
+					<object id="a11111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act1_show</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335481122140</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335487337330</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1339623300259</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335555470887</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335555470886</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122132</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122133</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335481122128</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122065</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122131</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122129</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335481122130</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335481122061</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335481122062</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122138</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335481122137</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335481122049</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">zutto_shadow_spot_1_1335481122051</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335481122134</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335481122059</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">zutto_shadow_spot_1_1335481122136</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">crate_1_1335481122053</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">streetspirit_test_1335481122052</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">zutto_shadow_spot_1_1335481122057</str>
+					</object>
+					<object id="a111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1335487337331</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="flag"></str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335555470885</str>
+					</object>
+					<object id="a1">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="a2">
+						<str id="type">code_player</str>
+						<str id="code">pc.quests_set_flag('read_act_1');</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="player_enter">
+				<object id="actions">
+					<object id="a11111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335481122049</str>
+					</object>
+					<object id="a111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">zutto_shadow_spot_1_1335481122051</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122132</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122133</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335481122128</str>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122065</str>
+					</object>
+					<object id="a11111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122131</str>
+					</object>
+					<object id="a111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122129</str>
+					</object>
+					<object id="a1111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335481122130</str>
+					</object>
+					<object id="a11111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335481122134</str>
+					</object>
+					<object id="a111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335481122059</str>
+					</object>
+					<object id="a1111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">zutto_shadow_spot_1_1335481122136</str>
+					</object>
+					<object id="a11111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335481122061</str>
+					</object>
+					<object id="a111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335481122062</str>
+					</object>
+					<object id="a1111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122138</str>
+					</object>
+					<object id="a11111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335481122137</str>
+					</object>
+					<object id="a111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335481122053</str>
+					</object>
+					<object id="a1111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335481122052</str>
+					</object>
+					<object id="a11111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">zutto_shadow_spot_1_1335481122057</str>
+					</object>
+					<object id="a111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335481122140</str>
+					</object>
+					<object id="a1111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335487337330</str>
+					</object>
+					<object id="a11111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335487337331</str>
+					</object>
+					<object id="a111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335555470887</str>
+					</object>
+					<object id="a1111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335555470886</str>
+					</object>
+					<object id="a11111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335555470885</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335564866445</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335564866444</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335564866443</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335564866442</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">flower_asset_01_orange_1335564866461</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hill_asset_happyhead_1335564866460</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">moon_asset_smile_1335481122142</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sun_asset_smile_1335481122141</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335564866433</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_radial_shadow_1335564866452</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335564866431</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335564866432</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335564866430</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335564866429</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335564866469</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335564073686</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sun_asset_smile_1335564866458</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">moon_asset_smile_1335564866459</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">flower_asset_01_orange_1335475617469</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hill_asset_happyhead_1335475617429</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866456</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866451</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866455</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866457</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">dance_loop</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335663377301</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335663377303</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_radial_shadow_1335663377304</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377308</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377309</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335663377311</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335663377310</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335663377300</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335656660095</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_radial_shadow_1335656660096</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335656660090</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335656660100</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335656660101</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335656660099</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335656660097</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335656660098</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335663377305</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cave_hole_back_1335663377306</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335663377296</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335663377295</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335663377297</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377293</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377294</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_radial_shadow_1335663377307</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335658626485</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335658626483</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335658626484</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335658626501</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335658626500</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335658626499</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335656660093</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335742150445</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335751767813</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335751767814</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335751767815</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">moon_asset_smile_1335805560712</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335809210298</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335809210293</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335809210294</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335809210295</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335809210297</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335809210296</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335809210292</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_2_1335805560720</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_2_1335805560721</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_2_1335805560722</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_move_up_1335809210288</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">Glints_3_1335809210284</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sun_asset_smile_1335805560713</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">wave1_1335809210291</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">Glints_3_1335809210277</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">Glints_3_1335809210289</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">flower_asset_01_orange_1335809210269</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hill_asset_happyhead_1335809210268</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_asset_02_dark_1335809210275</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_asset_01_dark_1335809210276</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_asset_02_dark_1335809210283</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_asset_02_dark_1335809210282</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335810705004</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335810705005</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335810705006</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335827234027</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335827234028</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335827234029</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act1_scene1</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act1_scene2</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act1_scene3</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act2_scene1</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act2_scene2</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act2_scene3</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act2_scene4</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act3_scene1</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act3_scene2</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act3_scene3</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act4_scene1</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act4_scene2</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act4_scene3</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act1_show</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act2_show</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act3_show</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act4_show</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1339623300259</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act5_scene1</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act5_scene2</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act5_scene3</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act5_show</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1339713261583</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1339713261584</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1339713261585</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1345137815737</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815734</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815735</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1345137815743</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_vertical_shadow_1345754336631</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815736</str>
+					</object>
+					<object id="a7">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1345137815744</str>
+					</object>
+					<object id="a8">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815739</str>
+					</object>
+					<object id="a9">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815740</str>
+					</object>
+					<object id="a10">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1345137815745</str>
+					</object>
+					<object id="a11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815741</str>
+					</object>
+					<object id="a12">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815742</str>
+					</object>
+					<object id="a13">
+						<str id="type">flag_clear</str>
+						<str id="flag">act1_scene4</str>
+					</object>
+					<object id="a14">
+						<str id="type">flag_clear</str>
+						<str id="flag">act2_scene5</str>
+					</object>
+					<object id="a15">
+						<str id="type">flag_clear</str>
+						<str id="flag">act3_scene4</str>
+					</object>
+					<object id="a16">
+						<str id="type">flag_clear</str>
+						<str id="flag">act4_scene4</str>
+					</object>
+					<object id="a17">
+						<str id="type">flag_clear</str>
+						<str id="flag">act5_scene4</str>
+					</object>
+					<object id="a18">
+						<str id="type">flag_set</str>
+						<str id="flag">act1_arrows</str>
+					</object>
+					<object id="a19">
+						<str id="type">flag_set</str>
+						<str id="flag">act2_arrows</str>
+					</object>
+					<object id="a20">
+						<str id="type">flag_set</str>
+						<str id="flag">act3_arrows</str>
+					</object>
+					<object id="a21">
+						<str id="type">flag_set</str>
+						<str id="flag">act4_arrows</str>
+					</object>
+					<object id="a22">
+						<str id="type">flag_set</str>
+						<str id="flag">act5_arrows</str>
+					</object>
+					<object id="a23">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">arrow_ground2_1345489638035</str>
+					</object>
+					<object id="a24">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">arrow_ground2_1345489638034</str>
+					</object>
+					<object id="a25">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">arrow_ground2_1345489638022</str>
+					</object>
+					<object id="a26">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">arrow_ground2_1345489638044</str>
+					</object>
+					<object id="a27">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">arrow_ground2_1345489638045</str>
+					</object>
+					<object id="a28">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">arrow_ground2_1345489638046</str>
+					</object>
+					<object id="a29">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">arrow_ground2_1345489638047</str>
+					</object>
+					<object id="a30">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">arrow_ground2_1345489638048</str>
+					</object>
+					<object id="a31">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">arrow_ground2_1345489638049</str>
+					</object>
+					<object id="a32">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">arrow_ground2_1345489638050</str>
+					</object>
+					<object id="a33">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">arrow_ground2_1345489638051</str>
+					</object>
+					<object id="a34">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">arrow_ground2_1345489638052</str>
+					</object>
+					<object id="a35">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">arrow_ground2_1345489638041</str>
+					</object>
+					<object id="a36">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">arrow_ground2_1345489638042</str>
+					</object>
+					<object id="a37">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">arrow_ground2_1345489638043</str>
+					</object>
+					<object id="a38">
+						<str id="type">event</str>
+						<str id="event">show_arrow_title</str>
+					</object>
+					<object id="a39">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1346195471606</str>
+					</object>
+					<object id="a40">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1346195471605</str>
+					</object>
+					<object id="a41">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1346195471604</str>
+					</object>
+					<object id="a42">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1346195471603</str>
+					</object>
+					<object id="a43">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1346195471602</str>
+					</object>
+					<object id="a44">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1346195471601</str>
+					</object>
+				</object>
+			</object>
+			<object id="act2_button1_down">
+				<object id="actions">
+					<object id="a11111">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_show</str>
+					</object>
+					<object id="a111111">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_scene3</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">flag_clear</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_scene3</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_scene4</str>
+					</object>
+					<object id="a111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_show</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866451</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866455</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335564866457</str>
+					</object>
+					<object id="a111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335564866445</str>
+					</object>
+					<object id="a1111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335564866444</str>
+					</object>
+					<object id="a11111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335564866442</str>
+					</object>
+					<object id="a111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">flower_asset_01_orange_1335564866461</str>
+					</object>
+					<object id="a1111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">hill_asset_happyhead_1335564866460</str>
+					</object>
+					<object id="a11111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">moon_asset_smile_1335481122142</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sun_asset_smile_1335481122141</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335564866433</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_radial_shadow_1335564866452</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335564866431</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335564866432</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335564866430</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335564866429</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335564866469</str>
+					</object>
+					<object id="a11111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">streetspirit_test_1335564073686</str>
+					</object>
+					<object id="a111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">sun_asset_smile_1335564866458</str>
+					</object>
+					<object id="a1111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">moon_asset_smile_1335564866459</str>
+					</object>
+					<object id="a11111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">flower_asset_01_orange_1335475617469</str>
+					</object>
+					<object id="a111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">hill_asset_happyhead_1335475617429</str>
+					</object>
+					<object id="a1111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335564866456</str>
+					</object>
+					<object id="a11111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335564866443</str>
+					</object>
+					<object id="a1">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="act2_button2_down">
+				<object id="actions">
+					<object id="a11111">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_show</str>
+					</object>
+					<object id="a111111">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_scene2</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">flag_clear</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_scene2</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_scene3</str>
+					</object>
+					<object id="a11111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act2_show</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866451</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866456</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866457</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335564866445</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335564866443</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335564866442</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sun_asset_smile_1335564866458</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">flower_asset_01_orange_1335564866461</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hill_asset_happyhead_1335564866460</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">flower_asset_01_orange_1335475617469</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hill_asset_happyhead_1335475617429</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">moon_asset_smile_1335481122142</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335564866433</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">moon_asset_smile_1335564866459</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sun_asset_smile_1335481122141</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">streetspirit_test_1335564073686</str>
+					</object>
+					<object id="a1111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_wall_hole_1_1335564866432</str>
+					</object>
+					<object id="a11111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_wall_hole_1_1335564866431</str>
+					</object>
+					<object id="a111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335564866469</str>
+					</object>
+					<object id="a1111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_02_1335564866429</str>
+					</object>
+					<object id="a11111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335564866430</str>
+					</object>
+					<object id="a111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335564866455</str>
+					</object>
+					<object id="a1111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">light_spot_1335564866444</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="act2_button3_down">
+				<object id="actions">
+					<object id="a11111">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_show</str>
+					</object>
+					<object id="a111111">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_scene4</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">flag_clear</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_scene4</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_scene5</str>
+					</object>
+					<object id="a111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act2_show</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335564866451</str>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335564866455</str>
+					</object>
+					<object id="a11111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335564866456</str>
+					</object>
+					<object id="a111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335564866445</str>
+					</object>
+					<object id="a1111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335564866444</str>
+					</object>
+					<object id="a11111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335564866443</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">moon_asset_smile_1335481122142</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sun_asset_smile_1335481122141</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">flower_asset_01_orange_1335475617469</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hill_asset_happyhead_1335475617429</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335564073686</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">streetspirit_test_1335564866433</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">tree_int_radial_shadow_1335564866452</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335564866432</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335564866431</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335564866469</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_02_1335564866429</str>
+					</object>
+					<object id="a11111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335564866430</str>
+					</object>
+					<object id="a111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">moon_asset_smile_1335564866459</str>
+					</object>
+					<object id="a1111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">sun_asset_smile_1335564866458</str>
+					</object>
+					<object id="a11111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">flower_asset_01_orange_1335564866461</str>
+					</object>
+					<object id="a111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">hill_asset_happyhead_1335564866460</str>
+					</object>
+					<object id="a1111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335564866457</str>
+					</object>
+					<object id="a11111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335564866442</str>
+					</object>
+					<object id="a1">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="a2">
+						<str id="type">code_player</str>
+						<str id="code">pc.quests_set_flag('read_act_2');</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="act2_button4_down">
+				<object id="actions">
+					<object id="a11111">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_show</str>
+					</object>
+					<object id="a111111">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_scene1</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">flag_clear</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_scene1</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">act2_scene2</str>
+					</object>
+					<object id="a111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act2_show</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866455</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866456</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866457</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335564866444</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335564866443</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335564866442</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">moon_asset_smile_1335564866459</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sun_asset_smile_1335564866458</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">flower_asset_01_orange_1335564866461</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hill_asset_happyhead_1335564866460</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sun_asset_smile_1335481122141</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">flower_asset_01_orange_1335475617469</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hill_asset_happyhead_1335475617429</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335564866433</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_radial_shadow_1335564866452</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1345137815743</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_vertical_shadow_1345754336631</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815736</str>
+					</object>
+					<object id="a111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">streetspirit_test_1335564073686</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_wall_hole_1_1335564866432</str>
+					</object>
+					<object id="a11111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_wall_hole_1_1335564866431</str>
+					</object>
+					<object id="a111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335564866469</str>
+					</object>
+					<object id="a1111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335564866430</str>
+					</object>
+					<object id="a11111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_02_1335564866429</str>
+					</object>
+					<object id="a111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">moon_asset_smile_1335481122142</str>
+					</object>
+					<object id="a1111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335564866451</str>
+					</object>
+					<object id="a11111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335564866445</str>
+					</object>
+					<object id="a4">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="act3_button1_down">
+				<object id="actions">
+					<object id="a11111">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act3_show</str>
+					</object>
+					<object id="a111111">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act3_scene2</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">flag_clear</str>
+						<str id="deco_id"></str>
+						<str id="flag">act3_scene2</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">act3_scene3</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="event"></str>
+						<str id="flag">act3_show</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335658626483</str>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335658626485</str>
+					</object>
+					<object id="a11111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335742150445</str>
+					</object>
+					<object id="a111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335658626501</str>
+					</object>
+					<object id="a1111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335658626499</str>
+					</object>
+					<object id="a11111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335663377311</str>
+					</object>
+					<object id="a111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_02_1335663377310</str>
+					</object>
+					<object id="a1111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377308</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377309</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_radial_shadow_1335663377304</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335663377303</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335663377301</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335663377297</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335663377296</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335663377295</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377294</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377293</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335656660093</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cave_hole_back_1335663377306</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335663377305</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_radial_shadow_1335663377307</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335656660095</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">crate_1_1335656660090</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="flag"></str>
+						<str id="deco_id">tree_int_wall_hole_1_1335656660100</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="event"></str>
+						<str id="flag"></str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_wall_hole_1_1335656660101</str>
+					</object>
+					<object id="a11111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="event"></str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335656660099</str>
+					</object>
+					<object id="a111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335656660098</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335656660097</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">tree_int_radial_shadow_1335656660096</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">streetspirit_test_1335663377300</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="flag"></str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335658626484</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="event"></str>
+						<str id="flag"></str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335658626484</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="flag"></str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335658626500</str>
+					</object>
+					<object id="a1">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="a11111111111111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="plat_id"></str>
+						<str id="event"></str>
+						<str id="flag">dance_loop</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111111">
+						<str id="type">event</str>
+						<str id="event">dance</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="dance">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">dance_loop</str>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<int id="fade">100</int>
+						<str id="deco_id">streetspirit_test_1335663377300</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<int id="fade">300</int>
+						<str id="deco_id">streetspirit_test_1335656660095</str>
+					</object>
+					<object id="1111">
+						<str id="type">event</str>
+						<str id="event">dance2</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="dance2">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">dance_loop</str>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<int id="fade">100</int>
+						<str id="deco_id">streetspirit_test_1335656660095</str>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<int id="fade">300</int>
+						<str id="deco_id">streetspirit_test_1335663377300</str>
+					</object>
+					<object id="1111">
+						<str id="type">event</str>
+						<int id="delay">300</int>
+						<str id="event">dance</str>
+					</object>
+				</object>
+			</object>
+			<object id="act3_button2_down">
+				<object id="actions">
+					<object id="a11111">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">act3_show</str>
+					</object>
+					<object id="a111111">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act3_scene3</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">flag_clear</str>
+						<str id="deco_id"></str>
+						<str id="flag">act3_scene3</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">act3_scene4</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">act3_show</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">flag_clear</str>
+						<str id="deco_id"></str>
+						<str id="flag">dance_loop</str>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335658626483</str>
+					</object>
+					<object id="a11111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335658626484</str>
+					</object>
+					<object id="a111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335742150445</str>
+					</object>
+					<object id="a1111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335658626501</str>
+					</object>
+					<object id="a11111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335658626500</str>
+					</object>
+					<object id="a111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_02_1335663377310</str>
+					</object>
+					<object id="a1111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335663377311</str>
+					</object>
+					<object id="a11111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377308</str>
+					</object>
+					<object id="a111111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377309</str>
+					</object>
+					<object id="a1111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_radial_shadow_1335663377304</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335663377303</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335663377301</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335656660099</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335656660098</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335656660100</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335656660101</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335656660090</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_radial_shadow_1335656660096</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335656660095</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335663377300</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">streetspirit_test_1335663377305</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">cave_hole_back_1335663377306</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335663377296</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335663377295</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335663377297</str>
+					</object>
+					<object id="a111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377293</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377294</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">crate_1_1335656660093</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_radial_shadow_1335663377307</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335658626485</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335658626499</str>
+					</object>
+					<object id="a1">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="a2">
+						<str id="type">code_player</str>
+						<str id="code">pc.quests_set_flag('read_act_3');</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="act3_button3_down">
+				<object id="actions">
+					<object id="a11111">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">act3_show</str>
+					</object>
+					<object id="a111111">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act3_scene1</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">flag_clear</str>
+						<str id="deco_id"></str>
+						<str id="flag">act3_scene1</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">act3_scene2</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act3_show</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">flag_clear</str>
+						<str id="deco_id"></str>
+						<str id="flag">dance_loop</str>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335658626484</str>
+					</object>
+					<object id="a11111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335658626485</str>
+					</object>
+					<object id="a111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335658626500</str>
+					</object>
+					<object id="a1111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335658626499</str>
+					</object>
+					<object id="a11111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335656660099</str>
+					</object>
+					<object id="a111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_02_1335656660097</str>
+					</object>
+					<object id="a1111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335656660098</str>
+					</object>
+					<object id="a11111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_wall_hole_1_1335656660100</str>
+					</object>
+					<object id="a111111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_wall_hole_1_1335656660101</str>
+					</object>
+					<object id="a1111111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">crate_1_1335656660093</str>
+					</object>
+					<object id="a11111111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_radial_shadow_1335663377307</str>
+					</object>
+					<object id="a1111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335663377295</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335663377296</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335663377297</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377293</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377294</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335656660090</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cave_hole_back_1335663377306</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_radial_shadow_1335656660096</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335663377305</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335663377300</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335656660095</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1345137815744</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815739</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815740</str>
+					</object>
+					<object id="a111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">streetspirit_test_1335663377301</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">tree_int_radial_shadow_1335663377304</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">crate_1_1335663377303</str>
+					</object>
+					<object id="a111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377308</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377309</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335663377311</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335663377310</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335658626483</str>
+					</object>
+					<object id="a111111111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="flag"></str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335658626501</str>
+					</object>
+					<object id="a4">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="act4_button1_down">
+				<object id="actions">
+					<object id="a11111">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act4_show</str>
+					</object>
+					<object id="a111111">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act4_scene1</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">flag_clear</str>
+						<str id="deco_id"></str>
+						<str id="flag">act4_scene1</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">act4_scene2</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act4_show</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335810705005</str>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335810705006</str>
+					</object>
+					<object id="a11111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335751767814</str>
+					</object>
+					<object id="a1111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335751767815</str>
+					</object>
+					<object id="a111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335809210298</str>
+					</object>
+					<object id="a11111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_02_1335809210293</str>
+					</object>
+					<object id="a111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_02_1335809210294</str>
+					</object>
+					<object id="a1111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_01_1335809210295</str>
+					</object>
+					<object id="a11111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_02_1335809210297</str>
+					</object>
+					<object id="a111111111111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">star_asset_02_1335809210296</str>
+					</object>
+					<object id="a1111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335809210292</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">moon_asset_smile_1335805560712</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_2_1335805560720</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_2_1335805560721</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_2_1335805560722</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_move_up_1335809210288</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">Glints_3_1335809210284</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sun_asset_smile_1335805560713</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1345137815745</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815741</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815742</str>
+					</object>
+					<object id="a111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">wave1_1335809210291</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">Glints_3_1335809210277</str>
+					</object>
+					<object id="a11111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">Glints_3_1335809210289</str>
+					</object>
+					<object id="a111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">flower_asset_01_orange_1335809210269</str>
+					</object>
+					<object id="a1111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">hill_asset_happyhead_1335809210268</str>
+					</object>
+					<object id="a11111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">cloud_asset_02_dark_1335809210275</str>
+					</object>
+					<object id="a111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">cloud_asset_01_dark_1335809210276</str>
+					</object>
+					<object id="a1111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">cloud_asset_02_dark_1335809210283</str>
+					</object>
+					<object id="a11111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">cloud_asset_02_dark_1335809210282</str>
+					</object>
+					<object id="a111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335810705004</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335751767813</str>
+					</object>
+					<object id="a4">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="act4_button2_down">
+				<object id="actions">
+					<object id="a11111">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act4_show</str>
+					</object>
+					<object id="a111111">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act4_scene3</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">flag_clear</str>
+						<str id="deco_id"></str>
+						<str id="flag">act4_scene3</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">act4_scene4</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act4_show</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335810705004</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335810705005</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335751767813</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335751767814</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_move_up_1335809210288</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_2_1335805560722</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_2_1335805560721</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_2_1335805560720</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_asset_02_dark_1335809210275</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_asset_01_dark_1335809210276</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_asset_02_dark_1335809210283</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_asset_02_dark_1335809210282</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">moon_asset_smile_1335805560712</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335809210298</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335809210293</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335809210294</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335809210297</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335809210295</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_02_1335809210296</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">star_asset_01_1335809210292</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sun_asset_smile_1335805560713</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">Glints_3_1335809210284</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">wave1_1335809210291</str>
+					</object>
+					<object id="a11111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">Glints_3_1335809210277</str>
+					</object>
+					<object id="a111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">Glints_3_1335809210289</str>
+					</object>
+					<object id="a11111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">hill_asset_happyhead_1335809210268</str>
+					</object>
+					<object id="a1111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">flower_asset_01_orange_1335809210269</str>
+					</object>
+					<object id="a111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335810705006</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335751767815</str>
+					</object>
+					<object id="a1">
+						<str id="type">play_sound</str>
+						<bool id="multi">true</bool>
+						<str id="name">NEWXP_YOU</str>
+					</object>
+					<object id="a2">
+						<str id="type">code_player</str>
+						<str id="code">pc.quests_set_flag('read_act_4');</str>
+						<bool id="all_players">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="act4_button3_down">
+				<object id="actions">
+					<object id="a11111">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act4_show</str>
+					</object>
+					<object id="a111111">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act4_scene2</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">flag_clear</str>
+						<str id="deco_id"></str>
+						<str id="flag">act4_scene2</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">flag_set</str>
+						<str id="deco_id"></str>
+						<str id="flag">act4_scene3</str>
+					</object>
+					<object id="a11111111111111111111111111111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act4_show</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335810705004</str>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335810705006</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335751767813</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335751767815</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335809210298</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335809210293</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335809210294</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335809210295</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335809210297</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335809210296</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335809210292</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">moon_asset_smile_1335805560712</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">stars_2_1335805560722</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">stars_2_1335805560721</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">stars_2_1335805560720</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">cloud_asset_02_dark_1335809210275</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">cloud_asset_01_dark_1335809210276</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">cloud_asset_02_dark_1335809210283</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">cloud_asset_02_dark_1335809210282</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">stars_move_up_1335809210288</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">sun_asset_smile_1335805560713</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">Glints_3_1335809210284</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">wave1_1335809210291</str>
+					</object>
+					<object id="a11111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">Glints_3_1335809210277</str>
+					</object>
+					<object id="a111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">Glints_3_1335809210289</str>
+					</object>
+					<object id="a1111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">flower_asset_01_orange_1335809210269</str>
+					</object>
+					<object id="a11111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">hill_asset_happyhead_1335809210268</str>
+					</object>
+					<object id="a111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">groddle_sign_blank_1335810705005</str>
+					</object>
+					<object id="a1111111111111111111111111111111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1335751767814</str>
+					</object>
+					<object id="a1">
+						<str id="type">play_sound</str>
+						<bool id="multi">true</bool>
+						<str id="name">NEWXP_YOU</str>
+					</object>
+				</object>
+			</object>
+			<object id="act5_final">
+				<object id="actions">
+					<object id="a111">
+						<str id="type">flag_has_exit</str>
+						<str id="event"></str>
+						<str id="deco_id"></str>
+						<str id="flag">act5_show</str>
+					</object>
+					<object id="a11">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act5_scene1</str>
+					</object>
+					<object id="a11111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act5_scene1</str>
+					</object>
+					<object id="a111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act5_scene2</str>
+					</object>
+					<object id="a111111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act5_show</str>
+					</object>
+					<object id="a13">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1346195471606</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a14">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1346195471605</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a15">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1346195471604</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a16">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1346195471603</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a17">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1346195471602</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a18">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1346195471601</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a1111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">300</int>
+						<str id="deco_id">groddle_sign_blank_1335827234029</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">deco_show</str>
+						<int id="fade">300</int>
+						<str id="deco_id">groddle_sign_blank_1335827234027</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">deco_hide</str>
+						<str id="flag"></str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1339713261584</str>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1339713261585</str>
+					</object>
+					<object id="a11111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1339713261583</str>
+					</object>
+					<object id="a12">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="act5_final2">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act5_show</str>
+					</object>
+					<object id="a11">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act5_scene2</str>
+					</object>
+					<object id="a1111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act5_scene2</str>
+					</object>
+					<object id="a11111">
+						<str id="type">flag_set</str>
+						<str id="flag">act5_scene3</str>
+					</object>
+					<object id="a11111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act5_show</str>
+					</object>
+					<object id="a111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">300</int>
+						<str id="deco_id">groddle_sign_blank_1335827234027</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">deco_show</str>
+						<int id="fade">300</int>
+						<str id="deco_id">groddle_sign_blank_1335827234028</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">deco_hide</str>
+						<str id="flag"></str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1339713261583</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1339713261585</str>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1339713261584</str>
+					</object>
+					<object id="a12">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="act5_final3">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act5_show</str>
+					</object>
+					<object id="a11">
+						<str id="type">flag_not_exit</str>
+						<str id="deco_id"></str>
+						<str id="flag">act5_scene3</str>
+					</object>
+					<object id="a1111">
+						<str id="type">flag_clear</str>
+						<str id="flag">act5_scene3</str>
+					</object>
+					<object id="a11111">
+						<str id="type">flag_set</str>
+						<str id="flag">act5_scene4</str>
+					</object>
+					<object id="a11111111111">
+						<str id="type">flag_set</str>
+						<str id="flag">act5_show</str>
+					</object>
+					<object id="a111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">300</int>
+						<str id="deco_id">groddle_sign_blank_1335827234028</str>
+					</object>
+					<object id="a1111111">
+						<str id="type">deco_show</str>
+						<int id="fade">300</int>
+						<str id="deco_id">groddle_sign_blank_1335827234029</str>
+					</object>
+					<object id="a11111111">
+						<str id="type">deco_hide</str>
+						<str id="flag"></str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1339713261583</str>
+					</object>
+					<object id="a111111111">
+						<str id="type">deco_hide</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1339713261584</str>
+					</object>
+					<object id="a1111111111">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">light_spot_1339713261585</str>
+					</object>
+					<object id="a12">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="a16">
+						<str id="type">code_player</str>
+						<str id="code">pc.quests_set_flag('read_act_5');</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="a17">
+						<str id="type">event</str>
+						<str id="event">spawn_qurazies</str>
+						<int id="delay">200</int>
+					</object>
+				</object>
+			</object>
+			<object id="act1_clear">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_clear</str>
+						<str id="flag">act1_show</str>
+					</object>
+				</object>
+			</object>
+			<object id="act2_clear">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_clear</str>
+						<str id="flag">act2_show</str>
+					</object>
+				</object>
+			</object>
+			<object id="act3_clear">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_clear</str>
+						<str id="flag">act3_show</str>
+					</object>
+				</object>
+			</object>
+			<object id="act4_clear">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_clear</str>
+						<str id="flag">act4_show</str>
+					</object>
+				</object>
+			</object>
+			<object id="act5_clear">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_clear</str>
+						<str id="flag">act5_show</str>
+					</object>
+				</object>
+			</object>
+			<object id="act1_continue_screen">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">act1_show</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">act1_scene4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">act1_scene4</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_set</str>
+						<str id="flag">act1_scene1</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_set</str>
+						<str id="flag">act1_show</str>
+					</object>
+					<object id="a5">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335487337330</str>
+					</object>
+					<object id="a7">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335487337331</str>
+					</object>
+					<object id="a8">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1339623300259</str>
+					</object>
+					<object id="a9">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335481122140</str>
+					</object>
+					<object id="a10">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335555470886</str>
+					</object>
+					<object id="a11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335555470885</str>
+					</object>
+					<object id="a12">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335555470887</str>
+					</object>
+					<object id="a13">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122138</str>
+					</object>
+					<object id="a14">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335481122137</str>
+					</object>
+					<object id="a15">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335481122061</str>
+					</object>
+					<object id="a16">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335481122062</str>
+					</object>
+					<object id="a17">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335481122052</str>
+					</object>
+					<object id="a18">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335481122053</str>
+					</object>
+					<object id="a19">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">zutto_shadow_spot_1_1335481122057</str>
+					</object>
+					<object id="a20">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335481122134</str>
+					</object>
+					<object id="a21">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">zutto_shadow_spot_1_1335481122136</str>
+					</object>
+					<object id="a22">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335481122059</str>
+					</object>
+					<object id="a23">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335481122049</str>
+					</object>
+					<object id="a24">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">zutto_shadow_spot_1_1335481122051</str>
+					</object>
+					<object id="a25">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122131</str>
+					</object>
+					<object id="a26">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122065</str>
+					</object>
+					<object id="a27">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122129</str>
+					</object>
+					<object id="a28">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335481122130</str>
+					</object>
+					<object id="a29">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335481122128</str>
+					</object>
+					<object id="a30">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122133</str>
+					</object>
+					<object id="a32">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335481122132</str>
+					</object>
+					<object id="a31">
+						<str id="type">deco_show</str>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815734</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a33">
+						<str id="type">deco_show</str>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815733</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a35">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="a36">
+						<str id="type">event</str>
+						<str id="event">act2_continue_arrow1</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="act2_continue_screen">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">act2_show</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">act2_scene5</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">act2_scene5</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_set</str>
+						<str id="flag">act2_scene1</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_set</str>
+						<str id="flag">act2_show</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866451</str>
+					</object>
+					<object id="a7">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866455</str>
+					</object>
+					<object id="a8">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866456</str>
+					</object>
+					<object id="a9">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335564866457</str>
+					</object>
+					<object id="a10">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335564866445</str>
+					</object>
+					<object id="a11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335564866444</str>
+					</object>
+					<object id="a12">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335564866443</str>
+					</object>
+					<object id="a13">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335564866442</str>
+					</object>
+					<object id="a14">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">moon_asset_smile_1335481122142</str>
+					</object>
+					<object id="a15">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sun_asset_smile_1335481122141</str>
+					</object>
+					<object id="a16">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">flower_asset_01_orange_1335475617469</str>
+					</object>
+					<object id="a17">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hill_asset_happyhead_1335475617429</str>
+					</object>
+					<object id="a18">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335564073686</str>
+					</object>
+					<object id="a19">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335564866433</str>
+					</object>
+					<object id="a20">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_radial_shadow_1335564866452</str>
+					</object>
+					<object id="a21">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335564866432</str>
+					</object>
+					<object id="a22">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335564866431</str>
+					</object>
+					<object id="a23">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335564866469</str>
+					</object>
+					<object id="a24">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335564866429</str>
+					</object>
+					<object id="a25">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335564866430</str>
+					</object>
+					<object id="a26">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">moon_asset_smile_1335564866459</str>
+					</object>
+					<object id="a27">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sun_asset_smile_1335564866458</str>
+					</object>
+					<object id="a28">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">flower_asset_01_orange_1335564866461</str>
+					</object>
+					<object id="a29">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hill_asset_happyhead_1335564866460</str>
+					</object>
+					<object id="a30">
+						<str id="type">deco_show</str>
+						<str id="deco_id">tree_int_vertical_shadow_1345754336631</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a31">
+						<str id="type">deco_show</str>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815736</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a33">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="a34">
+						<str id="type">event</str>
+						<str id="event">act3_continue_arrow1</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="act3_continue_screen">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">act3_show</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">act3_scene4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">act3_scene4</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_set</str>
+						<str id="flag">act3_scene1</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_set</str>
+						<str id="flag">act3_show</str>
+					</object>
+					<object id="a6">
+						<str id="type">flag_clear</str>
+						<str id="flag">dance_loop</str>
+					</object>
+					<object id="a7">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335658626483</str>
+					</object>
+					<object id="a8">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335658626484</str>
+					</object>
+					<object id="a9">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335742150445</str>
+					</object>
+					<object id="a10">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335658626485</str>
+					</object>
+					<object id="a11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335658626501</str>
+					</object>
+					<object id="a12">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335658626500</str>
+					</object>
+					<object id="a13">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335658626499</str>
+					</object>
+					<object id="a14">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335663377310</str>
+					</object>
+					<object id="a15">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335663377311</str>
+					</object>
+					<object id="a16">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377308</str>
+					</object>
+					<object id="a17">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377309</str>
+					</object>
+					<object id="a18">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_radial_shadow_1335663377304</str>
+					</object>
+					<object id="a19">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335663377303</str>
+					</object>
+					<object id="a20">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335663377301</str>
+					</object>
+					<object id="a21">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335656660099</str>
+					</object>
+					<object id="a22">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335656660098</str>
+					</object>
+					<object id="a23">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335656660100</str>
+					</object>
+					<object id="a24">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335656660101</str>
+					</object>
+					<object id="a25">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335656660090</str>
+					</object>
+					<object id="a26">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_radial_shadow_1335656660096</str>
+					</object>
+					<object id="a27">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335656660095</str>
+					</object>
+					<object id="a28">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335663377300</str>
+					</object>
+					<object id="a29">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">streetspirit_test_1335663377305</str>
+					</object>
+					<object id="a30">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cave_hole_back_1335663377306</str>
+					</object>
+					<object id="a31">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335663377296</str>
+					</object>
+					<object id="a32">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335663377295</str>
+					</object>
+					<object id="a33">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335663377297</str>
+					</object>
+					<object id="a34">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377293</str>
+					</object>
+					<object id="a35">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_wall_hole_1_1335663377294</str>
+					</object>
+					<object id="a36">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">crate_1_1335656660093</str>
+					</object>
+					<object id="a37">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">tree_int_radial_shadow_1335663377307</str>
+					</object>
+					<object id="a43">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335656660097</str>
+					</object>
+					<object id="a38">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815739</str>
+					</object>
+					<object id="a39">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815740</str>
+					</object>
+					<object id="a41">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="a42">
+						<str id="type">event</str>
+						<str id="event">act4_continue_arrow1</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="act4_continue_screen">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">act4_show</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">act4_scene4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">act4_scene4</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_set</str>
+						<str id="flag">act4_scene1</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_set</str>
+						<str id="flag">act4_show</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335810705004</str>
+					</object>
+					<object id="a7">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335810705005</str>
+					</object>
+					<object id="a8">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335810705006</str>
+					</object>
+					<object id="a9">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335751767813</str>
+					</object>
+					<object id="a10">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335751767814</str>
+					</object>
+					<object id="a11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1335751767815</str>
+					</object>
+					<object id="a12">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_move_up_1335809210288</str>
+					</object>
+					<object id="a13">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_2_1335805560722</str>
+					</object>
+					<object id="a14">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_2_1335805560721</str>
+					</object>
+					<object id="a15">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">stars_2_1335805560720</str>
+					</object>
+					<object id="a16">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_asset_02_dark_1335809210275</str>
+					</object>
+					<object id="a17">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_asset_01_dark_1335809210276</str>
+					</object>
+					<object id="a18">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_asset_02_dark_1335809210283</str>
+					</object>
+					<object id="a19">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">cloud_asset_02_dark_1335809210282</str>
+					</object>
+					<object id="a20">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">moon_asset_smile_1335805560712</str>
+					</object>
+					<object id="a21">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335809210298</str>
+					</object>
+					<object id="a22">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335809210293</str>
+					</object>
+					<object id="a23">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335809210294</str>
+					</object>
+					<object id="a24">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335809210297</str>
+					</object>
+					<object id="a25">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335809210295</str>
+					</object>
+					<object id="a26">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_02_1335809210296</str>
+					</object>
+					<object id="a27">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">star_asset_01_1335809210292</str>
+					</object>
+					<object id="a28">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">sun_asset_smile_1335805560713</str>
+					</object>
+					<object id="a29">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">Glints_3_1335809210284</str>
+					</object>
+					<object id="a30">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">wave1_1335809210291</str>
+					</object>
+					<object id="a31">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">Glints_3_1335809210277</str>
+					</object>
+					<object id="a32">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">Glints_3_1335809210289</str>
+					</object>
+					<object id="a33">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">hill_asset_happyhead_1335809210268</str>
+					</object>
+					<object id="a34">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">flower_asset_01_orange_1335809210269</str>
+					</object>
+					<object id="a35">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815741</str>
+					</object>
+					<object id="a36">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">tree_int_vertical_shadow_1345137815742</str>
+					</object>
+					<object id="a38">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+					<object id="a39">
+						<str id="type">event</str>
+						<str id="event">act5_continue_arrow1</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="act5_continue_screen">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">act5_show</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">act5_scene4</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">act5_scene4</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_set</str>
+						<str id="flag">act5_scene1</str>
+					</object>
+					<object id="a5">
+						<str id="type">flag_set</str>
+						<str id="flag">act5_show</str>
+					</object>
+					<object id="a6">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335827234028</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a7">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335827234029</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a8">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1335827234027</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a9">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1339713261583</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1339713261584</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a10">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">light_spot_1339713261585</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a13">
+						<str id="type">deco_show</str>
+						<int id="fade">300</int>
+						<str id="deco_id">groddle_sign_blank_1346195471606</str>
+					</object>
+					<object id="a14">
+						<str id="type">deco_show</str>
+						<int id="fade">300</int>
+						<str id="deco_id">groddle_sign_blank_1346195471605</str>
+					</object>
+					<object id="a15">
+						<str id="type">deco_show</str>
+						<int id="fade">300</int>
+						<str id="deco_id">groddle_sign_blank_1346195471604</str>
+					</object>
+					<object id="a16">
+						<str id="type">deco_show</str>
+						<int id="fade">300</int>
+						<str id="deco_id">groddle_sign_blank_1346195471603</str>
+					</object>
+					<object id="a17">
+						<str id="type">deco_show</str>
+						<int id="fade">300</int>
+						<str id="deco_id">groddle_sign_blank_1346195471602</str>
+					</object>
+					<object id="a18">
+						<str id="type">deco_show</str>
+						<int id="fade">300</int>
+						<str id="deco_id">groddle_sign_blank_1346195471601</str>
+					</object>
+					<object id="a12">
+						<str id="type">play_sound</str>
+						<str id="name">NEWXP_YOU</str>
+						<bool id="multi">true</bool>
+					</object>
+				</object>
+			</object>
+			<object id="spawn_qurazies">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">quoins_spawned</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_set</str>
+						<str id="flag">quoins_spawned</str>
+					</object>
+					<object id="a3">
+						<str id="type">code_location</str>
+						<str id="code">var s = loc.createItemStack('quoin', 1, 2320, -210);
+s.setInstanceProp('class_name', '');
+s.setInstanceProp('respawn_time', 400000);
+s.setInstanceProp('type', 'qurazy');
+
+var s = loc.createItemStack('quoin', 1, 2390, -210);
+s.setInstanceProp('class_name', '');
+s.setInstanceProp('respawn_time', 400000);
+s.setInstanceProp('type', 'qurazy');
+
+var s = loc.createItemStack('quoin', 1, 2460, -210);
+s.setInstanceProp('class_name', '');
+s.setInstanceProp('respawn_time', 400000);
+s.setInstanceProp('type', 'qurazy');
+
+var s = loc.createItemStack('quoin', 1, 2250, -210);
+s.setInstanceProp('class_name', '');
+s.setInstanceProp('respawn_time', 400000);
+s.setInstanceProp('type', 'qurazy');
+
+var s = loc.createItemStack('quoin', 1, 2180, -210);
+s.setInstanceProp('class_name', '');
+s.setInstanceProp('respawn_time', 400000);
+s.setInstanceProp('type', 'qurazy');</str>
+					</object>
+				</object>
+			</object>
+			<object id="instance_created">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">quoins_spawned</str>
+					</object>
+				</object>
+			</object>
+			<object id="act1_continue_arrow1">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">act1_arrows</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">act1_arrows</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">arrow_ground2_1345489638041</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">act1_continue_arrow2</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="act1_continue_arrow2">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">arrow_ground2_1345489638042</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">act1_continue_arrow3</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="act1_continue_arrow3">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">arrow_ground2_1345489638043</str>
+						<int id="fade">200</int>
+					</object>
+				</object>
+			</object>
+			<object id="act2_continue_arrow1">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">act2_arrows</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">act2_arrows</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">arrow_ground2_1345489638035</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">act2_continue_arrow2</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="act2_continue_arrow2">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">arrow_ground2_1345489638034</str>
+					</object>
+					<object id="a2">
+						<str id="type">event</str>
+						<str id="event">act2_continue_arrow3</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="act2_continue_arrow3">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">arrow_ground2_1345489638022</str>
+					</object>
+				</object>
+			</object>
+			<object id="act3_continue_arrow1">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">act3_arrows</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">act3_arrows</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">arrow_ground2_1345489638044</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">act3_continue_arrow2</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="act3_continue_arrow2">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">arrow_ground2_1345489638045</str>
+					</object>
+					<object id="a2">
+						<str id="type">event</str>
+						<str id="event">act3_continue_arrow3</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="act3_continue_arrow3">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">arrow_ground2_1345489638046</str>
+					</object>
+				</object>
+			</object>
+			<object id="act4_continue_arrow1">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">act4_arrows</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">act4_arrows</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">arrow_ground2_1345489638047</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">act4_continue_arrow2</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="act4_continue_arrow2">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">arrow_ground2_1345489638048</str>
+					</object>
+					<object id="a2">
+						<str id="type">event</str>
+						<str id="event">act4_continue_arrow3</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="act4_continue_arrow3">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">arrow_ground2_1345489638049</str>
+					</object>
+				</object>
+			</object>
+			<object id="act5_continue_arrow1">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_not_exit</str>
+						<str id="flag">act5_arrows</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_clear</str>
+						<str id="flag">act5_arrows</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">arrow_ground2_1345489638050</str>
+					</object>
+					<object id="a3">
+						<str id="type">event</str>
+						<str id="event">act5_continue_arrow2</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="act5_continue_arrow2">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">arrow_ground2_1345489638051</str>
+					</object>
+					<object id="a2">
+						<str id="type">event</str>
+						<str id="event">act5_continue_arrow3</str>
+						<int id="delay">300</int>
+					</object>
+				</object>
+			</object>
+			<object id="act5_continue_arrow3">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<int id="fade">200</int>
+						<str id="deco_id">arrow_ground2_1345489638052</str>
+					</object>
+				</object>
+			</object>
+			<object id="show_arrow_title">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">event</str>
+						<str id="event">act1_continue_arrow1</str>
+						<int id="delay">5000</int>
+					</object>
+				</object>
+			</object>
+		</object>
+		<bool id="is_instance">true</bool>
+		<str id="instance_id">level_quest_greedy_street_spirit</str>
+		<objref id="instance" tsid="RHVK17N9ERF3TK3"/>
+		<object id="hidden_decos">
+			<int id="groddle_sign_blank_1335742150445">1354674407</int>
+			<int id="groddle_sign_blank_1345137815737">1354674258</int>
+			<int id="tree_int_vertical_shadow_1345137815734">1354674258</int>
+			<int id="tree_int_vertical_shadow_1345137815735">1354674238</int>
+			<int id="groddle_sign_blank_1345137815743">1354674358</int>
+			<int id="groddle_sign_blank_1345137815744">1354674367</int>
+			<int id="groddle_sign_blank_1345137815745">1354674477</int>
+			<int id="arrow_ground2_1345489638035">1354674238</int>
+			<int id="arrow_ground2_1345489638034">1354674238</int>
+			<int id="arrow_ground2_1345489638022">1354674238</int>
+			<int id="tree_int_vertical_shadow_1345137815733">1354674258</int>
+			<int id="groddle_sign_blank_1335481122140">1354674277</int>
+			<int id="groddle_sign_blank_1339623300259">1354674277</int>
+			<int id="light_spot_1335555470887">1354674277</int>
+			<int id="streetspirit_test_1335481122049">1354674277</int>
+			<int id="zutto_shadow_spot_1_1335481122051">1354674277</int>
+			<int id="star_asset_02_1335481122131">1354674277</int>
+			<int id="star_asset_02_1335481122065">1354674277</int>
+			<int id="groddle_sign_blank_1335487337330">1354674277</int>
+			<int id="light_spot_1335555470886">1354674277</int>
+			<int id="star_asset_02_1335481122132">1354674277</int>
+			<int id="star_asset_02_1335481122133">1354674277</int>
+			<int id="star_asset_01_1335481122128">1354674277</int>
+			<int id="star_asset_02_1335481122129">1354674277</int>
+			<int id="star_asset_01_1335481122130">1354674277</int>
+			<int id="tree_int_wall_hole_1_1335481122061">1354674277</int>
+			<int id="tree_int_wall_hole_1_1335481122062">1354674277</int>
+			<int id="star_asset_02_1335481122138">1354674277</int>
+			<int id="star_asset_01_1335481122137">1354674277</int>
+			<int id="streetspirit_test_1335481122134">1354674277</int>
+			<int id="crate_1_1335481122059">1354674277</int>
+			<int id="zutto_shadow_spot_1_1335481122136">1354674277</int>
+			<int id="groddle_sign_blank_1335564866455">1354674358</int>
+			<int id="light_spot_1335564866444">1354674358</int>
+			<int id="sun_asset_smile_1335481122141">1354674358</int>
+			<int id="groddle_sign_blank_1335564866456">1354674358</int>
+			<int id="light_spot_1335564866443">1354674358</int>
+			<int id="flower_asset_01_orange_1335475617469">1354674358</int>
+			<int id="hill_asset_happyhead_1335475617429">1354674358</int>
+			<int id="groddle_sign_blank_1335564866457">1354674358</int>
+			<int id="light_spot_1335564866442">1354674358</int>
+			<int id="streetspirit_test_1335564866433">1354674358</int>
+			<int id="tree_int_radial_shadow_1335564866452">1354674358</int>
+			<int id="moon_asset_smile_1335564866459">1354674358</int>
+			<int id="sun_asset_smile_1335564866458">1354674358</int>
+			<int id="flower_asset_01_orange_1335564866461">1354674358</int>
+			<int id="hill_asset_happyhead_1335564866460">1354674358</int>
+			<int id="tree_int_vertical_shadow_1345754336631">1354674358</int>
+			<int id="tree_int_vertical_shadow_1345137815736">1354674358</int>
+			<int id="groddle_sign_blank_1335658626483">1354674407</int>
+			<int id="light_spot_1335658626501">1354674407</int>
+			<int id="star_asset_01_1335663377311">1354674407</int>
+			<int id="star_asset_02_1335663377310">1354674407</int>
+			<int id="tree_int_wall_hole_1_1335663377308">1354674407</int>
+			<int id="tree_int_wall_hole_1_1335663377309">1354674407</int>
+			<int id="tree_int_radial_shadow_1335663377304">1354674407</int>
+			<int id="crate_1_1335663377303">1354674407</int>
+			<int id="streetspirit_test_1335663377301">1354674407</int>
+			<int id="streetspirit_test_1335656660095">1354674407</int>
+			<int id="groddle_sign_blank_1335658626484">1354674407</int>
+			<int id="light_spot_1335658626500">1354674407</int>
+			<int id="star_asset_01_1335656660099">1354674407</int>
+			<int id="star_asset_01_1335656660098">1354674407</int>
+			<int id="tree_int_wall_hole_1_1335656660100">1354674407</int>
+			<int id="tree_int_wall_hole_1_1335656660101">1354674407</int>
+			<int id="crate_1_1335656660090">1354674407</int>
+			<int id="tree_int_radial_shadow_1335656660096">1354674407</int>
+			<int id="streetspirit_test_1335663377300">1354674407</int>
+			<int id="groddle_sign_blank_1335658626485">1354674407</int>
+			<int id="light_spot_1335658626499">1354674407</int>
+			<int id="streetspirit_test_1335663377305">1354674407</int>
+			<int id="cave_hole_back_1335663377306">1354674407</int>
+			<int id="star_asset_01_1335663377296">1354674407</int>
+			<int id="star_asset_02_1335663377295">1354674407</int>
+			<int id="star_asset_01_1335663377297">1354674407</int>
+			<int id="tree_int_wall_hole_1_1335663377293">1354674407</int>
+			<int id="tree_int_wall_hole_1_1335663377294">1354674407</int>
+			<int id="crate_1_1335656660093">1354674407</int>
+			<int id="tree_int_radial_shadow_1335663377307">1354674407</int>
+			<int id="star_asset_02_1335656660097">1354674407</int>
+			<int id="groddle_sign_blank_1335810705004">1354674493</int>
+			<int id="light_spot_1335751767813">1354674493</int>
+			<int id="groddle_sign_blank_1335810705005">1354674493</int>
+			<int id="light_spot_1335751767814">1354674493</int>
+			<int id="stars_move_up_1335809210288">1354674493</int>
+			<int id="stars_2_1335805560722">1354674493</int>
+			<int id="stars_2_1335805560721">1354674493</int>
+			<int id="stars_2_1335805560720">1354674493</int>
+			<int id="cloud_asset_02_dark_1335809210275">1354674493</int>
+			<int id="cloud_asset_01_dark_1335809210276">1354674493</int>
+			<int id="cloud_asset_02_dark_1335809210283">1354674493</int>
+			<int id="cloud_asset_02_dark_1335809210282">1354674493</int>
+			<int id="groddle_sign_blank_1335810705006">1354674493</int>
+			<int id="light_spot_1335751767815">1354674493</int>
+			<int id="moon_asset_smile_1335805560712">1354674493</int>
+			<int id="star_asset_01_1335809210298">1354674493</int>
+			<int id="star_asset_02_1335809210293">1354674493</int>
+			<int id="star_asset_02_1335809210294">1354674493</int>
+			<int id="star_asset_02_1335809210297">1354674493</int>
+			<int id="star_asset_01_1335809210295">1354674493</int>
+			<int id="star_asset_02_1335809210296">1354674493</int>
+			<int id="star_asset_01_1335809210292">1354674493</int>
+			<int id="sun_asset_smile_1335805560713">1354674493</int>
+			<int id="Glints_3_1335809210284">1354674493</int>
+			<int id="wave1_1335809210291">1354674493</int>
+			<int id="Glints_3_1335809210277">1354674493</int>
+			<int id="Glints_3_1335809210289">1354674493</int>
+			<int id="hill_asset_happyhead_1335809210268">1354674493</int>
+			<int id="flower_asset_01_orange_1335809210269">1354674493</int>
+			<int id="groddle_sign_blank_1335827234027">1354674546</int>
+			<int id="light_spot_1339713261583">1354674546</int>
+			<int id="groddle_sign_blank_1335827234028">1354674546</int>
+			<int id="light_spot_1339713261584">1354674546</int>
+			<int id="groddle_sign_blank_1335827234029">1354674546</int>
+			<int id="light_spot_1339713261585">1354674546</int>
+		</object>
+		<object id="flags">
+			<bool id="act2_arrows">true</bool>
+			<bool id="act1_scene4">true</bool>
+			<bool id="act2_scene2">true</bool>
+			<bool id="act3_scene1">true</bool>
+			<bool id="act4_scene1">true</bool>
+			<bool id="quoins_spawned">true</bool>
+			<bool id="act5_scene1">true</bool>
+		</object>
+	</object>
+	<objrefs id="items">
+		<objref tsid="INVD5DN9ERF3UC2" label="Wall Button"/>
+		<objref tsid="INVD5EN9ERF3UCN" label="Street Spirit"/>
+		<objref tsid="INVD5BN9ERF3U9V" label="Teleport Marker"/>
+		<objref tsid="INVD5CN9ERF3UAE" label="Wall Button"/>
+		<objref tsid="INVD5AN9ERF3U71" label="Wall Button"/>
+		<objref tsid="INVD59N9ERF3U5L" label="Wall Button"/>
+		<objref tsid="INVD58N9ERF3U3T" label="Wall Button"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

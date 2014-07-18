@@ -1,6 +1,18 @@
 {
     "tsid": "GLICF642CTI16R1",
     "label": "Peatland Moors",
+    "hub_id": "63",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-09/LLICF642CTI16R1_loading_1336601559.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-09/LLICF642CTI16R1_main_1336601561.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "48541E",
         "bottom": "9EAD63"
@@ -211,7 +223,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleplus": {
                 "name": "middleplus",
@@ -304,7 +318,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -556,7 +572,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2588,7 +2606,38 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1314204815024",
+                        "y": -114,
+                        "w": 50,
+                        "h": 161,
+                        "x": 1469
+                    },
+                    {
+                        "id": "ladder_1314204815029",
+                        "y": -327,
+                        "w": 50,
+                        "h": 229,
+                        "x": 1243
+                    },
+                    {
+                        "id": "ladder_1314204815037",
+                        "y": -327,
+                        "w": 50,
+                        "h": 245,
+                        "x": 2162
+                    },
+                    {
+                        "id": "ladder_1314204815032",
+                        "y": -105,
+                        "w": 50,
+                        "h": 167,
+                        "x": 2403
+                    }
+                ],
+                "walls": []
             },
             "bg_1": {
                 "name": "bg_1",
@@ -2776,7 +2825,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "foreground": {
                 "name": "foreground",
@@ -2831,8 +2882,128 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "ILI105SI5BL1GPC",
+            "label": "Peat Bog"
+        },
+        {
+            "tsid": "ILI4I3VCADL1UB1",
+            "label": "Mortar Barnacle"
+        },
+        {
+            "tsid": "ILI4HUVAADL12RO",
+            "label": "Mortar Barnacle"
+        },
+        {
+            "tsid": "IM1K57D0L0Q16L3",
+            "label": "spawner"
+        },
+        {
+            "tsid": "ILI11A208GL1Q2A",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IHV9QM4CJQF20NU",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IHVVSBQFV7G3M06",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "ILI4I1LBADL1LO1",
+            "label": "Mortar Barnacle"
+        },
+        {
+            "tsid": "IHV46B77E8G3AP4",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IHVFSENLAGQ2A65",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IHV46267E8G38JG",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IHVPNE08O5G3KPT",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "ILI4I0DBADL1NM7",
+            "label": "Mortar Barnacle"
+        },
+        {
+            "tsid": "INV376HTQ0V274D",
+            "label": "Mailbox"
+        },
+        {
+            "tsid": "IHVCKIAQRMF27LF",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IHVS362H46N2SQA",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IHVU73SPMTI2BF2",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IHV46467E8G38L8",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IHV45T57E8G3KBK",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IA9VV1UGVOB29H3",
+            "label": "Smuggler"
+        },
+        {
+            "tsid": "IHVM6SEILQF24P6",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "ILI109GM5BL1FMN",
+            "label": "Peat Bog"
+        },
+        {
+            "tsid": "IHV46977E8G3AMB",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IHV46367E8G38KF",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IHV46A77E8G3AO6",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "IHVRC7LTU7G3JT7",
+            "label": "Firefly"
+        },
+        {
+            "tsid": "ILI108ML5BL1OVD",
+            "label": "Peat Bog"
+        },
+        {
+            "tsid": "ILI4HV7BADL1BP5",
+            "label": "Mortar Barnacle"
+        },
+        {
+            "tsid": "ILI1078P3EL1V5K",
+            "label": "Shrine to Lem"
+        }
+    ]
 }

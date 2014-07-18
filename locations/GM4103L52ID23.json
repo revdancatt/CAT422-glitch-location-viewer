@@ -1,6 +1,18 @@
 {
     "tsid": "GM4103L52ID23",
     "label": "Old Main Street",
+    "hub_id": "27",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-04-26/LM4103L52ID23_loading_1303844115.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-04-26/LM4103L52ID23_main_1303844116.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {},
     "dynamic": {
         "l": -3000,
@@ -93,7 +105,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -652,7 +666,17 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1258922218917",
+                        "y": -58,
+                        "w": 31,
+                        "x": -768,
+                        "h": 200
+                    }
+                ],
+                "walls": []
             },
             "foreground": {
                 "name": "foreground",
@@ -703,7 +727,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_1": {
                 "name": "bg_1",
@@ -952,7 +978,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -1019,7 +1047,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_2": {
                 "name": "bg_2",
@@ -1453,7 +1483,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleplus": {
                 "name": "middleplus",
@@ -1561,8 +1593,56 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IM416QNIL0OAP",
+            "label": "Dead Piggy"
+        },
+        {
+            "tsid": "IM4115MEG6892",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IM4114MEG6052",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5NEFKAPBC22EU",
+            "label": "Bean"
+        },
+        {
+            "tsid": "IM410LMMQN0BV",
+            "label": "Patch"
+        },
+        {
+            "tsid": "IM410JMMQMEQO",
+            "label": "Patch"
+        },
+        {
+            "tsid": "ITJ1M5RK5IL1MB9",
+            "label": "Dead Spice Plant"
+        },
+        {
+            "tsid": "IM410HMMQM6E7",
+            "label": "Patch"
+        },
+        {
+            "tsid": "IM4117MEG6OLL",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5NEEKAPBC22EF",
+            "label": "Cherry"
+        },
+        {
+            "tsid": "IM410IMMQM9K4",
+            "label": "Patch"
+        }
+    ]
 }

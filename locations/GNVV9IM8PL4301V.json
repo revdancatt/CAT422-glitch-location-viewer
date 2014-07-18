@@ -1,6 +1,18 @@
 {
     "tsid": "GNVV9IM8PL4301V",
     "label": "A Summer's Day",
+    "hub_id": "61",
+    "mote_id": "10",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-06-12/LNVIH6NU3M13MJJ_loading_1339522404.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-06-12/LNVIH6NU3M13MJJ_main_1339522405.jpg",
+        "w": 720,
+        "h": 144
+    },
     "gradient": {
         "bottom": "5CA2C4",
         "top": "E8E8E8"
@@ -562,7 +574,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1318450912935": {
                 "name": "redplus",
@@ -1087,7 +1101,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1318450912936": {
                 "name": "red",
@@ -1293,7 +1309,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1318533254200": {
                 "name": "plus",
@@ -1441,7 +1459,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1318450912937": {
                 "name": "sky",
@@ -1458,7 +1478,9 @@
                 },
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -4645,8 +4667,195 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1335492996984",
+                        "w": 50,
+                        "x": -925,
+                        "h": 540,
+                        "y": -458
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1335480776031",
+                        "h": 73,
+                        "w": 0,
+                        "x": 629,
+                        "y": -373
+                    },
+                    {
+                        "id": "wall_1335401803835",
+                        "item_perm": 1,
+                        "h": 944,
+                        "pc_perm": 0,
+                        "w": 0,
+                        "x": 1625,
+                        "y": 0
+                    },
+                    {
+                        "id": "wall_1335401803836",
+                        "item_perm": -1,
+                        "h": 1003,
+                        "pc_perm": 0,
+                        "w": 0,
+                        "x": 979,
+                        "y": -998
+                    },
+                    {
+                        "id": "wall_1335395275904",
+                        "h": 272,
+                        "w": 0,
+                        "x": 2091,
+                        "y": -419
+                    },
+                    {
+                        "id": "wall_1335401803834",
+                        "item_perm": 1,
+                        "h": 995,
+                        "pc_perm": 0,
+                        "w": 0,
+                        "x": 2097,
+                        "y": -996
+                    },
+                    {
+                        "id": "wall_1335389378235",
+                        "h": 850,
+                        "pc_perm": 0,
+                        "w": 0,
+                        "x": 1973,
+                        "y": -996
+                    },
+                    {
+                        "id": "wall_1335378517236",
+                        "h": 824,
+                        "pc_perm": 0,
+                        "w": 0,
+                        "x": 2683,
+                        "y": -999
+                    },
+                    {
+                        "id": "wall_1335577138906",
+                        "h": 392,
+                        "w": 0,
+                        "x": 1822,
+                        "y": -379
+                    },
+                    {
+                        "id": "wall_1335577138905",
+                        "h": 248,
+                        "w": 0,
+                        "x": 1005,
+                        "y": -245
+                    },
+                    {
+                        "id": "wall_1335480776032",
+                        "h": 73,
+                        "w": 0,
+                        "x": 446,
+                        "y": -374
+                    },
+                    {
+                        "id": "wall_1335375752706",
+                        "h": 812,
+                        "pc_perm": 0,
+                        "w": 0,
+                        "x": 3227,
+                        "y": -1046
+                    }
                 ]
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "INVVA3M8PL4305E",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVVA4M8PL43056",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVV9PM8PL4305A",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVV9VM8PL4305R",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVVA7M8PL4306R",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVV9TM8PL4305T",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVV9JM8PL4304G",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVVA0M8PL4305F",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVVA6M8PL4305F",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVV9QM8PL4305B",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVV9LM8PL43041",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVV9KM8PL43040",
+            "label": "Collision-triggered Teleporter"
+        },
+        {
+            "tsid": "INVV9RM8PL43059",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVVA5M8PL43052",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVV9OM8PL4305L",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVV9NM8PL43049",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVV9MM8PL43048",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVVA2M8PL4305A",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVV9UM8PL43051",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFAVVIDPL43MDM",
+            "label": "Piggy"
+        },
+        {
+            "tsid": "INVVA1M8PL4305J",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "INVV9SM8PL43050",
+            "label": "Collision-triggered Event Box"
+        }
+    ]
 }

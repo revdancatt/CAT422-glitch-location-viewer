@@ -1,6 +1,18 @@
 {
     "tsid": "GA5JI29VIMB2SDT",
     "label": "Essec Zyte",
+    "hub_id": "102",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-01-19/LA5JI29VIMB2SDT_loading_1327031516.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-01-19/LA5JI29VIMB2SDT_main_1327031533.jpg",
+        "w": 720,
+        "h": 1080
+    },
     "gradient": {
         "top": "A6CEFF",
         "bottom": "2C5747"
@@ -156,7 +168,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1315615167010": {
                 "name": "bg_2",
@@ -179,7 +193,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3895,7 +3911,31 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1315847343202",
+                        "x": -273,
+                        "h": 489,
+                        "y": -448,
+                        "w": 50
+                    },
+                    {
+                        "id": "ladder_1315847343160",
+                        "x": -179,
+                        "h": 244,
+                        "y": -1646,
+                        "w": 50
+                    },
+                    {
+                        "id": "ladder_1315847343176",
+                        "x": -890,
+                        "h": 454,
+                        "y": -886,
+                        "w": 50
+                    }
+                ],
+                "walls": []
             },
             "T_1315615167011": {
                 "name": "sky",
@@ -3942,8 +3982,64 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5H056G4UB2HVO",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5H094I4UB2KDO",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IA5H028F4UB2TLH",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IIF580GKMGQ2JA3",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA5H079H4UB253S",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IA5H0BEL4UB2TD5",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIFVR8982BF3A70",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IA5H0A5J4UB24VE",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5GU3LA4UB2C5T",
+            "label": "Shrine to Lem"
+        },
+        {
+            "tsid": "IHFICORNPVB34QD",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIF9KILG6RF3JVI",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "IA5GU68C4UB2J7M",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IHFDH2DRMVB3NEL",
+            "label": "Bubble Tree"
+        }
+    ]
 }

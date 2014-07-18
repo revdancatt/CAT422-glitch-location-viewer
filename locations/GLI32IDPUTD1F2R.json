@@ -1,6 +1,18 @@
 {
     "tsid": "GLI32IDPUTD1F2R",
     "label": "Ritzrock Rise",
+    "hub_id": "58",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-26/LLI32IDPUTD1F2R_loading_1317075934.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-26/LLI32IDPUTD1F2R_main_1317075937.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "E8FFFF",
         "bottom": "79FCFA"
@@ -492,7 +504,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_2": {
                 "name": "bg_2",
@@ -648,7 +662,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleplus": {
                 "name": "middleplus",
@@ -981,7 +997,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -1032,7 +1050,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3370,6 +3390,41 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1288303621590",
+                        "y": -975,
+                        "item_perm": -1,
+                        "w": 0,
+                        "h": 725,
+                        "x": 1060,
+                        "pc_perm": 0
+                    },
+                    {
+                        "id": "wall_1286494312398",
+                        "y": -398,
+                        "w": 0,
+                        "h": 145,
+                        "x": 2704
+                    },
+                    {
+                        "id": "wall_1286495842938",
+                        "y": -676,
+                        "w": 0,
+                        "h": 130,
+                        "x": 2560,
+                        "pc_perm": -1
+                    },
+                    {
+                        "id": "wall_1286495634583",
+                        "y": -694,
+                        "w": 0,
+                        "h": 140,
+                        "x": 2711,
+                        "pc_perm": 1
+                    }
                 ]
             },
             "foreground": {
@@ -3380,8 +3435,92 @@
                 "filters": {},
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA9FUQLLB8G3L0J",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA95PB22D8G3MQJ",
+            "label": "Gas Plant"
+        },
+        {
+            "tsid": "IA9M5ODDE8G3R7Q",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA911R2TGLG3QEG",
+            "label": "Piggy"
+        },
+        {
+            "tsid": "IA511VKPID62PGG",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA594PH7JJU2PUP",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIF1GI24E1I1B05",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IDONGCNS6JF3POQ",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "IHVH1U1SO1A36PL",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFBQIET6OG165A",
+            "label": "spawner"
+        },
+        {
+            "tsid": "BA918N66BCN3A37",
+            "label": "Generic Pink Bag"
+        },
+        {
+            "tsid": "IA970LIQ24G3DNR",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "IIF14BQ9OJI196N",
+            "label": "Shrine to Lem"
+        },
+        {
+            "tsid": "IDOSTEHJCLQ2Q3E",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA9RKUT9U3G3GNS",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "IA93UBU0D8G32PP",
+            "label": "Wood Tree"
+        },
+        {
+            "tsid": "IDOHEREOJTD31FS",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHV4BPPV8RA3MF1",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA918M66BCN3A0S",
+            "label": "Piggy"
+        },
+        {
+            "tsid": "IA961ON2D8G3T72",
+            "label": "Fruit Tree"
+        }
+    ]
 }

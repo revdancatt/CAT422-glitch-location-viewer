@@ -1,6 +1,18 @@
 {
     "tsid": "GA5LBN35B8T288J",
     "label": "Sinseollo Park",
+    "hub_id": "123",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-18/LA5LBN35B8T288J_loading_1334783563.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-18/LA5LBN35B8T288J_main_1334783565.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "99CC",
         "bottom": "FFEA96"
@@ -159,7 +171,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3753,6 +3767,18 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1334619144133",
+                        "y": -1001,
+                        "item_perm": 1,
+                        "w": 0,
+                        "h": 797,
+                        "x": -1213,
+                        "pc_perm": 0
+                    }
                 ]
             },
             "T_1332176701174": {
@@ -3840,7 +3866,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1332176701172": {
                 "name": "middleplus",
@@ -5050,7 +5078,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1332176701173": {
                 "name": "bg_1",
@@ -5311,8 +5341,44 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5LR641LAT2UUK",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5KO24FKAT2926",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IA5LQTV0LAT2TS6",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5LRSD1LAT2VMM",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5LRD81LAT2MR6",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5MCJDBLAT2LNF",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA5LSEI1LAT2OPH",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5PA82FJNT2L95",
+            "label": "Fox Ranger"
+        }
+    ]
 }

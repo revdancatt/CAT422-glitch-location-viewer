@@ -1,6 +1,18 @@
 {
     "tsid": "GHVAP821MDT2L85",
     "label": "Hosta Park",
+    "hub_id": "98",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-29/LHVAP821MDT2L85_loading_1335764845.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-29/LHVAP821MDT2L85_main_1335764848.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "5C7891",
         "bottom": "FFFFFF"
@@ -67,7 +79,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331341122118": {
                 "name": "middleplus",
@@ -676,7 +690,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331344663982": {
                 "name": "bg2",
@@ -930,7 +946,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331341122141": {
                 "name": "foreground",
@@ -1121,7 +1139,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -4520,6 +4540,18 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1333667310556",
+                        "w": 0,
+                        "item_perm": 1,
+                        "y": -998,
+                        "pc_perm": 0,
+                        "x": -1619,
+                        "h": 998
+                    }
                 ]
             },
             "T_1331344663944": {
@@ -5055,8 +5087,44 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHVAPJ51MDT21AM",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IHVAPI51MDT21A0",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IHVAPP51MDT21C4",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IHV11ELELNT2UMP",
+            "label": "Fox Ranger"
+        },
+        {
+            "tsid": "IHVAPK51MDT21AJ",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IHVAPM51MDT21C6",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IHVAPH51MDT219C",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IHVAPO51MDT21CV",
+            "label": "Fox Stop Marker"
+        }
+    ]
 }

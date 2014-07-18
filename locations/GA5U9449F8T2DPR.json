@@ -1,6 +1,18 @@
 {
     "tsid": "GA5U9449F8T2DPR",
     "label": "Hobak Habitat",
+    "hub_id": "123",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-20/LA5U9449F8T2DPR_loading_1334969011.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-20/LA5U9449F8T2DPR_main_1334969014.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "99CC",
         "bottom": "FFEA96"
@@ -132,7 +144,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1332176701174": {
                 "name": "sky",
@@ -431,7 +445,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1332176701172": {
                 "name": "middleplus",
@@ -1689,7 +1705,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -7099,6 +7117,18 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1334598017041",
+                        "w": 0,
+                        "item_perm": -1,
+                        "y": -1000,
+                        "pc_perm": 0,
+                        "x": 941,
+                        "h": 772
+                    }
                 ]
             },
             "T_1332176701173": {
@@ -7372,8 +7402,48 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5U9A69F8T2OHD",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA5U9E69F8T2OIU",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5OOMM9JNT220G",
+            "label": "Fox Ranger"
+        },
+        {
+            "tsid": "IA5U9C69F8T2OIS",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5IRT6EJAT2OR2",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5U9F69F8T2OIT",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IA5U9G69F8T2OJK",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5U9B69F8T2OI6",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IA5U9D69F8T2OIE",
+            "label": "Fox Stop Marker"
+        }
+    ]
 }

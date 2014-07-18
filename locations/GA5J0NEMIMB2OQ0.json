@@ -1,6 +1,18 @@
 {
     "tsid": "GA5J0NEMIMB2OQ0",
     "label": "Tachyl Grit",
+    "hub_id": "102",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-01-19/LA5J0NEMIMB2OQ0_loading_1327028673.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-01-19/LA5J0NEMIMB2OQ0_main_1327028685.jpg",
+        "w": 720,
+        "h": 270
+    },
     "gradient": {
         "top": "8ABDFF",
         "bottom": "FFFFFF"
@@ -232,7 +244,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1315334860412": {
                 "name": "sky",
@@ -342,7 +356,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3508,6 +3524,53 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1315414288268",
+                        "x": -396,
+                        "h": 478,
+                        "y": -141,
+                        "w": 50
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1315414288354",
+                        "item_perm": -1,
+                        "x": 521,
+                        "y": -421,
+                        "pc_perm": -1,
+                        "h": 322,
+                        "w": 0
+                    },
+                    {
+                        "id": "wall_1315414288347",
+                        "item_perm": 1,
+                        "x": -1307,
+                        "y": -428,
+                        "pc_perm": 1,
+                        "h": 305,
+                        "w": 0
+                    },
+                    {
+                        "id": "wall_1315414288340",
+                        "item_perm": 1,
+                        "x": -528,
+                        "y": -617,
+                        "pc_perm": 1,
+                        "h": 169,
+                        "w": 0
+                    },
+                    {
+                        "id": "wall_1315414288341",
+                        "item_perm": -1,
+                        "x": -274,
+                        "y": -606,
+                        "pc_perm": -1,
+                        "h": 168,
+                        "w": 0
+                    }
                 ]
             },
             "T_1315344219575": {
@@ -3565,7 +3628,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1315334860410": {
                 "name": "middleplus",
@@ -3895,8 +3960,56 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5H3ULT8UB2H54",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5H3Q6R8UB2V6T",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA5H3OBP8UB2UID",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IIF75LRHNGQ2R3D",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA5H3V2U8UB2MDR",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IA5H3LHO8UB24OQ",
+            "label": "Shrine to Lem"
+        },
+        {
+            "tsid": "IA5H3SDT8UB2RBB",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5H3PKP8UB259U",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5H3TJT8UB221D",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5H3R6T8UB2R7G",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IA5H3MTO8UB2VD2",
+            "label": "Dullite Rock"
+        }
+    ]
 }

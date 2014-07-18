@@ -1,6 +1,18 @@
 {
     "tsid": "GA5144431J524TC",
     "label": "Chuff Chase 3",
+    "hub_id": "91",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-26/LA5144431J524TC_loading_1317079093.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-26/LA5144431J524TC_main_1317079095.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "7395BF",
         "bottom": "FFD859"
@@ -417,7 +429,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1307741552442": {
                 "name": "bg_3",
@@ -728,7 +742,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1307741552441": {
                 "name": "sky",
@@ -970,7 +986,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1307741552440": {
                 "name": "bg_2",
@@ -1225,7 +1243,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1307741552439": {
                 "name": "bg_1",
@@ -1605,7 +1625,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3422,8 +3444,89 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1308186738931",
+                        "y": -149,
+                        "w": 50,
+                        "h": 289,
+                        "x": -899
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1308260972618",
+                        "y": -229,
+                        "w": 0,
+                        "h": 117,
+                        "x": -483
+                    },
+                    {
+                        "id": "wall_1308166740414",
+                        "y": -422,
+                        "w": 0,
+                        "h": 132,
+                        "x": -982
+                    },
+                    {
+                        "id": "wall_1308166740417",
+                        "y": -428,
+                        "w": 0,
+                        "h": 123,
+                        "x": -817
+                    },
+                    {
+                        "id": "wall_1308260972616",
+                        "y": -228,
+                        "w": 0,
+                        "h": 120,
+                        "x": -1358
+                    }
                 ]
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5180NI9J5240S",
+            "label": "Dust Trap"
+        },
+        {
+            "tsid": "IA51865O9J52LV7",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5185JN9J529BD",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "INVA04MA10R23T1",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA5184GN9J52EBV",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA51831N9J5211M",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA51824M9J522PH",
+            "label": "Dirt Pile"
+        },
+        {
+            "tsid": "IUVMG94N5PD3HN3",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5N2GFDKPU2AM8",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA51877O9J52TQ4",
+            "label": "Quoin"
+        }
+    ]
 }

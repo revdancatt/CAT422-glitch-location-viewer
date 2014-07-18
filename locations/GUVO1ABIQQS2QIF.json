@@ -1,6 +1,18 @@
 {
     "tsid": "GUVO1ABIQQS2QIF",
     "label": "Byssus Park",
+    "hub_id": "120",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-14/LUVO1ABIQQS2QIF_loading_1334459217.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-14/LUVO1ABIQQS2QIF_main_1334459219.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "62AD",
         "bottom": "FFDF5E"
@@ -192,7 +204,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331845429793": {
                 "name": "bg_1",
@@ -1235,7 +1249,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3653,6 +3669,18 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1332264261691",
+                        "w": 0,
+                        "y": -997,
+                        "item_perm": 1,
+                        "x": -1838,
+                        "h": 840,
+                        "pc_perm": 0
+                    }
                 ]
             },
             "T_1331845429794": {
@@ -4380,7 +4408,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331845429791": {
                 "name": "middleplus",
@@ -5598,8 +5628,44 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IUVVE0U4FRS2H10",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVVF055FRS2V3T",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVVD2P4FRS28Q7",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVV9Q64FRS2F59",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IUVVEI35FRS2BO5",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVE8PKP5RS26JN",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IUVVDGR4FRS2OJD",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVF9SCRJNT2QQO",
+            "label": "Fox Ranger"
+        }
+    ]
 }

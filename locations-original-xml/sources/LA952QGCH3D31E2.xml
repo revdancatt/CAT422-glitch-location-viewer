@@ -1,0 +1,173 @@
+<game_object tsid="LA952QGCH3D31E2" ts="1365097303487" label="Surveyor&apos;s Stroll" class_tsid="town" hubid="129" moteid="9" letime="3fpfa2q0" rbtime="3d3hcg1e" upd_gs="gs6" load_time="2013-04-04 10:31:25.000">
+	<object id="dynamic">
+		<bool id="jobs_is_locked">false</bool>
+		<object id="events">
+			<object id="mappery_upgrade">
+				<object id="actions">
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">mappery_upgrade</str>
+					</object>
+					<object id="a1">
+						<str id="type">code_player</str>
+						<str id="code">pc.imagination_reduce_to_hand();
+pc.apiSetTimerX('apiSendMsg', 2000, {
+	type: 'open_img_menu',
+	section: 'upgrades',
+	hide_close: true
+});</str>
+						<bool id="all_players">true</bool>
+					</object>
+					<object id="a2">
+						<str id="type">flag_set</str>
+						<str id="flag">mappery_upgrade</str>
+					</object>
+				</object>
+			</object>
+			<object id="player_enter">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343335116547</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343335116548</str>
+					</object>
+				</object>
+			</object>
+			<object id="crazy">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">cray</str>
+					</object>
+					<object id="a1">
+						<str id="type">pc_vog</str>
+						<str id="text">Look - a Qurazy Quoin!</str>
+						<str id="next_event">crazy2</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_set</str>
+						<str id="flag">cray</str>
+					</object>
+				</object>
+			</object>
+			<object id="crazy2">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">pc_vog</str>
+						<str id="text">You can find Qurazy Quoins as you explore the world. They give you imagination!</str>
+					</object>
+				</object>
+			</object>
+			<object id="instance_created">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_clear</str>
+						<str id="flag">cray</str>
+					</object>
+					<object id="a2">
+						<str id="type">flag_clear</str>
+						<str id="flag">s1</str>
+					</object>
+				</object>
+			</object>
+			<object id="player_exit">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_set</str>
+						<str id="flag">s1</str>
+					</object>
+				</object>
+			</object>
+			<object id="sign1_on">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">s1</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1343335116547</str>
+						<int id="fade">700</int>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1343335116548</str>
+						<int id="fade">700</int>
+					</object>
+				</object>
+			</object>
+			<object id="sign1_off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343335116547</str>
+						<int id="fade">700</int>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343335116548</str>
+						<int id="fade">700</int>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object id="special_loading_image">
+			<str id="url">streets/2012-09-07-static/1347066857-loading_gentle_island.png</str>
+			<int id="w">600</int>
+			<int id="h">400</int>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-11-02/LA952QGCH3D31E2_loading_1351904159.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-11-02/LA952QGCH3D31E2_main_1351904161.jpg</str>
+			<int id="w">720</int>
+			<int id="h">174</int>
+		</object>
+		<object id="qurazy">
+		</object>
+		<object id="hidden_decos">
+			<int id="groddle_sign_blank_1343335116547">1354608071</int>
+			<int id="groddle_sign_blank_1343335116548">1354608071</int>
+		</object>
+		<object id="edit_history">
+			<str id="1351724908">tsauth-ianp:modify_street_obj-signposts-signpost_1351278694454</str>
+			<str id="1351725019">tsauth-ianp:modify_street_obj-signposts-signpost_1351278694454</str>
+			<str id="1351727008">tsauth-jupro:edit_street_meta</str>
+			<str id="1351904149">PCR189KE76V13S7:E-yon:locodeco-replace</str>
+			<str id="1352847670">tsauth-ianp:edit_street_meta</str>
+		</object>
+		<object id="flags">
+			<bool id="cray">true</bool>
+			<bool id="s1">true</bool>
+		</object>
+		<objref id="instances" tsid="DA96DQFMH3D3OR3" label="Instances"/>
+		<bool id="jobs_auto_unlock">false</bool>
+		<bool id="no_teleportation">false</bool>
+		<bool id="disallow_animals">false</bool>
+		<bool id="no_rook">false</bool>
+		<str id="instance_me">NB_Street1</str>
+		<int id="instance_max_members">1</int>
+		<str id="instance_location_type">newbie_island</str>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IA9539ICH3D33UU" label="Collision-triggered Event Box"/>
+		<objref tsid="IA953CICH3D33U6" label="Magic Rock"/>
+		<objref tsid="IA953JICH3D365P" label="Coin"/>
+		<objref tsid="IA953BICH3D33UJ" label="Coin"/>
+		<objref tsid="IA9538ICH3D33UH" label="Coin"/>
+		<objref tsid="IA953HICH3D3650" label="Qurazy marker"/>
+		<objref tsid="IA953AICH3D33UL" label="Fruit Tree"/>
+		<objref tsid="IA953IICH3D365Q" label="Coin"/>
+		<objref tsid="IA953DICH3D33U7" label="Collision-triggered Event Box"/>
+		<objref tsid="IA953FICH3D33V9" label="Coin"/>
+		<objref tsid="IA9537ICH3D33TT" label="Coin"/>
+		<objref tsid="IA953EICH3D33VE" label="Teleport Marker"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

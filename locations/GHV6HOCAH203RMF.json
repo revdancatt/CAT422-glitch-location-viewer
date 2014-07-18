@@ -1,6 +1,18 @@
 {
     "tsid": "GHV6HOCAH203RMF",
     "label": "basement",
+    "hub_id": "97",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-22/LHV6HOCAH203RMF_loading_1337735748.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-05-22/LHV6HOCAH203RMF_main_1337735751.jpg",
+        "w": 720,
+        "h": 150
+    },
     "gradient": {
         "top": "30608",
         "bottom": "84888A"
@@ -419,7 +431,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1334947703809": {
                 "name": "assetmiddleground",
@@ -516,7 +530,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -923,6 +939,23 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1334947703841",
+                        "y": -567,
+                        "w": 0,
+                        "h": 466,
+                        "x": 1473
+                    },
+                    {
+                        "id": "wall_1334947703842",
+                        "y": -569,
+                        "w": 0,
+                        "h": 475,
+                        "x": -1451
+                    }
                 ]
             },
             "T_1334280748831": {
@@ -945,7 +978,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1334947703843": {
                 "name": "elev",
@@ -2285,8 +2320,20 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHVC0PK5J203QHB",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IDO8KG6S5503EMV",
+            "label": "Teleport Marker"
+        }
+    ]
 }

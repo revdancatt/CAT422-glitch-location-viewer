@@ -1,6 +1,18 @@
 {
     "tsid": "GCR1OU9H34K19OE",
     "label": "Clamber Crag",
+    "hub_id": "64",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LCR1OU9H34K19OE_loading_1343865220.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LCR1OU9H34K19OE_main_1343865222.jpg",
+        "w": 720,
+        "h": 960
+    },
     "gradient": {
         "top": "56F6FF",
         "bottom": "E4FEFB"
@@ -54,7 +66,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "foreground": {
                 "name": "foreground",
@@ -64,7 +78,9 @@
                 "filters": {},
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2174,7 +2190,31 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1290541840364",
+                        "w": 50,
+                        "y": -1428,
+                        "x": -280,
+                        "h": 300
+                    },
+                    {
+                        "id": "ladder_1290542398173",
+                        "w": 50,
+                        "y": -597,
+                        "x": 245,
+                        "h": 360
+                    },
+                    {
+                        "id": "ladder_1290542440290",
+                        "w": 50,
+                        "y": -945,
+                        "x": -154,
+                        "h": 220
+                    }
+                ],
+                "walls": []
             },
             "bg_1": {
                 "name": "bg_1",
@@ -2225,7 +2265,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_2": {
                 "name": "bg_2",
@@ -2252,7 +2294,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -2279,8 +2323,72 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHV19TKVF0G3ONP",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "INV30HAD0JQ29FF",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IHV1458QID62Q5C",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "ILI103OOE4K1JUT",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "ILI116DS4GL12FK",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "ILI10UEF6UK1LFL",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "ILI2TRQ6VBK1PSD",
+            "label": "Shrine to Alph"
+        },
+        {
+            "tsid": "IHVMHH10JUF3J9I",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "IM115KJS9CV1N76",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "ILI109KFUTK1OV0",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IM115MCT9CV13H4",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "ILI10EB2Q9K16T6",
+            "label": "spawner"
+        },
+        {
+            "tsid": "ILI10CVKUTK1Q53",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "ILI10T6B6UK1B1J",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "ILI10S696UK11S5",
+            "label": "Metal Rock"
+        }
+    ]
 }

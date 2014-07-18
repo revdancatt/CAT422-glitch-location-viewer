@@ -1,6 +1,18 @@
 {
     "tsid": "GHFC3I4EKMI20JD",
     "label": "Paala Latte",
+    "hub_id": "113",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-24/LHFC3I4EKMI20JD_loading_1335318996.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-24/LHFC3I4EKMI20JD_main_1335318997.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "93B6C2",
         "bottom": "CFB255"
@@ -206,7 +218,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2062,7 +2076,24 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1323368997370",
+                        "y": -123,
+                        "w": 50,
+                        "h": 176,
+                        "x": -2601
+                    },
+                    {
+                        "id": "ladder_1323368997449",
+                        "y": -289,
+                        "w": 50,
+                        "h": 226,
+                        "x": -1253
+                    }
+                ],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -2717,7 +2748,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1307470247926": {
                 "name": "asset middleground",
@@ -7122,7 +7155,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_1": {
                 "name": "bg_1",
@@ -7655,7 +7690,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_2": {
                 "name": "bg_2",
@@ -8298,8 +8335,60 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IIF6V3S59GQ227A",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IIF70OHVLTF3M0J",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IHF1TDU551J2HI3",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IIF2UCF1D1S25UJ",
+            "label": "Knocker"
+        },
+        {
+            "tsid": "IHFJ0EAB4BJ2BB8",
+            "label": "Shrine to Alph"
+        },
+        {
+            "tsid": "IIFP0MET94S2CEQ",
+            "label": "Knocker"
+        },
+        {
+            "tsid": "IIFP0UIT94S25T2",
+            "label": "Sloth"
+        },
+        {
+            "tsid": "IHF16VE151J26UA",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IHFUGBVK41J2URK",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIF2T6P0D1S2AVL",
+            "label": "Sloth"
+        },
+        {
+            "tsid": "IHF1RQK551J2R36",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IHFJ28OB4BJ2QPL",
+            "label": "Street Spirit"
+        }
+    ]
 }

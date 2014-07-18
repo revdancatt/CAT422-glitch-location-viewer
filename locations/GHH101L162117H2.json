@@ -1,6 +1,18 @@
 {
     "tsid": "GHH101L162117H2",
     "label": "The Entrance",
+    "hub_id": "50",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LHH101L162117H2_loading_1343868121.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LHH101L162117H2_main_1343868123.jpg",
+        "w": 720,
+        "h": 240
+    },
     "gradient": {
         "top": "5E69",
         "bottom": "A3B"
@@ -92,7 +104,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_2": {
                 "name": "bg_2",
@@ -210,7 +224,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -220,7 +236,9 @@
                 "filters": {},
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -1474,6 +1492,16 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1270091979516",
+                        "y": -763,
+                        "w": 0,
+                        "h": 540,
+                        "x": -1297
+                    }
                 ]
             },
             "L5536862769621": {
@@ -1534,7 +1562,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleplus": {
                 "name": "middleplus",
@@ -1573,7 +1603,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_1": {
                 "name": "bg_1",
@@ -1657,8 +1689,32 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "ICRS6PH0NB027VH",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "ILI122S0NA713KD",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IHV1UU3TDJQ2COS",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "ILIK6893KE218FT",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "ILI12CM3NA71UU4",
+            "label": "Dullite Rock"
+        }
+    ]
 }

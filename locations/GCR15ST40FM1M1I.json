@@ -1,6 +1,18 @@
 {
     "tsid": "GCR15ST40FM1M1I",
     "label": "Mossystep",
+    "hub_id": "56",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-29/LCR15ST40FM1M1I_loading_1346288644.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-29/LCR15ST40FM1M1I_main_1346288646.jpg",
+        "w": 720,
+        "h": 401
+    },
     "gradient": {
         "top": "B5F8FF",
         "bottom": "E8FCFC"
@@ -112,7 +124,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -864,6 +878,17 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1293149430327",
+                        "y": -998,
+                        "w": 0,
+                        "h": 200,
+                        "x": -698,
+                        "pc_perm": 1
+                    }
                 ]
             },
             "middleplus": {
@@ -911,7 +936,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -954,7 +981,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "foreground": {
                 "name": "foreground",
@@ -1013,7 +1042,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_2": {
                 "name": "bg_2",
@@ -1048,8 +1079,40 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IIFQD7ARMAO19TJ",
+            "label": "Fancy Cheese"
+        },
+        {
+            "tsid": "IUVNEL05H1836ET",
+            "label": "Visiting Stone"
+        },
+        {
+            "tsid": "IIF10NBPID62QOP",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IIF13EBSGRM14G1",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IA5MKMPA76G3PDA",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "IUVIMADT1HQ23K5",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA5O6TQQ76G3FO8",
+            "label": "Bean Tree"
+        }
+    ]
 }

@@ -1,6 +1,18 @@
 {
     "tsid": "GUVT92Q1PNF23GR",
     "label": "Kanni Climb",
+    "hub_id": "109",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-01-13/LUVT92Q1PNF23GR_loading_1326516057.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-01-13/LUVT92Q1PNF23GR_main_1326516075.jpg",
+        "w": 720,
+        "h": 960
+    },
     "gradient": {
         "top": "7A7A7A",
         "bottom": "B5FEFF"
@@ -25,7 +37,9 @@
                 },
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2512,7 +2526,24 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1320192031512",
+                        "w": 50,
+                        "y": -582,
+                        "x": 311,
+                        "h": 519
+                    },
+                    {
+                        "id": "ladder_1320192031508",
+                        "w": 50,
+                        "y": -989,
+                        "x": -528,
+                        "h": 354
+                    }
+                ],
+                "walls": []
             },
             "T_1319736397133": {
                 "name": "bg 1",
@@ -2612,7 +2643,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1319736397134": {
                 "name": "cliff",
@@ -2815,8 +2848,44 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IUVN8FB67CG2CE3",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IUV7E1N1VBG2VD9",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IUV6Q35VUBG2NE2",
+            "label": "Mailbox"
+        },
+        {
+            "tsid": "IUVMLQN47CG2LMS",
+            "label": "Shrine to Zille"
+        },
+        {
+            "tsid": "IUV747F0VBG2GU0",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IUV1LQ85K3F3MNH",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IUVC13JEDIB3GUM",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IUVQIEB8IGQ2NK2",
+            "label": "Qurazy marker"
+        }
+    ]
 }

@@ -1,6 +1,18 @@
 {
     "tsid": "GCR10K63BQL14PE",
     "label": "Clarbeare Voya",
+    "hub_id": "64",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-28/LCR10K63BQL14PE_loading_1317254868.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-28/LCR10K63BQL14PE_main_1317254869.jpg",
+        "w": 720,
+        "h": 234
+    },
     "gradient": {
         "top": "59BFFF",
         "bottom": "C2FFFB"
@@ -102,7 +114,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_2": {
                 "name": "bg_2",
@@ -156,7 +170,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -183,7 +199,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2739,6 +2757,57 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1292362542212",
+                        "w": 50,
+                        "y": -282,
+                        "x": 1537,
+                        "h": 425
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1292443572064",
+                        "w": 0,
+                        "y": -883,
+                        "item_perm": 1,
+                        "x": 1694,
+                        "h": 200,
+                        "pc_perm": 0
+                    },
+                    {
+                        "id": "wall_1292362262220",
+                        "w": 0,
+                        "y": -680,
+                        "x": 1600,
+                        "h": 254
+                    },
+                    {
+                        "id": "wall_1293073662965",
+                        "w": 0,
+                        "y": -455,
+                        "x": -1959,
+                        "h": 400,
+                        "pc_perm": 1
+                    },
+                    {
+                        "id": "wall_1292362273251",
+                        "w": 0,
+                        "y": -683,
+                        "x": 1466,
+                        "h": 254
+                    },
+                    {
+                        "id": "wall_1292443581654",
+                        "w": 0,
+                        "y": -853,
+                        "item_perm": -1,
+                        "x": 1247,
+                        "h": 200,
+                        "pc_perm": 0
+                    }
                 ]
             },
             "foreground": {
@@ -2749,7 +2818,9 @@
                 "filters": {},
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleplus": {
                 "name": "middleplus",
@@ -2908,8 +2979,96 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "ICR19GGP9TL1V4D",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHV15ST8D242KPN",
+            "label": "Dirt Pile"
+        },
+        {
+            "tsid": "INV7HE2Q2JQ2U3F",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IHV157HQID628NP",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IHV9921KV3G35RH",
+            "label": "Egg Plant"
+        },
+        {
+            "tsid": "IHVTVL52V2G3AP0",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "ICR1961B9TL1SPS",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHVTORGUU2G34O4",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "INVHLLM31SE34CL",
+            "label": "Egg Plant"
+        },
+        {
+            "tsid": "ICR19MCCATL1R6L",
+            "label": "Shrine to Grendaline"
+        },
+        {
+            "tsid": "ICR194TA9TL1LAT",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "ICRPUQ2B01N1U4V",
+            "label": "spawner"
+        },
+        {
+            "tsid": "INV2V09P8RF3RO6",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "ICR1980I9TL15FG",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "ICR18DB4ACV1C76",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "ICR19ARI9TL10LS",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "ICR19KK6ATL167V",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "INVHMKA41SE3B0C",
+            "label": "Egg Plant"
+        },
+        {
+            "tsid": "ICR195VA9TL1E6L",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA911T4K5DJ3BFV",
+            "label": "Piggy"
+        },
+        {
+            "tsid": "ICR197SH9TL1LMR",
+            "label": "Metal Rock"
+        }
+    ]
 }

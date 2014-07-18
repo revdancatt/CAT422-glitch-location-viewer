@@ -1,6 +1,18 @@
 {
     "tsid": "GUV2SS9BHDT2I85",
     "label": "Luma Preserve",
+    "hub_id": "109",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-23/LUV2SS9BHDT2I85_loading_1335232047.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-23/LUV2SS9BHDT2I85_main_1335232049.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "bottom": "4D4D4D",
         "top": "9DBCCC"
@@ -1607,7 +1619,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331845429793": {
                 "name": "bg_1",
@@ -2580,7 +2594,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -4478,6 +4494,18 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1332264261690",
+                        "y": -1001,
+                        "pc_perm": 0,
+                        "w": 0,
+                        "h": 825,
+                        "item_perm": -1,
+                        "x": 1769
+                    }
                 ]
             },
             "T_1331845429794": {
@@ -4907,7 +4935,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1334878530534": {
                 "name": "sky filtered",
@@ -5034,7 +5064,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331845429792": {
                 "name": "sky",
@@ -5074,8 +5106,48 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IUVVF58HPNT2OIP",
+            "label": "Fox Ranger"
+        },
+        {
+            "tsid": "IUV2TBBBHDT2S38",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUV2TABBHDT2S36",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUV2TEBBHDT2S3P",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUV2TCBBHDT2S35",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVO79UJIFT2IPV",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IUV2TFBBHDT2S3O",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUV2T9BBHDT2S2N",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IUV2TDBBHDT2S3J",
+            "label": "Fox Stop Marker"
+        }
+    ]
 }

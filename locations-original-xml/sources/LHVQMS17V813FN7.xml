@@ -1,0 +1,1563 @@
+<game_object tsid="LHVQMS17V813FN7" ts="1364243955006" label="Fernucopia" class_tsid="town" hubid="125" moteid="10" letime="39n3vne0" rbtime="318v71fn" upd_gs="gs6" load_time="2013-03-25 13:13:53.000">
+	<object id="dynamic">
+		<bool id="jobs_is_locked">false</bool>
+		<object id="events">
+			<object id="unhide_plat_set_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223239</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223420</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223418</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">nailed_board_single_1336677223184</str>
+						<int id="fade">600</int>
+					</object>
+					<object id="11111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336677223419</str>
+						<int id="fade">900</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336677223417</str>
+						<int id="fade">1200</int>
+					</object>
+					<object id="11111111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336695921151</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="111111111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336695921149</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="1111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336695921150</str>
+						<int id="fade">600</int>
+					</object>
+					<object id="11111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336695921148</str>
+						<int id="fade">900</int>
+					</object>
+					<object id="111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">subway_map_next_stop_red_1338495233369</str>
+						<int id="fade">100</int>
+					</object>
+				</object>
+			</object>
+			<object id="hide_plat_set_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223239</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223420</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223418</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">nailed_board_single_1336677223184</str>
+						<int id="fade">600</int>
+					</object>
+					<object id="11111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336677223419</str>
+						<int id="fade">900</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336677223417</str>
+						<int id="fade">1200</int>
+					</object>
+					<object id="1111111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336695921151</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11111111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336695921149</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336695921150</str>
+						<int id="fade">600</int>
+					</object>
+					<object id="1111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336695921148</str>
+						<int id="fade">900</int>
+					</object>
+					<object id="11111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">subway_map_next_stop_red_1338495233369</str>
+						<int id="fade">100</int>
+					</object>
+				</object>
+			</object>
+			<object id="player_enter">
+				<object id="actions">
+					<object id="1">
+						<str id="type">event</str>
+						<str id="event">hide_plat_set_01</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="11">
+						<str id="type">event</str>
+						<str id="event">show_hight_plat_01</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="111">
+						<str id="type">event</str>
+						<str id="event">reset_gate_01</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">event</str>
+						<str id="event">reset_gate_02</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">reset_key_ladder_01</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="1111111">
+						<str id="type">event</str>
+						<str id="event">reset_gate_03</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="11111111">
+						<str id="type">event</str>
+						<str id="event">reset_plats_03</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="111111111">
+						<str id="type">event</str>
+						<str id="event">reset_gate_4</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="1111111111">
+						<str id="type">event</str>
+						<str id="event">reset_gate_05</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">jetpack_once</str>
+					</object>
+					<object id="1111111111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">whistle_stand_forcefield_placeholder_1337117138424</str>
+						<int id="fade">0</int>
+					</object>
+					<object id="11111111111111">
+						<str id="type">deco_hide</str>
+						<str id="event">hide_blast_01</str>
+						<int id="delay">0</int>
+						<str id="deco_id">WindFog_1338409885671</str>
+						<int id="fade">0</int>
+					</object>
+					<object id="111111111111111">
+						<str id="type">event</str>
+						<str id="event">reset_mid_plat_set_a</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="1111111111111111">
+						<str id="type">event</str>
+						<str id="event">reset_mid_plat_set_b</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="11111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">done_plats_once</str>
+					</object>
+					<object id="11111111111111111111">
+						<str id="type">event</str>
+						<str id="event">reset_return_plat</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="1111111111111111111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1339202979221</str>
+						<int id="fade">0</int>
+					</object>
+					<object id="111111111111111111111111">
+						<str id="type">flag_clear</str>
+						<str id="flag">shown_spacebarbar_sign</str>
+					</object>
+					<object id="1111111111111111111111111">
+						<str id="type">stop_timers</str>
+					</object>
+				</object>
+			</object>
+			<object id="hide_high_plat_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336691520355</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336691520356</str>
+						<int id="fade">600</int>
+					</object>
+					<object id="111">
+						<str id="type">event</str>
+						<str id="event">show_hight_plat_01</str>
+						<int id="delay">4200</int>
+					</object>
+				</object>
+			</object>
+			<object id="show_hight_plat_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336691520355</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336691520356</str>
+						<int id="fade">600</int>
+					</object>
+					<object id="111">
+						<str id="type">event</str>
+						<str id="event">hide_high_plat_01</str>
+						<int id="delay">4200</int>
+					</object>
+				</object>
+			</object>
+			<object id="cycle_high_plat_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">event</str>
+						<str id="event">hide_high_plat_01 </str>
+						<int id="delay">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_hight_plat_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336691520355</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336691520356</str>
+						<int id="fade">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="open_gate_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223423</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223424</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336677223425</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="1111">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223427</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11111">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223428</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336677223426</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">subway_map_next_stop_red_1338495233368</str>
+						<int id="fade">100</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_gate_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223423</str>
+						<int id="pc_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223424</str>
+						<int id="pc_perm">1</int>
+						<int id="item_perm">1</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336677223425</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="1111">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223427</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11111">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223428</str>
+						<int id="pc_perm">1</int>
+						<int id="item_perm">1</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336677223426</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">subway_map_next_stop_red_1338495233368</str>
+						<int id="fade">100</int>
+					</object>
+				</object>
+			</object>
+			<object id="cycle_plat_set_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">event</str>
+						<str id="event">unhide_plat_set_01</str>
+						<int id="delay">3200</int>
+					</object>
+				</object>
+			</object>
+			<object id="unhide_key_ladder_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1337020079143</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1337020079140</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">subway_map_next_stop_red_1337033901754</str>
+						<int id="fade">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="hide_key_ladder_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1337020079143</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337020079140</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">subway_map_next_stop_red_1337033901754</str>
+						<int id="fade">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="open_gate_02">
+				<object id="actions">
+					<object id="1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1337017095889</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1337017095892</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1337017095891</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">subway_map_next_stop_red_1338495233366</str>
+						<int id="fade">200</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_gate_02">
+				<object id="actions">
+					<object id="1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1337017095889</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1337017095892</str>
+						<int id="pc_perm">1</int>
+						<int id="item_perm">1</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337017095891</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">subway_map_next_stop_red_1338495233366</str>
+						<int id="fade">200</int>
+					</object>
+				</object>
+			</object>
+			<object id="unlock_gate_02">
+				<object id="actions">
+					<object id="1">
+						<str id="type">event</str>
+						<str id="event">open_gate_02</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="11">
+						<str id="type">event</str>
+						<str id="event">unhide_key_ladder_01</str>
+						<int id="delay">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_key_ladder_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1337020079143</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337020079140</str>
+						<int id="fade">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="unhide_midplats_a">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223430</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336677223429</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223436</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336677223435</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">reset_midplats_a</str>
+						<int id="delay">5500</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_midplats_a">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223430</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336677223429</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223436</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336677223435</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">unhide_midplats_a</str>
+						<int id="delay">3000</int>
+					</object>
+				</object>
+			</object>
+			<object id="unhide_mid_plats_b">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223432</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336677223431</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223438</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336677223437</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="plat_id"></str>
+						<str id="event">reset_mid_plats_b</str>
+						<int id="delay">8000</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_mid_plats_b">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223432</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336677223431</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223438</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336677223437</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">unhide_mid_plats_b</str>
+						<int id="delay">2500</int>
+					</object>
+				</object>
+			</object>
+			<object id="unhide_midplats_c">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337018031283</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337018031282</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337018031277</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337018031276</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">reset_midplats_c</str>
+						<int id="delay">7800</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_midplats_c">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337018031283</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1337018031282</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337018031277</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1337018031276</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">unhide_midplats_c</str>
+						<int id="delay">3400</int>
+					</object>
+				</object>
+			</object>
+			<object id="unhide_midplats_d">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223434</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336677223433</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223440</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336677223439</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">hide_midplats_d</str>
+						<int id="delay">6400</int>
+					</object>
+				</object>
+			</object>
+			<object id="hide_midplats_d">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223434</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336677223433</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223440</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336677223439</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">unhide_midplats_d</str>
+						<int id="delay">2000</int>
+					</object>
+				</object>
+			</object>
+			<object id="unhide_midplats_e">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337018031279</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337018031278</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="111">
+						<str id="type">event</str>
+						<str id="event">reset_midplats_e</str>
+						<int id="delay">8000</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_midplats_e">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337018031279</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1337018031278</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="111">
+						<str id="type">event</str>
+						<str id="event">unhide_midplats_e</str>
+						<int id="delay">4200</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_midplats_all">
+				<object id="actions">
+					<object id="1">
+						<str id="type">event</str>
+						<str id="event">reset_midplats_a</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="11">
+						<str id="type">event</str>
+						<str id="event">reset_mid_plats_b</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="111">
+						<str id="type">event</str>
+						<str id="event">hide_midplats_d</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">event</str>
+						<str id="event">reset_midplats_e</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">reset_midplats_c</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">subway_map_next_stop_red_1337120479166</str>
+						<int id="fade">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="unhide_midplats_all">
+				<object id="actions">
+					<object id="1">
+						<str id="type">event</str>
+						<str id="event">unhide_midplats_a</str>
+						<int id="delay">300</int>
+					</object>
+					<object id="11">
+						<str id="type">event</str>
+						<str id="event">unhide_mid_plats_b</str>
+						<int id="delay">500</int>
+					</object>
+					<object id="111">
+						<str id="type">event</str>
+						<str id="event">unhide_midplats_c</str>
+						<int id="delay">700</int>
+					</object>
+					<object id="1111">
+						<str id="type">event</str>
+						<str id="event">unhide_midplats_d</str>
+						<int id="delay">900</int>
+					</object>
+					<object id="11111">
+						<str id="type">event</str>
+						<str id="event">unhide_midplats_e</str>
+						<int id="delay">1100</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">subway_map_next_stop_red_1337120479166</str>
+						<int id="fade">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="open_gate_03">
+				<object id="actions">
+					<object id="1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223453</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223454</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336677223452</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">subway_map_next_stop_red_1338495233365</str>
+						<int id="fade">200</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_gate_03">
+				<object id="actions">
+					<object id="1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223453</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223454</str>
+						<int id="pc_perm">1</int>
+						<int id="item_perm">1</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336677223452</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">subway_map_next_stop_red_1338495233365</str>
+						<int id="fade">200</int>
+					</object>
+				</object>
+			</object>
+			<object id="unhide_plats_03">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337037753915</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337037753919</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337037753917</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337037753914</str>
+						<int id="fade">100</int>
+					</object>
+					<object id="11111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337037753918</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337037753916</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">subway_map_next_stop_red_1338495233363</str>
+						<int id="fade">100</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_plats_03">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337037753915</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337037753919</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337037753917</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1337037753914</str>
+						<int id="fade">100</int>
+					</object>
+					<object id="11111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1337037753918</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1337037753916</str>
+						<int id="fade">300</int>
+					</object>
+					<object id="1111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">subway_map_next_stop_red_1338495233363</str>
+						<int id="fade">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="open_gate_4">
+				<object id="actions">
+					<object id="1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223362</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223363</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1336677223206</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">subway_map_next_stop_red_1338495233364</str>
+						<int id="fade">200</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_gate_4">
+				<object id="actions">
+					<object id="1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223362</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223363</str>
+						<int id="pc_perm">1</int>
+						<int id="item_perm">1</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336677223206</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">subway_map_next_stop_red_1338495233364</str>
+						<int id="fade">200</int>
+					</object>
+				</object>
+			</object>
+			<object id="spring_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics</str>
+						<str id="param">gravity</str>
+						<str id="value">-2.2</str>
+						<int id="duration">1300</int>
+					</object>
+					<object id="11111">
+						<str id="type">physics</str>
+						<str id="param">jetpack</str>
+						<str id="value">1</str>
+						<int id="duration">4800</int>
+					</object>
+					<object id="111111">
+						<str id="type">physics</str>
+						<str id="param">vy_jump</str>
+						<str id="value">1.5</str>
+						<int id="duration">500</int>
+					</object>
+					<object id="1111111">
+						<str id="type">physics</str>
+						<str id="param">friction_air</str>
+						<str id="value">.2</str>
+						<int id="duration">500</int>
+					</object>
+				</object>
+			</object>
+			<object id="open_gate_05">
+				<object id="actions">
+					<object id="1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223358</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1337114923956</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1337041848922</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">subway_map_next_stop_red_1338495233362</str>
+						<int id="fade">200</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_gate_05">
+				<object id="actions">
+					<object id="1">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1336677223358</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">wall</str>
+						<str id="wall_id">wall_1337114923956</str>
+						<int id="pc_perm">1</int>
+						<int id="item_perm">1</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1337041848922</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">subway_map_next_stop_red_1338495233362</str>
+						<int id="fade">200</int>
+					</object>
+				</object>
+			</object>
+			<object id="player_exit">
+				<object id="actions">
+					<object id="1">
+						<str id="type">stop_timers</str>
+					</object>
+				</object>
+			</object>
+			<object id="unhide_hight_plat_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1336691520356</str>
+					</object>
+					<object id="11">
+						<str id="type">plat</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+						<str id="plat_id">plat_1336691520355</str>
+					</object>
+				</object>
+			</object>
+			<object id="jet_pack_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">jetpack_once</str>
+					</object>
+					<object id="11">
+						<str id="type">flag_set</str>
+						<str id="flag">jetpack_once</str>
+					</object>
+					<object id="111">
+						<str id="type">event</str>
+						<str id="event">spring_01</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">whistle_stand_forcefield_placeholder_1337117138424</str>
+						<int id="fade">340</int>
+					</object>
+					<object id="111111">
+						<str id="type">event</str>
+						<str id="event">blast_01</str>
+						<int id="delay">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="blast_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">WindFog_1338409885671</str>
+						<int id="fade">10</int>
+					</object>
+				</object>
+			</object>
+			<object id="hide_blast_01">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">WindFog_1338409885671</str>
+						<int id="fade">200</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_jetpack_grav">
+				<object id="actions">
+					<object id="1">
+						<str id="type">physics</str>
+						<str id="param">gravity</str>
+						<str id="value">0.1</str>
+						<int id="duration">600</int>
+					</object>
+				</object>
+			</object>
+			<object id="unhide_mid_plat_set_a">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223436</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223430</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223434</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">underground_plat_3_1339176770851</str>
+						<int id="fade">0</int>
+					</object>
+					<object id="11111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">underground_plat_1_1339176770845</str>
+						<int id="fade">0</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">underground_plat_2_1339176770850</str>
+						<int id="fade">0</int>
+					</object>
+					<object id="1111111">
+						<str id="type">event</str>
+						<str id="event">reset_mid_plat_set_a</str>
+						<int id="delay">4000</int>
+					</object>
+					<object id="11111111">
+						<str id="type">event</str>
+						<str id="event">unhide_mid_plat_set_b</str>
+						<int id="delay">3400</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_mid_plat_set_a">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223436</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223430</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223434</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">underground_plat_3_1339176770851</str>
+						<int id="fade">0</int>
+					</object>
+					<object id="11111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">underground_plat_1_1339176770845</str>
+						<int id="fade">0</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">underground_plat_2_1339176770850</str>
+						<int id="fade">0</int>
+					</object>
+					<object id="1111111">
+						<str id="type">event</str>
+						<str id="event">unhide_mid_plat_set_a</str>
+						<int id="delay">3400</int>
+					</object>
+					<object id="11111111">
+						<str id="type">event</str>
+						<str id="event">reset_mid_plat_set_b</str>
+						<int id="delay">4000</int>
+					</object>
+				</object>
+			</object>
+			<object id="unhide_mid_plat_set_b">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337018031283</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337018031277</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223432</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">underground_plat_2_1339176770852</str>
+						<int id="fade">0</int>
+					</object>
+					<object id="11111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">underground_plat_1_1339176770847</str>
+						<int id="fade">0</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">underground_plat_3_1339176770853</str>
+						<int id="fade">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_mid_plat_set_b">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337018031283</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1337018031277</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="111">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1336677223432</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="1111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">underground_plat_1_1339176770847</str>
+						<int id="fade">0</int>
+					</object>
+					<object id="11111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">underground_plat_2_1339176770852</str>
+						<int id="fade">0</int>
+					</object>
+					<object id="111111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">underground_plat_3_1339176770853</str>
+						<int id="fade">0</int>
+					</object>
+				</object>
+			</object>
+			<object id="trigger_pattern_plats">
+				<object id="actions">
+					<object id="1">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">done_plats_once</str>
+					</object>
+					<object id="11">
+						<str id="type">event</str>
+						<str id="plat_id"></str>
+						<str id="event">unhide_mid_plat_set_a</str>
+						<int id="delay">0</int>
+					</object>
+					<object id="111">
+						<str id="type">flag_set</str>
+						<str id="flag">done_plats_once</str>
+					</object>
+				</object>
+			</object>
+			<object id="unhide_return_plat">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1339016907473</str>
+						<int id="pc_perm">-1</int>
+						<int id="item_perm">-1</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_show</str>
+						<str id="deco_id">ug_wall_heights_1339016907472</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">subway_map_next_stop_red_1339016907476</str>
+						<int id="fade">200</int>
+					</object>
+				</object>
+			</object>
+			<object id="reset_return_plat">
+				<object id="actions">
+					<object id="1">
+						<str id="type">plat</str>
+						<str id="plat_id">plat_1339016907473</str>
+						<int id="pc_perm">0</int>
+						<int id="item_perm">0</int>
+					</object>
+					<object id="11">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">ug_wall_heights_1339016907472</str>
+						<int id="fade">200</int>
+					</object>
+					<object id="111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">subway_map_next_stop_red_1339016907476</str>
+						<int id="fade">200</int>
+					</object>
+				</object>
+			</object>
+			<object id="show__spacebarbar_sign">
+				<object id="actions">
+					<object id="111">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">shown_spacebarbar_sign</str>
+					</object>
+					<object id="1111">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1339202979221</str>
+						<int id="fade">0</int>
+					</object>
+					<object id="11111">
+						<str id="type">flag_set</str>
+						<str id="flag">shown_spacebarbar_sign</str>
+					</object>
+				</object>
+			</object>
+			<object id="hide_spacebarbar_sign">
+				<object id="actions">
+					<object id="1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1339202979221</str>
+						<int id="fade">1500</int>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object id="hidden_decos">
+			<int id="subway_map_next_stop_red_1339016907475">1339195626</int>
+			<int id="undefined">1339210421</int>
+			<int id="nailed_board_single_1336677223184">1348086552</int>
+			<int id="ug_wall_heights_1336677223419">1348086552</int>
+			<int id="ug_wall_heights_1336677223417">1348086552</int>
+			<int id="ug_wall_heights_1336695921150">1348086552</int>
+			<int id="ug_wall_heights_1336695921148">1348086552</int>
+			<int id="ug_wall_heights_1337037753914">1348086552</int>
+			<int id="ug_wall_heights_1337037753918">1348086552</int>
+			<int id="ug_wall_heights_1337037753916">1348086552</int>
+			<int id="WindFog_1338409885671">1348086552</int>
+			<int id="groddle_sign_blank_1339202979221">1348086552</int>
+			<int id="ug_wall_heights_1339016907472">1348086552</int>
+			<int id="underground_plat_1_1339176770847">1348086552</int>
+			<int id="underground_plat_2_1339176770852">1348086552</int>
+			<int id="underground_plat_3_1339176770853">1348086552</int>
+			<int id="underground_plat_3_1339176770851">1348086552</int>
+			<int id="underground_plat_1_1339176770845">1348086552</int>
+			<int id="underground_plat_2_1339176770850">1348086552</int>
+		</object>
+		<dbl id="events_stop">1.348086708281E12</dbl>
+		<object id="edit_history">
+			<str id="1339195317">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339195420">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339195480">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339195563">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339195650">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339195827">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339197250">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339201488">tsauth-jupro:modify_street_obj-doors-door_1339027623525</str>
+			<str id="1339203194">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339204242">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339204321">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339204649">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339204742">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339204808">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339205297">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339205542">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339205676">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1339205853">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1340062728">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+			<str id="1340062741">PIFB7EKKN321MEN:gyoza:locodeco-replace</str>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-06-07/LHVQMS17V813FN7_loading_1339110167.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-06-07/LHVQMS17V813FN7_main_1339110168.jpg</str>
+			<int id="w">720</int>
+			<int id="h">144</int>
+		</object>
+		<object id="flags">
+		</object>
+		<bool id="jobs_auto_unlock">false</bool>
+		<bool id="no_teleportation">true</bool>
+		<bool id="disallow_animals">true</bool>
+		<bool id="no_rook">true</bool>
+		<str id="instance_me">underground_puzzle_fernucopia</str>
+		<int id="instance_max_members">1</int>
+		<objref id="instances" tsid="DA9AQJI12B1394V" label="Instances"/>
+		<int id="debug_events">0</int>
+	</object>
+	<objrefs id="items">
+		<objref tsid="INVRG937V813SDG" label="Coin"/>
+		<objref tsid="INVRGA37V813SDG" label="Coin"/>
+		<objref tsid="INVRG837V813SD4" label="Collision-triggered Event Box"/>
+		<objref tsid="INVRGQ37V813SED" label="Coin"/>
+		<objref tsid="INVRGG37V813SDL" label="Coin"/>
+		<objref tsid="INVRGK37V813SDI" label="Coin"/>
+		<objref tsid="INVRH437V813SFU" label="Collision-triggered Event Box"/>
+		<objref tsid="INVRH537V813SF3" label="Coin"/>
+		<objref tsid="INVRGR37V813SEM" label="Collision-triggered Event Box"/>
+		<objref tsid="INVRH637V813SFT" label="Collision-triggered Event Box"/>
+		<objref tsid="INVRH237V813SE6" label="Coin"/>
+		<objref tsid="INVRGD37V813SD1" label="Collision-triggered Physics Changer"/>
+		<objref tsid="INVRGC37V813SDJ" label="Collision-triggered Event Box"/>
+		<objref tsid="INVRG337V813SCH" label="Coin"/>
+		<objref tsid="INVRGI37V813SD6" label="Coin"/>
+		<objref tsid="INVRGV37V813SEU" label="Coin"/>
+		<objref tsid="INVRGJ37V813SDI" label="Coin"/>
+		<objref tsid="IA9BVHL43B13UP6" label="Coin"/>
+		<objref tsid="INVRG137V813SCM" label="Coin"/>
+		<objref tsid="INVRGN37V813SE5" label="Coin"/>
+		<objref tsid="INVRGU37V813SEH" label="Coin"/>
+		<objref tsid="INV71J884913C21" label="Teleport Marker"/>
+		<objref tsid="INVRGT37V813SEG" label="Collision-triggered Event Box"/>
+		<objref tsid="INVRGB37V813SDC" label="Coin"/>
+		<objref tsid="INVRGL37V813SEO" label="Collision-triggered Event Box"/>
+		<objref tsid="INVRGO37V813SED" label="Collision-triggered Event Box"/>
+		<objref tsid="INVRGF37V813SD2" label="Collision-triggered Event Box"/>
+		<objref tsid="INVRH037V813SEN" label="Coin"/>
+		<objref tsid="IHFLFLNC9L13FI6" label="Collision-triggered Event Box"/>
+		<objref tsid="INVRG537V813SCQ" label="Collision-triggered Event Box"/>
+		<objref tsid="INVRG637V813SCS" label="Coin"/>
+		<objref tsid="INVRG737V813SC1" label="Collision-triggered Event Box"/>
+		<objref tsid="INVRGH37V813SDC" label="Coin"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

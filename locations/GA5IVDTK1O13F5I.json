@@ -1,6 +1,18 @@
 {
     "tsid": "GA5IVDTK1O13F5I",
     "label": "Climbonyne",
+    "hub_id": "128",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-07-31/LA5IVDTK1O13F5I_loading_1343781945.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-07-31/LA5IVDTK1O13F5I_main_1343781949.jpg",
+        "w": 720,
+        "h": 864
+    },
     "gradient": {
         "top": "150C26",
         "bottom": "99B4CC"
@@ -86,7 +98,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_1": {
                 "name": "bg_1",
@@ -209,7 +223,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1338936057371": {
                 "name": "clouds",
@@ -265,7 +281,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1338936057375": {
                 "name": "bg_0",
@@ -818,7 +836,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -7382,7 +7402,45 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1339522580682",
+                        "w": 50,
+                        "y": -122,
+                        "x": 229,
+                        "h": 717
+                    },
+                    {
+                        "id": "ladder_1339522580897",
+                        "w": 50,
+                        "y": -1035,
+                        "x": -117,
+                        "h": 457
+                    },
+                    {
+                        "id": "ladder_1339522580693",
+                        "w": 50,
+                        "y": -182,
+                        "x": -112,
+                        "h": 466
+                    },
+                    {
+                        "id": "ladder_1339522580750",
+                        "w": 50,
+                        "y": -601,
+                        "x": 657,
+                        "h": 448
+                    },
+                    {
+                        "id": "ladder_1339522580935",
+                        "w": 50,
+                        "y": -584,
+                        "x": -862,
+                        "h": 378
+                    }
+                ],
+                "walls": []
             },
             "bg_2": {
                 "name": "bg_2",
@@ -7474,7 +7532,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "foreground": {
                 "name": "foreground",
@@ -7814,7 +7874,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1338936057370": {
                 "name": "mtns",
@@ -7911,8 +7973,136 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IIFIES6FUN83N2T",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA52CVB9IO13TQ8",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5HELQAE023OH1",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5276P6IO13E4I",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFIC7TEUN838GJ",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA528OP7IO130F8",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFIN3CGUN833TS",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5265B6IO13140",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5HEQTAE023GKI",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA526SL6IO13CIG",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA527J57IO13P9U",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA524JJ5IO13AHR",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFIGEEFUN83Q04",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5269D6IO13U1M",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFIHPMFUN83JMC",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFIPSUGUN83G4P",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5HDJGAE023RMC",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5HD3CAE0237G9",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5288G7IO13756",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA527Q97IO13PN1",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5279S6IO133A3",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA52ACC8IO13II9",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFIK6UFUN83C8F",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5HCK3AE023F9V",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA525D16IO13R7O",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA526GH6IO13AUQ",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFIBKQEUN83B1V",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5240D5IO133NP",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA524PM5IO13MFC",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFIINPFUN83N9O",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IIFINTHGUN83T5R",
+            "label": "Coin"
+        }
+    ]
 }

@@ -1,6 +1,18 @@
 {
     "tsid": "GA9NT2E8FF8243N",
     "label": "Osechi Oath",
+    "hub_id": "97",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LA9NT2E8FF8243N_loading_1343844625.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-01/LA9NT2E8FF8243N_main_1343844627.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "5FA3D4",
         "bottom": "FFC252"
@@ -62,7 +74,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1311022275144": {
                 "name": "bg_3",
@@ -868,7 +882,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1311386031998": {
                 "name": "middleplus",
@@ -1222,7 +1238,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1309388549233": {
                 "name": "bg_1",
@@ -2190,7 +2208,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -4096,7 +4116,17 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1312396113300",
+                        "y": -95,
+                        "w": 50,
+                        "h": 754,
+                        "x": -1157
+                    }
+                ],
+                "walls": []
             },
             "T_1309388549234": {
                 "name": "bg_2",
@@ -4256,8 +4286,64 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA9675T6LF826TO",
+            "label": "Shrine to Spriggan"
+        },
+        {
+            "tsid": "IA973BSHLF82FOP",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9759SILF824PI",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA974UOILF82AIS",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IDOCORRQOGQ2I9A",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA975IVILF820TO",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9VHBHRC8G36RB",
+            "label": "Wood Tree"
+        },
+        {
+            "tsid": "IA9753QILF8281U",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA96FPDALF829V1",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IA971KVGLF8256L",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA971P0HLF82VV2",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA967UD7LF82PE1",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA9776QJLF82AVH",
+            "label": "Quoin"
+        }
+    ]
 }

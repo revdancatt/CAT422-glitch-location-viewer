@@ -1,6 +1,18 @@
 {
     "tsid": "GCR144H8APK1OJS",
     "label": "Buckward Vale",
+    "hub_id": "58",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-06-09/LCR144H8APK1OJS_loading_1339300789.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-06-09/LCR144H8APK1OJS_main_1339300790.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "9FFEFD",
         "bottom": "FFF78C"
@@ -102,7 +114,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_2": {
                 "name": "bg_2",
@@ -265,7 +279,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -1224,6 +1240,38 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1308928501133",
+                        "y": -821,
+                        "w": 50,
+                        "h": 118,
+                        "x": 1090
+                    },
+                    {
+                        "id": "ladder_1308363631934",
+                        "y": -211,
+                        "w": 50,
+                        "h": 408,
+                        "x": 1094
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1308928501136",
+                        "y": -996,
+                        "w": 0,
+                        "h": 183,
+                        "x": 1136
+                    },
+                    {
+                        "id": "wall_1308928501135",
+                        "y": -994,
+                        "w": 0,
+                        "h": 174,
+                        "x": 1045
+                    }
                 ]
             },
             "sky": {
@@ -1291,7 +1339,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "foreground": {
                 "name": "foreground",
@@ -1301,7 +1351,9 @@
                 "filters": {},
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_1": {
                 "name": "bg_1",
@@ -1544,8 +1596,64 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "ITJ10TVO4EL1E7G",
+            "label": "Shrine to Mab"
+        },
+        {
+            "tsid": "IA9J79D342G3TE9",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IDOAGNR5VPE3GP0",
+            "label": "Heli Kitty"
+        },
+        {
+            "tsid": "IDOL6OA7UNE3GND",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "IA5B7MR19N427JO",
+            "label": "Collision-triggered Teleporter"
+        },
+        {
+            "tsid": "IDOI7N1NG8F35V1",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "IA512JNPID62PRU",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IHVPISK30MB3DSH",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IDOAH2V5VPE3CBJ",
+            "label": "Heli Kitty"
+        },
+        {
+            "tsid": "IDOVA5P5JNE31MA",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "IA5MK32301V25DA",
+            "label": "Mailbox"
+        },
+        {
+            "tsid": "IA9J4IOL98G3CQU",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IDOAGRT5VPE3E46",
+            "label": "Heli Kitty"
+        }
+    ]
 }

@@ -1,6 +1,18 @@
 {
     "tsid": "GA9QNMSIV4F3143",
     "label": "Volcano Villa",
+    "hub_id": "143",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-11-28/LA9QNMSIV4F3143_loading_1354155306.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-11-28/LA9QNMSIV4F3143_main_1354155309.jpg",
+        "w": 720,
+        "h": 225
+    },
     "gradient": {
         "top": "000000",
         "bottom": "990033"
@@ -151,7 +163,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -728,6 +742,27 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1318613199625",
+                        "w": 0,
+                        "y": -146,
+                        "item_perm": 1,
+                        "pc_perm": 1,
+                        "x": 549,
+                        "h": 161
+                    },
+                    {
+                        "id": "wall_1318613199626",
+                        "w": 0,
+                        "y": -188,
+                        "item_perm": -1,
+                        "pc_perm": -1,
+                        "x": 988,
+                        "h": 205
+                    }
                 ]
             },
             "T_1318455566364": {
@@ -880,7 +915,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1318357939668": {
                 "name": "sky",
@@ -1191,7 +1228,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1318529513034": {
                 "name": "glow sky",
@@ -1224,7 +1263,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1318357939667": {
                 "name": "bg1",
@@ -1329,7 +1370,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1318613199618": {
                 "name": "middleglow",
@@ -1439,7 +1482,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1318358128655": {
                 "name": "asset middle",
@@ -2775,7 +2820,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1318358128704": {
                 "name": "fg",
@@ -2850,8 +2897,28 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA9UUCEUUBF3NJP",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IA9DGKB6G6F3IP6",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IA9SKNJF28G30HF",
+            "label": "Forehorseman"
+        },
+        {
+            "tsid": "IA9UTEVTUBF3MSS",
+            "label": "Qurazy marker"
+        }
+    ]
 }

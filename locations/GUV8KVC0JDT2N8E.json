@@ -1,6 +1,18 @@
 {
     "tsid": "GUV8KVC0JDT2N8E",
     "label": "Kermu Park",
+    "hub_id": "109",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-23/LUV8KVC0JDT2N8E_loading_1335231550.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-23/LUV8KVC0JDT2N8E_main_1335231551.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "9DBCCC",
         "bottom": "4D4D4D"
@@ -642,7 +654,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331845429793": {
                 "name": "bg_1",
@@ -1377,7 +1391,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331845429794": {
                 "name": "bg_2",
@@ -1829,7 +1845,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1334881191808": {
                 "name": "sky filtered",
@@ -1940,7 +1958,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3422,6 +3442,18 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1334013031443",
+                        "w": 0,
+                        "y": -1002,
+                        "item_perm": 1,
+                        "x": -1367,
+                        "h": 825,
+                        "pc_perm": 0
+                    }
                 ]
             },
             "T_1331845429792": {
@@ -3493,8 +3525,48 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IUV8L5E0JDT2SNC",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUV8L8E0JDT2SNF",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUV8L7E0JDT2SNF",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IUV8LAE0JDT2SNJ",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IUV8LBE0JDT2SP9",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUV8LCE0JDT2SPF",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUV8L6E0JDT2SNA",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVVK2UIPNT28BB",
+            "label": "Fox Ranger"
+        },
+        {
+            "tsid": "IUV8L9E0JDT2SN7",
+            "label": "Fox Stop Marker"
+        }
+    ]
 }

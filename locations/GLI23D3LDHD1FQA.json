@@ -1,6 +1,18 @@
 {
     "tsid": "GLI23D3LDHD1FQA",
     "label": "Northwest Passage",
+    "hub_id": "56",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-23/LLI23D3LDHD1FQA_loading_1316818117.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-23/LLI23D3LDHD1FQA_main_1316818121.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "E0FEFE",
         "bottom": "91FEFD"
@@ -258,7 +270,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_2": {
                 "name": "bg_2",
@@ -392,7 +406,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleplus": {
                 "name": "middleplus",
@@ -840,7 +856,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -931,7 +949,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "foreground": {
                 "name": "foreground",
@@ -943,7 +963,9 @@
                 },
                 "decos": [],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3083,8 +3105,248 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1282086231857",
+                        "y": -568,
+                        "w": 0,
+                        "h": 500,
+                        "x": -2894
+                    },
+                    {
+                        "id": "wall_1288127872349",
+                        "y": -1059,
+                        "pc_perm": 1,
+                        "w": 0,
+                        "h": 200,
+                        "item_perm": 0,
+                        "x": -2447
+                    },
+                    {
+                        "id": "wall_1282087178597",
+                        "y": -676,
+                        "w": 0,
+                        "h": 423,
+                        "x": -1176
+                    },
+                    {
+                        "id": "wall_1288227235711",
+                        "y": -205,
+                        "pc_perm": 0,
+                        "w": 0,
+                        "h": 150,
+                        "x": -959
+                    },
+                    {
+                        "id": "wall_1288127892296",
+                        "y": -1061,
+                        "pc_perm": -1,
+                        "w": 0,
+                        "h": 200,
+                        "item_perm": 0,
+                        "x": -2358
+                    },
+                    {
+                        "id": "wall_1285100758735",
+                        "y": -238,
+                        "w": 0,
+                        "h": 50,
+                        "x": -1051
+                    },
+                    {
+                        "id": "wall_1282087911455",
+                        "y": -683,
+                        "w": 0,
+                        "h": 443,
+                        "x": -1270
+                    },
+                    {
+                        "id": "wall_1",
+                        "y": -231,
+                        "pc_perm": 0,
+                        "w": 0,
+                        "h": 200,
+                        "item_perm": 1,
+                        "x": -1176
+                    }
                 ]
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IUV9OH1N9QF3E0I",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "ILI59TAD8JI1MEQ",
+            "label": "Shrine to Lem"
+        },
+        {
+            "tsid": "IUVICB36DP83DOV",
+            "label": "Coin"
+        },
+        {
+            "tsid": "ILI19HCEDMF18CF",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IUV4TR4TEDE36OH",
+            "label": "Coin"
+        },
+        {
+            "tsid": "ILI1F4M25VH18TF",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IUVICC36DP83DOV",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5P6KI4V4G3BUM",
+            "label": "Gas Plant"
+        },
+        {
+            "tsid": "IUV4TU4TEDE36PA",
+            "label": "Coin"
+        },
+        {
+            "tsid": "ILIGAMM31HF1NOB",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IUVIC936DP83DNJ",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5EEN94R2G30U4",
+            "label": "Egg Plant"
+        },
+        {
+            "tsid": "IUVICA36DP83DOM",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5NC4B5T7G3RV4",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IUV4TQ4TEDE36N2",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IUV4TS4TEDE36OD",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA5HTCTKV7G3OOM",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "IA586122F2G342A",
+            "label": "Bean Tree"
+        },
+        {
+            "tsid": "IUVITGEV1HQ2NO7",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "ILIGALL31HF120P",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "ILI10E7VB0J1IE1",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA58VIE6R4G3FKH",
+            "label": "Bubble Tree"
+        },
+        {
+            "tsid": "ILIGAJE31HF1QIB",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "ILI1AHDS6SH1BDV",
+            "label": "Collision-triggered Teleporter"
+        },
+        {
+            "tsid": "ILI10D4VB0J1UGG",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IUVICD36DP83DP1",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA91CFEE1BG39E6",
+            "label": "Piggy"
+        },
+        {
+            "tsid": "IA5ECRB3R2G3N52",
+            "label": "Egg Plant"
+        },
+        {
+            "tsid": "ILIGAH031HF1DKU",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF104D36242F8C",
+            "label": "Dirt Pile"
+        },
+        {
+            "tsid": "IUVVCAKJUNF37UN",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "ILI3SMKSH0E1FOA",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "ILI19IGEDMF1289",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "ILI19G8EDMF1UK5",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "ILI10C1VB0J1SN9",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IUV4TT4TEDE36PP",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA91CH8G1BG3SK3",
+            "label": "Piggy"
+        },
+        {
+            "tsid": "ILIGAKH31HF1UUP",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "ILI19E0EDMF19KR",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91CCIC1BG32K1",
+            "label": "Piggy"
+        },
+        {
+            "tsid": "IA5EMIU7R2G36DG",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "ILI19F6EDMF1CB8",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IIF1099PID62FBK",
+            "label": "Street Spirit"
+        }
+    ]
 }

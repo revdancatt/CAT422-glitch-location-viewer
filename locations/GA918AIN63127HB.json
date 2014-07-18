@@ -1,6 +1,18 @@
 {
     "tsid": "GA918AIN63127HB",
     "label": "Dobak Fathom",
+    "hub_id": "78",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-31/LA918AIN63127HB_loading_1346470412.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-08-31/LA918AIN63127HB_main_1346470414.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "bottom": "2142",
         "top": "F0F"
@@ -1197,7 +1209,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1304470055689": {
                 "name": "Sky",
@@ -1217,7 +1231,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1304470055685": {
                 "name": "Foreground",
@@ -1323,7 +1339,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1304470055687": {
                 "name": "Background 1",
@@ -2211,7 +2229,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -9543,6 +9563,40 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1304542096670",
+                        "y": -370,
+                        "w": 50,
+                        "h": 369,
+                        "x": 532
+                    },
+                    {
+                        "id": "ladder_1304562944276",
+                        "y": -341,
+                        "w": 50,
+                        "h": 316,
+                        "x": 2083
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1304621327860",
+                        "y": -578,
+                        "w": 0,
+                        "h": 549,
+                        "x": -2930,
+                        "item_perm": 1,
+                        "pc_perm": 1
+                    },
+                    {
+                        "id": "wall_1304542097110",
+                        "y": -995,
+                        "w": 0,
+                        "h": 183,
+                        "x": 2828
+                    }
                 ]
             },
             "T_1304470055686": {
@@ -9692,8 +9746,172 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA91I1PIL712GCG",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA91IME5M712Q5B",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA91J4GNM7128VR",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91I92OL712TLJ",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA9M4N6P27B2OQN",
+            "label": "Quest Spawner"
+        },
+        {
+            "tsid": "IA91HL2DL712JLO",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA91IKV0M7125RO",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IA91GLVLK71261Q",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91H5U1L71288M",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91I7DNL7127IB",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91I6KML712NAN",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IIFAGNV2DJQ2NH0",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IM1472T5VB229T7",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA91JBNQM7126E5",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA93TJK99E2277L",
+            "label": "Shrine to Lem"
+        },
+        {
+            "tsid": "IA91J72OM71263A",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91GOINK712PH3",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91HD96L712SP7",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91HIJBL71220H",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA91H380L712CAQ",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91I8PNL7127T5",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91H1DTK712NMM",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91J6PNM712VKM",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91GS3QK7120KV",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91HQ3FL712HUQ",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA91IASOL71228C",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IA91HEP6L712JCA",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA93R7539E22EH6",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA91J29KM712666",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IA91GUDRK712GM4",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91IE8QL712BUQ",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91HHPAL71291A",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91H2SUK712MVH",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IHFUGLEFHOC3I65",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA91HR2GL71222K",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA91GTTQK712EC8",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91HGF9L712BTR",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91GP7OK712TTV",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA91I4ILL712CPB",
+            "label": "Sparkly Rock"
+        },
+        {
+            "tsid": "IA91IJETL712SVC",
+            "label": "Quoin"
+        }
+    ]
 }

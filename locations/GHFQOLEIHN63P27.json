@@ -1,6 +1,18 @@
 {
     "tsid": "GHFQOLEIHN63P27",
     "label": "Radial Heights",
+    "hub_id": "130",
+    "mote_id": "10",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-07-09/LHFR8BRSVT33AE0_loading_1341881037.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-07-09/LHFR8BRSVT33AE0_main_1341881040.jpg",
+        "w": 720,
+        "h": 720
+    },
     "gradient": {
         "bottom": "222E",
         "top": "222E"
@@ -107,7 +119,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1339609697292": {
                 "name": "yellow stars",
@@ -608,7 +622,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1339635044318": {
                 "name": "T_1339635044318",
@@ -655,7 +671,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1339609697293": {
                 "name": "grey stars",
@@ -1021,7 +1039,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1339609697295": {
                 "name": "sky",
@@ -1227,7 +1247,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -1413,6 +1435,25 @@
                                 "x": 193
                             }
                         ]
+                    }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1339609697367",
+                        "h": 236,
+                        "pc_perm": 0,
+                        "w": 0,
+                        "x": -165,
+                        "y": -1153
+                    },
+                    {
+                        "id": "wall_1339609697366",
+                        "h": 236,
+                        "pc_perm": 0,
+                        "w": 0,
+                        "x": 193,
+                        "y": -1153
                     }
                 ]
             },
@@ -1659,8 +1700,292 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHFQPOEIHN63P6F",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQQ4EIHN63P7Q",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQQCEIHN63P8A",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQP3EIHN63P5A",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQQ8EIHN63P8M",
+            "label": "Teleport Marker"
+        },
+        {
+            "tsid": "IHFQPKEIHN63P6T",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IH1D6KHJHN63A3M",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFQOQEIHN63P4M",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQQ1EIHN63P77",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPQEIHN63P6H",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPCEIHN63P5K",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IH1D6NHJHN63LHK",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFQOSEIHN63P4F",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPGEIHN63P67",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQP9EIHN63P5M",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPPEIHN63P67",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPNEIHN63P6G",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IH1D6OHJHN63PQU",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IH1D70IJHN63JUL",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFQPSEIHN63P7H",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQP6EIHN63P5B",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IH1D6DHJHN6358J",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFQQ7EIHN63P8N",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQOPEIHN63P44",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IH1D6VIJHN63GA9",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFQQ2EIHN63P7S",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQQAEIHN63P8D",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQP5EIHN63P5C",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQP8EIHN63P5B",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQQ9EIHN63P8N",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPHEIHN63P6L",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQP4EIHN63P5O",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQP0EIHN63P47",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQQ0EIHN63P7S",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQP2EIHN63P5G",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQQ6EIHN63P83",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPBEIHN63P5I",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQOTEIHN63P4H",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPEEIHN63P6N",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPUEIHN63P7O",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IH1D69HJHN6316V",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFQOUEIHN63P4B",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPAEIHN63P50",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IH1D6UIJHN63CN7",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFQPTEIHN63P7R",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQP7EIHN63P5Q",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IH1D6QIJHN631JT",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFQOOEIHN63P4H",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQQ5EIHN63P70",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPDEIHN63P6D",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQOMEIHN63P4D",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQONEIHN63P46",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IH1D6LHJHN63DNV",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFQOVEIHN63P4P",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPFEIHN63P6J",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPMEIHN63P6U",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IH1D6PHJHN63TNI",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFQPREIHN63P7H",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPLEIHN63P6E",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQQDEIHN63P8H",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQOREIHN63P48",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IH1D6MHJHN63HRB",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IH1D6RIJHN6357P",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFQP1EIHN63P58",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPJEIHN63P6L",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IH1D6TIJHN638ID",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IHFQPIEIHN63P6F",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQQBEIHN63P8O",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQPVEIHN63P72",
+            "label": "Collision-triggered Event Box"
+        },
+        {
+            "tsid": "IHFQQ3EIHN63P7K",
+            "label": "Collision-triggered Event Box"
+        }
+    ]
 }

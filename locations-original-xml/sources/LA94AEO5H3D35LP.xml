@@ -1,0 +1,209 @@
+<game_object tsid="LA94AEO5H3D35LP" ts="1362533513694" label="Diversionary Path" class_tsid="town" hubid="129" moteid="9" letime="3fper1or" rbtime="3d3h5o5l" upd_gs="gs6" load_time="2013-03-05 17:21:16.000">
+	<object id="dynamic">
+		<bool id="jobs_is_locked">false</bool>
+		<object id="events">
+			<object id="player_enter">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081009</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081010</str>
+					</object>
+					<object id="a3">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081007</str>
+					</object>
+					<object id="a4">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081008</str>
+					</object>
+				</object>
+			</object>
+			<object id="butterfly_lotion_msg_on">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">has_ak</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">butterfly_lotion_msg_off_called</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1343260081009</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1343260081010</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+			<object id="butterfly_lotion_msg_off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081009</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081010</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+			<object id="butterfly_msg_on">
+				<object id="actions">
+					<object id="a2">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">has_ak</str>
+					</object>
+					<object id="a4">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">butterfly_msg_off_called</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1343260081007</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="a3">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1343260081008</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+			<object id="butterfly_msg_off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081007</str>
+						<int id="fade">500</int>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1343260081008</str>
+						<int id="fade">500</int>
+					</object>
+				</object>
+			</object>
+			<object id="key_on">
+				<object id="actions">
+					<object id="a3">
+						<str id="type">flag_has_exit</str>
+						<str id="flag">key</str>
+					</object>
+					<object id="a1">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1344549220597</str>
+						<int id="fade">800</int>
+					</object>
+					<object id="a2">
+						<str id="type">deco_show</str>
+						<str id="deco_id">groddle_sign_blank_1344549220598</str>
+						<int id="fade">800</int>
+					</object>
+				</object>
+			</object>
+			<object id="key_off">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1344549220597</str>
+						<int id="fade">800</int>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1344549220598</str>
+						<int id="fade">800</int>
+					</object>
+					<object id="a3">
+						<str id="type">flag_set</str>
+						<str id="flag">key</str>
+					</object>
+				</object>
+			</object>
+			<object id="instance_created">
+				<object id="actions">
+					<object id="a1">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1344549220597</str>
+					</object>
+					<object id="a2">
+						<str id="type">deco_hide</str>
+						<str id="deco_id">groddle_sign_blank_1344549220598</str>
+					</object>
+					<object id="a3">
+						<str id="type">flag_clear</str>
+						<str id="flag">key</str>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object id="loading_image">
+			<str id="url">streets/2012-11-02/LA94AEO5H3D35LP_loading_1351882771.jpg</str>
+			<int id="w">840</int>
+			<int id="h">160</int>
+		</object>
+		<object id="image">
+			<str id="url">streets/2012-11-02/LA94AEO5H3D35LP_main_1351882773.jpg</str>
+			<int id="w">720</int>
+			<int id="h">270</int>
+		</object>
+		<object id="qurazy">
+		</object>
+		<object id="hidden_decos">
+			<int id="groddle_sign_blank_1343260081009">1354607649</int>
+			<int id="groddle_sign_blank_1343260081010">1354607649</int>
+			<int id="groddle_sign_blank_1343260081007">1354607649</int>
+			<int id="groddle_sign_blank_1343260081008">1354607649</int>
+			<int id="groddle_sign_blank_1344549220597">1351905857</int>
+			<int id="groddle_sign_blank_1344549220598">1351905857</int>
+		</object>
+		<object id="edit_history">
+			<str id="1351725153">tsauth-ianp:modify_street_obj-signposts-signpost_1</str>
+			<str id="1351726780">tsauth-jupro:edit_street_meta</str>
+			<str id="1351882751">PCR189KE76V13S7:E-yon:locodeco-replace</str>
+			<str id="1351905776">PCR189KE76V13S7:E-yon:locodeco-replace</str>
+			<str id="1352840159">tsauth-ianp:edit_street_meta</str>
+		</object>
+		<bool id="jobs_auto_unlock">false</bool>
+		<bool id="no_teleportation">false</bool>
+		<bool id="disallow_animals">false</bool>
+		<bool id="no_rook">false</bool>
+		<str id="instance_me">NB_Side_Street1</str>
+		<int id="instance_max_members">1</int>
+		<str id="instance_location_type">newbie_island</str>
+		<objref id="instances" tsid="DA9UAVC2N3D37G7" label="Instances"/>
+		<object id="flags">
+			<bool id="key">true</bool>
+		</object>
+	</object>
+	<objrefs id="items">
+		<objref tsid="IA94B2Q5H3D3KHC" label="Coin"/>
+		<objref tsid="IA94ALQ5H3D3KGR" label="Gas Plant"/>
+		<objref tsid="IA94AKQ5H3D3KFQ" label="Coin"/>
+		<objref tsid="IA94AOQ5H3D3KGH" label="Coin"/>
+		<objref tsid="IA94AMQ5H3D3KG7" label="Coin"/>
+		<objref tsid="IA94ATQ5H3D3KH4" label="Coin"/>
+		<objref tsid="IA94APQ5H3D3KG5" label="Collision-triggered Event Box"/>
+		<objref tsid="IA94B1Q5H3D3KH7" label="Coin"/>
+		<objref tsid="IA94AUQ5H3D3KH8" label="Coin"/>
+		<objref tsid="IA94ARQ5H3D3KHQ" label="Coin"/>
+		<objref tsid="IA94B3Q5H3D3KHL" label="Coin"/>
+		<objref tsid="IA94ANQ5H3D3KG3" label="Coin"/>
+		<objref tsid="IA94AVQ5H3D3KHT" label="Coin"/>
+		<objref tsid="IA94AQQ5H3D3KHN" label="Qurazy marker"/>
+		<objref tsid="IA94B0Q5H3D3KH1" label="Coin"/>
+		<objref tsid="IA94ASQ5H3D3KH2" label="Coin"/>
+		<objref tsid="IA94B4Q5H3D3KHR" label="Coin"/>
+	</objrefs>
+	<objrefs id="players"/>
+</game_object>

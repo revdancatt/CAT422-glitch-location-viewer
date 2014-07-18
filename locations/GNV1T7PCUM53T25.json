@@ -1,6 +1,18 @@
 {
     "tsid": "GNV1T7PCUM53T25",
     "label": "Institute of Ocular Testing",
+    "hub_id": "61",
+    "mote_id": "10",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-12-20/LNVUCOIA1MJ2M54_loading_1324428405.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-12-20/LNVUCOIA1MJ2M54_main_1324428408.jpg",
+        "w": 720,
+        "h": 144
+    },
     "gradient": {
         "top": "B8E7FF",
         "bottom": "FFF4C9"
@@ -51,7 +63,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1323986825067": {
                 "name": "sky",
@@ -99,7 +113,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -905,6 +921,27 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1323993084886",
+                        "y": -566,
+                        "pc_perm": -1,
+                        "w": 0,
+                        "h": 403,
+                        "item_perm": -1,
+                        "x": 1379
+                    },
+                    {
+                        "id": "wall_1323994553586",
+                        "y": -566,
+                        "pc_perm": 1,
+                        "w": 0,
+                        "h": 373,
+                        "item_perm": 1,
+                        "x": 715
+                    }
                 ]
             },
             "T_1323986825066": {
@@ -975,8 +1012,24 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "INV1T9PCUM53T3A",
+            "label": "Teleport Marker"
+        },
+        {
+            "tsid": "INV1UU1DUM530LJ",
+            "label": "Crab"
+        },
+        {
+            "tsid": "INV1T8PCUM53T3N",
+            "label": "Myopic Delivery Frog"
+        }
+    ]
 }

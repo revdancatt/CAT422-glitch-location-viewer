@@ -1,6 +1,18 @@
 {
     "tsid": "GUVPAQS5B9S2E00",
     "label": "Phersu Preserve",
+    "hub_id": "120",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-14/LUVPAQS5B9S2E00_loading_1334450366.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-14/LUVPAQS5B9S2E00_main_1334450367.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "62AD",
         "bottom": "FFDF5E"
@@ -176,7 +188,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331845429794": {
                 "name": "bg_2",
@@ -1033,7 +1047,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331845429791": {
                 "name": "middleplus",
@@ -2147,7 +2163,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -4158,6 +4176,18 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1332264261691",
+                        "w": 0,
+                        "y": -997,
+                        "item_perm": 1,
+                        "x": -1838,
+                        "h": 840,
+                        "pc_perm": 0
+                    }
                 ]
             },
             "T_1331845429793": {
@@ -5172,8 +5202,44 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IUV822SCARS22TQ",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUV85QJDARS2TGL",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUV8360DARS2U8Q",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVG8P65KNT25V0",
+            "label": "Fox Ranger"
+        },
+        {
+            "tsid": "IUV84SBDARS2V6P",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUV81FOCARS2AEC",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVAQD835RS2L98",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IUV88IEEARS24MC",
+            "label": "spawner"
+        }
+    ]
 }

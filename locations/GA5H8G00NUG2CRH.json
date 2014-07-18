@@ -1,6 +1,18 @@
 {
     "tsid": "GA5H8G00NUG2CRH",
     "label": "ryan_square_2",
+    "hub_id": "110",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-01-29/LA5H8G00NUG2CRH_loading_1327894486.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-01-29/LA5H8G00NUG2CRH_main_1327894499.jpg",
+        "w": 720,
+        "h": 540
+    },
     "gradient": {
         "top": "D0D0D",
         "bottom": "210F21"
@@ -251,7 +263,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1317326758327": {
                 "name": "SKY",
@@ -432,7 +446,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3295,7 +3311,38 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1321645423764",
+                        "w": 50,
+                        "y": -226,
+                        "x": -461,
+                        "h": 349
+                    },
+                    {
+                        "id": "ladder_1321645423763",
+                        "w": 50,
+                        "y": -221,
+                        "x": 255,
+                        "h": 351
+                    },
+                    {
+                        "id": "ladder_1321645423766",
+                        "w": 50,
+                        "y": -695,
+                        "x": 31,
+                        "h": 366
+                    },
+                    {
+                        "id": "ladder_1321645423765",
+                        "w": 50,
+                        "y": -653,
+                        "x": -594,
+                        "h": 381
+                    }
+                ],
+                "walls": []
             },
             "T_1317326758263": {
                 "name": "BG1",
@@ -3588,8 +3635,48 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IA5CRMUD3EH2OTC",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IA52B8TD8DH2VB6",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IA52ECHE8DH24AM",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IA527KTC8DH2QJR",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IA53779J8DH223N",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IA528C5D8DH2K11",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA526KKC8DH2J8G",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA5228HB8DH24QG",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IA5MT9R1QGQ2MV9",
+            "label": "Qurazy marker"
+        }
+    ]
 }

@@ -1,6 +1,18 @@
 {
     "tsid": "GA5101HF7F429V5",
     "label": "Empty Via 5",
+    "hub_id": "86",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-26/LA5101HF7F429V5_loading_1317078373.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-26/LA5101HF7F429V5_main_1317078375.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "87A8C9",
         "bottom": "FFC400"
@@ -625,7 +637,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -2045,6 +2059,45 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1307999843924",
+                        "y": -99,
+                        "w": 50,
+                        "h": 265,
+                        "x": -72
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1307999843951",
+                        "y": -360,
+                        "w": 0,
+                        "h": 67,
+                        "x": -9
+                    },
+                    {
+                        "id": "wall_1308089403434",
+                        "y": -253,
+                        "w": 0,
+                        "h": 185,
+                        "x": 150
+                    },
+                    {
+                        "id": "wall_1307999843950",
+                        "y": -362,
+                        "w": 0,
+                        "h": 61,
+                        "x": -143
+                    },
+                    {
+                        "id": "wall_1308093585358",
+                        "y": -229,
+                        "w": 0,
+                        "h": 140,
+                        "x": -1929
+                    }
                 ]
             },
             "T_1307999415183": {
@@ -2278,7 +2331,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1307999415182": {
                 "name": "middleplus",
@@ -3154,7 +3209,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1307999415185": {
                 "name": "sky",
@@ -3249,8 +3306,48 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IHFOH1Q5EK93C2Q",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA51BH9D5452DAP",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5163GC0452PKU",
+            "label": "Dust Trap"
+        },
+        {
+            "tsid": "IA9E3NPPTVQ29IN",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IIF69RUHVQ13GGO",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IA51620C0452GVB",
+            "label": "Dust Trap"
+        },
+        {
+            "tsid": "IA5161IB0452S60",
+            "label": "Dust Trap"
+        },
+        {
+            "tsid": "IA51BG4D5452SN2",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA51R2MI9352CM5",
+            "label": "Dirt Pile"
+        }
+    ]
 }

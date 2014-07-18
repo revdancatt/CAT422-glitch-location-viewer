@@ -1,6 +1,18 @@
 {
     "tsid": "GM11E7ODKHO1QJE",
     "label": "Wintry Place",
+    "hub_id": "66",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-12-16/LM11E7ODKHO1QJE_loading_1324064053.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-12-16/LM11E7ODKHO1QJE_main_1324064058.jpg",
+        "w": 720,
+        "h": 180
+    },
     "gradient": {},
     "dynamic": {
         "l": -2000,
@@ -52,7 +64,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "foreground": {
                 "name": "foreground",
@@ -90,7 +104,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "sky": {
                 "name": "sky",
@@ -109,7 +125,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -1387,6 +1405,62 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1321297731049",
+                        "y": -394,
+                        "w": 0,
+                        "h": 404,
+                        "x": 1904
+                    },
+                    {
+                        "id": "ladder_1321297731039",
+                        "y": -148,
+                        "w": 50,
+                        "h": 410,
+                        "x": 851
+                    }
+                ],
+                "walls": [
+                    {
+                        "id": "wall_1254812421776",
+                        "y": -221,
+                        "w": 0,
+                        "h": 85,
+                        "x": 1835
+                    },
+                    {
+                        "id": "wall_1254812464461",
+                        "y": -221,
+                        "w": 0,
+                        "h": 85,
+                        "x": 1960
+                    },
+                    {
+                        "id": "wall_1254812071068",
+                        "y": -219,
+                        "pc_perm": -1,
+                        "w": 0,
+                        "h": 80,
+                        "x": 1132
+                    },
+                    {
+                        "id": "wall_1",
+                        "y": -600,
+                        "pc_perm": 0,
+                        "w": 0,
+                        "h": 500,
+                        "x": 50
+                    },
+                    {
+                        "id": "wall_1254812111186",
+                        "y": -219,
+                        "pc_perm": -1,
+                        "w": 0,
+                        "h": 80,
+                        "x": 1002
+                    }
                 ]
             },
             "L6431301544521": {
@@ -1592,7 +1666,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_2": {
                 "name": "bg_2",
@@ -1870,7 +1946,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "L8501199684521": {
                 "name": "L8501199684521",
@@ -1921,7 +1999,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "bg_1": {
                 "name": "bg_1",
@@ -1980,8 +2060,56 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IM11H4BGQHO1GQ5",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IM11H2RDQHO1S8J",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IM11H32EQHO133R",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IM11H0UAQHO1CV2",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IDORTEPN0SU2K3J",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IA56985IHVF3M3J",
+            "label": "Spinach Seed"
+        },
+        {
+            "tsid": "IHVRLF0ED8G3J4L",
+            "label": "Coin"
+        },
+        {
+            "tsid": "IDOQ86V173D22K9",
+            "label": "Focusing Orb"
+        },
+        {
+            "tsid": "IM11H1PBQHO1FM3",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IM11GQ0UPHO1VRH",
+            "label": "Sno Cone Vending Machine"
+        },
+        {
+            "tsid": "IA9E9AESP4G3TS7",
+            "label": "Grain"
+        }
+    ]
 }

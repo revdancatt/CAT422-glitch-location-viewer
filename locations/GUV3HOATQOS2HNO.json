@@ -1,6 +1,18 @@
 {
     "tsid": "GUV3HOATQOS2HNO",
     "label": "Gambir Preserve",
+    "hub_id": "120",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-14/LUV3HOATQOS2HNO_loading_1334454192.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2012-04-14/LUV3HOATQOS2HNO_main_1334454196.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "62AD",
         "bottom": "FFDF5E"
@@ -176,7 +188,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331845429794": {
                 "name": "bg_2",
@@ -1097,7 +1111,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1331845429791": {
                 "name": "middleplus",
@@ -2445,7 +2461,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -4882,6 +4900,18 @@
                             }
                         ]
                     }
+                ],
+                "ladders": [],
+                "walls": [
+                    {
+                        "id": "wall_1332264261691",
+                        "w": 0,
+                        "y": -997,
+                        "item_perm": 1,
+                        "x": -1838,
+                        "h": 843,
+                        "pc_perm": 0
+                    }
                 ]
             },
             "T_1331845429793": {
@@ -6024,8 +6054,52 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IUVMIGKADRS23PD",
+            "label": "spawner"
+        },
+        {
+            "tsid": "IUVD6NFI5RS23SI",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IUVMS86CDRS2DR7",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVMR72CDRS2BSK",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVMQTVBDRS2KQ6",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVUG4N778T22TK",
+            "label": "Fox Ranger"
+        },
+        {
+            "tsid": "IUVMTUCCDRS2I27",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVUQM9GFOT22P6",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVMUUHCDRS2Q64",
+            "label": "Fox Stop Marker"
+        },
+        {
+            "tsid": "IUVKDL28L3E3QUM",
+            "label": "Coin"
+        }
+    ]
 }

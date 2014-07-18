@@ -1,6 +1,18 @@
 {
     "tsid": "GA5ATR2SUMB2FKP",
     "label": "Arago Thaum",
+    "hub_id": "102",
+    "mote_id": "9",
+    "loading_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-14/LA5ATR2SUMB2FKP_loading_1316052787.jpg",
+        "w": 840,
+        "h": 160
+    },
+    "main_image": {
+        "url": "http://c2.glitch.bz/streets/2011-09-14/LA5ATR2SUMB2FKP_main_1316052788.jpg",
+        "w": 720,
+        "h": 120
+    },
     "gradient": {
         "top": "8ABDFF",
         "bottom": "FFFFFF"
@@ -74,7 +86,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "T_1315334860411": {
                 "name": "bg_1",
@@ -265,7 +279,9 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             },
             "middleground": {
                 "name": "middleground",
@@ -3571,7 +3587,17 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "ladders": [
+                    {
+                        "id": "ladder_1315869402482",
+                        "x": 1864,
+                        "h": 353,
+                        "y": -192,
+                        "w": 50
+                    }
+                ],
+                "walls": []
             },
             "T_1315334860412": {
                 "name": "sky",
@@ -3723,8 +3749,60 @@
                     }
                 ],
                 "signposts": [],
-                "platformLines": []
+                "platformLines": [],
+                "ladders": [],
+                "walls": []
             }
         }
-    }
+    },
+    "objrefs": [
+        {
+            "tsid": "IIFS3QF25QE3B8B",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IA5GKQ6TDSB2JD6",
+            "label": "Beryl Rock"
+        },
+        {
+            "tsid": "IA5GKRGTDSB2LJ0",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5GL261ESB2IM8",
+            "label": "Dullite Rock"
+        },
+        {
+            "tsid": "IA5GKNQRDSB2GN9",
+            "label": "Shrine to Spriggan"
+        },
+        {
+            "tsid": "IA5GKUFUDSB24KE",
+            "label": "Street Spirit"
+        },
+        {
+            "tsid": "IIFIMN5QJ6F3SLK",
+            "label": "Fruit Tree"
+        },
+        {
+            "tsid": "IA5GKSJTDSB29V4",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5GKPESDSB2FLO",
+            "label": "Quoin"
+        },
+        {
+            "tsid": "IA5GKT8UDSB298A",
+            "label": "Metal Rock"
+        },
+        {
+            "tsid": "IIF39P8OLGQ2CAH",
+            "label": "Qurazy marker"
+        },
+        {
+            "tsid": "IIFF2NHJ5FE304I",
+            "label": "Bean Tree"
+        }
+    ]
 }

@@ -92,11 +92,11 @@
     <script src="js/jquery-2.0.3.min.js"></script>
     <script src="js/control.js?v=0.9.2"></script>
     <script src="js/player.js?v=0.9.2"></script>
-    <script src="http://mvurxi.com:8024/socket.io/socket.io.js"></script>
-    <!-- <script src="http://localhost:8025/socket.io/socket.io.js"></script> -->
+    <!-- <script src="http://mvurxi.com:8024/socket.io/socket.io.js"></script> -->
+    <script src="http://localhost:8025/socket.io/socket.io.js"></script>
     <script>
-        var socketUrl = 'http://mvurxi.com:8024';
-        //var socketUrl = 'http://localhost:8025';
+        //var socketUrl = 'http://mvurxi.com:8024';
+        var socketUrl = 'http://localhost:8025';
         var socket = io.connect(socketUrl, {
             'reconnect': true,
             'reconnection delay': 500,

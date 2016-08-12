@@ -1,7 +1,16 @@
 /node_modules/
 
-/tools/convert-locations.js
-/tools/dart-location-converter/.idea
-/tools/dart-location-converter/packages
-/tools/dart-location-converter/bin/packages
+.atom/
+
+# Files and directories created by pub
+.buildlog
+.packages
+.project
+.pub/
+build/
+**/packages
+**/packages/
+
+# Don't commit pubspec lock file
+# (Library packages only! Remove pattern if developing an application package)
 pubspec.lock
